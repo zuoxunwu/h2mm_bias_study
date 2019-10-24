@@ -1,0 +1,59 @@
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+The model has no constrained nuisance parameters. Please run the limit tool with no systematics (option -S 0).
+To make things easier, I will assume you have done it.
+Computing results starting from expected outcome (a-priori)
+Parameters: 
+  1) RooRealVar::                                   MeanG1 = 135.731 +/- 1.00238
+  2) RooRealVar::                                   MeanG2 = 149.712 +/- 0.051145
+  3) RooRealVar::                                  WidthG1 = 10 +/- 0.00510827
+  4) RooRealVar::                                  WidthG2 = 2.68122 +/- 0.0611281
+  5) RooRealVar::                                  mean_BW = 90.924 +/- 0.000543427
+  6) RooRealVar::                                    mixGG = 0.119293 +/- 0.00989923
+  7) RooRealVar:: n_exp_binc_01_test_proc_bmodel_c_01_test = 1
+  8) RooRealVar::                                        r = 0.2 +/- 2
+  9) RooRealVar::                                 width_BW = 4.10982 +/- 0.00108991
+Obs: 
+  1) RooRealVar::           x = 199.5
+  2) RooCategory:: CMS_channel = c_01_test(idx = 0)
+
+Parameters: 
+  1) RooRealVar::                                   MeanG1 = 135.731 +/- 1.00238
+  2) RooRealVar::                                   MeanG2 = 149.712 +/- 0.051145
+  3) RooRealVar::                                  WidthG1 = 10 +/- 0.00510827
+  4) RooRealVar::                                  WidthG2 = 2.68122 +/- 0.0611281
+  5) RooRealVar::                                  mean_BW = 90.924 +/- 0.000543427
+  6) RooRealVar::                                    mixGG = 0.119293 +/- 0.00989923
+  7) RooRealVar:: n_exp_binc_01_test_proc_bmodel_c_01_test = 1
+  8) RooRealVar::                                        r = 2
+  9) RooRealVar::                                 width_BW = 4.10982 +/- 0.00108991
+Obs: 
+  1) RooRealVar::           x = 199.5
+  2) RooCategory:: CMS_channel = c_01_test(idx = 0)
+
+Parameters: 
+  1) RooRealVar::                                   MeanG1 = 135.731 +/- 1.00238
+  2) RooRealVar::                                   MeanG2 = 149.712 +/- 0.051145
+  3) RooRealVar::                                  WidthG1 = 10 +/- 0.00510827
+  4) RooRealVar::                                  WidthG2 = 2.68122 +/- 0.0611281
+  5) RooRealVar::                                  mean_BW = 90.924 +/- 0.000543427
+  6) RooRealVar::                                    mixGG = 0.119293 +/- 0.00989923
+  7) RooRealVar:: n_exp_binc_01_test_proc_bmodel_c_01_test = 1
+  8) RooRealVar::                                        r = 2
+  9) RooRealVar::                                 width_BW = 4.10982 +/- 0.00108991
+Obs: 
+  1) RooRealVar::           x = 199.5
+  2) RooCategory:: CMS_channel = c_01_test(idx = 0)
+
+
+ -- AsymptoticLimits ( CLs ) --
+Observed Limit: r < 1.9729
+Expected  2.5%: r < 0.6022
+Expected 16.0%: r < 1.0424
+Expected 50.0%: r < 1.9766
+Expected 84.0%: r < 3.7729
+Expected 97.5%: r < 5.9930
+
+Done in 0.00 min (cpu), 0.00 min (real)

@@ -1,0 +1,10 @@
+title,WH_Data_2018
+datafile,InputFiles/StackPlots_WH_2018.root
+signal,H_pair_mass_zoomH_Net_Sig
+background,H_pair_mass_zoomH_Net_Data
+model,MKBwz
+model,MKPower
+model,MKLegendre
+model,MKExp
+model,MKBernstein
+signal_strength,1

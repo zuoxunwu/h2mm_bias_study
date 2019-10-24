@@ -1,0 +1,10 @@
+title,ttH_n02_p02
+datafile,InputFiles/StackPlots_ttH.root
+signal,H_pair_mass_BDT_v1_tight_noBDT_n02_p02_zoomH_Net_Sig
+background,H_pair_mass_BDT_v1_tight_noBDT_n02_p02_zoomH_Net_Bkg
+model,MKBwz
+model,MKPower
+model,MKLegendre
+model,MKExp
+model,MKBernstein
+signal_strength,1

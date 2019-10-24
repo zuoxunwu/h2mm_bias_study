@@ -1,0 +1,11 @@
+title,WH_BDT_p068_p076
+runmode,mc_to_toys
+datafile,InputFiles/StackPlots_run2_WH.root      
+signal,H_pair_mass_BDT_p068_p076_zoomH_Net_Sig
+background,H_pair_mass_BDT_p068_p076_zoomH_Net_Bkg
+model,MKBwz
+model,MKBwzredux
+model,MKPower
+model,MKLegendre
+model,MKExp
+model,MKBernstein

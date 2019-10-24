@@ -1,0 +1,12 @@
+title,WH_BDT_n02_p02
+runmode,toyqdataq
+datafile,InputFiles/StackPlots_WH.root
+signal,H_pair_mass_BDT_n02_p02_zoomH_Net_Sig
+background,H_pair_mass_BDT_n02_p02_zoomH_Net_Bkg
+model,MKBwz
+model,MKBwzredux
+model,MKPower
+model,MKLegendre
+model,MKExp
+model,MKBernstein
+signal_strength,1

@@ -1,0 +1,10 @@
+# path for histogram file; [rootfile path, bkg, sig hito name]
+datafile,dududu
+# models for background
+model,MKBwz
+# model,MKPower
+model,MKLegendre
+model,MKExp
+model,MKBernstein
+# signal strength
+signal_strength,1

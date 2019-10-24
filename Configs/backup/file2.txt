@@ -1,0 +1,11 @@
+# path for histogram file
+datafile,path
+# models for background
+# model,bernstein3
+# model,MKLegendre
+# model,sumOfExp
+model,bwZredux
+model,bwZreduxFixed
+model,MKLegendre_o
+# signal strength
+signal_strength,1

@@ -1,0 +1,2146 @@
+/home/pq8556/work1/novel_bias_variance_oct
+c22b-s8.ufhpc
+Wed Oct 23 18:29:46 EDT 2019
+Running bias studies using multiple CPU core
+################
+the title is WH_BDT_p076_p10
+the runmode is toyqdataq
+the datafile is InputFiles/StackPlots_run2_WH.root      
+the signal is H_pair_mass_BDT_p076_p10_zoomH_Net_Sig
+the background is H_pair_mass_BDT_p076_p10_zoomH_Net_Bkg
+the model is MKBwz
+the model is MKBwzredux
+the model is MKPower
+the model is MKLegendre
+the model is MKExp
+the model is MKBernstein
+config file parsing complete!
+################
+InputFiles/StackPlots_run2_WH.root
+H_pair_mass_BDT_p076_p10_zoomH_Net_Sig
+H_pair_mass_BDT_p076_p10_zoomH_Net_Bkg
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing dataset data_obs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing RooRealVar::x
+InputFiles/StackPlots_run2_WH.root
+H_pair_mass_BDT_p076_p10_zoomH_Net_Sig
+H_pair_mass_BDT_p076_p10_zoomH_Net_Bkg
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing dataset data_obs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing RooCategory::CMS_channel
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing RooRealVar::x
+InputFiles/StackPlots_run2_WH.root
+H_pair_mass_BDT_p076_p10_zoomH_Net_Sig
+H_pair_mass_BDT_p076_p10_zoomH_Net_Bkg
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing dataset data_obs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing RooCategory::CMS_channel
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing RooRealVar::x
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing RooCategory::CMS_channel
+InputFiles/StackPlots_run2_WH.root
+H_pair_mass_BDT_p076_p10_zoomH_Net_Sig
+H_pair_mass_BDT_p076_p10_zoomH_Net_Bkg
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing dataset data_obs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing RooRealVar::x
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing RooCategory::CMS_channel
+InputFiles/StackPlots_run2_WH.root
+H_pair_mass_BDT_p076_p10_zoomH_Net_Sig
+H_pair_mass_BDT_p076_p10_zoomH_Net_Bkg
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing dataset data_obs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing RooRealVar::x
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing RooCategory::CMS_channel
+InputFiles/StackPlots_run2_WH.root
+H_pair_mass_BDT_p076_p10_zoomH_Net_Sig
+H_pair_mass_BDT_p076_p10_zoomH_Net_Bkg
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing dataset data_obs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing RooRealVar::x
+[#1] INFO:ObjectHandling -- RooWorkspace::import(c_01_test) importing RooCategory::CMS_channel
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sig): fit range of variable x expanded to nearest bin boundaries: [110,160] --> [110,160]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sig): fit range of variable x expanded to nearest bin boundaries: [110,160] --> [110,160]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sig): fit range of variable x expanded to nearest bin boundaries: [110,160] --> [110,160]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sig): fit range of variable x expanded to nearest bin boundaries: [110,160] --> [110,160]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sig): fit range of variable x expanded to nearest bin boundaries: [110,160] --> [110,160]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sig): fit range of variable x expanded to nearest bin boundaries: [110,160] --> [110,160]
+Info in <TCanvas::Print>: png file OutputFiles/WH_BDT_p076_p10/MKBernstein.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/WH_BDT_p076_p10/MKExp.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/WH_BDT_p076_p10/MKLegendre.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/WH_BDT_p076_p10/MKBwz.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/WH_BDT_p076_p10/MKBwzredux.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/WH_BDT_p076_p10/MKPower.png has been created
+==============================================================================
+chi2_MKBernstein    :       1.087
+
+ **********
+ **   13 **MIGRAD        4000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE2 IS AT ITS UPPER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE3 IS AT ITS UPPER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE7 IS AT ITS LOWER ALLOWED LIMIT.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=1.00797 FROM MIGRAD    STATUS=INITIATE      162 CALLS         163 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  MeanG1       1.25000e+02   6.00000e-01   0.00000e+00   1.77777e-02
+   2  MeanG2       1.16038e+02   5.00000e+00   0.00000e+00   4.54762e-02
+   3  MeanG3       1.40195e-03   1.10000e+01   0.00000e+00   1.45710e-07
+   4  WidthG1      1.00000e+00   5.00000e-01   0.00000e+00  -6.39041e-01
+   5  WidthG2      1.00000e+01   5.00000e+00   0.00000e+00  -1.07389e-02
+   6  WidthG3      5.25306e+01   5.00000e+01   0.00000e+00   1.12136e-03
+   7  coefG1       7.32304e-01   5.00000e-02   1.49800e+00   4.10391e-04
+   8  coefG2       2.50000e-01   5.00000e-02   0.00000e+00  -1.82300e-02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -7.1510e-03  7.7707e-03  3.4436e-01  6.4283e-01  9.9866e-01  1.4035e+00  2.1251e+00  2.4849e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.009636 TO DIAGONAL.
+ FCN=0.925376 FROM MIGRAD    STATUS=CONVERGED     479 CALLS         480 TOTAL
+                     EDM=0.000439073    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  MeanG1       1.24909e+02   4.38784e+00   1.07327e-03   3.49254e-04
+   2  MeanG2       1.23416e+02   3.93191e+01   7.67048e-04  -7.64699e-04
+   3  MeanG3       6.28035e+01   5.55145e+01   1.19997e-02  -1.74330e-04
+   4  WidthG1      1.76831e+00   7.11946e+00   6.92317e-04   2.94074e-03
+   5  WidthG2      4.24611e+00   9.78620e+01   6.82447e-04   4.14862e-03
+   6  WidthG3      2.78554e+01   7.07934e+02   8.53131e-04  -2.66731e-03
+   7  coefG1       7.56326e-01   2.55432e-01   1.54937e-03   6.44261e-04
+   8  coefG2       2.06283e-01   3.11852e-01   1.78185e-03   5.96064e-04
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  3.043e+01 -1.761e+02 -8.656e+02 -3.435e+01 -2.495e+02 -1.649e+02 -2.492e+01  2.213e+01 
+ -1.761e+02  4.050e+03  3.021e+04  5.571e+02  4.147e+03  1.652e+03  4.172e+02 -3.642e+02 
+ -8.656e+02  3.021e+04  1.686e+07  3.977e+03  1.922e+04 -3.389e+06  2.915e+03 -3.361e+03 
+ -3.435e+01  5.571e+02  3.977e+03  1.016e+02  6.367e+02  2.150e+02  6.753e+01 -6.018e+01 
+ -2.495e+02  4.147e+03  1.922e+04  6.367e+02  5.044e+03  4.170e+03  4.808e+02 -4.178e+02 
+ -1.649e+02  1.652e+03 -3.389e+06  2.150e+02  4.170e+03  7.212e+05  1.855e+02  1.438e+01 
+ -2.492e+01  4.172e+02  2.915e+03  6.753e+01  4.808e+02  1.855e+02  5.027e+01 -4.456e+01 
+  2.213e+01 -3.642e+02 -3.361e+03 -6.018e+01 -4.178e+02  1.438e+01 -4.456e+01  3.999e+01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.70247   1.000 -0.502 -0.038 -0.618 -0.637 -0.035 -0.637  0.634
+        2  0.94843  -0.502  1.000  0.116  0.869  0.918  0.031  0.925 -0.905
+        3  0.98293  -0.038  0.116  1.000  0.096  0.066 -0.972  0.100 -0.129
+        4  0.94684  -0.618  0.869  0.096  1.000  0.890  0.025  0.945 -0.944
+        5  0.97257  -0.637  0.918  0.066  0.890  1.000  0.069  0.955 -0.930
+        6  0.98278  -0.035  0.031 -0.972  0.025  0.069  1.000  0.031  0.003
+        7  0.99782  -0.637  0.925  0.100  0.945  0.955  0.031  1.000 -0.994
+        8  0.99650   0.634 -0.905 -0.129 -0.944 -0.930  0.003 -0.994  1.000
+ ERR MATRIX NOT POS-DEF
+ **********
+ **   18 **HESSE        4000
+ **********
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -2.5097e-03  4.4547e-03  3.4629e-01  6.4133e-01  9.9885e-01  1.4032e+00  2.1290e+00  2.4793e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.004989 TO DIAGONAL.
+ FCN=0.925376 FROM HESSE     STATUS=NOT POSDEF     61 CALLS         541 TOTAL
+                     EDM=0.000149056    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  MeanG1       1.24909e+02   4.45433e+00   2.14655e-04  -3.03835e-02
+   2  MeanG2       1.23416e+02   4.28144e+01   1.53410e-04  -2.65982e+00
+   3  MeanG3       6.28035e+01   6.84079e+01   2.39994e-03   6.42555e+00
+   4  WidthG1      1.76831e+00   5.33003e+00   1.38463e-04  -7.02777e-01
+   5  WidthG2      4.24611e+00   7.61151e+01   1.36489e-04  -1.15570e+00
+   6  WidthG3      2.78554e+01   5.46822e+02   1.70626e-04  -1.23543e+00
+   7  coefG1       7.56326e-01   3.65190e-01   3.09874e-04   2.53067e-02
+   8  coefG2       2.06283e-01   3.24759e-01   3.56370e-04  -1.75771e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  2.166e+01 -2.555e+01  3.973e+03 -9.877e+00 -8.021e+01 -8.857e+02 -6.729e+00  5.704e+00 
+ -2.555e+01  1.547e+03  3.270e+03  1.477e+02  1.277e+03  2.490e+03  1.129e+02 -9.225e+01 
+  3.973e+03  3.270e+03  1.159e+08 -1.075e+03 -8.857e+04 -2.404e+07 -1.479e+03 -4.575e+03 
+ -9.877e+00  1.477e+02 -1.075e+03  3.483e+01  1.684e+02  4.889e+02  1.787e+01 -1.577e+01 
+ -8.021e+01  1.277e+03 -8.857e+04  1.684e+02  1.820e+03  2.113e+04  1.333e+02 -1.031e+02 
+ -8.857e+02  2.490e+03 -2.404e+07  4.889e+02  2.113e+04  5.019e+06  5.218e+02  7.827e+02 
+ -6.729e+00  1.129e+02 -1.479e+03  1.787e+01  1.333e+02  5.218e+02  1.335e+01 -1.152e+01 
+  5.704e+00 -9.225e+01 -4.575e+03 -1.577e+01 -1.031e+02  7.827e+02 -1.152e+01  1.068e+01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.53403   1.000 -0.140  0.079 -0.360 -0.404 -0.085 -0.396  0.375
+        2  0.85771  -0.140  1.000  0.008  0.636  0.761  0.028  0.786 -0.718
+        3  0.99752   0.079  0.008  1.000 -0.017 -0.193 -0.997 -0.038 -0.130
+        4  0.83471  -0.360  0.636 -0.017  1.000  0.669  0.037  0.829 -0.818
+        5  0.92162  -0.404  0.761 -0.193  0.669  1.000  0.221  0.855 -0.740
+        6  0.99753  -0.085  0.028 -0.997  0.037  0.221  1.000  0.064  0.107
+        7  0.99172  -0.396  0.786 -0.038  0.829  0.855  0.064  1.000 -0.965
+        8  0.98677   0.375 -0.718 -0.130 -0.818 -0.740  0.107 -0.965  1.000
+ ERR MATRIX NOT POS-DEF
+==============================================================================
+chi2_MKExp    :       1.085
+
+ **********
+ **   13 **MIGRAD        4000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE2 IS AT ITS UPPER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE3 IS AT ITS UPPER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE7 IS AT ITS LOWER ALLOWED LIMIT.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+(1+@0*@1+@2*@3+@4*@5)
+==============================================================================
+chi2_MKLegendre    :       1.085
+
+ **********
+ **   13 **MIGRAD        4000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE2 IS AT ITS UPPER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE3 IS AT ITS UPPER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE7 IS AT ITS LOWER ALLOWED LIMIT.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=1.00797 FROM MIGRAD    STATUS=INITIATE      162 CALLS         163 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  MeanG1       1.25000e+02   6.00000e-01   0.00000e+00   1.77777e-02
+   2  MeanG2       1.16038e+02   5.00000e+00   0.00000e+00   4.54762e-02
+   3  MeanG3       1.40195e-03   1.10000e+01   0.00000e+00   1.45710e-07
+   4  WidthG1      1.00000e+00   5.00000e-01   0.00000e+00  -6.39041e-01
+   5  WidthG2      1.00000e+01   5.00000e+00   0.00000e+00  -1.07389e-02
+   6  WidthG3      5.25306e+01   5.00000e+01   0.00000e+00   1.12136e-03
+   7  coefG1       7.32304e-01   5.00000e-02   1.49800e+00   4.10391e-04
+   8  coefG2       2.50000e-01   5.00000e-02   0.00000e+00  -1.82300e-02
+                               ERR DEF= 0.5
+ FCN=1.00797 FROM MIGRAD    STATUS=INITIATE      162 CALLS         163 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  MeanG1       1.25000e+02   6.00000e-01   0.00000e+00   1.77777e-02
+   2  MeanG2       1.16038e+02   5.00000e+00   0.00000e+00   4.54762e-02
+   3  MeanG3       1.40195e-03   1.10000e+01   0.00000e+00   1.45710e-07
+   4  WidthG1      1.00000e+00   5.00000e-01   0.00000e+00  -6.39041e-01
+   5  WidthG2      1.00000e+01   5.00000e+00   0.00000e+00  -1.07389e-02
+   6  WidthG3      5.25306e+01   5.00000e+01   0.00000e+00   1.12136e-03
+   7  coefG1       7.32304e-01   5.00000e-02   1.49800e+00   4.10391e-04
+   8  coefG2       2.50000e-01   5.00000e-02   0.00000e+00  -1.82300e-02
+                               ERR DEF= 0.5
+==============================================================================
+chi2_MKBwz    :       1.085
+
+ **********
+ **   13 **MIGRAD        4000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE2 IS AT ITS UPPER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE3 IS AT ITS UPPER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE7 IS AT ITS LOWER ALLOWED LIMIT.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+==============================================================================
+chi2_MKBwzredux    :       1.086
+
+ **********
+ **   13 **MIGRAD        4000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE2 IS AT ITS UPPER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE3 IS AT ITS UPPER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE7 IS AT ITS LOWER ALLOWED LIMIT.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+(@2*pow(@0,@1))
+==============================================================================
+chi2_MKPower    :       1.086
+
+ **********
+ **   13 **MIGRAD        4000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE2 IS AT ITS UPPER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE3 IS AT ITS UPPER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE7 IS AT ITS LOWER ALLOWED LIMIT.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -7.1510e-03  7.7707e-03  3.4436e-01  6.4283e-01  9.9866e-01  1.4035e+00  2.1251e+00  2.4849e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.009636 TO DIAGONAL.
+ FCN=0.925376 FROM MIGRAD    STATUS=CONVERGED     479 CALLS         480 TOTAL
+                     EDM=0.000439073    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  MeanG1       1.24909e+02   4.38784e+00   1.07327e-03   3.49254e-04
+   2  MeanG2       1.23416e+02   3.93191e+01   7.67048e-04  -7.64699e-04
+   3  MeanG3       6.28035e+01   5.55145e+01   1.19997e-02  -1.74330e-04
+   4  WidthG1      1.76831e+00   7.11946e+00   6.92317e-04   2.94074e-03
+   5  WidthG2      4.24611e+00   9.78620e+01   6.82447e-04   4.14862e-03
+   6  WidthG3      2.78554e+01   7.07934e+02   8.53131e-04  -2.66731e-03
+   7  coefG1       7.56326e-01   2.55432e-01   1.54937e-03   6.44261e-04
+   8  coefG2       2.06283e-01   3.11852e-01   1.78185e-03   5.96064e-04
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+ FCN=1.00797 FROM MIGRAD    STATUS=INITIATE      162 CALLS         163 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  3.043e+01 -1.761e+02 -8.656e+02 -3.435e+01 -2.495e+02 -1.649e+02 -2.492e+01  2.213e+01 
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+ -1.761e+02  4.050e+03  3.021e+04  5.571e+02  4.147e+03  1.652e+03  4.172e+02 -3.642e+02 
+   1  MeanG1       1.25000e+02   6.00000e-01   0.00000e+00   1.77777e-02
+ -8.656e+02  3.021e+04  1.686e+07  3.977e+03  1.922e+04 -3.389e+06  2.915e+03 -3.361e+03 
+   2  MeanG2       1.16038e+02   5.00000e+00   0.00000e+00   4.54762e-02
+   3  MeanG3       1.40195e-03   1.10000e+01   0.00000e+00   1.45710e-07
+ -3.435e+01  5.571e+02  3.977e+03  1.016e+02  6.367e+02  2.150e+02  6.753e+01 -6.018e+01 
+   4  WidthG1      1.00000e+00   5.00000e-01   0.00000e+00  -6.39041e-01
+   5  WidthG2      1.00000e+01   5.00000e+00   0.00000e+00  -1.07389e-02
+ -2.495e+02  4.147e+03  1.922e+04  6.367e+02  5.044e+03  4.170e+03  4.808e+02 -4.178e+02 
+   6  WidthG3      5.25306e+01   5.00000e+01   0.00000e+00   1.12136e-03
+   7  coefG1       7.32304e-01   5.00000e-02   1.49800e+00   4.10391e-04
+ -1.649e+02  1.652e+03 -3.389e+06  2.150e+02  4.170e+03  7.212e+05  1.855e+02  1.438e+01 
+   8  coefG2       2.50000e-01   5.00000e-02   0.00000e+00  -1.82300e-02
+                               ERR DEF= 0.5
+ -2.492e+01  4.172e+02  2.915e+03  6.753e+01  4.808e+02  1.855e+02  5.027e+01 -4.456e+01 
+  2.213e+01 -3.642e+02 -3.361e+03 -6.018e+01 -4.178e+02  1.438e+01 -4.456e+01  3.999e+01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.70247   1.000 -0.502 -0.038 -0.618 -0.637 -0.035 -0.637  0.634
+        2  0.94843  -0.502  1.000  0.116  0.869  0.918  0.031  0.925 -0.905
+        3  0.98293  -0.038  0.116  1.000  0.096  0.066 -0.972  0.100 -0.129
+        4  0.94684  -0.618  0.869  0.096  1.000  0.890  0.025  0.945 -0.944
+        5  0.97257  -0.637  0.918  0.066  0.890  1.000  0.069  0.955 -0.930
+        6  0.98278  -0.035  0.031 -0.972  0.025  0.069  1.000  0.031  0.003
+        7  0.99782  -0.637  0.925  0.100  0.945  0.955  0.031  1.000 -0.994
+        8  0.99650   0.634 -0.905 -0.129 -0.944 -0.930  0.003 -0.994  1.000
+ ERR MATRIX NOT POS-DEF
+ **********
+ **   18 **HESSE        4000
+ **********
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -2.5097e-03  4.4547e-03  3.4629e-01  6.4133e-01  9.9885e-01  1.4032e+00  2.1290e+00  2.4793e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.004989 TO DIAGONAL.
+ FCN=0.925376 FROM HESSE     STATUS=NOT POSDEF     61 CALLS         541 TOTAL
+                     EDM=0.000149056    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  MeanG1       1.24909e+02   4.45433e+00   2.14655e-04  -3.03835e-02
+   2  MeanG2       1.23416e+02   4.28144e+01   1.53410e-04  -2.65982e+00
+   3  MeanG3       6.28035e+01   6.84079e+01   2.39994e-03   6.42555e+00
+   4  WidthG1      1.76831e+00   5.33003e+00   1.38463e-04  -7.02777e-01
+   5  WidthG2      4.24611e+00   7.61151e+01   1.36489e-04  -1.15570e+00
+   6  WidthG3      2.78554e+01   5.46822e+02   1.70626e-04  -1.23543e+00
+   7  coefG1       7.56326e-01   3.65190e-01   3.09874e-04   2.53067e-02
+   8  coefG2       2.06283e-01   3.24759e-01   3.56370e-04  -1.75771e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  2.166e+01 -2.555e+01  3.973e+03 -9.877e+00 -8.021e+01 -8.857e+02 -6.729e+00  5.704e+00 
+ -2.555e+01  1.547e+03  3.270e+03  1.477e+02  1.277e+03  2.490e+03  1.129e+02 -9.225e+01 
+  3.973e+03  3.270e+03  1.159e+08 -1.075e+03 -8.857e+04 -2.404e+07 -1.479e+03 -4.575e+03 
+ -9.877e+00  1.477e+02 -1.075e+03  3.483e+01  1.684e+02  4.889e+02  1.787e+01 -1.577e+01 
+ -8.021e+01  1.277e+03 -8.857e+04  1.684e+02  1.820e+03  2.113e+04  1.333e+02 -1.031e+02 
+ -8.857e+02  2.490e+03 -2.404e+07  4.889e+02  2.113e+04  5.019e+06  5.218e+02  7.827e+02 
+ -6.729e+00  1.129e+02 -1.479e+03  1.787e+01  1.333e+02  5.218e+02  1.335e+01 -1.152e+01 
+  5.704e+00 -9.225e+01 -4.575e+03 -1.577e+01 -1.031e+02  7.827e+02 -1.152e+01  1.068e+01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.53403   1.000 -0.140  0.079 -0.360 -0.404 -0.085 -0.396  0.375
+        2  0.85771  -0.140  1.000  0.008  0.636  0.761  0.028  0.786 -0.718
+        3  0.99752   0.079  0.008  1.000 -0.017 -0.193 -0.997 -0.038 -0.130
+        4  0.83471  -0.360  0.636 -0.017  1.000  0.669  0.037  0.829 -0.818
+        5  0.92162  -0.404  0.761 -0.193  0.669  1.000  0.221  0.855 -0.740
+        6  0.99753  -0.085  0.028 -0.997  0.037  0.221  1.000  0.064  0.107
+        7  0.99172  -0.396  0.786 -0.038  0.829  0.855  0.064  1.000 -0.965
+        8  0.98677   0.375 -0.718 -0.130 -0.818 -0.740  0.107 -0.965  1.000
+ ERR MATRIX NOT POS-DEF
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -7.1510e-03  7.7707e-03  3.4436e-01  6.4283e-01  9.9866e-01  1.4035e+00  2.1251e+00  2.4849e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.009636 TO DIAGONAL.
+ FCN=0.925376 FROM MIGRAD    STATUS=CONVERGED     479 CALLS         480 TOTAL
+                     EDM=0.000439073    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  MeanG1       1.24909e+02   4.38784e+00   1.07327e-03   3.49254e-04
+   2  MeanG2       1.23416e+02   3.93191e+01   7.67048e-04  -7.64699e-04
+   3  MeanG3       6.28035e+01   5.55145e+01   1.19997e-02  -1.74330e-04
+   4  WidthG1      1.76831e+00   7.11946e+00   6.92317e-04   2.94074e-03
+   5  WidthG2      4.24611e+00   9.78620e+01   6.82447e-04   4.14862e-03
+   6  WidthG3      2.78554e+01   7.07934e+02   8.53131e-04  -2.66731e-03
+   7  coefG1       7.56326e-01   2.55432e-01   1.54937e-03   6.44261e-04
+   8  coefG2       2.06283e-01   3.11852e-01   1.78185e-03   5.96064e-04
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  3.043e+01 -1.761e+02 -8.656e+02 -3.435e+01 -2.495e+02 -1.649e+02 -2.492e+01  2.213e+01 
+ -1.761e+02  4.050e+03  3.021e+04  5.571e+02  4.147e+03  1.652e+03  4.172e+02 -3.642e+02 
+ -8.656e+02  3.021e+04  1.686e+07  3.977e+03  1.922e+04 -3.389e+06  2.915e+03 -3.361e+03 
+ -3.435e+01  5.571e+02  3.977e+03  1.016e+02  6.367e+02  2.150e+02  6.753e+01 -6.018e+01 
+ -2.495e+02  4.147e+03  1.922e+04  6.367e+02  5.044e+03  4.170e+03  4.808e+02 -4.178e+02 
+ -1.649e+02  1.652e+03 -3.389e+06  2.150e+02  4.170e+03  7.212e+05  1.855e+02  1.438e+01 
+ -2.492e+01  4.172e+02  2.915e+03  6.753e+01  4.808e+02  1.855e+02  5.027e+01 -4.456e+01 
+  2.213e+01 -3.642e+02 -3.361e+03 -6.018e+01 -4.178e+02  1.438e+01 -4.456e+01  3.999e+01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.70247   1.000 -0.502 -0.038 -0.618 -0.637 -0.035 -0.637  0.634
+        2  0.94843  -0.502  1.000  0.116  0.869  0.918  0.031  0.925 -0.905
+        3  0.98293  -0.038  0.116  1.000  0.096  0.066 -0.972  0.100 -0.129
+        4  0.94684  -0.618  0.869  0.096  1.000  0.890  0.025  0.945 -0.944
+        5  0.97257  -0.637  0.918  0.066  0.890  1.000  0.069  0.955 -0.930
+        6  0.98278  -0.035  0.031 -0.972  0.025  0.069  1.000  0.031  0.003
+        7  0.99782  -0.637  0.925  0.100  0.945  0.955  0.031  1.000 -0.994
+        8  0.99650   0.634 -0.905 -0.129 -0.944 -0.930  0.003 -0.994  1.000
+ ERR MATRIX NOT POS-DEF
+ **********
+ **   18 **HESSE        4000
+ **********
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -2.5097e-03  4.4547e-03  3.4629e-01  6.4133e-01  9.9885e-01  1.4032e+00  2.1290e+00  2.4793e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.004989 TO DIAGONAL.
+ FCN=0.925376 FROM HESSE     STATUS=NOT POSDEF     61 CALLS         541 TOTAL
+                     EDM=0.000149056    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  MeanG1       1.24909e+02   4.45433e+00   2.14655e-04  -3.03835e-02
+   2  MeanG2       1.23416e+02   4.28144e+01   1.53410e-04  -2.65982e+00
+   3  MeanG3       6.28035e+01   6.84079e+01   2.39994e-03   6.42555e+00
+   4  WidthG1      1.76831e+00   5.33003e+00   1.38463e-04  -7.02777e-01
+   5  WidthG2      4.24611e+00   7.61151e+01   1.36489e-04  -1.15570e+00
+   6  WidthG3      2.78554e+01   5.46822e+02   1.70626e-04  -1.23543e+00
+   7  coefG1       7.56326e-01   3.65190e-01   3.09874e-04   2.53067e-02
+   8  coefG2       2.06283e-01   3.24759e-01   3.56370e-04  -1.75771e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  2.166e+01 -2.555e+01  3.973e+03 -9.877e+00 -8.021e+01 -8.857e+02 -6.729e+00  5.704e+00 
+ -2.555e+01  1.547e+03  3.270e+03  1.477e+02  1.277e+03  2.490e+03  1.129e+02 -9.225e+01 
+  3.973e+03  3.270e+03  1.159e+08 -1.075e+03 -8.857e+04 -2.404e+07 -1.479e+03 -4.575e+03 
+ -9.877e+00  1.477e+02 -1.075e+03  3.483e+01  1.684e+02  4.889e+02  1.787e+01 -1.577e+01 
+ -8.021e+01  1.277e+03 -8.857e+04  1.684e+02  1.820e+03  2.113e+04  1.333e+02 -1.031e+02 
+ -8.857e+02  2.490e+03 -2.404e+07  4.889e+02  2.113e+04  5.019e+06  5.218e+02  7.827e+02 
+ -6.729e+00  1.129e+02 -1.479e+03  1.787e+01  1.333e+02  5.218e+02  1.335e+01 -1.152e+01 
+  5.704e+00 -9.225e+01 -4.575e+03 -1.577e+01 -1.031e+02  7.827e+02 -1.152e+01  1.068e+01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.53403   1.000 -0.140  0.079 -0.360 -0.404 -0.085 -0.396  0.375
+        2  0.85771  -0.140  1.000  0.008  0.636  0.761  0.028  0.786 -0.718
+        3  0.99752   0.079  0.008  1.000 -0.017 -0.193 -0.997 -0.038 -0.130
+        4  0.83471  -0.360  0.636 -0.017  1.000  0.669  0.037  0.829 -0.818
+        5  0.92162  -0.404  0.761 -0.193  0.669  1.000  0.221  0.855 -0.740
+        6  0.99753  -0.085  0.028 -0.997  0.037  0.221  1.000  0.064  0.107
+        7  0.99172  -0.396  0.786 -0.038  0.829  0.855  0.064  1.000 -0.965
+        8  0.98677   0.375 -0.718 -0.130 -0.818 -0.740  0.107 -0.965  1.000
+ ERR MATRIX NOT POS-DEF
+ FCN=1.00797 FROM MIGRAD    STATUS=INITIATE      162 CALLS         163 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  MeanG1       1.25000e+02   6.00000e-01   0.00000e+00   1.77777e-02
+   2  MeanG2       1.16038e+02   5.00000e+00   0.00000e+00   4.54762e-02
+   3  MeanG3       1.40195e-03   1.10000e+01   0.00000e+00   1.45710e-07
+   4  WidthG1      1.00000e+00   5.00000e-01   0.00000e+00  -6.39041e-01
+   5  WidthG2      1.00000e+01   5.00000e+00   0.00000e+00  -1.07389e-02
+   6  WidthG3      5.25306e+01   5.00000e+01   0.00000e+00   1.12136e-03
+   7  coefG1       7.32304e-01   5.00000e-02   1.49800e+00   4.10391e-04
+   8  coefG2       2.50000e-01   5.00000e-02   0.00000e+00  -1.82300e-02
+                               ERR DEF= 0.5
+ FCN=1.00797 FROM MIGRAD    STATUS=INITIATE      162 CALLS         163 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  MeanG1       1.25000e+02   6.00000e-01   0.00000e+00   1.77777e-02
+   2  MeanG2       1.16038e+02   5.00000e+00   0.00000e+00   4.54762e-02
+   3  MeanG3       1.40195e-03   1.10000e+01   0.00000e+00   1.45710e-07
+   4  WidthG1      1.00000e+00   5.00000e-01   0.00000e+00  -6.39041e-01
+   5  WidthG2      1.00000e+01   5.00000e+00   0.00000e+00  -1.07389e-02
+   6  WidthG3      5.25306e+01   5.00000e+01   0.00000e+00   1.12136e-03
+   7  coefG1       7.32304e-01   5.00000e-02   1.49800e+00   4.10391e-04
+   8  coefG2       2.50000e-01   5.00000e-02   0.00000e+00  -1.82300e-02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -7.1510e-03  7.7707e-03  3.4436e-01  6.4283e-01  9.9866e-01  1.4035e+00  2.1251e+00  2.4849e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.009636 TO DIAGONAL.
+ FCN=0.925376 FROM MIGRAD    STATUS=CONVERGED     479 CALLS         480 TOTAL
+                     EDM=0.000439073    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  MeanG1       1.24909e+02   4.38784e+00   1.07327e-03   3.49254e-04
+   2  MeanG2       1.23416e+02   3.93191e+01   7.67048e-04  -7.64699e-04
+   3  MeanG3       6.28035e+01   5.55145e+01   1.19997e-02  -1.74330e-04
+   4  WidthG1      1.76831e+00   7.11946e+00   6.92317e-04   2.94074e-03
+   5  WidthG2      4.24611e+00   9.78620e+01   6.82447e-04   4.14862e-03
+   6  WidthG3      2.78554e+01   7.07934e+02   8.53131e-04  -2.66731e-03
+   7  coefG1       7.56326e-01   2.55432e-01   1.54937e-03   6.44261e-04
+   8  coefG2       2.06283e-01   3.11852e-01   1.78185e-03   5.96064e-04
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  3.043e+01 -1.761e+02 -8.656e+02 -3.435e+01 -2.495e+02 -1.649e+02 -2.492e+01  2.213e+01 
+ -1.761e+02  4.050e+03  3.021e+04  5.571e+02  4.147e+03  1.652e+03  4.172e+02 -3.642e+02 
+ -8.656e+02  3.021e+04  1.686e+07  3.977e+03  1.922e+04 -3.389e+06  2.915e+03 -3.361e+03 
+ -3.435e+01  5.571e+02  3.977e+03  1.016e+02  6.367e+02  2.150e+02  6.753e+01 -6.018e+01 
+ -2.495e+02  4.147e+03  1.922e+04  6.367e+02  5.044e+03  4.170e+03  4.808e+02 -4.178e+02 
+ -1.649e+02  1.652e+03 -3.389e+06  2.150e+02  4.170e+03  7.212e+05  1.855e+02  1.438e+01 
+ -2.492e+01  4.172e+02  2.915e+03  6.753e+01  4.808e+02  1.855e+02  5.027e+01 -4.456e+01 
+  2.213e+01 -3.642e+02 -3.361e+03 -6.018e+01 -4.178e+02  1.438e+01 -4.456e+01  3.999e+01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.70247   1.000 -0.502 -0.038 -0.618 -0.637 -0.035 -0.637  0.634
+        2  0.94843  -0.502  1.000  0.116  0.869  0.918  0.031  0.925 -0.905
+        3  0.98293  -0.038  0.116  1.000  0.096  0.066 -0.972  0.100 -0.129
+        4  0.94684  -0.618  0.869  0.096  1.000  0.890  0.025  0.945 -0.944
+        5  0.97257  -0.637  0.918  0.066  0.890  1.000  0.069  0.955 -0.930
+        6  0.98278  -0.035  0.031 -0.972  0.025  0.069  1.000  0.031  0.003
+        7  0.99782  -0.637  0.925  0.100  0.945  0.955  0.031  1.000 -0.994
+        8  0.99650   0.634 -0.905 -0.129 -0.944 -0.930  0.003 -0.994  1.000
+ ERR MATRIX NOT POS-DEF
+ **********
+ **   18 **HESSE        4000
+ **********
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -2.5097e-03  4.4547e-03  3.4629e-01  6.4133e-01  9.9885e-01  1.4032e+00  2.1290e+00  2.4793e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.004989 TO DIAGONAL.
+ FCN=0.925376 FROM HESSE     STATUS=NOT POSDEF     61 CALLS         541 TOTAL
+                     EDM=0.000149056    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  MeanG1       1.24909e+02   4.45433e+00   2.14655e-04  -3.03835e-02
+   2  MeanG2       1.23416e+02   4.28144e+01   1.53410e-04  -2.65982e+00
+   3  MeanG3       6.28035e+01   6.84079e+01   2.39994e-03   6.42555e+00
+   4  WidthG1      1.76831e+00   5.33003e+00   1.38463e-04  -7.02777e-01
+   5  WidthG2      4.24611e+00   7.61151e+01   1.36489e-04  -1.15570e+00
+   6  WidthG3      2.78554e+01   5.46822e+02   1.70626e-04  -1.23543e+00
+   7  coefG1       7.56326e-01   3.65190e-01   3.09874e-04   2.53067e-02
+   8  coefG2       2.06283e-01   3.24759e-01   3.56370e-04  -1.75771e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  2.166e+01 -2.555e+01  3.973e+03 -9.877e+00 -8.021e+01 -8.857e+02 -6.729e+00  5.704e+00 
+ -2.555e+01  1.547e+03  3.270e+03  1.477e+02  1.277e+03  2.490e+03  1.129e+02 -9.225e+01 
+  3.973e+03  3.270e+03  1.159e+08 -1.075e+03 -8.857e+04 -2.404e+07 -1.479e+03 -4.575e+03 
+ -9.877e+00  1.477e+02 -1.075e+03  3.483e+01  1.684e+02  4.889e+02  1.787e+01 -1.577e+01 
+ -8.021e+01  1.277e+03 -8.857e+04  1.684e+02  1.820e+03  2.113e+04  1.333e+02 -1.031e+02 
+ -8.857e+02  2.490e+03 -2.404e+07  4.889e+02  2.113e+04  5.019e+06  5.218e+02  7.827e+02 
+ -6.729e+00  1.129e+02 -1.479e+03  1.787e+01  1.333e+02  5.218e+02  1.335e+01 -1.152e+01 
+  5.704e+00 -9.225e+01 -4.575e+03 -1.577e+01 -1.031e+02  7.827e+02 -1.152e+01  1.068e+01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.53403   1.000 -0.140  0.079 -0.360 -0.404 -0.085 -0.396  0.375
+        2  0.85771  -0.140  1.000  0.008  0.636  0.761  0.028  0.786 -0.718
+        3  0.99752   0.079  0.008  1.000 -0.017 -0.193 -0.997 -0.038 -0.130
+        4  0.83471  -0.360  0.636 -0.017  1.000  0.669  0.037  0.829 -0.818
+        5  0.92162  -0.404  0.761 -0.193  0.669  1.000  0.221  0.855 -0.740
+        6  0.99753  -0.085  0.028 -0.997  0.037  0.221  1.000  0.064  0.107
+        7  0.99172  -0.396  0.786 -0.038  0.829  0.855  0.064  1.000 -0.965
+        8  0.98677   0.375 -0.718 -0.130 -0.818 -0.740  0.107 -0.965  1.000
+ ERR MATRIX NOT POS-DEF
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -7.1510e-03  7.7707e-03  3.4436e-01  6.4283e-01  9.9866e-01  1.4035e+00  2.1251e+00  2.4849e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.009636 TO DIAGONAL.
+ FCN=0.925376 FROM MIGRAD    STATUS=CONVERGED     479 CALLS         480 TOTAL
+                     EDM=0.000439073    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  MeanG1       1.24909e+02   4.38784e+00   1.07327e-03   3.49254e-04
+   2  MeanG2       1.23416e+02   3.93191e+01   7.67048e-04  -7.64699e-04
+   3  MeanG3       6.28035e+01   5.55145e+01   1.19997e-02  -1.74330e-04
+   4  WidthG1      1.76831e+00   7.11946e+00   6.92317e-04   2.94074e-03
+   5  WidthG2      4.24611e+00   9.78620e+01   6.82447e-04   4.14862e-03
+   6  WidthG3      2.78554e+01   7.07934e+02   8.53131e-04  -2.66731e-03
+   7  coefG1       7.56326e-01   2.55432e-01   1.54937e-03   6.44261e-04
+   8  coefG2       2.06283e-01   3.11852e-01   1.78185e-03   5.96064e-04
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  3.043e+01 -1.761e+02 -8.656e+02 -3.435e+01 -2.495e+02 -1.649e+02 -2.492e+01  2.213e+01 
+ -1.761e+02  4.050e+03  3.021e+04  5.571e+02  4.147e+03  1.652e+03  4.172e+02 -3.642e+02 
+ -8.656e+02  3.021e+04  1.686e+07  3.977e+03  1.922e+04 -3.389e+06  2.915e+03 -3.361e+03 
+ -3.435e+01  5.571e+02  3.977e+03  1.016e+02  6.367e+02  2.150e+02  6.753e+01 -6.018e+01 
+ -2.495e+02  4.147e+03  1.922e+04  6.367e+02  5.044e+03  4.170e+03  4.808e+02 -4.178e+02 
+ -1.649e+02  1.652e+03 -3.389e+06  2.150e+02  4.170e+03  7.212e+05  1.855e+02  1.438e+01 
+ -2.492e+01  4.172e+02  2.915e+03  6.753e+01  4.808e+02  1.855e+02  5.027e+01 -4.456e+01 
+  2.213e+01 -3.642e+02 -3.361e+03 -6.018e+01 -4.178e+02  1.438e+01 -4.456e+01  3.999e+01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.70247   1.000 -0.502 -0.038 -0.618 -0.637 -0.035 -0.637  0.634
+        2  0.94843  -0.502  1.000  0.116  0.869  0.918  0.031  0.925 -0.905
+        3  0.98293  -0.038  0.116  1.000  0.096  0.066 -0.972  0.100 -0.129
+        4  0.94684  -0.618  0.869  0.096  1.000  0.890  0.025  0.945 -0.944
+        5  0.97257  -0.637  0.918  0.066  0.890  1.000  0.069  0.955 -0.930
+        6  0.98278  -0.035  0.031 -0.972  0.025  0.069  1.000  0.031  0.003
+        7  0.99782  -0.637  0.925  0.100  0.945  0.955  0.031  1.000 -0.994
+        8  0.99650   0.634 -0.905 -0.129 -0.944 -0.930  0.003 -0.994  1.000
+ ERR MATRIX NOT POS-DEF
+ **********
+ **   18 **HESSE        4000
+ **********
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -7.1510e-03  7.7707e-03  3.4436e-01  6.4283e-01  9.9866e-01  1.4035e+00  2.1251e+00  2.4849e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.009636 TO DIAGONAL.
+ FCN=0.925376 FROM MIGRAD    STATUS=CONVERGED     479 CALLS         480 TOTAL
+                     EDM=0.000439073    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  MeanG1       1.24909e+02   4.38784e+00   1.07327e-03   3.49254e-04
+   2  MeanG2       1.23416e+02   3.93191e+01   7.67048e-04  -7.64699e-04
+   3  MeanG3       6.28035e+01   5.55145e+01   1.19997e-02  -1.74330e-04
+   4  WidthG1      1.76831e+00   7.11946e+00   6.92317e-04   2.94074e-03
+   5  WidthG2      4.24611e+00   9.78620e+01   6.82447e-04   4.14862e-03
+   6  WidthG3      2.78554e+01   7.07934e+02   8.53131e-04  -2.66731e-03
+   7  coefG1       7.56326e-01   2.55432e-01   1.54937e-03   6.44261e-04
+   8  coefG2       2.06283e-01   3.11852e-01   1.78185e-03   5.96064e-04
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  3.043e+01 -1.761e+02 -8.656e+02 -3.435e+01 -2.495e+02 -1.649e+02 -2.492e+01  2.213e+01 
+ -1.761e+02  4.050e+03  3.021e+04  5.571e+02  4.147e+03  1.652e+03  4.172e+02 -3.642e+02 
+ -8.656e+02  3.021e+04  1.686e+07  3.977e+03  1.922e+04 -3.389e+06  2.915e+03 -3.361e+03 
+ -3.435e+01  5.571e+02  3.977e+03  1.016e+02  6.367e+02  2.150e+02  6.753e+01 -6.018e+01 
+ -2.495e+02  4.147e+03  1.922e+04  6.367e+02  5.044e+03  4.170e+03  4.808e+02 -4.178e+02 
+ -1.649e+02  1.652e+03 -3.389e+06  2.150e+02  4.170e+03  7.212e+05  1.855e+02  1.438e+01 
+ -2.492e+01  4.172e+02  2.915e+03  6.753e+01  4.808e+02  1.855e+02  5.027e+01 -4.456e+01 
+  2.213e+01 -3.642e+02 -3.361e+03 -6.018e+01 -4.178e+02  1.438e+01 -4.456e+01  3.999e+01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.70247   1.000 -0.502 -0.038 -0.618 -0.637 -0.035 -0.637  0.634
+        2  0.94843  -0.502  1.000  0.116  0.869  0.918  0.031  0.925 -0.905
+        3  0.98293  -0.038  0.116  1.000  0.096  0.066 -0.972  0.100 -0.129
+        4  0.94684  -0.618  0.869  0.096  1.000  0.890  0.025  0.945 -0.944
+        5  0.97257  -0.637  0.918  0.066  0.890  1.000  0.069  0.955 -0.930
+        6  0.98278  -0.035  0.031 -0.972  0.025  0.069  1.000  0.031  0.003
+        7  0.99782  -0.637  0.925  0.100  0.945  0.955  0.031  1.000 -0.994
+        8  0.99650   0.634 -0.905 -0.129 -0.944 -0.930  0.003 -0.994  1.000
+ ERR MATRIX NOT POS-DEF
+ **********
+ **   18 **HESSE        4000
+ **********
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -2.5097e-03  4.4547e-03  3.4629e-01  6.4133e-01  9.9885e-01  1.4032e+00  2.1290e+00  2.4793e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.004989 TO DIAGONAL.
+ FCN=0.925376 FROM HESSE     STATUS=NOT POSDEF     61 CALLS         541 TOTAL
+                     EDM=0.000149056    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  MeanG1       1.24909e+02   4.45433e+00   2.14655e-04  -3.03835e-02
+   2  MeanG2       1.23416e+02   4.28144e+01   1.53410e-04  -2.65982e+00
+   3  MeanG3       6.28035e+01   6.84079e+01   2.39994e-03   6.42555e+00
+   4  WidthG1      1.76831e+00   5.33003e+00   1.38463e-04  -7.02777e-01
+   5  WidthG2      4.24611e+00   7.61151e+01   1.36489e-04  -1.15570e+00
+   6  WidthG3      2.78554e+01   5.46822e+02   1.70626e-04  -1.23543e+00
+   7  coefG1       7.56326e-01   3.65190e-01   3.09874e-04   2.53067e-02
+   8  coefG2       2.06283e-01   3.24759e-01   3.56370e-04  -1.75771e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  2.166e+01 -2.555e+01  3.973e+03 -9.877e+00 -8.021e+01 -8.857e+02 -6.729e+00  5.704e+00 
+ -2.555e+01  1.547e+03  3.270e+03  1.477e+02  1.277e+03  2.490e+03  1.129e+02 -9.225e+01 
+  3.973e+03  3.270e+03  1.159e+08 -1.075e+03 -8.857e+04 -2.404e+07 -1.479e+03 -4.575e+03 
+ -9.877e+00  1.477e+02 -1.075e+03  3.483e+01  1.684e+02  4.889e+02  1.787e+01 -1.577e+01 
+ -8.021e+01  1.277e+03 -8.857e+04  1.684e+02  1.820e+03  2.113e+04  1.333e+02 -1.031e+02 
+ -8.857e+02  2.490e+03 -2.404e+07  4.889e+02  2.113e+04  5.019e+06  5.218e+02  7.827e+02 
+ -6.729e+00  1.129e+02 -1.479e+03  1.787e+01  1.333e+02  5.218e+02  1.335e+01 -1.152e+01 
+  5.704e+00 -9.225e+01 -4.575e+03 -1.577e+01 -1.031e+02  7.827e+02 -1.152e+01  1.068e+01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.53403   1.000 -0.140  0.079 -0.360 -0.404 -0.085 -0.396  0.375
+        2  0.85771  -0.140  1.000  0.008  0.636  0.761  0.028  0.786 -0.718
+        3  0.99752   0.079  0.008  1.000 -0.017 -0.193 -0.997 -0.038 -0.130
+        4  0.83471  -0.360  0.636 -0.017  1.000  0.669  0.037  0.829 -0.818
+        5  0.92162  -0.404  0.761 -0.193  0.669  1.000  0.221  0.855 -0.740
+        6  0.99753  -0.085  0.028 -0.997  0.037  0.221  1.000  0.064  0.107
+        7  0.99172  -0.396  0.786 -0.038  0.829  0.855  0.064  1.000 -0.965
+        8  0.98677   0.375 -0.718 -0.130 -0.818 -0.740  0.107 -0.965  1.000
+ ERR MATRIX NOT POS-DEF
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -2.5097e-03  4.4547e-03  3.4629e-01  6.4133e-01  9.9885e-01  1.4032e+00  2.1290e+00  2.4793e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.004989 TO DIAGONAL.
+ FCN=0.925376 FROM HESSE     STATUS=NOT POSDEF     61 CALLS         541 TOTAL
+                     EDM=0.000149056    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  MeanG1       1.24909e+02   4.45433e+00   2.14655e-04  -3.03835e-02
+   2  MeanG2       1.23416e+02   4.28144e+01   1.53410e-04  -2.65982e+00
+   3  MeanG3       6.28035e+01   6.84079e+01   2.39994e-03   6.42555e+00
+   4  WidthG1      1.76831e+00   5.33003e+00   1.38463e-04  -7.02777e-01
+   5  WidthG2      4.24611e+00   7.61151e+01   1.36489e-04  -1.15570e+00
+   6  WidthG3      2.78554e+01   5.46822e+02   1.70626e-04  -1.23543e+00
+   7  coefG1       7.56326e-01   3.65190e-01   3.09874e-04   2.53067e-02
+   8  coefG2       2.06283e-01   3.24759e-01   3.56370e-04  -1.75771e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  2.166e+01 -2.555e+01  3.973e+03 -9.877e+00 -8.021e+01 -8.857e+02 -6.729e+00  5.704e+00 
+ -2.555e+01  1.547e+03  3.270e+03  1.477e+02  1.277e+03  2.490e+03  1.129e+02 -9.225e+01 
+  3.973e+03  3.270e+03  1.159e+08 -1.075e+03 -8.857e+04 -2.404e+07 -1.479e+03 -4.575e+03 
+ -9.877e+00  1.477e+02 -1.075e+03  3.483e+01  1.684e+02  4.889e+02  1.787e+01 -1.577e+01 
+ -8.021e+01  1.277e+03 -8.857e+04  1.684e+02  1.820e+03  2.113e+04  1.333e+02 -1.031e+02 
+ -8.857e+02  2.490e+03 -2.404e+07  4.889e+02  2.113e+04  5.019e+06  5.218e+02  7.827e+02 
+ -6.729e+00  1.129e+02 -1.479e+03  1.787e+01  1.333e+02  5.218e+02  1.335e+01 -1.152e+01 
+  5.704e+00 -9.225e+01 -4.575e+03 -1.577e+01 -1.031e+02  7.827e+02 -1.152e+01  1.068e+01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.53403   1.000 -0.140  0.079 -0.360 -0.404 -0.085 -0.396  0.375
+        2  0.85771  -0.140  1.000  0.008  0.636  0.761  0.028  0.786 -0.718
+        3  0.99752   0.079  0.008  1.000 -0.017 -0.193 -0.997 -0.038 -0.130
+        4  0.83471  -0.360  0.636 -0.017  1.000  0.669  0.037  0.829 -0.818
+        5  0.92162  -0.404  0.761 -0.193  0.669  1.000  0.221  0.855 -0.740
+        6  0.99753  -0.085  0.028 -0.997  0.037  0.221  1.000  0.064  0.107
+        7  0.99172  -0.396  0.786 -0.038  0.829  0.855  0.064  1.000 -0.965
+        8  0.98677   0.375 -0.718 -0.130 -0.818 -0.740  0.107 -0.965  1.000
+ ERR MATRIX NOT POS-DEF
+Info in <TCanvas::Print>: png file /home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/signal_fit.png has been created
+Info in <TCanvas::Print>: png file /home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/signal_fit.png has been created
+Info in <TCanvas::Print>: png file /home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/signal_fit.png has been created
+Info in <TCanvas::Print>: png file /home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/signal_fit.png has been created
+Info in <TCanvas::Print>: png file /home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/signal_fit.png has been created
+Info in <TCanvas::Print>: png file /home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/signal_fit.png has been created
+Info in <RooWorkspace::SaveAs>: ROOT file OutputFiles/WH_BDT_p076_p10/c_01_test_sMKLegendre.root has been created
+Info in <RooWorkspace::SaveAs>: ROOT file OutputFiles/WH_BDT_p076_p10/c_01_test_sMKExp.root has been created
+Info in <RooWorkspace::SaveAs>: ROOT file OutputFiles/WH_BDT_p076_p10/c_01_test_sMKBernstein.root has been created
+Info in <RooWorkspace::SaveAs>: ROOT file OutputFiles/WH_BDT_p076_p10/c_01_test_sMKBwz.root has been created
+signal
+0.834486759314
+
+signal
+0.834486759314
+
+RooWorkspace(c_01_test) c_01_test contents
+
+RooWorkspace(c_01_test) c_01_test contents
+
+variables
+variables
+---------
+---------
+(CMS_channel,MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,bmodel_c_01_test_norm,coef1,coef2,coef3,coefG1,coefG2,x)
+(CMS_channel,MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,bmodel_c_01_test_norm,coefG1,coefG2,x)
+
+
+p.d.f.s
+p.d.f.s
+-------
+-------
+Info in <RooWorkspace::SaveAs>: ROOT file OutputFiles/WH_BDT_p076_p10/c_01_test_sMKPower.root has been created
+RooGenericPdf::bmodel_c_01_test[ actualVars=(x21,a1,b1) formula="@1*exp(-1*@2*@0)" ] = 0.00297627
+RooGaussian::gaus1[ x=x mean=MeanG1 sigma=WidthG1 ] = 5.01923e-85
+RooGenericPdf::bmodel_c_01_test[ actualVars=(leg1,coef1,leg2,coef2,leg3,coef3) formula="(1+@0*@1+@2*@3+@4*@5)" ] = 0.390447
+RooGaussian::gaus2[ x=x mean=MeanG2 sigma=WidthG2 ] = 1.25944e-16
+RooGaussian::gaus1[ x=x mean=MeanG1 sigma=WidthG1 ] = 5.01923e-85
+RooGaussian::gaus3[ x=x mean=MeanG3 sigma=WidthG3 ] = 0.00234283
+RooGaussian::gaus2[ x=x mean=MeanG2 sigma=WidthG2 ] = 1.25944e-16
+RooGaussian::gaus3[ x=x mean=MeanG3 sigma=WidthG3 ] = 0.00234283
+RooAddPdf::smodel_c_01_test[ coefG1 * gaus1 + coefG2 * gaus2 + [%] * gaus3 ] = 8.76e-05
+RooAddPdf::smodel_c_01_test[ coefG1 * gaus1 + coefG2 * gaus2 + [%] * gaus3 ] = 8.76e-05
+
+
+functions
+functions
+--------
+--------
+RooFormulaVar::x21[ actualVars=(x) formula="@0/100" ] = 1.5975
+RooLegendre::leg1[ ctheta=x1 ] = 0.495
+
+datasets
+RooLegendre::leg2[ ctheta=x1 ] = -0.132463
+--------
+RooLegendre::leg3[ ctheta=x1 ] = -0.439282
+RooDataHist::data_obs(x,CMS_channel)
+
+RooFormulaVar::x1[ actualVars=(x) formula="(@0-135)/50" ] = 0.495
+
+datasets
+--------
+RooDataHist::data_obs(x,CMS_channel)
+
+signal
+0.834486759314
+
+RooWorkspace(c_01_test) c_01_test contents
+
+variables
+---------
+(CMS_channel,MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,bmodel_c_01_test_norm,coef0,coef1,coef2,coefG1,coefG2,x)
+
+p.d.f.s
+-------
+RooBernstein::bmodel_c_01_test[ x=x coefList=(coef0,coef1,coef2) ] = 0.427626
+RooGaussian::gaus1[ x=x mean=MeanG1 sigma=WidthG1 ] = 5.01923e-85
+RooGaussian::gaus2[ x=x mean=MeanG2 sigma=WidthG2 ] = 1.25944e-16
+RooGaussian::gaus3[ x=x mean=MeanG3 sigma=WidthG3 ] = 0.00234283
+RooAddPdf::smodel_c_01_test[ coefG1 * gaus1 + coefG2 * gaus2 + [%] * gaus3 ] = 8.76e-05
+
+datasets
+--------
+RooDataHist::data_obs(x,CMS_channel)
+
+Info in <RooWorkspace::SaveAs>: ROOT file OutputFiles/WH_BDT_p076_p10/c_01_test_sMKBwzredux.root has been created
+signal
+0.834486759314
+
+RooWorkspace(c_01_test) c_01_test contents
+
+variables
+---------
+(CMS_channel,MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,a2,a3,bmodel_c_01_test_norm,coefG1,coefG2,x)
+
+p.d.f.s
+-------
+RooGenericPdf::bmodel_c_01_test[ actualVars=(x1,a1,a2,a3) formula="@2*exp(@3*@0)/(pow(@0-@1,2)+pow(@2,2))" ] = 0.106752
+RooGaussian::gaus1[ x=x mean=MeanG1 sigma=WidthG1 ] = 5.01923e-85
+RooGaussian::gaus2[ x=x mean=MeanG2 sigma=WidthG2 ] = 1.25944e-16
+RooGaussian::gaus3[ x=x mean=MeanG3 sigma=WidthG3 ] = 0.00234283
+RooAddPdf::smodel_c_01_test[ coefG1 * gaus1 + coefG2 * gaus2 + [%] * gaus3 ] = 8.76e-05
+
+functions
+--------
+RooFormulaVar::x1[ actualVars=(x) formula="(@0-135)/50" ] = 0.495
+
+datasets
+--------
+RooDataHist::data_obs(x,CMS_channel)
+
+signal
+0.834486759314
+
+RooWorkspace(c_01_test) c_01_test contents
+
+variables
+---------
+(CMS_channel,MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,bmodel_c_01_test_norm,c0,coefG1,coefG2,pow0,x)
+
+p.d.f.s
+-------
+RooGenericPdf::bmodel_c_01_test[ actualVars=(x21,pow0,c0) formula="(@2*pow(@0,@1))" ] = 0.486003
+RooGaussian::gaus1[ x=x mean=MeanG1 sigma=WidthG1 ] = 5.01923e-85
+RooGaussian::gaus2[ x=x mean=MeanG2 sigma=WidthG2 ] = 1.25944e-16
+RooGaussian::gaus3[ x=x mean=MeanG3 sigma=WidthG3 ] = 0.00234283
+RooAddPdf::smodel_c_01_test[ coefG1 * gaus1 + coefG2 * gaus2 + [%] * gaus3 ] = 8.76e-05
+
+functions
+--------
+RooFormulaVar::x21[ actualVars=(x) formula="@0/100" ] = 1.5975
+
+datasets
+--------
+RooDataHist::data_obs(x,CMS_channel)
+
+signal
+0.834486759314
+
+RooWorkspace(c_01_test) c_01_test contents
+
+variables
+---------
+(CMS_channel,MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,bmodel_c_01_test_norm,coefG1,coefG2,ex1,ex2,pow,x)
+
+p.d.f.s
+-------
+RooGenericPdf::bmodel_c_01_test[ actualVars=(x,pow,f) formula="exp(@2)*(2.5)/(pow(@0-91.2,@1)+pow(2.5/2,@1))" ] = 4.9005e-06
+RooGaussian::gaus1[ x=x mean=MeanG1 sigma=WidthG1 ] = 5.01923e-85
+RooGaussian::gaus2[ x=x mean=MeanG2 sigma=WidthG2 ] = 1.25944e-16
+RooGaussian::gaus3[ x=x mean=MeanG3 sigma=WidthG3 ] = 0.00234283
+RooAddPdf::smodel_c_01_test[ coefG1 * gaus1 + coefG2 * gaus2 + [%] * gaus3 ] = 8.76e-05
+
+functions
+--------
+RooFormulaVar::f[ actualVars=(x,ex1,ex2) formula="(@1*(@0/100)+@2*(@0/100)^2)" ] = -12.4493
+
+datasets
+--------
+RooDataHist::data_obs(x,CMS_channel)
+
+OutputFiles/WH_BDT_p076_p10/c_01_test_sMKExp.root
+('model_choice', 'MKExp')
+('shist.sumEntries()', 0.3841873488531881)
+('data.sumEntries()', 18.0)
+OutputFiles/WH_BDT_p076_p10/c_01_test_sMKLegendre.root
+('model_choice', 'MKLegendre')
+('shist.sumEntries()', 0.3841873488531881)
+('data.sumEntries()', 18.0)
+OutputFiles/WH_BDT_p076_p10/c_01_test_sMKBernstein.root
+('model_choice', 'MKBernstein')
+('shist.sumEntries()', 0.3841873488531881)
+('data.sumEntries()', 18.0)
+OutputFiles/WH_BDT_p076_p10/c_01_test_sMKBwz.root
+('model_choice', 'MKBwz')
+('shist.sumEntries()', 0.3841873488531881)
+('data.sumEntries()', 18.0)
+OutputFiles/WH_BDT_p076_p10/c_01_test_sMKPower.root
+('model_choice', 'MKPower')
+('shist.sumEntries()', 0.3841873488531881)
+('data.sumEntries()', 18.0)
+OutputFiles/WH_BDT_p076_p10/c_01_test_sMKBwzredux.root
+('model_choice', 'MKBwzredux')
+('shist.sumEntries()', 0.3841873488531881)
+('data.sumEntries()', 18.0)
+workspace creation complete!
+toy generation complete!
+what's going on here?
+MKBwz MKBwz 0
+
+MKBwz MKBwz 0
+1
+MKBwz MKBwz 0
+2
+MKBwz MKBwz 1
+3
+MKBwz MKBwz 1
+4
+MKBwz MKBwz 1
+5
+MKBwz MKBwzredux 0
+6
+MKBwz MKBwzredux 0
+7
+MKBwz MKBwzredux 0
+8
+MKBwz MKBwzredux 1
+9
+MKBwz MKBwzredux 1
+10
+MKBwz MKBwzredux 1
+11
+MKBwz MKPower 0
+12
+MKBwz MKPower 0
+13
+MKBwz MKPower 0
+14
+MKBwz MKPower 1
+15
+MKBwz MKPower 1
+16
+MKBwz MKPower 1
+17
+MKBwz MKLegendre 0
+18
+MKBwz MKLegendre 0
+19
+MKBwz MKLegendre 0
+20
+MKBwz MKLegendre 1
+21
+MKBwz MKLegendre 1
+1
+MKBwz MKLegendre 1
+2
+MKBwz MKExp 0
+3
+MKBwz MKExp 0
+4
+MKBwz MKExp 0
+5
+MKBwz MKExp 1
+6
+MKBwz MKExp 1
+7
+MKBwz MKExp 1
+8
+MKBwz MKBernstein 0
+9
+MKBwz MKBernstein 0
+10
+MKBwz MKBernstein 0
+11
+MKBwz MKBernstein 1
+12
+MKBwz MKBernstein 1
+13
+MKBwz MKBernstein 1
+14
+MKBwzredux MKBwz 0
+15
+MKBwzredux MKBwz 0
+16
+MKBwzredux MKBwz 0
+17
+MKBwzredux MKBwz 1
+18
+MKBwzredux MKBwz 1
+19
+MKBwzredux MKBwz 1
+20
+MKBwzredux MKBwzredux 0
+21
+MKBwzredux MKBwzredux 0
+1
+MKBwzredux MKBwzredux 0
+2
+MKBwzredux MKBwzredux 1
+3
+MKBwzredux MKBwzredux 1
+4
+MKBwzredux MKBwzredux 1
+5
+MKBwzredux MKPower 0
+6
+MKBwzredux MKPower 0
+7
+MKBwzredux MKPower 0
+8
+MKBwzredux MKPower 1
+9
+MKBwzredux MKPower 1
+10
+MKBwzredux MKPower 1
+11
+MKBwzredux MKLegendre 0
+12
+MKBwzredux MKLegendre 0
+13
+MKBwzredux MKLegendre 0
+14
+MKBwzredux MKLegendre 1
+15
+MKBwzredux MKLegendre 1
+16
+MKBwzredux MKLegendre 1
+17
+MKBwzredux MKExp 0
+18
+MKBwzredux MKExp 0
+19
+MKBwzredux MKExp 0
+20
+MKBwzredux MKExp 1
+21
+MKBwzredux MKExp 1
+1
+MKBwzredux MKExp 1
+2
+MKBwzredux MKBernstein 0
+3
+MKBwzredux MKBernstein 0
+4
+MKBwzredux MKBernstein 0
+5
+MKBwzredux MKBernstein 1
+6
+MKBwzredux MKBernstein 1
+7
+MKBwzredux MKBernstein 1
+8
+MKPower MKBwz 0
+9
+MKPower MKBwz 0
+10
+MKPower MKBwz 0
+11
+MKPower MKBwz 1
+12
+MKPower MKBwz 1
+13
+MKPower MKBwz 1
+14
+MKPower MKBwzredux 0
+15
+MKPower MKBwzredux 0
+16
+MKPower MKBwzredux 0
+17
+MKPower MKBwzredux 1
+18
+MKPower MKBwzredux 1
+19
+MKPower MKBwzredux 1
+20
+MKPower MKPower 0
+21
+MKPower MKPower 0
+1
+MKPower MKPower 0
+2
+MKPower MKPower 1
+3
+MKPower MKPower 1
+4
+MKPower MKPower 1
+5
+MKPower MKLegendre 0
+6
+MKPower MKLegendre 0
+7
+MKPower MKLegendre 0
+8
+MKPower MKLegendre 1
+9
+MKPower MKLegendre 1
+10
+MKPower MKLegendre 1
+11
+MKPower MKExp 0
+12
+MKPower MKExp 0
+13
+MKPower MKExp 0
+14
+MKPower MKExp 1
+15
+MKPower MKExp 1
+16
+MKPower MKExp 1
+17
+MKPower MKBernstein 0
+18
+MKPower MKBernstein 0
+19
+MKPower MKBernstein 0
+20
+MKPower MKBernstein 1
+21
+MKPower MKBernstein 1
+1
+MKPower MKBernstein 1
+2
+MKLegendre MKBwz 0
+3
+MKLegendre MKBwz 0
+4
+MKLegendre MKBwz 0
+5
+MKLegendre MKBwz 1
+6
+MKLegendre MKBwz 1
+7
+MKLegendre MKBwz 1
+8
+MKLegendre MKBwzredux 0
+9
+MKLegendre MKBwzredux 0
+10
+MKLegendre MKBwzredux 0
+11
+MKLegendre MKBwzredux 1
+12
+MKLegendre MKBwzredux 1
+13
+MKLegendre MKBwzredux 1
+14
+MKLegendre MKPower 0
+15
+MKLegendre MKPower 0
+16
+MKLegendre MKPower 0
+17
+MKLegendre MKPower 1
+18
+MKLegendre MKPower 1
+19
+MKLegendre MKPower 1
+20
+MKLegendre MKLegendre 0
+21
+MKLegendre MKLegendre 0
+1
+MKLegendre MKLegendre 0
+2
+MKLegendre MKLegendre 1
+3
+MKLegendre MKLegendre 1
+4
+MKLegendre MKLegendre 1
+5
+MKLegendre MKExp 0
+6
+MKLegendre MKExp 0
+7
+MKLegendre MKExp 0
+8
+MKLegendre MKExp 1
+9
+MKLegendre MKExp 1
+10
+MKLegendre MKExp 1
+11
+MKLegendre MKBernstein 0
+12
+MKLegendre MKBernstein 0
+13
+MKLegendre MKBernstein 0
+14
+MKLegendre MKBernstein 1
+15
+MKLegendre MKBernstein 1
+16
+MKLegendre MKBernstein 1
+17
+MKExp MKBwz 0
+18
+MKExp MKBwz 0
+19
+MKExp MKBwz 0
+20
+MKExp MKBwz 1
+21
+MKExp MKBwz 1
+1
+MKExp MKBwz 1
+2
+MKExp MKBwzredux 0
+3
+MKExp MKBwzredux 0
+4
+MKExp MKBwzredux 0
+5
+MKExp MKBwzredux 1
+6
+MKExp MKBwzredux 1
+7
+MKExp MKBwzredux 1
+8
+MKExp MKPower 0
+9
+MKExp MKPower 0
+10
+MKExp MKPower 0
+11
+MKExp MKPower 1
+12
+MKExp MKPower 1
+13
+MKExp MKPower 1
+14
+MKExp MKLegendre 0
+15
+MKExp MKLegendre 0
+16
+MKExp MKLegendre 0
+17
+MKExp MKLegendre 1
+18
+MKExp MKLegendre 1
+19
+MKExp MKLegendre 1
+20
+MKExp MKExp 0
+21
+MKExp MKExp 0
+1
+MKExp MKExp 0
+2
+MKExp MKExp 1
+3
+MKExp MKExp 1
+4
+MKExp MKExp 1
+5
+MKExp MKBernstein 0
+6
+MKExp MKBernstein 0
+7
+MKExp MKBernstein 0
+8
+MKExp MKBernstein 1
+9
+MKExp MKBernstein 1
+10
+MKExp MKBernstein 1
+11
+MKBernstein MKBwz 0
+12
+MKBernstein MKBwz 0
+13
+MKBernstein MKBwz 0
+14
+MKBernstein MKBwz 1
+15
+MKBernstein MKBwz 1
+16
+MKBernstein MKBwz 1
+17
+MKBernstein MKBwzredux 0
+18
+MKBernstein MKBwzredux 0
+19
+MKBernstein MKBwzredux 0
+20
+MKBernstein MKBwzredux 1
+21
+MKBernstein MKBwzredux 1
+1
+MKBernstein MKBwzredux 1
+2
+MKBernstein MKPower 0
+3
+MKBernstein MKPower 0
+4
+MKBernstein MKPower 0
+5
+MKBernstein MKPower 1
+6
+MKBernstein MKPower 1
+7
+MKBernstein MKPower 1
+8
+MKBernstein MKLegendre 0
+9
+MKBernstein MKLegendre 0
+10
+MKBernstein MKLegendre 0
+11
+MKBernstein MKLegendre 1
+12
+MKBernstein MKLegendre 1
+13
+MKBernstein MKLegendre 1
+14
+MKBernstein MKExp 0
+15
+MKBernstein MKExp 0
+16
+MKBernstein MKExp 0
+17
+MKBernstein MKExp 1
+18
+MKBernstein MKExp 1
+19
+MKBernstein MKExp 1
+20
+MKBernstein MKBernstein 0
+21
+MKBernstein MKBernstein 0
+1
+MKBernstein MKBernstein 0
+2
+MKBernstein MKBernstein 1
+3
+MKBernstein MKBernstein 1
+4
+MKBernstein MKBernstein 1
+5
+hadd different seeds
+toy fitting complete!
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKLegendreMKBwzredux1/fitDiagnostics.root
+ FCN=279.874 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=2.13965e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.96347e+02   5.78114e+00   3.38609e-02   5.91191e-05
+   2  Mean        -1.75137e-01   2.61866e-02   1.59902e-04  -1.60283e-02
+   3  Sigma        9.16621e-01   1.91188e-02   3.04976e-05  -9.11285e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKPowerMKBwzredux1/fitDiagnostics.root
+ FCN=194.509 FROM MIGRAD    STATUS=CONVERGED      76 CALLS          77 TOTAL
+                     EDM=1.60579e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.13391e+02   5.83120e+00   2.97108e-02   1.32464e-06
+   2  Mean         5.60141e-02   2.16378e-02   1.28068e-04  -9.25033e-03
+   3  Sigma        9.03268e-01   1.68779e-02   2.64718e-05  -2.47167e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKLegendreMKBwz0/fitDiagnostics.root
+ FCN=243.815 FROM MIGRAD    STATUS=CONVERGED      77 CALLS          78 TOTAL
+                     EDM=1.17419e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.93566e+02   5.58840e+00   3.10865e-02  -3.06107e-05
+   2  Mean        -1.06350e-01   2.46746e-02   1.52659e-04  -2.50646e-03
+   3  Sigma        9.36333e-01   1.89303e-02   2.95268e-05  -3.78597e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKExpMKBwz1/fitDiagnostics.root
+ FCN=223.719 FROM MIGRAD    STATUS=CONVERGED      77 CALLS          78 TOTAL
+                     EDM=4.45043e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.18863e+02   5.91086e+00   3.28898e-02   9.06203e-07
+   2  Mean         1.28190e-01   2.15803e-02   1.32817e-04   1.61487e-03
+   3  Sigma        8.68644e-01   1.56145e-02   2.64663e-05   3.58798e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKPowerMKLegendre0/fitDiagnostics.root
+ FCN=277.69 FROM MIGRAD    STATUS=CONVERGED      81 CALLS          82 TOTAL
+                     EDM=2.93409e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.16584e+02   6.01361e+00   3.68407e-02  -9.01169e-05
+   2  Mean         2.03065e-01   2.15266e-02   1.46259e-04  -3.48978e-02
+   3  Sigma        8.48159e-01   1.58161e-02   2.90906e-05  -1.17065e-01
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKPowerMKBwzredux0/fitDiagnostics.root
+ FCN=288.516 FROM MIGRAD    STATUS=CONVERGED      81 CALLS          82 TOTAL
+                     EDM=1.9373e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.10641e+02   5.82971e+00   3.66756e-02  -4.03490e-05
+   2  Mean         7.32654e-02   2.30391e-02   1.51691e-04   4.64558e-03
+   3  Sigma        8.64145e-01   1.57949e-02   2.83177e-05   9.65335e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzMKBernstein0/fitDiagnostics.root
+ FCN=252.984 FROM MIGRAD    STATUS=CONVERGED      85 CALLS          86 TOTAL
+                     EDM=2.61944e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.03558e+02   5.50259e+00   3.32749e-02  -1.12749e-05
+   2  Mean        -1.20276e-01   2.25716e-02   1.46181e-04   6.79447e-04
+   3  Sigma        8.89177e-01   1.52491e-02   2.67360e-05   4.41305e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKPowerMKExp1/fitDiagnostics.root
+ FCN=210.981 FROM MIGRAD    STATUS=CONVERGED      76 CALLS          77 TOTAL
+                     EDM=1.09654e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.07921e+02   5.61234e+00   3.02223e-02  -5.31389e-07
+   2  Mean        -7.63984e-02   2.27063e-02   1.35882e-04  -1.83419e-03
+   3  Sigma        9.21189e-01   1.65774e-02   2.63530e-05  -1.02040e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBernsteinMKBernstein0/fitDiagnostics.root
+ FCN=309.827 FROM MIGRAD    STATUS=CONVERGED      80 CALLS          81 TOTAL
+                     EDM=1.59296e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.15166e+02   5.82028e+00   3.93177e-02  -8.69037e-05
+   2  Mean         1.02778e-02   2.20339e-02   1.51190e-04  -9.50181e-03
+   3  Sigma        8.23585e-01   1.38881e-02   2.70295e-05  -1.62258e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBernsteinMKExp0/fitDiagnostics.root
+ FCN=273.148 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=2.49262e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.04985e+02   5.69965e+00   3.48504e-02  -1.08992e-04
+   2  Mean        -6.93991e-02   2.23847e-02   1.52217e-04  -2.60432e-02
+   3  Sigma        8.82479e-01   1.63591e-02   2.90583e-05  -1.70856e-01
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKExpMKBwzredux0/fitDiagnostics.root
+ FCN=255.953 FROM MIGRAD    STATUS=CONVERGED      77 CALLS          78 TOTAL
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKPowerMKBernstein0/fitDiagnostics.root
+ FCN=275.351 FROM MIGRAD    STATUS=CONVERGED      84 CALLS          85 TOTAL
+                     EDM=1.0014e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+                     EDM=3.02814e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.08808e+02   5.86621e+00   3.38894e-02   8.44164e-07
+   1  Constant     2.09173e+02   5.72505e+00   3.55263e-02  -3.56021e-05
+   2  Mean         7.10932e-02   2.32256e-02   1.47410e-04  -3.77487e-03
+   2  Mean         3.68390e-02   2.27657e-02   1.49359e-04   5.35808e-04
+   3  Sigma        8.92415e-01   1.73246e-02   2.92310e-05   1.30242e-02
+   3  Sigma        8.72505e-01   1.55579e-02   2.77796e-05   1.29103e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzreduxMKBwzredux0/fitDiagnostics.root
+ FCN=309.766 FROM MIGRAD    STATUS=CONVERGED      82 CALLS          83 TOTAL
+                     EDM=2.55783e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.09874e+02   5.78987e+00   3.82404e-02  -5.58839e-05
+   2  Mean         1.23101e-02   2.32781e-02   1.55715e-04   2.03099e-02
+   3  Sigma        8.49599e-01   1.51482e-02   2.80981e-05  -9.42959e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzMKLegendre1/fitDiagnostics.root
+ FCN=263.569 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=5.68852e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.04568e+02   5.82274e+00   3.39322e-02   9.58405e-05
+   2  Mean        -6.06735e-03   2.41764e-02   1.51056e-04  -2.19102e-02
+   3  Sigma        8.96969e-01   1.76908e-02   2.95442e-05  -1.44485e-01
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKPowerMKExp0/fitDiagnostics.root
+ FCN=268.539 FROM MIGRAD    STATUS=CONVERGED      83 CALLS          84 TOTAL
+                     EDM=5.10043e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.04273e+02   5.62516e+00   3.42969e-02  -1.52827e-05
+   2  Mean        -6.57705e-02   2.38181e-02   1.50727e-04   1.29432e-03
+   3  Sigma        8.91576e-01   1.60873e-02   2.75082e-05   6.92117e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKLegendreMKLegendre1/fitDiagnostics.root
+ FCN=277.533 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=1.17685e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.98626e+02   5.88896e+00   3.39298e-02   1.76119e-08
+   2  Mean        -6.40684e-02   2.48868e-02   1.59058e-04   6.90209e-04
+   3  Sigma        9.17330e-01   1.96309e-02   3.18228e-05   2.86505e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKLegendreMKBernstein0/fitDiagnostics.root
+ FCN=222.204 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=4.04716e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.89792e+02   5.43436e+00   2.90384e-02   1.84675e-05
+   2  Mean        -2.18448e-01   2.56762e-02   1.48661e-04  -7.06213e-03
+   3  Sigma        9.58491e-01   1.90362e-02   2.78849e-05  -4.63402e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBernsteinMKLegendre1/fitDiagnostics.root
+ FCN=182.92 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=2.08044e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.13278e+02   5.96613e+00   2.88034e-02   5.47212e-06
+   2  Mean         1.11733e-01   2.11611e-02   1.24748e-04   5.55530e-03
+   3  Sigma        9.04467e-01   1.78893e-02   2.71487e-05  -1.62838e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBernsteinMKBwz1/fitDiagnostics.root
+ FCN=194.184 FROM MIGRAD    STATUS=CONVERGED      78 CALLS          79 TOTAL
+                     EDM=3.44389e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.09787e+02   5.89393e+00   2.92679e-02  -1.26910e-05
+   2  Mean         5.04659e-02   2.18363e-02   1.29971e-04   6.48322e-05
+   3  Sigma        9.13872e-01   1.81240e-02   2.76683e-05  -1.88856e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKExpMKBernstein0/fitDiagnostics.root
+ FCN=240.788 FROM MIGRAD    STATUS=CONVERGED      74 CALLS          75 TOTAL
+                     EDM=1.23203e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.05314e+02   5.74788e+00   3.23725e-02   3.13522e-05
+   2  Mean         3.12757e-02   2.35281e-02   1.45170e-04   2.25065e-02
+   3  Sigma        9.04844e-01   1.73923e-02   2.86712e-05   3.91365e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKLegendreMKExp0/fitDiagnostics.root
+ FCN=209.888 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=5.13418e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.85828e+02   5.31147e+00   2.76670e-02   4.61197e-08
+   2  Mean        -3.08422e-01   2.63879e-02   1.47234e-04  -1.27139e-03
+   3  Sigma        9.76595e-01   1.92757e-02   2.72168e-05  -6.43335e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzreduxMKLegendre0/fitDiagnostics.root
+ FCN=341.11 FROM MIGRAD    STATUS=CONVERGED      89 CALLS          90 TOTAL
+                     EDM=1.9622e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.16932e+02   5.97501e+00   4.15190e-02   1.56009e-05
+   2  Mean         1.37384e-01   2.21756e-02   1.58510e-04  -6.42296e-03
+   3  Sigma        8.20797e-01   1.46090e-02   2.92682e-05   2.43522e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBernsteinMKPower1/fitDiagnostics.root
+ FCN=189.337 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=1.11577e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.03184e+02   5.62625e+00   2.80168e-02   1.18254e-06
+   2  Mean        -1.18268e-01   2.25403e-02   1.31695e-04   1.80872e-03
+   3  Sigma        9.40676e-01   1.79494e-02   2.66720e-05  -2.07277e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzMKExp1/fitDiagnostics.root
+ FCN=235.727 FROM MIGRAD    STATUS=CONVERGED      68 CALLS          69 TOTAL
+                     EDM=1.06737e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.91546e+02   5.42811e+00   2.99696e-02  -2.18010e-05
+   2  Mean        -2.63492e-01   2.66396e-02   1.52609e-04   2.00511e-02
+   3  Sigma        9.63001e-01   1.88202e-02   2.78959e-05   1.07407e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzreduxMKPower1/fitDiagnostics.root
+ FCN=237.397 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=7.45678e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.05654e+02   5.59140e+00   3.20948e-02  -2.73385e-06
+   2  Mean        -1.88093e-01   2.42268e-02   1.43017e-04  -1.58232e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKLegendreMKBwz1/fitDiagnostics.root
+ FCN=269.868 FROM MIGRAD    STATUS=CONVERGED      76 CALLS          77 TOTAL
+   3  Sigma        9.07321e-01   1.62032e-02   2.62088e-05  -2.35347e-03
+                     EDM=2.15673e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.95107e+02   5.90436e+00   3.28771e-02   2.86122e-05
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzMKBernstein1/fitDiagnostics.root
+ FCN=252.193 FROM MIGRAD    STATUS=CONVERGED      78 CALLS          79 TOTAL
+   2  Mean        -1.15612e-01   2.60091e-02   1.59557e-04  -6.66659e-03
+                     EDM=9.07806e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+   3  Sigma        9.33242e-01   2.07738e-02   3.19292e-05   1.81717e-02
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.94821e+02   5.53930e+00   3.15985e-02  -4.94188e-06
+   2  Mean        -1.79995e-01   2.61672e-02   1.54936e-04   5.55385e-04
+   3  Sigma        9.42734e-01   1.85190e-02   2.87048e-05   4.52884e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKPowerMKPower0/fitDiagnostics.root
+ FCN=276.109 FROM MIGRAD    STATUS=CONVERGED      82 CALLS          83 TOTAL
+                     EDM=6.21113e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.04570e+02   5.62526e+00   3.48380e-02  -1.56594e-05
+   2  Mean        -5.63438e-02   2.37773e-02   1.52568e-04   1.10505e-03
+   3  Sigma        8.89682e-01   1.59917e-02   2.77537e-05   8.78046e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKLegendreMKPower1/fitDiagnostics.root
+ FCN=278.853 FROM MIGRAD    STATUS=CONVERGED      83 CALLS          84 TOTAL
+                     EDM=1.57116e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.89916e+02   5.65687e+00   3.26885e-02  -8.67729e-07
+   2  Mean        -3.01000e-01   2.78377e-02   1.64904e-04  -2.77025e-03
+   3  Sigma        9.48275e-01   2.02397e-02   3.06034e-05  -8.88941e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKExpMKPower1/fitDiagnostics.root
+ FCN=285.558 FROM MIGRAD    STATUS=CONVERGED      80 CALLS          81 TOTAL
+                     EDM=1.38528e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.16271e+02   5.83621e+00   3.73108e-02   1.03466e-05
+   2  Mean        -7.11681e-02   2.36858e-02   1.47633e-04  -8.92499e-03
+   3  Sigma        8.48719e-01   1.46726e-02   2.65348e-05  -1.73028e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKLegendreMKPower0/fitDiagnostics.root
+ FCN=217.039 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=1.54532e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.86033e+02   5.32256e+00   2.81764e-02   4.63915e-06
+   2  Mean        -2.99100e-01   2.64711e-02   1.49491e-04  -9.29080e-04
+   3  Sigma        9.74621e-01   1.92668e-02   2.75260e-05  -7.90913e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzMKPower1/fitDiagnostics.root
+ FCN=244.346 FROM MIGRAD    STATUS=CONVERGED      68 CALLS          69 TOTAL
+                     EDM=1.17487e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.91714e+02   5.46733e+00   3.05840e-02  -3.56117e-04
+   2  Mean        -2.53400e-01   2.68371e-02   1.54983e-04   2.68222e-02
+   3  Sigma        9.59376e-01   1.89719e-02   2.83857e-05  -1.09655e-01
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBernsteinMKExp1/fitDiagnostics.root
+ FCN=187.242 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=4.54957e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.02583e+02   5.63507e+00   2.77902e-02  -3.96790e-06
+   2  Mean        -1.33650e-01   2.30926e-02   1.31240e-04  -3.95435e-03
+   3  Sigma        9.42605e-01   1.81384e-02   2.64403e-05  -1.97810e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKLegendreMKBwzredux0/fitDiagnostics.root
+ FCN=245.761 FROM MIGRAD    STATUS=CONVERGED      77 CALLS          78 TOTAL
+                     EDM=6.70596e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.94856e+02   5.56716e+00   3.15213e-02  -8.12611e-07
+   2  Mean        -1.71880e-01   2.51602e-02   1.51068e-04  -1.85018e-03
+   3  Sigma        9.23030e-01   1.80747e-02   2.82320e-05  -5.48212e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzreduxMKExp0/fitDiagnostics.root
+ FCN=292.115 FROM MIGRAD    STATUS=CONVERGED      93 CALLS          94 TOTAL
+                     EDM=1.65055e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.00294e+02   5.57194e+00   3.52928e-02   1.06111e-06
+   2  Mean        -1.09561e-01   2.43357e-02   1.61782e-04  -7.74016e-04
+   3  Sigma        9.01802e-01   1.67321e-02   2.94212e-05   3.37433e-04
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKLegendreMKBernstein1/fitDiagnostics.root
+ FCN=260.576 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=1.13203e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.92861e+02   5.71476e+00   3.19750e-02  -4.74641e-07
+   2  Mean        -2.14695e-01   2.64610e-02   1.57902e-04  -4.95796e-03
+   3  Sigma        9.41024e-01   2.00008e-02   3.03373e-05  -3.16694e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzMKBwz1/fitDiagnostics.root
+ FCN=274.916 FROM MIGRAD    STATUS=CONVERGED      76 CALLS          77 TOTAL
+                     EDM=1.18324e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.02099e+02   5.73537e+00   3.43182e-02  -1.21417e-06
+   2  Mean        -7.66782e-02   2.53334e-02   1.55386e-04  -7.93243e-03
+   3  Sigma        9.03289e-01   1.75937e-02   2.90665e-05  -2.76897e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKPowerMKBernstein1/fitDiagnostics.root
+ FCN=202.863 FROM MIGRAD    STATUS=CONVERGED      76 CALLS          77 TOTAL
+                     EDM=2.47479e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.11629e+02   5.78392e+00   3.01409e-02  -2.46391e-07
+   2  Mean         1.36285e-02   2.21762e-02   1.31390e-04  -3.42821e-03
+   3  Sigma        9.07204e-01   1.68752e-02   2.66625e-05  -1.22369e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzMKPower0/fitDiagnostics.root
+ FCN=212.155 FROM MIGRAD    STATUS=CONVERGED      76 CALLS          77 TOTAL
+                     EDM=1.36838e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.94834e+02   5.45923e+00   2.89674e-02   1.72156e-05
+   2  Mean        -2.06918e-01   2.32522e-02   1.42686e-04  -2.27646e-02
+   3  Sigma        9.45203e-01   1.80873e-02   2.80642e-05  -7.90095e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKExpMKPower0/fitDiagnostics.root
+ FCN=230.385 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=2.22628e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.02536e+02   5.71580e+00   3.11181e-02   3.98337e-05
+   2  Mean        -4.01971e-02   2.41471e-02   1.44360e-04  -2.75949e-02
+   3  Sigma        9.24287e-01   1.81490e-02   2.82720e-05  -1.02597e-01
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKExpMKBernstein1/fitDiagnostics.root
+ FCN=224.69 FROM MIGRAD    STATUS=CONVERGED      78 CALLS          79 TOTAL
+                     EDM=1.96418e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.14121e+02   5.80966e+00   3.23157e-02  -1.80690e-06
+   2  Mean         2.21721e-02   2.24158e-02   1.35266e-04  -8.02050e-04
+   3  Sigma        8.83360e-01   1.59400e-02   2.64547e-05  -5.12994e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzreduxMKBernstein1/fitDiagnostics.root
+ FCN=238.49 FROM MIGRAD    STATUS=CONVERGED      81 CALLS          82 TOTAL
+                     EDM=1.38953e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.10770e+02   5.67210e+00   3.30117e-02   2.71183e-06
+   2  Mean        -1.04500e-01   2.35807e-02   1.38920e-04   8.15803e-05
+   3  Sigma        8.82034e-01   1.52502e-02   2.54113e-05   1.21579e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKExpMKLegendre1/fitDiagnostics.root
+ FCN=235.904 FROM MIGRAD    STATUS=CONVERGED      76 CALLS          77 TOTAL
+                     EDM=2.9257e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.23627e+02   6.02070e+00   3.45096e-02  -5.52990e-06
+   2  Mean         1.83839e-01   2.10883e-02   1.33503e-04  -3.84074e-03
+   3  Sigma        8.50166e-01   1.51747e-02   2.66652e-05  -1.69802e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzreduxMKBernstein0/fitDiagnostics.root
+ FCN=312.112 FROM MIGRAD    STATUS=CONVERGED      83 CALLS          84 TOTAL
+                     EDM=1.58112e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.07669e+02   5.73287e+00   3.79510e-02   1.25219e-04
+   2  Mean        -2.39001e-02   2.33423e-02   1.58058e-04   5.28135e-04
+   3  Sigma        8.60013e-01   1.53771e-02   2.84805e-05  -2.43040e-01
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKPowerMKBwz0/fitDiagnostics.root
+ FCN=274.375 FROM MIGRAD    STATUS=CONVERGED      81 CALLS          82 TOTAL
+                     EDM=3.64894e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.13845e+02   5.86491e+00   3.61911e-02  -5.02164e-05
+   2  Mean         1.34026e-01   2.25245e-02   1.46329e-04   1.39712e-03
+   3  Sigma        8.56713e-01   1.54137e-02   2.75638e-05  -4.56403e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzreduxMKExp1/fitDiagnostics.root
+ FCN=235.467 FROM MIGRAD    STATUS=CONVERGED      81 CALLS          82 TOTAL
+                     EDM=3.58036e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.04817e+02   5.54038e+00   3.18159e-02   1.17218e-06
+   2  Mean        -2.03449e-01   2.40293e-02   1.43093e-04  -4.11077e-05
+   3  Sigma        9.12168e-01   1.61090e-02   2.61436e-05  -6.12413e-04
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBernsteinMKBernstein1/fitDiagnostics.root
+ FCN=188.955 FROM MIGRAD    STATUS=CONVERGED      76 CALLS          77 TOTAL
+                     EDM=2.50508e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.05709e+02   5.74413e+00   2.83106e-02  -4.90269e-06
+   2  Mean        -5.35086e-02   2.24494e-02   1.30327e-04  -1.93359e-03
+   3  Sigma        9.31291e-01   1.81561e-02   2.69289e-05  -1.64263e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzreduxMKLegendre1/fitDiagnostics.root
+ FCN=241.794 FROM MIGRAD    STATUS=CONVERGED      84 CALLS          85 TOTAL
+                     EDM=8.01492e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.19446e+02   5.89379e+00   3.45433e-02   2.46105e-06
+   2  Mean         5.35600e-02   2.22588e-02   1.34797e-04  -3.80997e-04
+   3  Sigma        8.50570e-01   1.46986e-02   2.54759e-05  -6.70617e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKPowerMKBwz1/fitDiagnostics.root
+ FCN=188.948 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=4.37129e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.15102e+02   5.85944e+00   2.94496e-02  -6.31449e-06
+   2  Mean         1.08895e-01   2.13378e-02   1.25909e-04  -2.20974e-04
+   3  Sigma        9.01079e-01   1.68282e-02   2.63388e-05  -6.44185e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBernsteinMKBwzredux1/fitDiagnostics.root
+ FCN=184.999 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=2.75047e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.06249e+02   5.82162e+00   2.80691e-02  -3.36948e-06
+   2  Mean        -1.33662e-02   2.22928e-02   1.28982e-04  -6.70176e-03
+   3  Sigma        9.30495e-01   1.86257e-02   2.73526e-05  -4.61406e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKLegendreMKLegendre0/fitDiagnostics.root
+ FCN=231.596 FROM MIGRAD    STATUS=CONVERGED      78 CALLS          79 TOTAL
+                     EDM=1.10882e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.96744e+02   5.67061e+00   3.06476e-02  -3.37641e-05
+   2  Mean        -3.59568e-02   2.37211e-02   1.47545e-04  -1.53229e-03
+   3  Sigma        9.30910e-01   1.89287e-02   2.94323e-05  -3.23412e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKExpMKExp1/fitDiagnostics.root
+ FCN=244.42 FROM MIGRAD    STATUS=CONVERGED      83 CALLS          84 TOTAL
+                     EDM=2.18117e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.14750e+02   5.74066e+00   3.40119e-02   1.76406e-07
+   2  Mean        -7.50774e-02   2.33202e-02   1.38907e-04   9.48596e-05
+   3  Sigma        8.68516e-01   1.48705e-02   2.53550e-05   5.76100e-04
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzreduxMKBwzredux1/fitDiagnostics.root
+ FCN=217.1 FROM MIGRAD    STATUS=CONVERGED      72 CALLS          73 TOTAL
+                     EDM=1.30788e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.11711e+02   5.66454e+00   3.14403e-02  -2.17600e-04
+   2  Mean        -7.18294e-02   2.27666e-02   1.33002e-04   7.01620e-02
+   3  Sigma        8.89411e-01   1.53263e-02   2.48575e-05   7.35342e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBernsteinMKBwz0/fitDiagnostics.root
+ FCN=276.997 FROM MIGRAD    STATUS=CONVERGED      91 CALLS          92 TOTAL
+                     EDM=2.68289e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.17369e+02   5.88039e+00   3.71186e-02  -2.42753e-06
+   2  Mean         1.21090e-01   2.07884e-02   1.43717e-04  -4.78118e-04
+   3  Sigma        8.35567e-01   1.44244e-02   2.72986e-05  -6.83040e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBernsteinMKPower0/fitDiagnostics.root
+ FCN=270.754 FROM MIGRAD    STATUS=CONVERGED      79 CALLS          80 TOTAL
+                     EDM=1.27054e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.06504e+02   5.71025e+00   3.48988e-02  -1.14296e-04
+   2  Mean        -5.46805e-02   2.20955e-02   1.50675e-04  -7.53482e-02
+   3  Sigma        8.78515e-01   1.61108e-02   2.87954e-05  -1.47992e-01
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzMKLegendre0/fitDiagnostics.root
+ FCN=271.824 FROM MIGRAD    STATUS=CONVERGED      81 CALLS          82 TOTAL
+                     EDM=5.96633e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.13487e+02   5.73658e+00   3.61525e-02  -1.53861e-05
+   2  Mean         4.80650e-02   2.11719e-02   1.44097e-04   1.39172e-02
+   3  Sigma        8.48192e-01   1.42888e-02   2.70426e-05  -2.64737e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKLegendreMKExp1/fitDiagnostics.root
+ FCN=271.165 FROM MIGRAD    STATUS=CONVERGED      76 CALLS          77 TOTAL
+                     EDM=1.17183e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.89311e+02   5.61370e+00   3.21283e-02  -1.13841e-04
+   2  Mean        -3.14827e-01   2.76434e-02   1.63210e-04  -6.48730e-02
+   3  Sigma        9.52431e-01   2.01615e-02   3.03250e-05  -1.63529e-01
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKExpMKExp0/fitDiagnostics.root
+ FCN=223.497 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=5.87534e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.01355e+02   5.69022e+00   3.04779e-02   6.07274e-06
+   2  Mean        -5.36748e-02   2.42719e-02   1.43011e-04  -1.42225e-02
+   3  Sigma        9.29261e-01   1.82964e-02   2.80902e-05  -6.40841e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKExpMKLegendre0/fitDiagnostics.root
+ FCN=247.99 FROM MIGRAD    STATUS=CONVERGED      76 CALLS          77 TOTAL
+                     EDM=2.98722e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.17496e+02   5.96972e+00   3.47008e-02  -4.67857e-05
+   2  Mean         1.99398e-01   2.19648e-02   1.38323e-04   6.92577e-03
+   3  Sigma        8.57276e-01   1.56799e-02   2.73193e-05  -2.10567e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzMKExp0/fitDiagnostics.root
+ FCN=221.306 FROM MIGRAD    STATUS=CONVERGED      76 CALLS          77 TOTAL
+                     EDM=1.87363e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.94306e+02   5.44029e+00   2.95414e-02   1.56911e-05
+   2  Mean        -2.16700e-01   2.31223e-02   1.45849e-04  -2.56722e-02
+   3  Sigma        9.45126e-01   1.80191e-02   2.86655e-05  -9.88195e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzMKBwzredux0/fitDiagnostics.root
+ FCN=242.976 FROM MIGRAD    STATUS=CONVERGED      73 CALLS          74 TOTAL
+                     EDM=1.71725e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.05475e+02   5.54678e+00   3.28425e-02   1.08640e-04
+   2  Mean        -7.84213e-02   2.23569e-02   1.42096e-04  -1.89741e-02
+   3  Sigma        8.85089e-01   1.51358e-02   2.60832e-05   3.45385e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzMKBwzredux1/fitDiagnostics.root
+ FCN=267.542 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=1.31606e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.97958e+02   5.61689e+00   3.31672e-02   7.95916e-06
+   2  Mean        -1.41896e-01   2.58784e-02   1.56398e-04  -3.48398e-03
+   3  Sigma        9.21810e-01   1.79369e-02   2.88845e-05  -2.97904e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKExpMKBwz0/fitDiagnostics.root
+ FCN=246.297 FROM MIGRAD    STATUS=CONVERGED      76 CALLS          77 TOTAL
+                     EDM=1.38881e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.11164e+02   5.97052e+00   3.35624e-02  -6.25898e-05
+   2  Mean         1.47815e-01   2.23054e-02   1.43820e-04   1.34111e-03
+   3  Sigma        8.86627e-01   1.75846e-02   2.96950e-05  -1.18257e-01
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzreduxMKPower0/fitDiagnostics.root
+ FCN=297.211 FROM MIGRAD    STATUS=CONVERGED      93 CALLS          94 TOTAL
+                     EDM=1.3465e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.01483e+02   5.61220e+00   3.58503e-02   3.48942e-07
+   2  Mean        -9.34079e-02   2.41112e-02   1.62020e-04  -6.97498e-04
+   3  Sigma        8.94434e-01   1.66193e-02   2.96033e-05   9.47363e-05
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzreduxMKBwz0/fitDiagnostics.root
+ FCN=333.979 FROM MIGRAD    STATUS=CONVERGED      90 CALLS          91 TOTAL
+                     EDM=1.9675e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.12996e+02   5.93051e+00   4.03371e-02   6.78013e-06
+   2  Mean         8.47110e-02   2.28541e-02   1.59685e-04  -7.87720e-03
+   3  Sigma        8.35945e-01   1.52682e-02   2.94103e-05   9.98675e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKExpMKBwzredux1/fitDiagnostics.root
+ FCN=210.588 FROM MIGRAD    STATUS=CONVERGED      77 CALLS          78 TOTAL
+                     EDM=2.38638e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.15246e+02   5.82576e+00   3.13672e-02  -2.22505e-06
+   2  Mean         6.15335e-02   2.20635e-02   1.30936e-04  -1.02507e-03
+   3  Sigma        8.84080e-01   1.59620e-02   2.59777e-05  -4.69789e-03
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzreduxMKBwz1/fitDiagnostics.root
+ FCN=227.208 FROM MIGRAD    STATUS=CONVERGED      83 CALLS          84 TOTAL
+                     EDM=6.46961e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.14872e+02   5.79017e+00   3.27308e-02  -2.04024e-06
+   2  Mean        -6.57321e-03   2.27538e-02   1.33724e-04   2.43268e-04
+   3  Sigma        8.71886e-01   1.52331e-02   2.51684e-05   2.09661e-04
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKPowerMKLegendre1/fitDiagnostics.root
+ FCN=199.43 FROM MIGRAD    STATUS=CONVERGED      74 CALLS          75 TOTAL
+                     EDM=1.41576e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.16844e+02   5.96490e+00   3.05380e-02  -9.75779e-07
+   2  Mean         1.74433e-01   2.08894e-02   1.28518e-04  -8.07710e-03
+   3  Sigma        8.92154e-01   1.70712e-02   2.77001e-05  -2.71386e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBernsteinMKBwzredux0/fitDiagnostics.root
+ FCN=303.667 FROM MIGRAD    STATUS=CONVERGED      89 CALLS          90 TOTAL
+                     EDM=8.27476e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.16857e+02   5.83465e+00   3.89525e-02   7.25753e-06
+   2  Mean         5.65494e-02   2.13158e-02   1.49765e-04   1.10289e-03
+   3  Sigma        8.29211e-01   1.39733e-02   2.71954e-05   3.51380e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKPowerMKPower1/fitDiagnostics.root
+ FCN=204.551 FROM MIGRAD    STATUS=CONVERGED      69 CALLS          70 TOTAL
+                     EDM=2.56659e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.08658e+02   5.61487e+00   2.98321e-02   1.72132e-05
+   2  Mean        -6.64382e-02   2.25407e-02   1.33507e-04   2.96834e-02
+   3  Sigma        9.19696e-01   1.64575e-02   2.59222e-05   1.57933e-01
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBwzMKBwz0/fitDiagnostics.root
+ FCN=258.426 FROM MIGRAD    STATUS=CONVERGED      81 CALLS          82 TOTAL
+                     EDM=3.40029e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.09534e+02   5.62884e+00   3.45802e-02  -5.68115e-05
+   2  Mean        -1.09687e-02   2.16282e-02   1.43224e-04   3.57893e-02
+   3  Sigma        8.65482e-01   1.45869e-02   2.65687e-05  -4.59158e-02
+/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/WH_BDT_p076_p10/nbynMKBernsteinMKLegendre0/fitDiagnostics.root
+ FCN=291.406 FROM MIGRAD    STATUS=CONVERGED      93 CALLS          94 TOTAL
+                     EDM=1.0737e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.20996e+02   5.95552e+00   3.87410e-02   2.35681e-06
+   2  Mean         1.80872e-01   2.04446e-02   1.44897e-04   3.87020e-04
+   3  Sigma        8.20333e-01   1.40094e-02   2.75275e-05   4.25836e-03
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKLegendre_MKBwzredux_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKLegendre_MKPower_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKExp_MKPower_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBernstein_MKPower_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKLegendre_MKBwz_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKExp_MKBwzredux_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKPower_MKPower_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBernstein_MKBwzredux_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKPower_MKBwzredux_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKLegendre_MKBwz_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwz_MKPower_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKLegendre_MKPower_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwzredux_MKBernstein_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwz_MKLegendre_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKExp_MKLegendre_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKPower_MKBwz_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwz_MKBernstein_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwzredux_MKPower_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKExp_MKPower_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKPower_MKBwzredux_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKLegendre_MKBernstein_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwzredux_MKExp_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKExp_MKExp_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwz_MKBwz_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKExp_MKBwz_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwzredux_MKBwzredux_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKLegendre_MKLegendre_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBernstein_MKBwz_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwz_MKPower_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKPower_MKBwz_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKPower_MKExp_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKLegendre_MKExp_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKLegendre_MKBernstein_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBernstein_MKBernstein_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBernstein_MKBwz_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwzredux_MKLegendre_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwzredux_MKLegendre_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKPower_MKBernstein_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwzredux_MKBernstein_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBernstein_MKLegendre_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKPower_MKLegendre_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKLegendre_MKBwzredux_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwzredux_MKExp_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKPower_MKBernstein_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBernstein_MKExp_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKExp_MKBernstein_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKExp_MKBernstein_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwzredux_MKBwzredux_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKPower_MKExp_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBernstein_MKExp_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBernstein_MKBernstein_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwz_MKBernstein_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwz_MKExp_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKLegendre_MKLegendre_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBernstein_MKPower_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwz_MKLegendre_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKExp_MKExp_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKLegendre_MKExp_1.png has been created
+('Mean', -0.1718803892833007)
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwz_MKExp_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwz_MKBwzredux_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwz_MKBwzredux_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKExp_MKLegendre_0.png has been created
+('Mean', -0.30100024677293263)
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwzredux_MKBwz_1.png has been created
+('Mean', -0.11826783324612303)
+('Mean', -0.11561239494105725)
+('Mean', -0.07116806811484533)
+('Mean', 0.07109320670609304)
+('Mean', -0.01336617496928595)
+('Mean', -0.05634378390918796)
+('Mean', 0.05601413351256054)
+('Mean', -0.20691798172180634)
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwzredux_MKPower_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKExp_MKBwz_0.png has been created
+('Mean', -0.10634970458152995)
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBernstein_MKBwzredux_0.png has been created
+('Mean', -0.2990995576914615)
+('Mean', -0.023900071644440114)
+('Mean', 0.18383902396129828)
+('Mean', -0.00606735297224216)
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwzredux_MKBwz_0.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKExp_MKBwzredux_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKPower_MKLegendre_1.png has been created
+('Mean', 0.10889507880323425)
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKPower_MKPower_1.png has been created
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBernstein_MKLegendre_0.png has been created
+('Mean', -0.04019709864502149)
+('Mean', -0.18809304635383114)
+('Mean', -0.10956052245721179)
+('Mean', -0.2184479316424887)
+Info in <TCanvas::Print>: png file OutputFiles/pull_WH_BDT_p076_p10_MKBwz_MKBwz_0.png has been created
+('Mean', -0.17999538611937163)
+('Mean', 0.012310068847931281)
+('Mean', 0.12108965955488407)
+('Mean', -0.07667822303199842)
+('Mean', 0.1340255412147748)
+('Mean', 0.1281899846941502)
+('Mean', 0.073265357970326)
+('Mean', -0.07507742677527243)
+('Mean', -0.30842159911137357)
+('Mean', -0.07639843912483164)
+('Mean', -0.253399774678575)
+('Mean', -0.06406839168640242)
+('Mean', 0.010277783348222403)
+('Mean', -0.21469484109922693)
+('Mean', 0.05046592283319339)
+('Mean', 0.13738427738006517)
+('Mean', 0.013628542329503597)
+('Mean', 0.053560006206260134)
+('Mean', 0.06153353022924625)
+('Mean', -0.10450038956469672)
+('Mean', -0.17513664005219223)
+('Mean', 0.11173251698099386)
+('Mean', -0.20344873116170656)
+('Mean', 0.20306546153236532)
+('Mean', 0.03683895420622026)
+('Mean', -0.133649525841405)
+('Mean', -0.06939908625712853)
+('Mean', 0.03127573058634616)
+('Mean', -0.07182939434957715)
+('Mean', -0.12027626278844941)
+('Mean', -0.06577049684571416)
+('Mean', 0.02217207377192672)
+('Mean', -0.03595677046536599)
+('Mean', 0.04806499114231482)
+('Mean', -0.05350857640735688)
+('Mean', -0.054680477023048346)
+('Mean', -0.26349224481284744)
+('Mean', -0.3148271287013897)
+('Mean', -0.053674786366322946)
+('Mean', -0.2166995294829482)
+('Mean', -0.07842134926530817)
+('Mean', -0.14189633348265807)
+('Mean', -0.006573208362155281)
+('Mean', 0.05654944357251173)
+('Mean', 0.1993976925188414)
+('Mean', -0.09340792159561954)
+('Mean', 0.08471103170555541)
+('Mean', 0.1744332824442673)
+('Mean', 0.1478148795353843)
+('Mean', -0.06643823796033772)
+('Mean', -0.010968663068742035)
+('Mean', 0.18087179425806535)
+pulls for signal strength 0
+pull,MKLegendre,MKBwzredux,-0.171880389283
+pull,MKExp,MKBwzredux,0.0710932067061
+pull,MKPower,MKPower,-0.0563437839092
+pull,MKBwz,MKPower,-0.206917981722
+pull,MKLegendre,MKBwz,-0.106349704582
+pull,MKLegendre,MKPower,-0.299099557691
+pull,MKBwzredux,MKBernstein,-0.0239000716444
+pull,MKExp,MKPower,-0.040197098645
+pull,MKPower,MKBwzredux,0.0732653579703
+pull,MKLegendre,MKBernstein,-0.218447931642
+pull,MKBwzredux,MKExp,-0.109560522457
+pull,MKBwzredux,MKBwzredux,0.0123100688479
+pull,MKBernstein,MKBwz,0.121089659555
+pull,MKPower,MKBwz,0.134025541215
+pull,MKLegendre,MKExp,-0.308421599111
+pull,MKBernstein,MKBernstein,0.0102777833482
+pull,MKBwzredux,MKLegendre,0.13738427738
+pull,MKPower,MKLegendre,0.203065461532
+pull,MKPower,MKBernstein,0.0368389542062
+pull,MKExp,MKBernstein,0.0312757305863
+pull,MKPower,MKExp,-0.0657704968457
+pull,MKBernstein,MKExp,-0.0693990862571
+pull,MKBwz,MKBernstein,-0.120276262788
+pull,MKLegendre,MKLegendre,-0.0359567704654
+pull,MKBernstein,MKPower,-0.054680477023
+pull,MKBwz,MKLegendre,0.0480649911423
+pull,MKExp,MKExp,-0.0536747863663
+pull,MKBwz,MKExp,-0.216699529483
+pull,MKBwz,MKBwzredux,-0.0784213492653
+pull,MKExp,MKLegendre,0.199397692519
+pull,MKBwzredux,MKPower,-0.0934079215956
+pull,MKBernstein,MKBwzredux,0.0565494435725
+pull,MKExp,MKBwz,0.147814879535
+pull,MKBwzredux,MKBwz,0.0847110317056
+pull,MKBernstein,MKLegendre,0.180871794258
+pull,MKBwz,MKBwz,-0.0109686630687
+pulls for signal strength 1
+pull,MKLegendre,MKPower,-0.301000246773
+pull,MKExp,MKPower,-0.0711680681148
+pull,MKBernstein,MKPower,-0.118267833246
+pull,MKLegendre,MKBwz,-0.115612394941
+pull,MKBernstein,MKBwzredux,-0.0133661749693
+pull,MKPower,MKBwzredux,0.0560141335126
+pull,MKExp,MKLegendre,0.183839023961
+pull,MKBwz,MKLegendre,-0.00606735297224
+pull,MKPower,MKBwz,0.108895078803
+pull,MKBwz,MKBernstein,-0.179995386119
+pull,MKBwzredux,MKPower,-0.188093046354
+pull,MKExp,MKExp,-0.0750774267753
+pull,MKBwz,MKBwz,-0.076678223032
+pull,MKExp,MKBwz,0.128189984694
+pull,MKLegendre,MKLegendre,-0.0640683916864
+pull,MKBwz,MKPower,-0.253399774679
+pull,MKPower,MKExp,-0.0763984391248
+pull,MKLegendre,MKBernstein,-0.214694841099
+pull,MKExp,MKBwzredux,0.0615335302292
+pull,MKBernstein,MKBwz,0.0504659228332
+pull,MKBwzredux,MKLegendre,0.0535600062063
+pull,MKPower,MKBernstein,0.0136285423295
+pull,MKBwzredux,MKBernstein,-0.104500389565
+pull,MKBernstein,MKLegendre,0.111732516981
+pull,MKLegendre,MKBwzredux,-0.175136640052
+pull,MKBwzredux,MKExp,-0.203448731162
+pull,MKBernstein,MKExp,-0.133649525841
+pull,MKBwzredux,MKBwzredux,-0.0718293943496
+pull,MKExp,MKBernstein,0.0221720737719
+pull,MKBernstein,MKBernstein,-0.0535085764074
+pull,MKBwz,MKExp,-0.263492244813
+pull,MKLegendre,MKExp,-0.314827128701
+pull,MKBwz,MKBwzredux,-0.141896333483
+pull,MKBwzredux,MKBwz,-0.00657320836216
+pull,MKPower,MKLegendre,0.174433282444
+pull,MKPower,MKPower,-0.0664382379603
+Info in <TCanvas::Print>: png file ./OutputFiles/pulls_WH_BDT_p060_p068_signal_strength_0_table.png has been created
+Info in <TCanvas::Print>: png file ./OutputFiles/pulls_WH_BDT_n02_p02_signal_strength_1_table.png has been created
+Info in <TCanvas::Print>: png file ./OutputFiles/pulls_WH_BDT_n10_n02_signal_strength_1_table.png has been created
+Info in <TCanvas::Print>: png file ./OutputFiles/pulls_WH_BDT_p02_p06_signal_strength_0_table.png has been created
+Info in <TCanvas::Print>: png file ./OutputFiles/pulls_WH_BDT_p068_p076_signal_strength_1_table.png has been created
+Info in <TCanvas::Print>: png file ./OutputFiles/pulls_WH_BDT_n10_n02_signal_strength_0_table.png has been created
+Info in <TCanvas::Print>: png file ./OutputFiles/pulls_WH_BDT_p060_p068_signal_strength_1_table.png has been created
+Info in <TCanvas::Print>: png file ./OutputFiles/pulls_WH_BDT_p02_p06_signal_strength_1_table.png has been created
+Info in <TCanvas::Print>: png file ./OutputFiles/pulls_WH_BDT_n02_p02_signal_strength_0_table.png has been created
+Info in <TCanvas::Print>: png file ./OutputFiles/pulls_WH_BDT_p076_p10_signal_strength_1_table.png has been created
+Info in <TCanvas::Print>: png file ./OutputFiles/pulls_WH_BDT_p068_p076_signal_strength_0_table.png has been created
+Info in <TCanvas::Print>: png file ./OutputFiles/pulls_WH_BDT_p076_p10_signal_strength_0_table.png has been created
+.
+Wed Oct 23 18:35:16 EDT 2019

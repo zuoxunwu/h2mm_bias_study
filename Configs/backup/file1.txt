@@ -1,0 +1,7 @@
+# path for histogram file; [rootfile path, bkg, sig hito name]
+datafile,['InputFiles/muPairs_mass135_165_nb61_rescaled.root',asdfasdf,asdfasdf]
+# models for background
+model,bwZreduxFixed
+model,MKLegendre_o
+# signal strength
+signal_strength,0
