@@ -9,15 +9,15 @@
 >>> random number generator seed is 123456
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
-Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-OoPgXZ.root
+Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-3soVMr.root
 Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
 
  --- FitDiagnostics ---
-Best fit r: -5.41165  -3.68081/+4.26982  (68% CL)
+Best fit r: -5.58112  -3.61502/+4.25506  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.833559  -3.89256/+4.46506  (68% CL)
+Best fit r: -0.833203  -3.89257/+4.46505  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -29,19 +29,19 @@ Best fit r: 0.133947  -4.12549/+4.7172  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.57036  -3.79119/+4.36959  (68% CL)
+Best fit r: -2.80738  -3.99253/+4.62061  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -7.33695  -3.21556/+3.78415  (68% CL)
+Best fit r: -6.77748  -3.2844/+3.84877  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.73992  -4.42297/+4.97166  (68% CL)
+Best fit r: 4.70067  -4.50071/+4.95854  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.31048  -4.51588/+5.08202  (68% CL)
+Best fit r: 1.62171  -4.48186/+5.14481  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -53,7 +53,7 @@ Best fit r: -6.53438  -3.44282/+4.06027  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.37936  -3.8104/+4.44158  (68% CL)
+Best fit r: -2.37882  -3.8104/+4.44156  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -65,7 +65,7 @@ Best fit r: -2.40841  -4.13343/+4.73753  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.50863  -4.94008/+5.55351  (68% CL)
+Best fit r: 6.54074  -4.94365/+5.55948  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -73,319 +73,320 @@ Best fit r: 4.37185  -4.55073/+5.13753  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.01017  -5.20341/+5.81092  (68% CL)
+Best fit r: 8.01174  -5.2035/+5.81083  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.0767222  -4.00102/+4.53134  (68% CL)
+Best fit r: 0.143084  -4.0057/+4.55893  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.0816315  -4.14978/+4.72239  (68% CL)
+Best fit r: 1.74828  -4.3044/+4.88637  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.01177  -4.01017/+4.60857  (68% CL)
+Best fit r: -3.17812  -4.00245/+4.60079  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -6.07104  -3.08823/+3.63511  (68% CL)
+Best fit r: -4.44952  -3.4353/+3.97607  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.89947  -3.5229/+4.10736  (68% CL)
+Best fit r: -3.55821  -3.83364/+4.42259  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.70812  -3.49604/+4.06622  (68% CL)
+Best fit r: -1.09502  -3.7422/+4.3529  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.548807  -4.17227/+4.85031  (68% CL)
+Best fit r: 0.527151  -4.03548/+4.68067  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.72886  -3.64041/+4.21085  (68% CL)
+Best fit r: -5.3549  -3.78771/+4.3792  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.53393  -4.33832/+4.91399  (68% CL)
+Best fit r: 0.65229  -4.22778/+4.81662  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.42989  -4.59817/+5.16464  (68% CL)
+Best fit r: 2.68718  -4.3146/+4.93458  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.981019  -4.39151/+5.00328  (68% CL)
+Best fit r: 1.43362  -4.3622/+5.02667  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.405349  -3.80181/+4.40306  (68% CL)
+Best fit r: -1.68754  -3.70887/+4.30289  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.45864  -3.9098/+4.43929  (68% CL)
+Best fit r: -1.36504  -3.90953/+4.4583  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.65686  -4.52261/+5.10216  (68% CL)
+Best fit r: 0.801406  -4.19011/+4.76128  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.00987  -3.97916/+4.56086  (68% CL)
+Best fit r: -3.6188  -3.86704/+4.49309  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.09669  -3.83788/+4.40058  (68% CL)
+Best fit r: 1.06483  -4.39882/+4.98586  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.501177  -3.94061/+4.49783  (68% CL)
+Best fit r: -3.62072  -3.82381/+4.43  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.84554  -4.51536/+5.08403  (68% CL)
+Best fit r: 4.59606  -4.53589/+5.12115  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.42996  -4.38798/+4.98385  (68% CL)
+Best fit r: 0.388053  -4.5063/+5.08284  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.30344  -4.75631/+5.31828  (68% CL)
+Best fit r: 5.35366  -4.96825/+5.52228  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.42605  -5.23668/+5.87634  (68% CL)
+Best fit r: 4.22996  -4.7092/+5.33435  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 9.17829  -5.39611/+5.97601  (68% CL)
+Best fit r: 10.9748  -5.40725/+5.98068  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.52655  -4.19097/+4.76779  (68% CL)
+Best fit r: -3.57283  -3.75403/+4.32129  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.00237026  -4.20782/+4.76655  (68% CL)
+Best fit r: -4.21703  -3.70799/+4.2827  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 9.74561  -4.74124/+5.30929  (68% CL)
+Best fit r: 4.24667  -4.57773/+5.18605  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.82123  -4.67521/+5.26926  (68% CL)
+Best fit r: 7.13913  -4.78341/+5.34933  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.5034  -4.24879/+4.86329  (68% CL)
+Best fit r: -0.75368  -3.94592/+4.50276  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.51128  -4.60307/+5.17404  (68% CL)
+Best fit r: 1.45414  -4.4148/+5.03387  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.01687  -4.16415/+4.75468  (68% CL)
+Best fit r: 0.921444  -4.29099/+4.84411  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.81584  -3.54833/+4.08651  (68% CL)
+Best fit r: -7.93526  -3.43414/+4.00543  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.746814  -4.42861/+4.99823  (68% CL)
+Best fit r: -0.377658  -4.43461/+5.06948  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.38655  -4.57839/+5.16363  (68% CL)
+Best fit r: -2.31673  -4.2334/+4.79713  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.26156  -4.22274/+4.83036  (68% CL)
+Best fit r: 2.2031  -4.16255/+4.79993  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -5.80578  -3.115/+3.63692  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -3.61144  -3.0425/+3.63012  (68% CL)
+Best fit r: -8.33251  -3.22568/+3.76943  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.99988  -3.26003/+3.74768  (68% CL)
+Best fit r: 3.58752  -4.57457/+5.1367  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.51721  -3.22056/+3.80333  (68% CL)
+Best fit r: -1.89089  -3.6445/+4.18264  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.55349  -3.86937/+4.4614  (68% CL)
+Best fit r: 0.235773  -4.11058/+4.68016  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.56976  -4.41486/+5.02427  (68% CL)
+Best fit r: -5.65191  -3.59875/+4.16405  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.73678  -4.66777/+5.25462  (68% CL)
+Best fit r: 1.12927  -4.14148/+4.74335  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.05471  -3.72217/+4.31666  (68% CL)
+Best fit r: 0.961033  -4.50834/+5.11032  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.42066  -3.79895/+4.35746  (68% CL)
+Best fit r: -2.56621  -3.38039/+3.95335  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.25252  -4.50229/+5.06031  (68% CL)
+Best fit r: -4.65152  -3.73205/+4.24217  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.32055  -4.09108/+4.7238  (68% CL)
+Best fit r: -1.01069  -4.64281/+5.25762  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 12.335  -5.29771/+5.86931  (68% CL)
+Best fit r: 1.55822  -4.38153/+5.0322  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.00977  -3.49068/+4.01004  (68% CL)
+Best fit r: -5.05633  -3.52911/+4.10408  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.925673  -4.49196/+5.06882  (68% CL)
+Best fit r: -0.754377  -4.12099/+4.71354  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.948588  -4.13868/+4.68711  (68% CL)
+Best fit r: -4.48074  -4.24723/+4.74163  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.150084  -4.08118/+4.66326  (68% CL)
+Best fit r: 1.17696  -4.39113/+4.98198  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.92487  -4.81835/+5.40856  (68% CL)
+Best fit r: -4.7206  -3.80351/+4.38632  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.31924  -4.07665/+4.72002  (68% CL)
+Best fit r: 2.07185  -4.57104/+5.18034  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.47963  -4.73376/+5.27435  (68% CL)
+Best fit r: 0.184529  -4.27811/+4.88481  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.23919  -3.81685/+4.41031  (68% CL)
+Best fit r: 1.6185  -4.12343/+4.80571  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.78522  -4.91512/+5.51992  (68% CL)
+Best fit r: -1.91576  -3.84823/+4.37706  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.28936  -4.55443/+5.13581  (68% CL)
+Best fit r: 1.0914  -4.4141/+5.02664  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 11.735  -5.2541/+5.81632  (68% CL)
+Best fit r: 0.0370623  -4.06625/+4.62459  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.52004  -3.53271/+4.16955  (68% CL)
+Best fit r: -2.28794  -3.93549/+4.567  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -8.75817  -3.19385/+3.83778  (68% CL)
-WARNING: underflow to -0.326937 in pdf_binc_01_test_obsOnly for bin 27, weight 1
+Best fit r: 5.40964  -4.53891/+5.09092  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -0.294672  -3.81513/+4.39557  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 5.42362  -4.33161/+4.88433  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -5.67708  -3.37373/+4.02404  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -3.69839  -3.99379/+4.60427  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 3.69824  -4.46252/+5.11253  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 2.32572  -4.23787/+4.79874  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -1.29837  -3.69609/+4.22989  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 1.56148  -4.03525/+4.60966  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 0.437839  -3.99794/+4.64595  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 12.8647  -5.32969/+5.89254  (68% CL)
+WARNING: underflow to -0.191235 in pdf_binc_01_test_obsOnly for bin 27, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,coefG1,coefG2,ex1,ex2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = -7.99557e-05 +/- 0.996379,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -15.3994 +/- 3.13482,shapeBkg_bmodel_c_01_test_c_01_test__norm = 157.784 +/- 11.506)
+ server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = 0.000172044 +/- 0.996351,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -15.5892 +/- 3.18466,shapeBkg_bmodel_c_01_test_c_01_test__norm = 167.074 +/- 11.8873)
 FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.326937 in pdf_binc_01_test_obsOnly for bin 27, weight 1
+WARNING: underflow to -0.00246463 in pdf_binc_01_test_obsOnly for bin 27, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,coefG1,coefG2,ex1,ex2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = -7.99557e-05 +/- 8.1354e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -15.3994 +/- 3.13482,shapeBkg_bmodel_c_01_test_c_01_test__norm = 157.784 +/- 9.39463e-19)
+ server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = -0.105146 +/- 0.989158,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -15.5892 +/- 3.18466,shapeBkg_bmodel_c_01_test_c_01_test__norm = 174.632 +/- 11.1531)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -10.4438  -2.78095/+3.49533  (68% CL)
+Best fit r: -10.6547  -2.87032/+3.51941  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.83748  -4.80435/+5.38867  (68% CL)
+Best fit r: 2.50855  -4.09258/+4.66248  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.13703  -4.3915/+4.98353  (68% CL)
+Best fit r: 1.83829  -4.45775/+5.01626  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.57421  -4.61902/+5.1066  (68% CL)
+Best fit r: -0.207782  -4.05595/+4.61921  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.93551  -4.67551/+5.14874  (68% CL)
+Best fit r: -0.321056  -4.16638/+4.7726  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.15298  -3.9337/+4.52551  (68% CL)
+Best fit r: 1.90377  -4.33043/+4.90482  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.340919  -3.87606/+4.44812  (68% CL)
+Best fit r: -2.17032  -4.10329/+4.70628  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.5992  -3.85738/+4.46132  (68% CL)
+Best fit r: -2.06689  -4.4987/+4.99665  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 10.8341  -5.06958/+5.64855  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -2.96555  -3.56058/+4.07452  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -1.60088  -3.76088/+4.30515  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 3.03835  -4.3968/+4.98754  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -10.7085  -3.55338/+4.16184  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -2.65739  -3.96943/+4.58725  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 1.69047  -4.02216/+4.70697  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -2.93538  -4.09931/+4.65405  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -2.13941  -4.46095/+4.97187  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -4.08679  -4.21326/+4.79941  (68% CL)
+Best fit r: -4.44181  -4.19637/+4.77862  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -393,7 +394,7 @@ Best fit r: -4.92307  -4.09794/+4.65479  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.236806  -4.24001/+4.87568  (68% CL)
+Best fit r: 0.231351  -4.23818/+4.87569  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -405,23 +406,23 @@ Best fit r: 1.18419  -4.25015/+4.87062  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.39961  -4.27379/+4.83605  (68% CL)
+Best fit r: 2.31619  -4.2789/+4.83898  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.06354  -3.50745/+4.11867  (68% CL)
+Best fit r: -4.48494  -3.69299/+4.27884  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.24723  -4.68767/+5.28488  (68% CL)
+Best fit r: 5.05841  -4.68058/+5.27605  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.0785871  -4.1478/+4.71533  (68% CL)
+Best fit r: -0.107788  -4.14105/+4.70761  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.32224  -4.20721/+4.77451  (68% CL)
+Best fit r: 2.32271  -4.20722/+4.77449  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -429,31 +430,31 @@ Best fit r: 6.28468  -4.91872/+5.52026  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.48289  -4.30189/+4.98049  (68% CL)
+Best fit r: 1.13767  -4.19196/+4.7929  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.39124  -4.20099/+4.76312  (68% CL)
+Best fit r: -2.54509  -4.00587/+4.58063  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.78778  -3.57798/+4.24616  (68% CL)
+Best fit r: -6.39207  -3.5568/+4.21125  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.816965  -4.05016/+4.65129  (68% CL)
+Best fit r: -2.66949  -3.87451/+4.4871  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.96646  -4.16218/+4.767  (68% CL)
+Best fit r: 2.00411  -4.24325/+4.81628  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.2097  -4.2969/+4.91169  (68% CL)
+Best fit r: -0.759495  -4.26614/+4.88687  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.906968  -4.1251/+4.73025  (68% CL)
+Best fit r: -0.919111  -4.12466/+4.72689  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -461,75 +462,75 @@ Best fit r: 1.98798  -4.24553/+4.87036  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.64766  -4.37312/+4.95626  (68% CL)
+Best fit r: 2.21548  -4.50744/+5.08651  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.92222  -4.87369/+5.50746  (68% CL)
+Best fit r: 8.61412  -4.86754/+5.47027  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.466874  -4.48718/+5.02793  (68% CL)
+Best fit r: 0.470343  -4.48732/+5.02782  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.89589  -4.37408/+4.94268  (68% CL)
+Best fit r: 4.88484  -4.37378/+4.94083  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 13.3884  -5.31578/+5.89241  (68% CL)
+Best fit r: 13.2544  -5.3131/+5.89311  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 9.2827  -5.41047/+6.09134  (68% CL)
+Best fit r: 9.28368  -5.41054/+6.09127  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.34842  -4.59892/+5.21211  (68% CL)
+Best fit r: 7.06272  -4.82317/+5.39212  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.46698  -4.90878/+5.48975  (68% CL)
+Best fit r: 6.55613  -4.78851/+5.3702  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 9.97963  -5.1646/+5.74181  (68% CL)
+Best fit r: 9.40687  -5.1277/+5.69603  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.02488  -4.44409/+5.06849  (68% CL)
+Best fit r: 0.256987  -4.52239/+5.23125  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.78177  -4.4084/+4.99162  (68% CL)
+Best fit r: 3.2737  -4.43256/+4.9989  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.649698  -4.40509/+4.99231  (68% CL)
+Best fit r: 0.764525  -4.3352/+4.92868  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.546238  -4.30737/+4.85928  (68% CL)
+Best fit r: 0.578902  -4.28236/+4.87629  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 10.0432  -4.86729/+5.31837  (68% CL)
+Best fit r: 3.33012  -4.40053/+5.02588  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.21838  -4.05668/+4.68567  (68% CL)
+Best fit r: -0.00391399  -4.49153/+5.09071  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.84665  -3.97969/+4.57983  (68% CL)
+Best fit r: -2.6005  -3.96018/+4.53932  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.69759  -4.63541/+5.21833  (68% CL)
+Best fit r: 1.69733  -4.63539/+5.21834  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.68145  -4.78953/+5.4268  (68% CL)
+Best fit r: 7.68262  -4.78959/+5.42773  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -537,51 +538,51 @@ Best fit r: -2.08211  -4.01009/+4.61878  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.76146  -4.85869/+5.49576  (68% CL)
+Best fit r: 7.74045  -4.85529/+5.49373  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.0553891  -4.29778/+4.89497  (68% CL)
+Best fit r: 1.14555  -4.35223/+4.94133  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.173  -4.3175/+4.92509  (68% CL)
+Best fit r: -2.56242  -4.33425/+5.02054  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.77498  -4.34371/+4.95484  (68% CL)
+Best fit r: 1.40991  -4.34569/+4.91879  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.53675  -4.14835/+4.73665  (68% CL)
+Best fit r: -1.53658  -4.14836/+4.73664  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.52107  -4.41642/+4.9856  (68% CL)
+Best fit r: 2.38167  -4.40002/+4.96946  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.73146  -3.32682/+3.88476  (68% CL)
+Best fit r: -3.71497  -3.32791/+3.88526  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.61056  -4.61247/+5.2517  (68% CL)
+Best fit r: 1.44842  -4.61073/+5.18899  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.81542  -4.94986/+5.52961  (68% CL)
+Best fit r: 7.81607  -4.94989/+5.52957  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.0276  -4.90914/+5.57476  (68% CL)
+Best fit r: 7.65817  -4.91581/+5.52465  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.5028  -4.41407/+5.03879  (68% CL)
+Best fit r: 2.75916  -4.38596/+5.08085  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.48333  -3.54884/+4.14078  (68% CL)
+Best fit r: -3.48234  -3.54887/+4.14076  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -601,7 +602,7 @@ Best fit r: 1.58387  -4.08625/+4.67792  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.19595  -4.95413/+5.55155  (68% CL)
+Best fit r: 4.08256  -4.94111/+5.53589  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -609,18 +610,19 @@ Best fit r: 3.46698  -4.67759/+5.19359  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.66913  -4.45615/+5.04101  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -8.9182  -3.07837/+3.69868  (68% CL)
+Best fit r: 2.6199  -4.63566/+5.229  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.45054  -4.36652/+4.93082  (68% CL)
+Best fit r: -6.54264  -3.12632/+3.70365  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.943595  -3.7732/+4.32279  (68% CL)
+Best fit r: 6.47054  -4.57371/+5.13253  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -0.469712  -3.78499/+4.33595  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -628,47 +630,47 @@ Best fit r: -0.938938  -4.4506/+5.01136  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.549536  -4.4484/+5.08181  (68% CL)
+Best fit r: 0.551132  -4.44846/+5.08295  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.6307  -4.57761/+5.12698  (68% CL)
+Best fit r: -1.52604  -4.19662/+4.79893  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.80475  -4.55094/+5.13859  (68% CL)
+Best fit r: 3.17581  -4.65659/+5.21435  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.68261  -4.04802/+4.62462  (68% CL)
+Best fit r: -1.9012  -4.2892/+4.8631  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.52972  -4.30023/+4.83173  (68% CL)
+Best fit r: 1.84037  -4.41223/+4.9775  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.68958  -3.6757/+4.21677  (68% CL)
+Best fit r: -3.02197  -3.60133/+4.17258  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.73386  -3.52244/+4.07934  (68% CL)
+Best fit r: -7.34707  -3.5029/+4.05679  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.00743  -4.35518/+4.95262  (68% CL)
+Best fit r: 1.66369  -4.80988/+5.37293  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.06884  -3.62955/+4.22688  (68% CL)
+Best fit r: -1.91077  -3.6347/+4.23552  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.01649  -4.50583/+5.07188  (68% CL)
+Best fit r: 2.98428  -4.49859/+5.06628  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.0748141  -4.10561/+4.71245  (68% CL)
+Best fit r: -0.16186  -4.08832/+4.70137  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -680,11 +682,11 @@ Best fit r: -0.123668  -3.91306/+4.50238  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.87606  -4.59755/+5.1625  (68% CL)
+Best fit r: 4.68887  -4.579/+5.16246  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.4048  -3.96465/+4.58919  (68% CL)
+Best fit r: 1.54905  -3.95499/+4.60659  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -705,15 +707,15 @@ Best fit r: -11.459  -2.99651/+3.61408  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.0113754  -4.53702/+5.17996  (68% CL)
+Best fit r: -0.119234  -4.54593/+5.19947  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -9.11066  -3.44752/+4.11235  (68% CL)
+Best fit r: -4.65383  -3.92302/+4.55429  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.67398  -4.44559/+5.01908  (68% CL)
+Best fit r: 3.12413  -4.47332/+5.04856  (68% CL)
 
  --- FitDiagnostics ---
 Best fit r: -6.84959  -3.02269/+3.60719  (68% CL)
@@ -724,15 +726,15 @@ Best fit r: -1.13375  -3.77261/+4.41129  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.326  -3.68648/+4.32827  (68% CL)
+Best fit r: -1.57272  -3.79941/+4.36762  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.11927  -4.74316/+5.32093  (68% CL)
+Best fit r: 4.3499  -4.81391/+5.39447  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.92375  -3.48208/+4.00179  (68% CL)
+Best fit r: -6.24599  -3.4411/+4.02461  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -740,11 +742,11 @@ Best fit r: 9.35248  -4.95352/+5.46111  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.97466  -3.97812/+4.53165  (68% CL)
+Best fit r: -4.33644  -4.00475/+4.57627  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.95285  -5.38199/+5.98355  (68% CL)
+Best fit r: 8.74325  -5.39565/+6.03083  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -764,11 +766,11 @@ Best fit r: 2.1688  -3.96465/+4.62718  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.48504  -3.79664/+4.33537  (68% CL)
+Best fit r: -1.34718  -3.78099/+4.3257  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.69466  -3.9546/+4.55731  (68% CL)
+Best fit r: -4.71417  -3.9489/+4.5536  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -780,7 +782,7 @@ Best fit r: -2.18559  -3.74219/+4.32704  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.11242  -4.59899/+5.20174  (68% CL)
+Best fit r: 6.103  -4.59821/+5.19852  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -792,7 +794,7 @@ Best fit r: 0.596278  -4.29966/+4.90463  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.72459  -4.32654/+4.90638  (68% CL)
+Best fit r: 4.72532  -4.32658/+4.90633  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -800,18 +802,18 @@ Best fit r: -1.10605  -4.63679/+5.26998  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.304342  -4.47451/+5.10787  (68% CL)
+Best fit r: 1.75361  -4.51695/+5.0857  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.286749  -4.14329/+4.75703  (68% CL)
+Best fit r: 0.705557  -4.28186/+4.88571  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.842584  -3.89306/+4.51024  (68% CL)
+Best fit r: 0.226658  -3.93854/+4.5189  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -4.90204  -3.34183/+3.96207  (68% CL)
+Best fit r: -5.05784  -3.3355/+3.9511  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -827,23 +829,23 @@ Best fit r: 3.43591  -4.35075/+4.89224  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.84894  -3.218/+3.79365  (68% CL)
+Best fit r: -3.39385  -3.41024/+3.99025  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.73694  -4.86057/+5.45137  (68% CL)
+Best fit r: 7.13164  -4.88882/+5.44618  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.36476  -4.63485/+5.30008  (68% CL)
+Best fit r: 3.35288  -4.56692/+5.20359  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.3913  -4.52669/+5.11691  (68% CL)
+Best fit r: 4.1629  -4.66928/+5.30202  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.05204  -4.5804/+5.12324  (68% CL)
+Best fit r: -2.13444  -4.62247/+5.14971  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -851,138 +853,138 @@ Best fit r: 0.253663  -4.61831/+5.24139  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.620767  -3.91256/+4.44932  (68% CL)
+Best fit r: -0.620438  -3.91257/+4.44932  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.867149  -4.18476/+4.86139  (68% CL)
+Best fit r: 0.574422  -4.168/+4.81013  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.65318  -3.83002/+4.40363  (68% CL)
+Best fit r: -1.49706  -3.83431/+4.40937  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.624525  -4.0422/+4.63159  (68% CL)
+Best fit r: 2.31587  -4.3595/+4.94055  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.53108  -4.29922/+4.8555  (68% CL)
+Best fit r: 4.65634  -4.3736/+4.84027  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.372308  -4.22944/+4.78568  (68% CL)
+Best fit r: 0.527489  -4.25597/+4.84308  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.15153  -4.70509/+5.33066  (68% CL)
+Best fit r: 5.44905  -4.63177/+5.25665  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.48651  -4.09474/+4.68773  (68% CL)
+Best fit r: 1.31094  -4.44066/+4.94235  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.878516  -4.10844/+4.68813  (68% CL)
+Best fit r: 2.27689  -4.33763/+4.89714  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.42126  -4.45407/+5.03323  (68% CL)
+Best fit r: 8.75674  -5.00732/+5.68067  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.7246  -5.40231/+6.03508  (68% CL)
+Best fit r: -8.73125  -4.208/+4.93828  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.902018  -4.12101/+4.7398  (68% CL)
+Best fit r: 5.52589  -4.85711/+5.47773  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.308953  -4.39581/+4.97326  (68% CL)
+Best fit r: 3.49622  -4.94715/+5.50945  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: -6.3155  -2.90029/+3.48411  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.91026  -4.39089/+4.88895  (68% CL)
+Best fit r: -2.1228  -4.0772/+4.67686  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.44849  -4.60345/+5.19426  (68% CL)
+Best fit r: 1.32186  -3.64865/+4.31133  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.14334  -4.40798/+4.95483  (68% CL)
+Best fit r: 3.23822  -4.5219/+5.12216  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.706144  -4.53692/+5.17137  (68% CL)
+Best fit r: -5.5787  -3.61228/+4.18593  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.26819  -4.05157/+4.58957  (68% CL)
+Best fit r: 6.70169  -4.91297/+5.49447  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.70341  -5.10434/+5.67485  (68% CL)
+Best fit r: -0.166931  -4.21158/+4.79024  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.154449  -4.24951/+4.84699  (68% CL)
+Best fit r: 3.74069  -4.61625/+5.19996  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.44741  -4.75247/+5.33549  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -4.9067  -3.34694/+3.93092  (68% CL)
+Best fit r: 1.18435  -3.85111/+4.40839  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.29356  -4.34565/+5.00175  (68% CL)
+Best fit r: 7.83824  -4.74519/+5.3042  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.08642  -3.82349/+4.41467  (68% CL)
+Best fit r: 3.95637  -4.44414/+4.96179  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.78986  -4.57417/+5.26283  (68% CL)
+Best fit r: 3.63747  -4.499/+5.09849  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.42556  -4.3045/+4.85387  (68% CL)
+Best fit r: -5.3008  -4.01425/+4.54687  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.61503  -3.89087/+4.50159  (68% CL)
+Best fit r: 1.21814  -4.13282/+4.80003  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.406  -4.08432/+4.73257  (68% CL)
+Best fit r: 7.67333  -4.62498/+5.21844  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.272187  -4.21186/+4.84357  (68% CL)
+Best fit r: -0.652041  -4.20549/+4.75015  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.15777  -3.50515/+4.07617  (68% CL)
+Best fit r: 0.139807  -4.3047/+4.90663  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.91639  -5.04201/+5.64194  (68% CL)
+Best fit r: 6.438  -5.01784/+5.61761  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.02962  -3.66428/+4.23251  (68% CL)
+Best fit r: -8.88991  -3.65084/+4.2837  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.457  -4.77715/+5.39859  (68% CL)
+Best fit r: 4.74205  -4.74681/+5.41385  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.373907  -4.25881/+4.84544  (68% CL)
+Best fit r: 0.714692  -4.27238/+4.86132  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -990,7 +992,7 @@ Best fit r: 0.731583  -4.33767/+4.96603  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.17982  -4.43636/+5.07118  (68% CL)
+Best fit r: 3.18041  -4.43639/+5.07115  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -998,435 +1000,433 @@ Best fit r: -5.56115  -3.58246/+4.1701  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.62505  -4.66986/+5.31765  (68% CL)
+Best fit r: 3.55323  -4.66457/+5.29618  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.580891  -4.56517/+5.12489  (68% CL)
+Best fit r: -0.753094  -4.5605/+5.11577  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.29671  -4.02317/+4.64835  (68% CL)
+Best fit r: 1.15053  -4.5218/+5.1286  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.10903  -4.2867/+4.86062  (68% CL)
+Best fit r: 3.59986  -4.21545/+4.78518  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.28139  -4.0053/+4.55283  (68% CL)
+Best fit r: -6.23323  -3.81114/+4.41089  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -5.72826  -2.9883/+3.53045  (68% CL)
+Best fit r: -5.98767  -3.10469/+3.79169  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.912218  -3.93695/+4.51527  (68% CL)
+Best fit r: -0.33754  -3.96909/+4.50405  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.48125  -4.33714/+4.9129  (68% CL)
+Best fit r: -0.152505  -4.2895/+4.87349  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.54046  -4.93611/+5.48556  (68% CL)
+Best fit r: 5.80957  -4.66367/+5.18325  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.65305  -3.80382/+4.37488  (68% CL)
+Best fit r: -2.91959  -4.12849/+4.70124  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.18258  -3.57131/+4.20709  (68% CL)
+Best fit r: 1.36448  -3.74644/+4.33194  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.30519  -4.69435/+5.27493  (68% CL)
+Best fit r: 2.76353  -4.56001/+5.11896  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.21111  -3.9488/+4.48144  (68% CL)
+Best fit r: 0.567102  -4.67091/+5.26055  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.08558  -4.89881/+5.43926  (68% CL)
+Best fit r: 6.94439  -5.01346/+5.63527  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.847504  -4.16295/+4.81673  (68% CL)
+Best fit r: 1.15195  -4.09464/+4.74909  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.11472  -4.64157/+5.27729  (68% CL)
+Best fit r: 2.07128  -4.89657/+5.4921  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.502101  -4.44014/+5.0394  (68% CL)
+Best fit r: -1.38796  -4.3114/+4.96896  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 11.7752  -5.42755/+6.00191  (68% CL)
+Best fit r: -2.51838  -3.97069/+4.61884  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.493208  -4.05909/+4.62568  (68% CL)
+Best fit r: 2.65493  -4.62393/+5.32457  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.47999  -3.4799/+4.08975  (68% CL)
+Best fit r: 2.62813  -4.11534/+4.69462  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.74115  -5.17504/+5.77917  (68% CL)
+Best fit r: 11.5802  -5.34315/+6.033  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.71452  -4.84597/+5.42774  (68% CL)
+Best fit r: -0.951886  -4.44095/+5.04749  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.44251  -4.34901/+4.94204  (68% CL)
+Best fit r: -1.05811  -4.36953/+4.95093  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.06778  -4.33654/+4.90353  (68% CL)
+Best fit r: -0.622652  -4.34271/+4.91639  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.69717  -4.81672/+5.36145  (68% CL)
+Best fit r: 5.07549  -4.6485/+5.16653  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.086573  -4.0788/+4.65162  (68% CL)
+Best fit r: -0.896192  -4.42592/+5.02171  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.3717  -4.83766/+5.47011  (68% CL)
+Best fit r: 0.916092  -4.71134/+5.3141  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.96175  -3.88157/+4.47849  (68% CL)
+Best fit r: -2.49248  -3.95851/+4.54049  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.85477  -4.74849/+5.46585  (68% CL)
+Best fit r: 2.30381  -4.81242/+5.44227  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.86177  -4.064/+4.72374  (68% CL)
+Best fit r: -2.96074  -4.31644/+4.91075  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.52475  -4.23156/+4.89601  (68% CL)
+Best fit r: 7.90827  -4.60207/+5.14674  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.684276  -3.95154/+4.60802  (68% CL)
+Best fit r: 3.55468  -4.50494/+5.09401  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.54883  -5.35258/+5.92784  (68% CL)
+Best fit r: 7.96662  -5.2736/+5.84523  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.51286  -4.39776/+4.9705  (68% CL)
+Best fit r: 0.0312747  -4.10138/+4.69627  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.27673  -4.59947/+5.24708  (68% CL)
+Best fit r: 0.540862  -4.29136/+4.90889  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.185897  -3.98029/+4.57034  (68% CL)
+Best fit r: -0.56767  -3.94909/+4.52111  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.540767  -4.04242/+4.6171  (68% CL)
+Best fit r: -0.102061  -4.41488/+5.02551  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.14991  -4.28863/+4.87555  (68% CL)
+Best fit r: -0.18116  -4.01744/+4.57938  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.99967  -3.54558/+4.09991  (68% CL)
+Best fit r: 1.14327  -3.64233/+4.28217  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.61017  -4.17991/+4.78421  (68% CL)
+Best fit r: 2.35007  -4.41703/+4.99195  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.42736  -5.05504/+5.6343  (68% CL)
+Best fit r: 10.8199  -5.17978/+5.76636  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.81  -3.68241/+4.24484  (68% CL)
+Best fit r: -5.18384  -3.33751/+3.98397  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.07983  -3.46736/+4.00356  (68% CL)
+Best fit r: -9.49041  -3.6284/+4.19157  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.66573  -4.02512/+4.6301  (68% CL)
+Best fit r: 2.24192  -4.17132/+4.75033  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.215351  -3.91542/+4.49464  (68% CL)
+Best fit r: -1.74764  -3.9005/+4.47221  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.9095  -5.05218/+5.6179  (68% CL)
+Best fit r: 7.09396  -4.38922/+5.00296  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.36343  -4.2561/+4.82928  (68% CL)
+Best fit r: 7.09157  -4.32516/+4.88577  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.16852  -3.97608/+4.54899  (68% CL)
+Best fit r: 2.66417  -4.24063/+4.81797  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.14615  -4.39158/+4.91853  (68% CL)
+Best fit r: -4.5763  -3.97498/+4.63031  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.06175  -3.86155/+4.44176  (68% CL)
+Best fit r: -6.67572  -3.18768/+3.6877  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.22655  -3.39665/+3.96703  (68% CL)
+Best fit r: -4.02573  -3.55046/+4.11119  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.19143  -4.05359/+4.68619  (68% CL)
-WARNING: underflow to -0.103543 in pdf_binc_01_test_obsOnly for bin 26, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,coefG1,coefG2,ex1,ex2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = -0.000172754 +/- 0.997511,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -13.239 +/- 2.91271,shapeBkg_bmodel_c_01_test_c_01_test__norm = 144.389 +/- 11.2098)
-FASTEXIT from pdf_binc_01_test_obsOnly
+Best fit r: -0.0920184  -4.08394/+4.61667  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -8.04336  -2.64209/+3.22434  (68% CL)
+Best fit r: -3.96349  -3.38519/+3.95058  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.2194  -4.07988/+4.69683  (68% CL)
+Best fit r: 1.44909  -3.84189/+4.43202  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.39714  -4.24333/+4.76949  (68% CL)
+Best fit r: -3.89211  -4.2651/+4.82505  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -9.31697  -3.04464/+3.6314  (68% CL)
+Best fit r: 4.88914  -4.37538/+4.97727  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.54086  -4.17918/+4.8065  (68% CL)
+Best fit r: -3.99286  -4.00868/+4.59447  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.95609  -4.75451/+5.33062  (68% CL)
+Best fit r: 2.41037  -4.64036/+5.23815  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.479928  -4.49964/+5.10849  (68% CL)
+Best fit r: 6.23323  -4.5972/+5.20266  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.12402  -4.09768/+4.68336  (68% CL)
+Best fit r: 4.49656  -4.4562/+5.08044  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.91984  -3.04575/+3.60553  (68% CL)
+Best fit r: 3.5688  -3.87154/+4.4474  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.64526  -3.96983/+4.56767  (68% CL)
+Best fit r: -1.58538  -4.1205/+4.66212  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.30233  -3.81432/+4.38846  (68% CL)
+Best fit r: -0.107118  -4.27449/+4.86994  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.6709  -4.43554/+5.01974  (68% CL)
+Best fit r: 4.78764  -4.56394/+5.13542  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.39707  -4.65771/+5.24033  (68% CL)
+Best fit r: 2.52612  -4.69751/+5.28828  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.90681  -3.70391/+4.29461  (68% CL)
+Best fit r: 4.70137  -4.52626/+5.15351  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.22119  -3.83302/+4.39909  (68% CL)
+Best fit r: 0.477403  -4.22186/+4.88919  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.95737  -4.08016/+4.6481  (68% CL)
+Best fit r: 1.16131  -4.31915/+4.92985  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 10.2929  -5.11427/+5.6868  (68% CL)
+Best fit r: -2.9278  -4.09069/+4.66499  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.78651  -4.44511/+5.02482  (68% CL)
+Best fit r: 6.21809  -4.71374/+5.24451  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -7.11133  -3.32093/+3.95043  (68% CL)
+Best fit r: 0.777829  -4.52051/+5.13224  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.938742  -4.23913/+4.86628  (68% CL)
+Best fit r: 6.68376  -4.546/+5.11646  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.686418  -4.07133/+4.65964  (68% CL)
+Best fit r: 0.464157  -4.21617/+4.78757  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.32793  -4.0768/+4.66766  (68% CL)
+Best fit r: 1.72809  -4.69737/+5.31415  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.665987  -4.39831/+4.99817  (68% CL)
+Best fit r: 1.92992  -4.25777/+4.904  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -9.31072  -2.9461/+3.49534  (68% CL)
+Best fit r: -4.7075  -3.61354/+4.15825  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.05521  -4.24564/+4.89791  (68% CL)
+Best fit r: -1.18587  -4.03354/+4.74106  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.33769  -4.53008/+5.09981  (68% CL)
+Best fit r: 2.69335  -4.55045/+5.14451  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.91621  -4.52031/+5.10905  (68% CL)
+Best fit r: 5.68491  -4.43931/+4.99776  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.943659  -4.07956/+4.68261  (68% CL)
+Best fit r: -0.618017  -3.84825/+4.4445  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.41844  -3.6312/+4.20772  (68% CL)
+Best fit r: 8.65522  -4.92079/+5.52373  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.57711  -3.82257/+4.34505  (68% CL)
+Best fit r: 3.4802  -4.56661/+5.13696  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.2486  -4.88137/+5.47101  (68% CL)
+Best fit r: -6.00487  -3.99713/+4.60256  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.52137  -4.28681/+4.85814  (68% CL)
+Best fit r: -5.88569  -3.70259/+4.28588  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.509838  -3.42358/+4.06142  (68% CL)
+Best fit r: 0.239905  -3.51724/+4.07829  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 10.0123  -5.21895/+5.85719  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
+Best fit r: 1.27952  -4.61454/+5.19384  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -4.141  -3.59794/+4.12528  (68% CL)
+Best fit r: -6.24879  -3.1385/+3.6983  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.15699  -3.81587/+4.42976  (68% CL)
+Best fit r: 4.80817  -4.38929/+4.99392  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.75305  -3.9317/+4.49138  (68% CL)
+Best fit r: -4.83024  -4.06355/+4.63707  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.18493  -3.78602/+4.40261  (68% CL)
+Best fit r: 1.05619  -4.44676/+5.01996  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.31591  -4.83648/+5.44058  (68% CL)
+Best fit r: 7.38292  -4.87417/+5.47951  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.44125  -4.49801/+5.09664  (68% CL)
+Best fit r: 1.42259  -4.1981/+4.81305  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.33059  -3.68147/+4.25987  (68% CL)
+Best fit r: -1.78768  -3.85395/+4.42228  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 13.0026  -5.29368/+5.86745  (68% CL)
+Best fit r: 1.0227  -4.62796/+5.22017  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 11.3676  -5.09743/+5.64935  (68% CL)
+Best fit r: 7.10804  -4.83278/+5.39567  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.3749  -4.11083/+4.71528  (68% CL)
+Best fit r: -7.15463  -4.03114/+4.67593  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.86747  -4.2651/+4.72691  (68% CL)
+Best fit r: -0.913201  -3.81595/+4.36769  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.34214  -4.23237/+4.81417  (68% CL)
+Best fit r: 1.93678  -4.41435/+4.92203  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.105997  -4.31724/+4.95695  (68% CL)
+Best fit r: -3.03508  -4.34452/+5.01201  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.632864  -4.49257/+5.04478  (68% CL)
+Best fit r: -0.122086  -4.67899/+5.29807  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.654444  -4.09567/+4.70014  (68% CL)
+Best fit r: 1.40735  -4.19671/+4.85215  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.978675  -3.9426/+4.58779  (68% CL)
+Best fit r: -0.494666  -3.98773/+4.58844  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.85693  -4.60837/+5.1895  (68% CL)
+Best fit r: 6.07647  -4.59603/+5.18781  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.173045  -4.16261/+4.71694  (68% CL)
+Best fit r: -1.43798  -4.08381/+4.64  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.98941  -4.25019/+4.91174  (68% CL)
+Best fit r: 1.34344  -4.25325/+4.85141  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.03968  -4.03172/+4.63545  (68% CL)
+Best fit r: -2.04137  -4.03168/+4.63546  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.07748  -3.87324/+4.42527  (68% CL)
+Best fit r: 1.69846  -4.03976/+4.62276  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.446603  -4.36766/+4.94583  (68% CL)
+Best fit r: 0.540166  -4.37435/+4.95572  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -1438,782 +1438,776 @@ Best fit r: 7.85385  -4.59562/+5.15357  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.81369  -4.74986/+5.36136  (68% CL)
+Best fit r: 2.81753  -4.75374/+5.36116  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.793  -3.94455/+4.55468  (68% CL)
+Best fit r: -2.07381  -4.00983/+4.63806  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.199442  -4.09931/+4.64854  (68% CL)
+Best fit r: 0.356259  -4.09949/+4.65799  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.51168  -3.50489/+4.06021  (68% CL)
+Best fit r: -2.08435  -3.8669/+4.42057  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.19509  -4.50026/+5.06761  (68% CL)
+Best fit r: 0.660809  -4.33749/+4.94209  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.89722  -4.85015/+5.46332  (68% CL)
+Best fit r: 4.40215  -4.81676/+5.42535  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.40004  -4.20195/+4.89574  (68% CL)
+Best fit r: 2.17945  -4.28093/+4.8871  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.74046  -3.61843/+4.17667  (68% CL)
+Best fit r: -2.75716  -3.76182/+4.2997  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.587394  -4.66425/+5.26594  (68% CL)
+Best fit r: -0.240117  -4.63641/+5.33198  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.80971  -5.40698/+6.02682  (68% CL)
+Best fit r: 5.44679  -5.18991/+5.81525  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.37952  -4.38432/+4.96416  (68% CL)
+Best fit r: 4.40961  -4.39103/+4.97569  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.45557  -4.47139/+5.0548  (68% CL)
+Best fit r: 2.43726  -4.62205/+5.31012  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.96108  -4.55568/+5.11563  (68% CL)
+Best fit r: 7.02211  -4.56429/+5.10965  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.04046  -4.15321/+4.77146  (68% CL)
+Best fit r: 1.24948  -3.8175/+4.43748  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: -6.84936  -3.11798/+3.67259  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -0.550196  -4.32633/+4.91417  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -0.670246  -4.1085/+4.64191  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -1.92269  -4.16425/+4.78357  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -4.14962  -3.51559/+4.12632  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 1.89018  -4.61332/+5.22088  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -1.25904  -3.95221/+4.5217  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -5.20204  -3.65989/+4.23038  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -3.48343  -4.06466/+4.57797  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -0.514581  -4.1582/+4.82246  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 0.694254  -4.09756/+4.64869  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -1.72564  -3.69749/+4.26058  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 0.41399  -4.04885/+4.71476  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 4.47082  -4.50509/+5.12267  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 10.5657  -5.22523/+5.8166  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 0.480751  -4.36011/+4.97253  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -7.03014  -3.32602/+3.88156  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -6.97417  -3.82275/+4.49333  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: -6.94355  -2.9802/+3.58436  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 4.32393  -4.41146/+5.00264  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -5.08518  -3.85991/+4.43051  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 3.65523  -4.67655/+5.30997  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 2.86479  -4.77865/+5.3972  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 2.37177  -4.22679/+4.83558  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -1.51273  -4.78132/+5.35609  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -0.281982  -3.73802/+4.32633  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 0.869501  -4.11378/+4.68924  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -6.46273  -3.80709/+4.38057  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 0.515155  -3.88161/+4.46346  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 4.39416  -4.4372/+5.03962  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 6.92403  -4.49147/+5.04459  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -1.89219  -3.98419/+4.5439  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -2.47059  -3.86415/+4.41161  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -3.27462  -3.63449/+4.20313  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.77468  -3.34888/+3.90229  (68% CL)
+Best fit r: 4.46382  -4.54217/+5.02905  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.62138  -4.09385/+4.64943  (68% CL)
+Best fit r: 0.911217  -4.39691/+4.95129  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.35761  -4.46808/+5.06982  (68% CL)
+Best fit r: -0.858897  -4.40047/+4.98419  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.35998  -4.17483/+4.81712  (68% CL)
+Best fit r: 5.16735  -4.87033/+5.50986  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.08345  -4.22623/+4.82707  (68% CL)
+Best fit r: -5.57317  -3.47729/+4.02574  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.78738  -4.14342/+4.76825  (68% CL)
+Best fit r: 0.980603  -4.38585/+4.95991  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.70794  -4.70633/+5.26425  (68% CL)
+Best fit r: -7.56546  -3.29122/+3.89872  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.488702  -3.93586/+4.55319  (68% CL)
+Best fit r: -2.43829  -3.84862/+4.39522  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.08855  -3.76608/+4.35854  (68% CL)
+Best fit r: -3.27715  -3.94165/+4.50424  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.41079  -4.11004/+4.69412  (68% CL)
+Best fit r: 2.80735  -4.58957/+5.18751  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.310957  -4.29278/+4.91333  (68% CL)
+Best fit r: 0.297703  -3.9772/+4.59981  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.66491  -3.99313/+4.56486  (68% CL)
+Best fit r: -1.91127  -3.66497/+4.19477  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 2.67346  -4.4765/+5.03773  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.75575  -3.11384/+3.67533  (68% CL)
+Best fit r: 2.66521  -4.24508/+4.82381  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.341702  -4.16884/+4.84816  (68% CL)
+Best fit r: -3.9134  -3.57681/+4.12009  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.43865  -3.84404/+4.40962  (68% CL)
+Best fit r: -2.92097  -4.04365/+4.59713  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.385696  -4.27323/+4.91188  (68% CL)
+Best fit r: 3.0014  -4.36094/+4.97686  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.08451  -3.58768/+4.11814  (68% CL)
+Best fit r: -1.01463  -4.18387/+4.77844  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.849216  -4.09154/+4.69183  (68% CL)
+Best fit r: 6.31662  -4.46568/+5.03314  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.28048  -4.27617/+4.91827  (68% CL)
+Best fit r: 12.7378  -5.12386/+5.68  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.68836  -3.65341/+4.29415  (68% CL)
+Best fit r: 4.85857  -4.56421/+5.1382  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.398873  -4.49126/+5.03013  (68% CL)
+Best fit r: -9.56291  -3.16711/+3.73122  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.00467454  -4.33999/+4.9238  (68% CL)
+Best fit r: 5.09689  -4.52304/+5.11474  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.910228  -4.10037/+4.67625  (68% CL)
+Best fit r: 11.5928  -5.01561/+5.61212  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.6015  -3.30248/+3.94247  (68% CL)
+Best fit r: 6.97989  -5.34918/+5.91174  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.91967  -4.18567/+4.79584  (68% CL)
+Best fit r: -4.12182  -3.53063/+4.13518  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.825927  -3.72909/+4.32488  (68% CL)
+Best fit r: -4.40247  -3.63585/+4.17401  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.770148  -4.29505/+4.87254  (68% CL)
+Best fit r: 3.17018  -4.4418/+5.04435  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.67195  -4.2111/+4.77147  (68% CL)
+Best fit r: 1.18129  -4.25248/+4.90378  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.593779  -3.8545/+4.47055  (68% CL)
+Best fit r: 6.5768  -4.65385/+5.20906  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.93868  -3.70039/+4.27378  (68% CL)
+Best fit r: 6.25267  -4.88965/+5.46958  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.22676  -4.08489/+4.65094  (68% CL)
+Best fit r: 4.5214  -4.58918/+5.14305  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.41305  -4.59936/+5.20648  (68% CL)
+Best fit r: -2.09364  -3.97264/+4.55312  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.87162  -3.73725/+4.35341  (68% CL)
+Best fit r: 2.25977  -4.42124/+4.99418  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.173925  -4.73374/+5.28351  (68% CL)
+Best fit r: 6.86004  -4.60732/+5.18518  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.10137  -4.62474/+5.22481  (68% CL)
+Best fit r: -0.35938  -3.85074/+4.42566  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.5956  -3.88787/+4.46443  (68% CL)
+Best fit r: 0.337292  -4.14832/+4.74026  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.19879  -3.95975/+4.50843  (68% CL)
+Best fit r: 4.66931  -4.40383/+4.9602  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.2876  -4.14558/+4.78159  (68% CL)
+Best fit r: -3.48056  -4.10642/+4.7835  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.48564  -4.41775/+4.99405  (68% CL)
+Best fit r: -2.76041  -4.21931/+4.77517  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -9.53118  -2.91369/+3.5831  (68% CL)
+Best fit r: -0.255413  -4.29799/+4.94094  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.9165  -4.20821/+4.74723  (68% CL)
+Best fit r: 9.77415  -5.45948/+6.06206  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.60491  -4.73085/+5.37369  (68% CL)
+Best fit r: 8.66137  -4.93991/+5.51782  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.26637  -4.27589/+4.84536  (68% CL)
+Best fit r: 0.270795  -4.02829/+4.59361  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.15015  -4.12707/+4.63753  (68% CL)
+Best fit r: 8.79684  -5.32589/+5.91537  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.6601  -4.67331/+5.26247  (68% CL)
+Best fit r: -3.06298  -3.31348/+3.84562  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.72635  -4.44863/+4.99779  (68% CL)
+Best fit r: 3.83822  -4.33005/+4.95322  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.85518  -4.57345/+5.14672  (68% CL)
+Best fit r: -0.57037  -4.25953/+4.87168  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.5893  -4.73664/+5.33709  (68% CL)
+Best fit r: 6.2582  -4.87902/+5.45667  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.96283  -3.79884/+4.36455  (68% CL)
+Best fit r: 3.29312  -4.77535/+5.40311  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.63353  -4.04588/+4.58991  (68% CL)
+Best fit r: -2.18629  -3.53386/+4.12787  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.6113  -3.69984/+4.25647  (68% CL)
+Best fit r: 5.86843  -5.0606/+5.59401  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.38572  -4.41496/+4.98295  (68% CL)
+Best fit r: -4.39012  -3.8049/+4.39412  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.98256  -4.49022/+5.04671  (68% CL)
+Best fit r: 0.142718  -4.12026/+4.74049  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.06628  -5.28547/+5.82528  (68% CL)
+Best fit r: -5.88655  -3.472/+4.04496  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.448063  -3.95179/+4.52226  (68% CL)
+Best fit r: 5.81383  -4.69067/+5.2531  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 11.3036  -5.53726/+6.13448  (68% CL)
+Best fit r: -0.706292  -4.14904/+4.74097  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.19666  -3.84565/+4.43683  (68% CL)
+Best fit r: -2.68393  -3.87312/+4.39596  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.43303  -3.89432/+4.41794  (68% CL)
+Best fit r: 11.1113  -5.26541/+5.83579  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.3319  -4.24348/+4.8333  (68% CL)
+Best fit r: 1.62607  -4.70014/+5.25804  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.91143  -3.88668/+4.43844  (68% CL)
+Best fit r: -2.64366  -4.06876/+4.58339  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.8204  -3.73856/+4.30016  (68% CL)
+Best fit r: -4.18624  -3.84048/+4.41943  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 3.03029  -4.41548/+4.96071  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: 3.94844  -4.37955/+4.97543  (68% CL)
+Best fit r: -5.7047  -3.10665/+3.66821  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.91599  -3.24585/+3.85326  (68% CL)
+Best fit r: 6.92065  -4.57373/+5.15796  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.7581  -3.69348/+4.25247  (68% CL)
+Best fit r: 0.691702  -4.59282/+5.15358  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.34455  -4.78577/+5.33506  (68% CL)
+Best fit r: -0.459521  -4.06792/+4.60506  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.68543  -4.59114/+5.14495  (68% CL)
+Best fit r: 0.941808  -4.39323/+4.95439  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.20985  -3.55498/+4.08668  (68% CL)
+Best fit r: 2.57369  -4.47884/+5.04295  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.620488  -4.42335/+5.02838  (68% CL)
+Best fit r: 1.40591  -4.22175/+4.75694  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.94368  -3.57139/+4.1301  (68% CL)
+Best fit r: -1.53802  -4.00968/+4.6098  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.7428  -4.24952/+4.80802  (68% CL)
+Best fit r: -6.95914  -3.12952/+3.68419  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.36501  -3.63929/+4.21552  (68% CL)
+Best fit r: 3.01996  -4.43586/+5.02162  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 9.98102  -4.97635/+5.57353  (68% CL)
+Best fit r: 5.83035  -4.81516/+5.44369  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.32771  -4.41548/+5.00391  (68% CL)
+Best fit r: 0.438434  -4.43695/+5.00921  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.24681  -4.80789/+5.41461  (68% CL)
+Best fit r: 5.45422  -4.76325/+5.35499  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -7.67383  -3.28862/+3.808  (68% CL)
+Best fit r: -1.49059  -3.9698/+4.59415  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.92317  -3.99783/+4.54791  (68% CL)
+Best fit r: -3.61425  -3.77557/+4.31951  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.69354  -4.87636/+5.43938  (68% CL)
+Best fit r: 9.37563  -5.01269/+5.67903  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.43823  -3.64294/+4.25028  (68% CL)
+Best fit r: 2.91306  -4.43811/+5.02677  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.66321  -4.63702/+5.22746  (68% CL)
+Best fit r: -2.70531  -3.92096/+4.50951  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.57163  -4.26506/+4.84917  (68% CL)
+Best fit r: -0.688725  -3.57428/+4.15796  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.52733  -3.73309/+4.3188  (68% CL)
+Best fit r: 1.66437  -4.17731/+4.7637  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.2825  -3.68933/+4.27175  (68% CL)
+Best fit r: 4.75577  -4.75688/+5.38676  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.2288  -4.56456/+5.15604  (68% CL)
+Best fit r: -1.46616  -3.89945/+4.52759  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 14.8399  -5.54802/+6.11495  (68% CL)
+Best fit r: -0.0475346  -4.32807/+4.89914  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.38671  -4.51947/+5.09082  (68% CL)
+Best fit r: 2.12578  -3.84325/+4.40101  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.04053  -3.46446/+4.04873  (68% CL)
+Best fit r: 2.01471  -4.49023/+5.04862  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.98038  -3.74158/+4.35507  (68% CL)
+Best fit r: -4.12134  -3.41996/+4.01285  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.04148  -3.95252/+4.55078  (68% CL)
+Best fit r: 7.94221  -4.9366/+5.53291  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.0487142  -4.05478/+4.61008  (68% CL)
+Best fit r: -3.06681  -3.56704/+4.11236  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.379091  -4.30255/+4.87711  (68% CL)
+Best fit r: -3.49494  -3.41781/+3.98094  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.654266  -4.09937/+4.69535  (68% CL)
+Best fit r: -1.83275  -4.10265/+4.68025  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.16749  -3.5918/+4.14662  (68% CL)
+Best fit r: -0.844872  -4.01261/+4.55662  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.12248  -4.57596/+5.16528  (68% CL)
+Best fit r: 2.37486  -4.25211/+4.80592  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.63955  -5.11447/+5.65046  (68% CL)
+Best fit r: 0.919727  -4.0381/+4.66463  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.15077  -4.0015/+4.56791  (68% CL)
+Best fit r: -2.23677  -4.39554/+4.96432  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.72162  -3.82223/+4.40399  (68% CL)
+Best fit r: 2.71597  -4.18263/+4.72377  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.56494  -4.99313/+5.68537  (68% CL)
-WARNING: underflow to -0.474473 in pdf_binc_01_test_obsOnly for bin 24, weight 1
+Best fit r: 2.62965  -4.09605/+4.65777  (68% CL)
+WARNING: underflow to -0.0346315 in pdf_binc_01_test_obsOnly for bin 25, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,coefG1,coefG2,ex1,ex2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = 0.000509355 +/- 0.994492,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -16.4913 +/- 2.83586,shapeBkg_bmodel_c_01_test_c_01_test__norm = 151.476 +/- 10.9018)
-FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.474473 in pdf_binc_01_test_obsOnly for bin 24, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,coefG1,coefG2,ex1,ex2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = 0.000509355 +/- 8.12e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -16.4913 +/- 2.83586,shapeBkg_bmodel_c_01_test_c_01_test__norm = 151.476 +/- 8.90127e-19)
+ server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = -1.41151e-05 +/- 0.996586,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -15.6873 +/- 3.3263,shapeBkg_bmodel_c_01_test_c_01_test__norm = 158.233 +/- 11.5332)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -11.657  -2.52932/+3.16247  (68% CL)
+Best fit r: -10.7636  -3.05602/+3.62688  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.445775  -4.36037/+4.96656  (68% CL)
+Best fit r: 1.06564  -4.21473/+4.77465  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.604983  -4.62645/+5.22011  (68% CL)
+Best fit r: 3.54141  -4.22371/+4.82792  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.03199  -4.00058/+4.63514  (68% CL)
+Best fit r: -0.407277  -4.01395/+4.61561  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 16.2792  -5.68601/+6.2524  (68% CL)
+Best fit r: 6.24898  -4.87364/+5.47486  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.714371  -4.17255/+4.75374  (68% CL)
+Best fit r: 9.61784  -5.02552/+5.545  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.55467  -4.1696/+4.7035  (68% CL)
+Best fit r: -4.27144  -3.85766/+4.45017  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.35929  -4.57228/+5.16954  (68% CL)
+Best fit r: -3.46821  -4.24677/+4.81361  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.12062  -4.76098/+5.36909  (68% CL)
+Best fit r: 5.22958  -4.61169/+5.23301  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.17243  -4.05353/+4.64079  (68% CL)
+Best fit r: 6.4789  -5.00116/+5.63085  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.80677  -5.34406/+5.95258  (68% CL)
+Best fit r: -2.64395  -3.86321/+4.43947  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.45326  -4.24175/+4.85439  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -0.74225  -3.98698/+4.5729  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -4.49604  -3.70697/+4.27465  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 3.56238  -4.61831/+5.17486  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -4.13682  -3.91221/+4.48186  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -5.55841  -3.88411/+4.47566  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 1.45816  -4.4108/+5.05884  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 7.30088  -4.58782/+5.17359  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 3.63184  -4.62329/+5.21848  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -2.22062  -4.1088/+4.64861  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 3.5528  -4.31959/+4.8531  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 3.43871  -4.58414/+5.19433  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 0.238981  -4.20537/+4.77281  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 1.99779  -4.19393/+4.76043  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -6.76409  -3.41873/+4.02037  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 3.77689  -4.3754/+4.97242  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 5.35347  -4.58795/+5.19832  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 2.39502  -4.49779/+5.06661  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 5.85423  -4.84571/+5.42791  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 1.67327  -4.43559/+5.01527  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 15.4304  -5.3324/+5.88824  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -1.1643  -3.84065/+4.38968  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -2.88777  -3.90199/+4.51817  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 5.63935  -4.53997/+5.10937  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -4.01226  -3.85468/+4.44618  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 1.67205  -4.07844/+4.63914  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -4.88696  -3.46352/+4.00464  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 0.641605  -4.00395/+4.67825  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -2.58418  -4.03058/+4.64386  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 1.76177  -4.51759/+5.09929  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 3.27537  -4.18303/+4.81249  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -0.554668  -4.15411/+4.73636  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 1.77148  -3.95878/+4.63159  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -3.69508  -3.74543/+4.32068  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
+Best fit r: -2.5409  -3.33119/+3.90446  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -0.726991  -4.1141/+4.66558  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -8.36944  -3.27907/+3.98377  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -3.78694  -3.40523/+4.02454  (68% CL)
+Best fit r: -2.48307  -3.61897/+4.19654  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.531023  -3.71378/+4.29397  (68% CL)
+Best fit r: 0.741073  -4.32369/+4.89696  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.73643  -4.44139/+4.98229  (68% CL)
+Best fit r: 1.18045  -4.49928/+5.05306  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.14823  -4.77739/+5.34196  (68% CL)
+Best fit r: 0.525231  -4.43783/+5.07117  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.62887  -3.45336/+4.09361  (68% CL)
+Best fit r: 1.60318  -4.58755/+5.19339  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.53785  -4.87642/+5.45458  (68% CL)
+Best fit r: 8.07363  -4.81199/+5.37522  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.34511  -4.09579/+4.68712  (68% CL)
+Best fit r: 1.58939  -4.23937/+4.85603  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.841183  -3.86152/+4.42472  (68% CL)
+Best fit r: 3.01258  -4.76384/+5.31486  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.0804749  -4.29178/+4.83362  (68% CL)
+Best fit r: -1.37511  -4.39894/+4.91046  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.18925  -4.68386/+5.2662  (68% CL)
+Best fit r: -3.51386  -3.81837/+4.40265  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.78452  -4.36916/+4.91891  (68% CL)
+Best fit r: -5.11867  -3.88939/+4.45515  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 2.31224  -3.91142/+4.4757  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -7.29204  -3.39043/+3.9495  (68% CL)
+Best fit r: -4.32346  -3.63136/+4.20832  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.2166  -3.69898/+4.29297  (68% CL)
+Best fit r: 5.56503  -4.86637/+5.4514  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.6683  -4.96652/+5.60083  (68% CL)
+Best fit r: -8.6214  -3.17454/+3.78722  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.00454  -3.91175/+4.49998  (68% CL)
+Best fit r: -2.04327  -3.9894/+4.53336  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.48923  -4.73101/+5.34463  (68% CL)
+Best fit r: -7.17147  -3.32493/+3.94271  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.101966  -4.30802/+4.85475  (68% CL)
+Best fit r: -2.61741  -4.05231/+4.61526  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.08223  -4.21439/+4.76316  (68% CL)
+Best fit r: 0.66723  -4.40457/+5.01107  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.12712  -4.83683/+5.43456  (68% CL)
+Best fit r: 4.54491  -4.85432/+5.42951  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.73668  -4.08882/+4.68119  (68% CL)
+Best fit r: 1.51438  -4.04662/+4.62802  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.29471  -4.19394/+4.73435  (68% CL)
+Best fit r: 2.302  -4.32301/+4.86327  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.19475  -4.06922/+4.70683  (68% CL)
+Best fit r: 2.58068  -4.41307/+4.98045  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.42947  -4.08523/+4.67458  (68% CL)
+Best fit r: -3.26512  -3.63881/+4.19488  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.41124  -3.33547/+3.9038  (68% CL)
+Best fit r: -2.43983  -3.7669/+4.39828  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -7.96141  -3.37345/+3.97347  (68% CL)
+Best fit r: -0.830732  -4.25664/+4.84923  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.51958  -4.46196/+5.04314  (68% CL)
+Best fit r: 4.68358  -4.31411/+4.89792  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.33406  -3.7738/+4.40108  (68% CL)
+Best fit r: -2.46975  -4.21923/+4.82079  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.68571  -4.16536/+4.75767  (68% CL)
+Best fit r: 2.95765  -4.24979/+4.81715  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.5041  -4.51384/+5.06534  (68% CL)
+Best fit r: 0.970063  -4.48987/+5.05617  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.599912  -4.27984/+4.84077  (68% CL)
+Best fit r: 0.514718  -4.26298/+4.82067  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.38186  -4.35979/+4.94054  (68% CL)
+Best fit r: 2.38228  -4.3598/+4.94052  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.49449  -3.67773/+4.34028  (68% CL)
+Best fit r: -6.49441  -3.67774/+4.34028  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.08951  -4.03604/+4.60484  (68% CL)
+Best fit r: -4.08777  -4.03609/+4.60491  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.72484  -5.19108/+5.79087  (68% CL)
+Best fit r: 7.34078  -5.17392/+5.77795  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -2228,224 +2222,235 @@ Done in 0.00 min (cpu), 0.00 min (real)
 Best fit r: 4.2689  -4.45454/+5.02781  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -6.2522  -2.96114/+3.5084  (68% CL)
+Best fit r: -8.26449  -2.82496/+3.38182  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 10.0117  -5.24803/+5.82784  (68% CL)
+Best fit r: 8.71676  -5.09934/+5.68578  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.94457  -3.70704/+4.2537  (68% CL)
+Best fit r: -2.93246  -3.65077/+4.21092  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.69252  -4.77029/+5.38682  (68% CL)
+Best fit r: 5.44581  -5.00711/+5.58819  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.02061  -4.16109/+4.74411  (68% CL)
+Best fit r: 0.298659  -4.12217/+4.69496  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.0523319  -4.42758/+5.00002  (68% CL)
+Best fit r: 1.20496  -4.18415/+4.79699  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.43144  -4.8502/+5.47014  (68% CL)
+Best fit r: 5.61888  -4.8591/+5.48216  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.899622  -4.38654/+4.97336  (68% CL)
+Best fit r: -0.899235  -4.38656/+4.97422  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 18.1665  -5.55049/+6.04398  (68% CL)
+Best fit r: 18.1682  -5.55059/+6.04379  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.8124  -3.45444/+3.99839  (68% CL)
+Best fit r: -5.20074  -3.43608/+3.98076  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.20733  -4.14419/+4.74807  (68% CL)
+Best fit r: -5.94431  -3.77868/+4.44983  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.56381  -3.36184/+3.86569  (68% CL)
+Best fit r: -6.66393  -3.27715/+3.84354  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.73023  -3.8004/+4.35884  (68% CL)
+Best fit r: 0.578441  -4.42647/+5.01238  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.00882  -3.52745/+4.05294  (68% CL)
+Best fit r: -7.29178  -3.19982/+3.73678  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.2564  -3.62443/+4.176  (68% CL)
+Best fit r: -3.0861  -3.67864/+4.22309  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.50536  -4.48961/+5.08436  (68% CL)
+Best fit r: 3.65443  -4.65564/+5.33206  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.80901  -3.85369/+4.41824  (68% CL)
+Best fit r: -7.7281  -3.83259/+4.5554  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.645822  -3.93578/+4.58028  (68% CL)
+Best fit r: 2.76766  -4.16493/+4.74055  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.15235  -4.03818/+4.68061  (68% CL)
+Best fit r: -5.47524  -3.29367/+3.83284  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.691204  -3.80983/+4.38085  (68% CL)
+Best fit r: -3.96748  -3.49474/+4.11077  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.79417  -3.75692/+4.41213  (68% CL)
+Best fit r: -3.06262  -4.11405/+4.66385  (68% CL)
+WARNING: underflow to -0.247367 in pdf_binc_01_test_obsOnly for bin 27, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,coefG1,coefG2,ex1,ex2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = -0.000256014 +/- 0.996007,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -15.2482 +/- 2.94107,shapeBkg_bmodel_c_01_test_c_01_test__norm = 159.559 +/- 11.5452)
+FASTEXIT from pdf_binc_01_test_obsOnly
+WARNING: underflow to -0.0440018 in pdf_binc_01_test_obsOnly for bin 27, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,coefG1,coefG2,ex1,ex2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = -0.12399 +/- 0.987501,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -15.2482 +/- 2.94107,shapeBkg_bmodel_c_01_test_c_01_test__norm = 167.874 +/- 10.6421)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -10.2758  -2.63447/+3.29926  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: -7.28933  -2.75067/+3.27721  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.49851  -4.60687/+5.18965  (68% CL)
+Best fit r: -3.26916  -4.04782/+4.66406  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.47465  -3.02215/+3.5393  (68% CL)
+Best fit r: 6.17125  -5.16611/+5.77754  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.0227329  -4.0608/+4.68227  (68% CL)
+Best fit r: -0.582334  -4.2004/+4.83243  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.71986  -4.33943/+4.92759  (68% CL)
+Best fit r: -3.91807  -3.98232/+4.61836  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.27578  -4.4131/+5.01546  (68% CL)
+Best fit r: -1.81047  -3.87223/+4.41483  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.2613  -4.36331/+4.91996  (68% CL)
+Best fit r: -1.55766  -3.68289/+4.23523  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.09214  -3.66981/+4.28407  (68% CL)
+Best fit r: -5.21002  -3.86892/+4.52039  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -9.45074  -3.22603/+3.82086  (68% CL)
+Best fit r: -5.18349  -3.52171/+4.04215  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: -7.36789  -3.0488/+3.66343  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.28465  -4.30948/+4.84945  (68% CL)
+Best fit r: 14.1231  -5.64569/+6.23384  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.84533  -3.79372/+4.37573  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -6.24457  -3.36484/+3.97431  (68% CL)
+Best fit r: -1.69621  -3.59709/+4.16512  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 14.4167  -5.95008/+6.55869  (68% CL)
+Best fit r: -4.35533  -3.60499/+4.16417  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -9.59579  -3.16719/+3.9096  (68% CL)
+Best fit r: 5.35726  -4.56249/+5.14016  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.03058  -3.71087/+4.30046  (68% CL)
+Best fit r: 1.43446  -4.60956/+5.16084  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.79159  -4.84554/+5.4547  (68% CL)
+Best fit r: 3.81116  -4.53122/+5.12023  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.34008  -4.17647/+4.74427  (68% CL)
+Best fit r: -1.26948  -4.07062/+4.68166  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.03309  -4.59706/+5.17738  (68% CL)
+Best fit r: 1.37751  -4.93648/+5.52441  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.03645  -3.38717/+4.00206  (68% CL)
+Best fit r: -0.702572  -4.06128/+4.66821  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.19407  -4.80449/+5.35699  (68% CL)
+Best fit r: -7.48094  -3.42408/+3.99837  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.51129  -4.09631/+4.67055  (68% CL)
+Best fit r: -0.709547  -4.35585/+4.92848  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.179597  -4.0816/+4.65591  (68% CL)
+Best fit r: -4.88431  -3.68957/+4.26895  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -9.02119  -2.86371/+3.42642  (68% CL)
+Best fit r: -1.7726  -3.42864/+3.99252  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.12703  -4.11966/+4.70752  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -5.10755  -3.34035/+3.86382  (68% CL)
+Best fit r: -2.03861  -3.87961/+4.49315  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.79807  -3.69936/+4.26929  (68% CL)
+Best fit r: 4.04049  -4.40284/+4.94536  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.97914  -4.57124/+5.08244  (68% CL)
+Best fit r: 7.76387  -4.68554/+5.24903  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.71938  -4.10433/+4.73482  (68% CL)
+Best fit r: 2.14508  -4.16532/+4.74432  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.360788  -4.20767/+4.79587  (68% CL)
+Best fit r: 9.53396  -4.92032/+5.49209  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.47439  -4.81855/+5.39144  (68% CL)
+Best fit r: 8.98732  -4.91183/+5.43797  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.95585  -4.80984/+5.40817  (68% CL)
+Best fit r: 1.45153  -4.09976/+4.73351  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.50579  -4.33867/+4.92618  (68% CL)
+Best fit r: 2.49816  -4.14273/+4.73786  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.88542  -4.70752/+5.25793  (68% CL)
+Best fit r: -1.83299  -3.9268/+4.5181  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.14074  -3.99253/+4.54872  (68% CL)
+Best fit r: -1.00067  -3.70607/+4.33308  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.58142  -3.70577/+4.28374  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -3.93319  -3.6187/+4.29101  (68% CL)
+Best fit r: -3.92975  -3.61876/+4.29374  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -2453,108 +2458,103 @@ Best fit r: -3.76066  -3.42099/+3.94424  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.69545  -4.44778/+4.99998  (68% CL)
+Best fit r: 1.69695  -4.44787/+5.00329  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.49203  -4.07584/+4.63197  (68% CL)
+Best fit r: -0.506551  -4.06996/+4.6275  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.28879  -3.64783/+4.21479  (68% CL)
+Best fit r: -3.28849  -3.64783/+4.21478  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.498092  -4.45157/+5.03793  (68% CL)
+Best fit r: 4.69144  -4.74788/+5.3664  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.73872  -3.79471/+4.34426  (68% CL)
+Best fit r: -4.81987  -3.3902/+3.89368  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.41867  -4.1534/+4.71886  (68% CL)
+Best fit r: -1.95277  -3.78053/+4.40966  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.26299  -3.93553/+4.58166  (68% CL)
+Best fit r: -1.17409  -3.81676/+4.41026  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.05527  -4.29755/+4.90862  (68% CL)
+Best fit r: 4.42524  -4.62373/+5.17386  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.0702748  -3.98131/+4.58146  (68% CL)
+Best fit r: -2.18897  -3.82887/+4.42029  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.21219  -3.85834/+4.44408  (68% CL)
+Best fit r: -1.76877  -4.0362/+4.63004  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.97796  -4.90672/+5.5221  (68% CL)
+Best fit r: 6.28406  -4.95239/+5.56406  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.14983  -3.61563/+4.16531  (68% CL)
+Best fit r: -6.50559  -3.46176/+4.06982  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.45199  -4.53671/+5.16423  (68% CL)
+Best fit r: -6.5685  -4.30155/+4.89697  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.507361  -4.24592/+4.77736  (68% CL)
+Best fit r: -2.7042  -3.66703/+4.21155  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.59682  -4.10458/+4.69666  (68% CL)
+Best fit r: 4.25379  -4.76315/+5.32634  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.625159  -4.35304/+4.96494  (68% CL)
+Best fit r: 0.301745  -4.45963/+5.06031  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.15001  -4.77389/+5.33383  (68% CL)
-WARNING: underflow to -0.0978171 in pdf_binc_01_test_obsOnly for bin 26, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,coefG1,coefG2,ex1,ex2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = -0.00014198 +/- 0.997028,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -14.7181 +/- 3.21082,shapeBkg_bmodel_c_01_test_c_01_test__norm = 148.716 +/- 11.2376)
-FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -9.68682  -2.93455/+3.51926  (68% CL)
+Best fit r: 5.6326  -4.81692/+5.42169  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.82345  -3.53533/+4.12666  (68% CL)
+Best fit r: -1.91601  -3.6349/+4.19483  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.436558  -4.54017/+5.18652  (68% CL)
+Best fit r: -3.76692  -3.6777/+4.27341  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.27164  -3.84316/+4.43236  (68% CL)
+Best fit r: -1.47644  -4.32368/+4.96995  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.9979  -3.62418/+4.17719  (68% CL)
+Best fit r: -3.2709  -3.84317/+4.43236  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.37942  -3.92888/+4.52224  (68% CL)
+Best fit r: -2.99335  -3.62585/+4.17983  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.33291  -4.32494/+4.91108  (68% CL)
+Best fit r: -3.37858  -3.9289/+4.52224  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.43524  -4.32624/+4.8874  (68% CL)
+Best fit r: 1.33329  -4.32495/+4.91108  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -3.44263  -4.32583/+4.88373  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -2566,83 +2566,83 @@ Best fit r: -3.46518  -3.81198/+4.42562  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.0499316  -3.47271/+4.01758  (68% CL)
+Best fit r: 1.47227  -3.67106/+4.22946  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.729924  -4.37375/+4.94315  (68% CL)
+Best fit r: 0.89258  -4.37603/+4.9485  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.14022  -4.49495/+5.14584  (68% CL)
+Best fit r: 2.13355  -4.49092/+5.14253  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.305158  -4.53521/+5.16709  (68% CL)
+Best fit r: 4.4168  -4.91282/+5.55211  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.94886  -5.1973/+5.79737  (68% CL)
+Best fit r: 6.26204  -5.05353/+5.6638  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.2086  -4.38479/+4.93121  (68% CL)
+Best fit r: 4.39657  -4.39049/+4.97262  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.69296  -4.02118/+4.61742  (68% CL)
+Best fit r: 4.3488  -4.26076/+4.81315  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.42414  -3.50015/+4.11453  (68% CL)
+Best fit r: -3.34359  -3.53688/+4.189  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.1902  -4.85864/+5.42101  (68% CL)
+Best fit r: 3.67851  -4.93923/+5.5002  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.143  -4.3719/+4.97524  (68% CL)
+Best fit r: 4.07141  -4.58549/+5.19311  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.604039  -3.72412/+4.33922  (68% CL)
+Best fit r: 1.81206  -4.30994/+4.95568  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.12515  -4.00141/+4.56445  (68% CL)
+Best fit r: 0.919812  -4.11658/+4.68319  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.13748  -4.87807/+5.50155  (68% CL)
+Best fit r: 5.23653  -4.53902/+5.12454  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.80405  -3.73839/+4.2823  (68% CL)
+Best fit r: -4.83477  -3.42096/+3.96462  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.60723  -4.44326/+5.08481  (68% CL)
+Best fit r: 9.17393  -5.10544/+5.69344  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.81077  -4.0018/+4.5793  (68% CL)
+Best fit r: 1.49907  -4.42414/+4.97774  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.28136  -4.13475/+4.71641  (68% CL)
+Best fit r: 0.871638  -4.31481/+4.9242  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.88312  -4.28083/+4.8837  (68% CL)
+Best fit r: 3.09656  -4.39017/+4.99581  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.0627291  -4.23641/+4.84273  (68% CL)
+Best fit r: 0.699765  -4.17202/+4.84362  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.0140111  -4.05534/+4.60852  (68% CL)
+Best fit r: 0.290747  -4.04517/+4.63725  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -2650,11 +2650,11 @@ Best fit r: -1.75152  -4.02723/+4.5472  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -8.41424  -3.22768/+3.79729  (68% CL)
+Best fit r: -8.41405  -3.22768/+3.7973  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 9.77912  -5.14342/+5.67857  (68% CL)
+Best fit r: 9.78168  -5.14357/+5.67837  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -2670,131 +2670,130 @@ Best fit r: 2.84619  -4.54132/+5.12671  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.74306  -4.37368/+4.94365  (68% CL)
+Best fit r: -0.8873  -3.9749/+4.58524  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.91236  -3.34434/+3.9473  (68% CL)
+Best fit r: -4.09512  -3.50263/+4.0545  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.546  -3.66293/+4.23975  (68% CL)
+Best fit r: -7.73866  -3.46809/+4.07586  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.83949  -4.88838/+5.53219  (68% CL)
+Best fit r: 6.36401  -4.96456/+5.48967  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.78095  -4.27801/+4.84825  (68% CL)
+Best fit r: 0.452575  -4.61508/+5.17532  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.78009  -4.46848/+5.04932  (68% CL)
+Best fit r: 2.63209  -4.5215/+5.11609  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.12229  -4.29781/+4.87574  (68% CL)
+Best fit r: 0.014525  -4.17425/+4.74659  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.522631  -4.60209/+5.20737  (68% CL)
+Best fit r: 0.330335  -4.46268/+5.08189  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.60924  -4.25116/+4.83495  (68% CL)
+Best fit r: 5.29236  -4.4337/+4.9944  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.2266  -4.07591/+4.60476  (68% CL)
+Best fit r: -3.41088  -3.91395/+4.47292  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.70474  -3.92498/+4.53909  (68% CL)
+Best fit r: -4.75633  -3.73033/+4.29186  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.88281  -4.66348/+5.22781  (68% CL)
+Best fit r: -3.84897  -3.79983/+4.42575  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.1091  -4.4512/+5.04706  (68% CL)
+Best fit r: 5.53792  -4.297/+4.91514  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.18595  -4.47267/+5.04711  (68% CL)
+Best fit r: 4.64871  -4.83991/+5.3154  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.84211  -3.9308/+4.55426  (68% CL)
+Best fit r: 3.5527  -4.55537/+5.11646  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.89848  -4.02756/+4.6932  (68% CL)
+Best fit r: 8.59416  -4.79857/+5.37377  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.16384  -3.80846/+4.41493  (68% CL)
+Best fit r: -1.36459  -3.93011/+4.52738  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.1353  -4.39695/+4.97587  (68% CL)
+Best fit r: 3.93362  -4.65115/+5.24249  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.32683  -5.06984/+5.57568  (68% CL)
+Best fit r: 9.91451  -5.14447/+5.63518  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.460386  -4.12195/+4.71109  (68% CL)
+Best fit r: 1.33859  -4.03517/+4.68491  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.68546  -4.11373/+4.63445  (68% CL)
+Best fit r: 1.22078  -4.19417/+4.82417  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.832494  -4.18307/+4.76381  (68% CL)
+Best fit r: 7.16392  -4.66835/+5.29502  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.142609  -4.17838/+4.73979  (68% CL)
+Best fit r: -5.72982  -3.89157/+4.49229  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.557884  -4.04373/+4.63511  (68% CL)
+Best fit r: -6.24572  -3.21691/+3.81462  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: -6.8567  -3.09126/+3.75062  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.81202  -4.00075/+4.56162  (68% CL)
+Best fit r: -2.21813  -3.97815/+4.54628  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.29678  -4.23469/+4.78096  (68% CL)
+Best fit r: 3.05529  -4.57335/+5.16085  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.9466  -4.2534/+4.84596  (68% CL)
+Best fit r: -8.79666  -3.2972/+3.89824  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -8.86622  -3.49869/+4.0245  (68% CL)
+Best fit r: 2.16035  -4.33555/+4.88463  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.63234  -4.18611/+4.77439  (68% CL)
+Best fit r: 0.366816  -4.4009/+4.96183  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.681539  -4.40563/+4.97568  (68% CL)
+Best fit r: -1.29729  -4.04068/+4.67935  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.07898  -3.85009/+4.45126  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -1.04516  -4.26121/+4.82016  (68% CL)
+Best fit r: -1.25888  -4.22055/+4.85142  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -2802,7 +2801,7 @@ Best fit r: 2.04032  -4.59523/+5.22473  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 9.56965  -5.08856/+5.68618  (68% CL)
+Best fit r: 9.50693  -5.09025/+5.69302  (68% CL)
 
  --- FitDiagnostics ---
 Best fit r: -10.7513  -3.17222/+3.71182  (68% CL)
@@ -2818,97 +2817,93 @@ Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
 Best fit r: -13.9975  -3.57609/+4.20502  (68% CL)
-WARNING: underflow to -0.169219 in pdf_binc_01_test_obsOnly for bin 25, weight 2
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -4.99116  -3.66895/+4.313  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 0.28896  -4.27096/+4.85632  (68% CL)
+WARNING: underflow to -0.501733 in pdf_binc_01_test_obsOnly for bin 25, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,coefG1,coefG2,ex1,ex2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = 5.906e-05 +/- 0.995487,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -15.9335 +/- 2.9671,shapeBkg_bmodel_c_01_test_c_01_test__norm = 170.618 +/- 11.9067)
+ server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = -2.63938e-06 +/- 0.996494,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -14.6802 +/- 2.93999,shapeBkg_bmodel_c_01_test_c_01_test__norm = 143.649 +/- 10.9402)
 FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -11.0372  -2.67396/+3.30521  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -0.570838  -4.22997/+4.82296  (68% CL)
-WARNING: underflow to -0.501795 in pdf_binc_01_test_obsOnly for bin 25, weight 1
+WARNING: underflow to -0.501733 in pdf_binc_01_test_obsOnly for bin 25, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,coefG1,coefG2,ex1,ex2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = -2.63135e-06 +/- 0.996493,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -14.6805 +/- 2.93982,shapeBkg_bmodel_c_01_test_c_01_test__norm = 143.649 +/- 10.9402)
-FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.501795 in pdf_binc_01_test_obsOnly for bin 25, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,coefG1,coefG2,ex1,ex2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = -2.63135e-06 +/- 8.13633e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -14.6805 +/- 2.93982,shapeBkg_bmodel_c_01_test_c_01_test__norm = 143.649 +/- 8.93261e-19)
+ server values: params=(MeanG1 = 124.874 +/- 2.50388,MeanG2 = 123.959 +/- 14.769,MeanG3 = 10.8245 +/- 103.86,WidthG1 = 1.55356 +/- 5.0175,WidthG2 = 3.47692 +/- 55.1993,WidthG3 = 46.2395 +/- 543.308,coefG1 = 0.578268 +/- 0.432621,coefG2 = 0.321715 +/- 0.276084,ex1 = 6,ex2 = -1.9,lumi_13TeV = -2.63938e-06 +/- 8.13634e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow = 2,r = -14.6802 +/- 2.93999,shapeBkg_bmodel_c_01_test_c_01_test__norm = 143.649 +/- 8.93268e-19)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -9.64499  -2.55187/+3.35314  (68% CL)
+Best fit r: -9.64469  -2.55182/+3.35319  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.49682  -3.38386/+3.88066  (68% CL)
+Best fit r: -5.60103  -3.35982/+3.85188  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.5292  -3.79125/+4.35433  (68% CL)
+Best fit r: -0.528828  -3.79126/+4.35434  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.86218  -3.9544/+4.5851  (68% CL)
+Best fit r: -3.86001  -3.95443/+4.58786  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.71097  -4.23937/+4.79228  (68% CL)
+Best fit r: -1.71021  -4.23941/+4.79228  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.24528  -3.31305/+3.92575  (68% CL)
+Best fit r: -5.24513  -3.31305/+3.92575  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.637426  -3.71922/+4.31624  (68% CL)
+Best fit r: -1.58704  -3.64646/+4.22999  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.847289  -3.82986/+4.42394  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -5.97419  -3.15059/+3.73836  (68% CL)
+Best fit r: 2.82444  -4.36508/+4.9112  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.99029  -4.83932/+5.48928  (68% CL)
+Best fit r: -3.73848  -3.44832/+4.01186  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.58467  -4.18819/+4.72651  (68% CL)
+Best fit r: 2.94064  -4.6252/+5.22295  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.88708  -3.84403/+4.4208  (68% CL)
+Best fit r: -4.0809  -4.11228/+4.66703  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.94786  -4.13807/+4.72595  (68% CL)
+Best fit r: 3.01682  -4.33074/+4.90663  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.4434  -3.69591/+4.27651  (68% CL)
+Best fit r: -2.64391  -4.07386/+4.66083  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.404916  -4.02989/+4.58748  (68% CL)
+Best fit r: -4.30328  -3.68762/+4.29969  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.781487  -3.92484/+4.46069  (68% CL)
+Best fit r: 1.17448  -4.1041/+4.69816  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.26685  -4.08546/+4.68154  (68% CL)
+Best fit r: -0.93836  -3.91491/+4.46292  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -1.26652  -4.08548/+4.68156  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -2924,23 +2919,23 @@ Best fit r: -1.22357  -4.04519/+4.58925  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.70437  -3.94797/+4.54129  (68% CL)
+Best fit r: -2.70368  -3.94799/+4.54128  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.24966  -3.9456/+4.57306  (68% CL)
+Best fit r: -4.70436  -3.68689/+4.29983  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.35375  -3.73323/+4.27044  (68% CL)
+Best fit r: -2.95464  -3.614/+4.18829  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.45755  -4.43061/+4.97702  (68% CL)
+Best fit r: -0.344519  -4.42644/+4.97616  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.46069  -3.98357/+4.5508  (68% CL)
+Best fit r: -0.807389  -3.98961/+4.59209  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -2951,23 +2946,23 @@ Best fit r: -2.99447  -3.40434/+3.98651  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.72842  -3.80447/+4.44372  (68% CL)
+Best fit r: 1.24854  -4.64092/+5.21509  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.93316  -4.34724/+4.95466  (68% CL)
+Best fit r: 7.34515  -4.82873/+5.38944  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.074246  -4.11558/+4.68038  (68% CL)
+Best fit r: 0.00762246  -4.05974/+4.60904  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.97039  -4.84676/+5.44052  (68% CL)
+Best fit r: 3.73899  -4.85466/+5.44039  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.642212  -3.76986/+4.34035  (68% CL)
+Best fit r: -0.64136  -3.76988/+4.34032  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -2975,93 +2970,93 @@ Best fit r: 2.85586  -4.33721/+4.92415  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.41436  -4.33743/+5.01389  (68% CL)
+Best fit r: 1.35435  -4.44411/+5.10616  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.73449  -4.18605/+4.79913  (68% CL)
+Best fit r: -1.55984  -4.19891/+4.80633  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.85432  -3.98063/+4.55288  (68% CL)
+Best fit r: -4.86013  -3.98048/+4.55294  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.8011  -3.10852/+3.63586  (68% CL)
+Best fit r: -9.49391  -3.28044/+3.86409  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.07798  -4.32426/+5.01658  (68% CL)
+Best fit r: 7.24871  -4.61856/+5.22993  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.697259  -4.43069/+4.99636  (68% CL)
+Best fit r: -0.885517  -4.2022/+4.7787  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.91297  -3.83184/+4.4417  (68% CL)
+Best fit r: -9.093  -3.07042/+3.70666  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.04086  -3.66246/+4.20973  (68% CL)
+Best fit r: -3.74979  -3.7594/+4.33034  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.89646  -4.04655/+4.63641  (68% CL)
+Best fit r: -2.72326  -3.86758/+4.45422  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.27398  -4.01263/+4.57753  (68% CL)
+Best fit r: -4.27295  -4.08622/+4.58734  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -5.94808  -3.09292/+3.71735  (68% CL)
+Best fit r: -6.48131  -2.72222/+3.24977  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.68925  -4.56801/+5.143  (68% CL)
+Best fit r: 1.07296  -4.53613/+5.10227  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.91182  -4.47095/+5.0615  (68% CL)
+Best fit r: 2.85329  -4.40743/+4.98013  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.52078  -4.67563/+5.26087  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -5.14128  -3.31849/+3.98634  (68% CL)
+Best fit r: 7.32989  -4.61798/+5.22717  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -10.0848  -3.21047/+3.83508  (68% CL)
+Best fit r: 4.40257  -4.46869/+5.04418  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: -11.01  -3.03516/+3.67662  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.53287  -4.10134/+4.69631  (68% CL)
+Best fit r: 3.88081  -4.4737/+4.97362  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.18038  -4.57004/+5.15953  (68% CL)
+Best fit r: -2.36252  -4.06003/+4.69971  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.47604  -4.40403/+4.99928  (68% CL)
+Best fit r: 5.43157  -4.59923/+5.18644  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.25414  -3.95203/+4.53411  (68% CL)
+Best fit r: 0.507094  -4.46601/+5.0372  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.12387  -4.43277/+5.01211  (68% CL)
+Best fit r: -1.94275  -3.99636/+4.54637  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.06255  -4.95605/+5.54215  (68% CL)
+Best fit r: 5.28829  -4.92002/+5.5423  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.67424  -4.92847/+5.41985  (68% CL)
+Best fit r: 7.83729  -4.89712/+5.46728  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3069,7 +3064,7 @@ Best fit r: -0.865723  -3.76534/+4.3688  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.516088  -4.225/+4.86272  (68% CL)
+Best fit r: -0.531597  -4.2226/+4.85922  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3081,35 +3076,35 @@ Best fit r: -1.44452  -3.86192/+4.44485  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.31266  -4.8662/+5.48307  (68% CL)
+Best fit r: 2.11873  -4.85557/+5.47366  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.398666  -4.25708/+4.85325  (68% CL)
+Best fit r: -2.50892  -3.90354/+4.49706  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.76349  -3.3941/+3.96684  (68% CL)
+Best fit r: -5.51099  -3.40543/+3.95165  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.00347807  -4.54626/+5.14451  (68% CL)
+Best fit r: -0.713223  -4.27512/+4.87665  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.52732  -4.29541/+4.91955  (68% CL)
+Best fit r: -0.534057  -3.96727/+4.56768  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -9.87016  -3.31398/+3.92501  (68% CL)
+Best fit r: -10.1936  -3.3829/+3.95482  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.445298  -3.90308/+4.47059  (68% CL)
+Best fit r: -0.370539  -3.86433/+4.43519  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.08702  -4.19977/+4.80111  (68% CL)
+Best fit r: 1.73521  -4.20427/+4.8593  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3117,23 +3112,23 @@ Best fit r: 2.81831  -4.15441/+4.811  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.28728  -4.65683/+5.21366  (68% CL)
+Best fit r: 3.11614  -4.65204/+5.20727  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.63584  -4.37336/+4.95751  (68% CL)
+Best fit r: -0.17066  -4.16134/+4.78009  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.66214  -4.8591/+5.39808  (68% CL)
+Best fit r: 3.54438  -4.85058/+5.43137  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -8.77036  -3.13495/+3.80541  (68% CL)
+Best fit r: -8.5393  -3.29297/+3.90072  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.7484  -3.8267/+4.4154  (68% CL)
+Best fit r: -2.08615  -3.85264/+4.45151  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3141,27 +3136,27 @@ Best fit r: -2.08787  -3.77293/+4.32901  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.72379  -3.66377/+4.22338  (68% CL)
+Best fit r: 0.724649  -3.6638/+4.22336  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.78102  -4.45387/+5.02107  (68% CL)
+Best fit r: 2.37094  -4.63278/+5.20071  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.44715  -4.48656/+5.03431  (68% CL)
+Best fit r: 0.123115  -4.23979/+4.88476  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.40578  -4.79564/+5.44443  (68% CL)
+Best fit r: 5.23822  -4.79924/+5.42174  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.54273  -3.93858/+4.55471  (68% CL)
+Best fit r: -4.02306  -4.01334/+4.62143  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.347593  -4.42588/+5.00238  (68% CL)
+Best fit r: -0.432005  -4.41087/+4.96979  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3177,127 +3172,127 @@ Best fit r: 2.52266  -4.48142/+5.06502  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.227862  -4.16126/+4.71062  (68% CL)
+Best fit r: -0.00433391  -4.16318/+4.70972  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.8393  -3.61059/+4.20076  (68% CL)
+Best fit r: -2.33925  -3.64863/+4.2331  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.91428  -4.24723/+4.89542  (68% CL)
+Best fit r: 4.25703  -4.13329/+4.74308  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.93531  -3.83872/+4.42839  (68% CL)
+Best fit r: -6.89513  -3.26008/+3.86195  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.746469  -4.22558/+4.84389  (68% CL)
+Best fit r: -0.50905  -4.03517/+4.59516  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.98301  -4.85859/+5.52254  (68% CL)
+Best fit r: 14.1809  -5.23097/+5.81105  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.10322  -4.59062/+5.09303  (68% CL)
+Best fit r: -6.33509  -3.40365/+4.07736  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.22358  -4.11549/+4.66835  (68% CL)
+Best fit r: 0.146497  -4.2916/+4.92242  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.49314  -4.41982/+4.99378  (68% CL)
+Best fit r: -0.0824807  -3.94761/+4.49915  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.56568  -4.06502/+4.72828  (68% CL)
+Best fit r: -4.33358  -3.43839/+4.0538  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.99719  -3.84898/+4.41024  (68% CL)
+Best fit r: 4.27177  -4.5953/+5.20684  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.89424  -4.07169/+4.67488  (68% CL)
+Best fit r: -4.56849  -3.5525/+4.14146  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.85405  -3.61514/+4.14776  (68% CL)
+Best fit r: 0.686709  -4.12074/+4.71199  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.06842  -3.87726/+4.49074  (68% CL)
+Best fit r: -2.70748  -3.91948/+4.52631  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.761862  -4.37104/+5.0032  (68% CL)
+Best fit r: 2.98476  -4.31035/+4.87947  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.17865  -4.1497/+4.71636  (68% CL)
+Best fit r: 3.76636  -4.13107/+4.72153  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.39246  -4.4119/+5.02006  (68% CL)
+Best fit r: -2.73483  -4.03392/+4.66404  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.177282  -4.27893/+4.85517  (68% CL)
+Best fit r: -4.25925  -3.67131/+4.23854  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -7.36745  -4.03026/+4.62068  (68% CL)
+Best fit r: -5.46715  -4.04642/+4.7564  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.13692  -3.47865/+4.09621  (68% CL)
+Best fit r: 1.44059  -4.21815/+4.78228  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.37017  -3.84909/+4.43771  (68% CL)
+Best fit r: 2.75226  -4.27931/+4.8672  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.38566  -4.1318/+4.70482  (68% CL)
+Best fit r: 0.791569  -4.2943/+4.87409  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.09412  -4.79697/+5.31292  (68% CL)
+Best fit r: 3.47946  -4.78484/+5.38509  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.52971  -3.74587/+4.29445  (68% CL)
+Best fit r: -4.27878  -3.73434/+4.28715  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.86694  -4.06229/+4.62995  (68% CL)
+Best fit r: 1.51044  -4.12274/+4.77184  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.08221  -3.93889/+4.54258  (68% CL)
+Best fit r: 1.33821  -3.89592/+4.5369  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 9.0263  -4.82509/+5.39289  (68% CL)
+Best fit r: 10.5414  -4.95214/+5.48343  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.59876  -4.52659/+5.1752  (68% CL)
+Best fit r: 2.51403  -4.8211/+5.39361  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.74867  -3.55344/+4.11239  (68% CL)
+Best fit r: -4.02007  -3.60987/+4.18514  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.464012  -4.15636/+4.71604  (68% CL)
+Best fit r: -0.935781  -4.04482/+4.62756  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.423099  -3.75296/+4.3728  (68% CL)
+Best fit r: -0.0642849  -3.73712/+4.34046  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3338,31 +3333,31 @@ Best fit r: -7.05726  -3.03458/+3.57257  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.97785  -4.68974/+5.25203  (68% CL)
+Best fit r: 7.57472  -4.64426/+5.21527  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.7798  -3.41078/+3.95465  (68% CL)
+Best fit r: -4.77916  -3.41079/+3.95467  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.20712  -4.4236/+4.96041  (68% CL)
+Best fit r: 3.39942  -4.53907/+5.06578  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.62924  -3.53876/+4.13918  (68% CL)
+Best fit r: -3.54909  -3.50162/+4.11195  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.834093  -4.19722/+4.7496  (68% CL)
+Best fit r: -0.67616  -4.19932/+4.75638  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.52906  -3.3747/+3.92178  (68% CL)
+Best fit r: -6.19055  -3.42529/+3.99211  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.09488  -3.60919/+4.19775  (68% CL)
+Best fit r: -3.40805  -3.59838/+4.18245  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3370,27 +3365,27 @@ Best fit r: 0.223285  -4.39719/+4.97386  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.144183  -4.38257/+4.95968  (68% CL)
+Best fit r: 0.438379  -4.5198/+5.10705  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.09635  -4.4197/+4.94955  (68% CL)
+Best fit r: 3.07715  -4.56856/+5.12  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.2606  -3.80707/+4.36569  (68% CL)
+Best fit r: -4.29869  -3.95633/+4.49793  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.57748  -4.98859/+5.62524  (68% CL)
+Best fit r: 0.050991  -4.90974/+5.60984  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.99851  -3.54369/+4.11533  (68% CL)
+Best fit r: -5.99826  -3.5437/+4.11534  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.44698  -3.86108/+4.46053  (68% CL)
+Best fit r: -2.64268  -3.8197/+4.4126  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3402,15 +3397,15 @@ Best fit r: 2.95566  -4.49679/+5.0732  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.38525  -3.61509/+4.20405  (68% CL)
+Best fit r: -6.38335  -3.6184/+4.20399  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.287857  -3.68771/+4.28689  (68% CL)
+Best fit r: -0.721407  -3.5938/+4.19564  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.84237  -4.00403/+4.61032  (68% CL)
+Best fit r: -1.49428  -4.04086/+4.60533  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3422,15 +3417,15 @@ Best fit r: -1.89639  -3.27367/+3.83514  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.199685  -4.36494/+5.01742  (68% CL)
+Best fit r: -0.215756  -4.36433/+5.01432  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.7884  -3.50487/+4.04587  (68% CL)
+Best fit r: -3.87035  -3.50813/+4.0673  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.58334  -4.33219/+4.88198  (68% CL)
+Best fit r: 2.25437  -4.3258/+4.87103  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3438,19 +3433,19 @@ Best fit r: -0.630422  -3.9988/+4.59886  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.08087  -4.16725/+4.78646  (68% CL)
+Best fit r: -1.99298  -4.1331/+4.76322  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.27282  -4.59693/+5.21479  (68% CL)
+Best fit r: 4.99388  -4.6533/+5.26116  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.59743  -3.41828/+4.02765  (68% CL)
+Best fit r: -3.68977  -3.43271/+4.01833  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.13208  -3.77373/+4.23037  (68% CL)
+Best fit r: -5.79633  -3.76133/+4.25921  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3458,19 +3453,19 @@ Best fit r: -6.16703  -3.63896/+4.2723  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.14818  -4.71818/+5.25446  (68% CL)
+Best fit r: 5.4808  -4.74402/+5.30245  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.97525  -3.72227/+4.32214  (68% CL)
+Best fit r: -5.3088  -3.72183/+4.2873  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.705425  -4.25998/+4.81206  (68% CL)
+Best fit r: -1.05299  -4.29732/+4.82102  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.834582  -3.87915/+4.51001  (68% CL)
+Best fit r: -0.881441  -3.87498/+4.49175  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3482,7 +3477,7 @@ Best fit r: 8.10114  -4.69861/+5.29438  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.80453  -3.58617/+4.18832  (68% CL)
+Best fit r: -4.81848  -3.58437/+4.18319  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3490,7 +3485,7 @@ Best fit r: 2.12213  -4.61441/+5.18971  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.298634  -4.0401/+4.59865  (68% CL)
+Best fit r: -0.197555  -4.06522/+4.61982  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3498,11 +3493,11 @@ Best fit r: -3.89294  -3.79569/+4.39304  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.85918  -3.13366/+3.6781  (68% CL)
+Best fit r: -2.92346  -3.12222/+3.6619  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.66961  -4.40535/+4.9795  (68% CL)
+Best fit r: 4.66989  -4.40536/+4.97949  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3522,62 +3517,62 @@ Best fit r: -0.679165  -3.9359/+4.53398  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.30913  -3.7817/+4.36056  (68% CL)
+Best fit r: -5.32425  -3.77631/+4.35669  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.526131  -4.35463/+4.96456  (68% CL)
+Best fit r: 0.660172  -4.33858/+4.95742  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -7.43579  -3.62216/+4.23479  (68% CL)
+Best fit r: -1.98318  -4.35287/+4.87369  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.24517  -4.35309/+4.94622  (68% CL)
+Best fit r: 0.505999  -4.16442/+4.73834  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.49874  -4.08801/+4.6435  (68% CL)
+Best fit r: 0.6705  -4.07055/+4.62645  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.88849  -4.5739/+5.15773  (68% CL)
+Best fit r: 3.24607  -4.57941/+5.1758  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.24007  -4.56955/+5.18237  (68% CL)
+Best fit r: -0.081652  -4.52073/+5.12301  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.56399  -4.79401/+5.44444  (68% CL)
+Best fit r: 8.46905  -4.86714/+5.43888  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.93504  -4.54756/+5.11769  (68% CL)
+Best fit r: 4.9356  -4.5476/+5.11767  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.97011  -4.24965/+4.85517  (68% CL)
+Best fit r: 3.95644  -4.27154/+4.87061  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -4.41756  -3.23496/+3.79681  (68% CL)
+Best fit r: -3.09468  -3.502/+4.06313  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.28787  -4.18981/+4.8559  (68% CL)
+Best fit r: 4.90493  -4.52069/+5.14228  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.13709  -3.89189/+4.48508  (68% CL)
+Best fit r: -2.68531  -3.90768/+4.51005  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.82187  -4.31099/+4.88075  (68% CL)
+Best fit r: 1.4904  -4.30151/+4.86805  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.53004  -4.36137/+4.93765  (68% CL)
+Best fit r: 1.69636  -4.36594/+4.94655  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3585,64 +3580,64 @@ Best fit r: 6.88183  -5.02612/+5.56187  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.839852  -3.84259/+4.45023  (68% CL)
+Best fit r: -0.491354  -3.94893/+4.49336  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.269482  -4.1492/+4.73899  (68% CL)
+Best fit r: 1.42554  -4.21733/+4.81557  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.99301  -3.84699/+4.42965  (68% CL)
+Best fit r: -2.8153  -3.94052/+4.51911  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.41716  -3.53523/+4.02858  (68% CL)
+Best fit r: -5.35633  -3.61764/+4.09937  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.32116  -4.88403/+5.52565  (68% CL)
+Best fit r: 6.11023  -4.87796/+5.50666  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.95118  -4.17287/+4.73479  (68% CL)
+Best fit r: -2.53046  -4.16122/+4.7538  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.04121  -4.17776/+4.73258  (68% CL)
+Best fit r: 1.36174  -4.00215/+4.56343  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.31133  -4.10508/+4.71629  (68% CL)
+Best fit r: 2.22575  -4.17464/+4.72342  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -7.01065  -3.21893/+3.83415  (68% CL)
+Best fit r: -7.31187  -3.20358/+3.81857  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.08019  -3.63491/+4.2353  (68% CL)
+Best fit r: -0.175511  -3.83733/+4.40552  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.01103  -4.27878/+4.87884  (68% CL)
+Best fit r: 0.367137  -4.08507/+4.69318  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -5.27573  -4.08889/+4.7215  (68% CL)
+Best fit r: -4.599  -4.13403/+4.73623  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.79447  -3.06234/+3.62584  (68% CL)
+Best fit r: -4.48096  -3.35825/+3.90037  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.347866  -4.27606/+4.89978  (68% CL)
+Best fit r: 0.0781655  -4.2559/+4.87339  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.13754  -4.96123/+5.48589  (68% CL)
+Best fit r: 5.67056  -5.00676/+5.57944  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-mean   expected limit: r < 0.205967 +/- 0.149611 @ 95%CL (900 toyMC)
-median expected limit: r < 0.0493229 @ 95%CL (900 toyMC)
-   68% expected band : -4.141 < r < 4.38671
-   95% expected band : -8.54311 < r < 9.56965
+mean   expected limit: r < 0.326365 +/- 0.147149 @ 95%CL (900 toyMC)
+median expected limit: r < 0.289853 @ 95%CL (900 toyMC)
+   68% expected band : -4.02573 < r < 4.68887
+   95% expected band : -7.93526 < r < 9.35248

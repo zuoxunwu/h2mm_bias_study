@@ -17,9 +17,9 @@ class MKBwz:
     def __init__(self):
         self.name = "MKBwz"
         self.p = {}
-        self.p["a1"] = ["a1", "mass", -0.87, -10.0, 10.0, True]
-        self.p["a2"] = ["a2", "width", 0.1, -10.0, 10.0, False]
-        self.p["a3"] = ["a3", "exp", 0.1, -10.0, 10.0, False]
+        self.p["a1"] = ["a1", "mass", 91.2, -1000.0, 1000.0, True]
+        self.p["a2"] = ["a2", "width", 1, -100.0, 100.0, False]
+        self.p["a3"] = ["a3", "exp", 0.1, -100.0, 100.0, False]
     def makeModel(self,x):
         model_name = 'MKBwz'
         gc = []
@@ -43,8 +43,6 @@ class MKPower:
     def __init__(self):
         self.name = 'MKPower'
         self.p = {}
-        self.p['pow0'] = ["pow","pow",1.0, -10.0, 10.0, False]
-        self.p['c0'] = ["c0", "c0", 1.0, -10.0, 10.0, False]
     def makeModel(self,x1,order=1):
         gc = []
         modelStr = "("
@@ -53,17 +51,19 @@ class MKPower:
         gc.append(x1)
         argnum = 0
         for i in range(order):
-            coef_power=r.RooRealVar(*self.p["pow%d"%i][0:5])
+            self.p['pow%d'%i] = ["pow%d"%i,"pow%d"%i,i, -10.0, 10.0, False]
+            self.p['c%d'%i] = ["c%d"%i, "c%d"%i, 1./2**i, -10.0, 10.0, False]
+            c_power=r.RooRealVar(*self.p["pow%d"%i][0:5])
             if self.p["pow%d"%i][5] == True:
-                coef_power.setConstant()
-            coef=r.RooRealVar(*self.p["c%d"%i][0:5])
+                c_power.setConstant()
+            c=r.RooRealVar(*self.p["c%d"%i][0:5])
             if self.p["c%d"%i][5] == True:
-                coef.setConstant()
-            gc.append(coef_power)
-            arglist.add(coef_power)
+                c.setConstant()
+            gc.append(c_power)
+            arglist.add(c_power)
             argnum += 1
-            gc.append(coef)
-            arglist.add(coef)
+            gc.append(c)
+            arglist.add(c)
             argnum += 1
             modelStr += "@%d*pow(@0,@%d)+"%(argnum,argnum-1)
         modelStr = modelStr[:-1] 
@@ -89,17 +89,17 @@ class MKPower_inc:
         gc.append(x1)
         argnum = 0
         for i in range(order):
-            coef_power=r.RooRealVar(*self.p["pow%d"%i][0:5])
+            c_power=r.RooRealVar(*self.p["pow%d"%i][0:5])
             if self.p["pow%d"%i][5] == True:
-                coef_power.setConstant()
-            coef=r.RooRealVar(*self.p["c%d"%i][0:5])
+                c_power.setConstant()
+            c=r.RooRealVar(*self.p["c%d"%i][0:5])
             if self.p["c%d"%i][5] == True:
-                coef.setConstant()
-            gc.append(coef_power)
-            arglist.add(coef_power)
+                c.setConstant()
+            gc.append(c_power)
+            arglist.add(c_power)
             argnum += 1
-            gc.append(coef)
-            arglist.add(coef)
+            gc.append(c)
+            arglist.add(c)
             argnum += 1
             modelStr += "@%d*pow(@0,@%d)+"%(argnum,argnum-1)
         modelStr = modelStr[:-1] 
@@ -113,24 +113,58 @@ class MKLegendre:
     def __init__(self):
         self.name = "MKLegendre"
         self.p = {}
-        self.p['coef1'] = ["coef1","coef1",1/2**1,-10.0,10.0,False]
-        self.p['coef2'] = ["coef2","coef2",1/2**2, -10.0, 10.0, False]
-        self.p['coef3'] = ["coef3", "coef3", 1/2**3, -10.0, 10.0, False]
-    def makeModel(self,x1,order=[1,2]):
+        self.p['c0'] = ["c0","c0",1/2**0,-10.0,10.0,False]
+        self.p['c1'] = ["c1","c1",1/2**1,-10.0,10.0,False]
+        self.p['c2'] = ["c2","c2",1/2**2, -10.0, 10.0, False]
+        self.p['c3'] = ["c3", "c3", 1/2**3, -10.0, 10.0, False]
+    def makeModel(self,x,order=[1,2]):
         gc = []
         modelStr = "(1+"
         arglist = r.RooArgList()
         argnum = -1
+        # e.g. order = [1,2,3]
         for i in order:
-            leg = r.RooLegendre("leg%d"%i, "leg%d"%i, x1 ,i)
-            coef=r.RooRealVar(*self.p["coef%d"%i][0:5])
-            if self.p["coef%d"%i][5] == True:
-                coef.setConstant()
+            leg = r.RooLegendre("leg%d"%i, "leg%d"%i, x ,i)
+            c=r.RooRealVar(*self.p["c%d"%i][0:5])
+            if self.p["c%d"%i][5] == True:
+                c.setConstant()
             gc.append(leg)
             arglist.add(leg)
             argnum += 1
-            gc.append(coef)
-            arglist.add(coef)
+            gc.append(c)
+            arglist.add(c)
+            argnum += 1
+            modelStr += "@%d*@%d+"%(argnum-1,argnum)
+        modelStr = modelStr[:-1] 
+        modelStr += ")"
+        print(modelStr)
+        model = r.RooGenericPdf(self.name, self.name, modelStr,arglist)
+        gc.append(model)
+        return model, gc
+class MKLegendre0:
+    def __init__(self):
+        self.name = "MKLegendre"
+        self.p = {}
+        self.p['c0'] = ["c0","c0",1/2**0,-10.0,10.0,False]
+        self.p['c1'] = ["c1","c1",1/2**1,-10.0,10.0,False]
+        self.p['c2'] = ["c2","c2",1/2**2, -10.0, 10.0, False]
+        self.p['c3'] = ["c3", "c3", 1/2**3, -10.0, 10.0, False]
+    def makeModel(self,x,order=[1,2]):
+        gc = []
+        modelStr = "("
+        arglist = r.RooArgList()
+        argnum = -1
+        # e.g. order = [1,2,3]
+        for i in order:
+            leg = r.RooLegendre("leg%d"%i, "leg%d"%i, x ,i)
+            c=r.RooRealVar(*self.p["c%d"%i][0:5])
+            if self.p["c%d"%i][5] == True:
+                c.setConstant()
+            gc.append(leg)
+            arglist.add(leg)
+            argnum += 1
+            gc.append(c)
+            arglist.add(c)
             argnum += 1
             modelStr += "@%d*@%d+"%(argnum-1,argnum)
         modelStr = modelStr[:-1] 
@@ -144,16 +178,16 @@ class MKExp:
     def __init__(self):
         self.name = 'MKExp'
         self.p = {}
-        self.p['a1'] = ["a1", "a1", 1.6, 0.0, 10.0, False]
-        self.p['b1'] = ["b1", "b1", 0.1, 0.0, 10.0, False]
+        self.p['a1'] = ["a1", "a1", 8, 0, 10.0, False]
+        self.p['b1'] = ["b1", "b1", 0.15, -100, 100.0, False]
     def makeModel(self,x1):
         gc = []
         arglist = r.RooArgList()
         arglist.add(x1)
         gc.append(x1)
         rrvs = {}
-        rrvs['a1'] = r.RooRealVar(*self.p["a1"][0:5]) # term coef 
-        rrvs['b1'] = r.RooRealVar(*self.p["b1"][0:5]) # exp coef
+        rrvs['a1'] = r.RooRealVar(*self.p["a1"][0:5]) # term c 
+        rrvs['b1'] = r.RooRealVar(*self.p["b1"][0:5]) # exp c
         for e in [self.p['a1'], self.p['b1']]:
             if e[5] == True:
                 rrvs[e[0]].setConstant()
@@ -165,54 +199,85 @@ class MKExp:
 # fold
 class MKExp2:
     def __init__(self):
-        self.name = 'MKExp2'
+        self.name = 'MKExp'
         self.p = {}
-        self.p['a1'] = ["a1", "a1", 1.6, 0.0, 10.0, False]
-        self.p['b1'] = ["b1", "b1", 0.1, 0.0, 10.0, False]
-        self.p['a2'] = ["a2", "a2", 0.8, 0.0, 10.0, False]
-        self.p['b2'] = ["b2", "b2", 0.01, 0.0, 10.0, False]
+        self.p['a1'] = ["a1", "a1", 1.6, -100, 100.0, False]
+        self.p['b1'] = ["b1", "b1", 0.1, -100, 100.0, False]
+        self.p['a2'] = ["a2", "a2", 0.8, -100, 100.0, False]
+        self.p['b2'] = ["b2", "b2", 0.01, -100, 100.0, False]
     def makeModel(self,x1):
         gc = []
         arglist = r.RooArgList()
         arglist.add(x1)
         gc.append(x1)
         rrvs = {}
-        rrvs["a1"] = r.RooRealVar(*self.p["a1"][0:5]) # term coef 
-        rrvs["b1"] = r.RooRealVar(*self.p["b1"][0:5]) # exp coef
-        rrvs["a2"] = r.RooRealVar(*self.p["a2"][0:5]) # term coef 
-        rrvs["b2"] = r.RooRealVar(*self.p["b2"][0:5]) # exp coef
+        rrvs["a1"] = r.RooRealVar(*self.p["a1"][0:5]) # term c 
+        rrvs["b1"] = r.RooRealVar(*self.p["b1"][0:5]) # exp c
+        rrvs["a2"] = r.RooRealVar(*self.p["a2"][0:5]) # term c 
+        rrvs["b2"] = r.RooRealVar(*self.p["b2"][0:5]) # exp c
         #a1.setConstant()
         for e in [self.p["a1"],self.p["b1"],self.p["a2"],self.p["b2"]]:
             if e[5] == True:
                 rrvs[e[0]].setConstant()
             gc.append(rrvs[e[0]])
             arglist.add(rrvs[e[0]])
-        model = r.RooGenericPdf(self.name, self.name,"1+@1*exp(-1*@2*@0)+@3*exp(-1*@4*@0)",arglist)
+        model = r.RooGenericPdf(self.name, self.name,"@1*exp(-1*@2*@0)+@3*exp(-1*@4*@0)",arglist)
         gc.append(model)
         return model, gc
-class MKBernstein:
+class MKExp3:
+    def __init__(self):
+        self.name = 'MKExp'
+        self.p = {}
+        self.p['a1'] = ["a1", "a1", 0, -100, 100.0, False]
+        self.p['b1'] = ["b1", "b1", 1./2, -100, 100.0, False]
+        self.p['a2'] = ["a2", "a2", 1, -100, 100.0, False]
+        self.p['b2'] = ["b2", "b2", 1./2**2, -100, 100.0, False]
+        self.p['a3'] = ["a3", "a3", 2, -100, 100.0, False]
+        self.p['b3'] = ["b3", "b3", 1./2**3, -100, 100.0, False]
+    def makeModel(self,x):
+        gc = []
+        arglist = r.RooArgList()
+        arglist.add(x)
+        gc.append(x)
+        rrvs = {}
+        rrvs["a1"] = r.RooRealVar(*self.p["a1"][0:5]) # term c 
+        rrvs["b1"] = r.RooRealVar(*self.p["b1"][0:5]) # exp c
+        rrvs["a2"] = r.RooRealVar(*self.p["a2"][0:5]) # term c 
+        rrvs["b2"] = r.RooRealVar(*self.p["b2"][0:5]) # exp c
+        rrvs["a3"] = r.RooRealVar(*self.p["a3"][0:5]) # term c 
+        rrvs["b3"] = r.RooRealVar(*self.p["b3"][0:5]) # exp c
+        #a1.setConstant()
+        for e in [self.p["a1"],self.p["b1"],self.p["a2"],self.p["b2"],self.p["a3"],self.p["b3"]]:
+            if e[5] == True:
+                rrvs[e[0]].setConstant()
+            gc.append(rrvs[e[0]])
+            arglist.add(rrvs[e[0]])
+        model = r.RooGenericPdf(self.name, self.name,"@1*exp(-1*@2*@0)+@3*exp(-1*@4*@0)+@5*exp(-1*@6*@0)",arglist)
+        gc.append(model)
+        return model, gc
+class MKBernsteinOLD:
     def __init__(self):
         self.d_par = {}
-        self.d_par['coef0_i'] = 1.0/2**0
-        self.d_par['coef0_n'] = -1.0
-        self.d_par['coef0_x'] = 1.0
-        self.d_par['coef1_i'] = 1.0/2**1
-        self.d_par['coef1_n'] = -1.0
-        self.d_par['coef1_x'] = 1.0
-        self.d_par['coef2_i'] = 1.0/2**2
-        self.d_par['coef2_n'] = -1.0
-        self.d_par['coef2_x'] = 1.0
-        self.d_par['coef3_i'] = 1.0/2**3
-        self.d_par['coef3_n'] = -1.0
-        self.d_par['coef3_x'] = 1.0
+        self.d_par['c0_i'] = 1.0/2**0
+        self.d_par['c0_n'] = -1.0
+        self.d_par['c0_x'] = 1.0
+        self.d_par['c1_i'] = 1.0/2**1
+        self.d_par['c1_n'] = -1.0
+        self.d_par['c1_x'] = 1.0
+        self.d_par['c2_i'] = 1.0/2**2
+        self.d_par['c2_n'] = -1.0
+        self.d_par['c2_x'] = 1.0
+        self.d_par['c3_i'] = 1.0/2**3
+        self.d_par['c3_n'] = -1.0
+        self.d_par['c3_x'] = 1.0
     def makeModel(self,x2,order=2):
         model_name = 'MKBernstein'
         gc = []
         arglist = r.RooArgList()
         for i in range(order+1):
-            coef = r.RooRealVar("coef%d"%i,"coef%d"%i,1.0/2**i,-1.0,1.0) 
-            gc.append(coef)
-            arglist.add(coef)
+            c = r.RooRealVar("c%d"%i,"c%d"%i,1.0/2**i,-1.0,1.0) 
+            gc.append(c)
+            arglist.add(c)
         model = r.RooBernstein(model_name, model_name, x2,arglist)
         gc.append(model)
         return model, gc
@@ -224,22 +289,20 @@ class MKBernstein:
 class MKBernstein2:
     def __init__(self):
         self.name = 'MKBernstein'
-        self.par = {}
-        self.p['coef0'] = ["coef0","coef0", 1.0/2**0, -1.0, 1.0, True]
-        self.p['coef1'] = ["coef1", "coef1", 1.0/2**1, -1.0, 1.0, False]
-        self.p['coef2'] = ["coef2", "coef2", 1.0/2**2, -1.0, 1.0, False]
-        self.p['coef3'] = ["coef3", "coef3", 1.0/2**3, -1.0, 1.0, False]
+        self.p = {}
+        self.p['c0'] = ["c0","c0", 1.0/2**0, -1.0, 1.0, False]
+        self.p['c1'] = ["c1", "c1", 1.0/2**1, -1.0, 1.0, False]
+        self.p['c2'] = ["c2", "c2", 1.0/2**2, -1.0, 1.0, False]
+        self.p['c3'] = ["c3", "c3", 1.0/2**3, -1.0, 1.0, False]
     def makeModel(self,x2):
         gc = []
         arglist = r.RooArgList()
         rrvs = {}
-        rrvs["coef0"] = r.RooRealVar(*self.p["coef0"][0:5]) 
-        rrvs["coef1"] = r.RooRealVar(*self.p["coef1"][0:5]) 
-        rrvs["coef2"] = r.RooRealVar(*self.p["coef2"][0:5])
-        rrvs["coef3"] = r.RooRealVar(*self.p["coef3"][0:5])
-        #rrvs["coef4"] = r.RooRealVar(*self.p["coef4"][0:5])
-        #rrvs["coef0"].setConstant()
-        for e in [self.p["coef0"], self.p["coef1"], self.p["coef2"]]:
+        rrvs["c0"] = r.RooRealVar(*self.p["c0"][0:5]) 
+        rrvs["c1"] = r.RooRealVar(*self.p["c1"][0:5]) 
+        rrvs["c2"] = r.RooRealVar(*self.p["c2"][0:5])
+        rrvs["c3"] = r.RooRealVar(*self.p["c3"][0:5])
+        for e in [self.p["c0"], self.p["c1"], self.p["c2"]]:
             if e[5] == True:
                 rrvs[e[0]].setConstant()
             gc.append(rrvs[e[0]])
@@ -251,21 +314,19 @@ class MKBernstein3:
     def __init__(self):
         self.name = 'MKBernstein'
         self.p = {}
-        self.p['coef0'] = ["coef0","coef0", 1.0/2**0, -1.0, 1.0, True]
-        self.p['coef1'] = ["coef1", "coef1", 1.0/2**1, -1.0, 1.0, False]
-        self.p['coef2'] = ["coef2", "coef2", 1.0/2**2, -1.0, 1.0, False]
-        self.p['coef3'] = ["coef3", "coef3", 1.0/2**3, -1.0, 1.0, False]
+        self.p['c0'] = ["c0", "c0", 1.0/2**0, -1.0, 1.0, False]
+        self.p['c1'] = ["c1", "c1", 1.0/2**1, -1.0, 1.0, False]
+        self.p['c2'] = ["c2", "c2", 1.0/2**2, -1.0, 1.0, False]
+        self.p['c3'] = ["c3", "c3", 1.0/2**3, -1.0, 1.0, False]
     def makeModel(self,x2):
         gc = []
         arglist = r.RooArgList()
         rrvs = {}
-        rrvs["coef0"] = r.RooRealVar(*self.p["coef0"][0:5]) 
-        rrvs["coef1"] = r.RooRealVar(*self.p["coef1"][0:5]) 
-        rrvs["coef2"] = r.RooRealVar(*self.p["coef2"][0:5])
-        rrvs["coef3"] = r.RooRealVar(*self.p["coef3"][0:5])
-        #rrvs["coef4"] = r.RooRealVar(*self.p["coef4"][0:5])
-        #rrvs["coef0"].setConstant()
-        for e in [self.p["coef0"], self.p["coef1"], self.p["coef2"]]:
+        rrvs["c0"] = r.RooRealVar(*self.p["c0"][0:5]) 
+        rrvs["c1"] = r.RooRealVar(*self.p["c1"][0:5]) 
+        rrvs["c2"] = r.RooRealVar(*self.p["c2"][0:5])
+        rrvs["c3"] = r.RooRealVar(*self.p["c3"][0:5])
+        for e in [self.p["c0"], self.p["c1"], self.p["c2"], self.p["c3"]]:
             if e[5] == True:
                 rrvs[e[0]].setConstant()
             gc.append(rrvs[e[0]])
@@ -278,21 +339,47 @@ class MKBernstein2_inc:
     def __init__(self):
         self.name = 'MKBernstein'
         self.p = {}
-        self.p['coef0'] = ["coef0","coef0", 0.7, 0.7-3*1.0, 0.7+3*1.0, False]
-        self.p['coef1'] = ["coef1", "coef1", 0.13, 0.13-3*0.26, 0.13+3*0.26, False]
-        self.p['coef2'] = ["coef2", "coef2", 0.31, 0.31-3*0.49, 0.31+3*0.49, False]
-        self.p['coef3'] = ["coef3", "coef3", 0.12, 0.12-3*0.22, 0.12+3*0.22, False]
-        self.p['coef4'] = ["coef4", "coef4", 0.14, 0.14-3*0.21, 0.14+3*0.21, False]
+        self.p['c0'] = ["c0", "c0", 1./2**0, -1,1, False]
+        self.p['c1'] = ["c1", "c1", 1./2**1, -1,1, False]
+        self.p['c2'] = ["c2", "c2", 1./2**2, -1,1, False]
+        self.p['c3'] = ["c3", "c3", 1./2**3, -1,1, False]
+        self.p['c4'] = ["c4", "c4", 1./2**4, -1,1, False]
     def makeModel(self,x):
         gc = []
         arglist = r.RooArgList()
         rrvs = {}
-        rrvs["coef0"] = r.RooRealVar(*self.p['coef0'][0:5]) 
-        rrvs["coef1"] = r.RooRealVar(*self.p['coef1'][0:5]) 
-        rrvs["coef2"] = r.RooRealVar(*self.p['coef2'][0:5])
-        rrvs["coef3"] = r.RooRealVar(*self.p['coef3'][0:5])
-        rrvs["coef4"] = r.RooRealVar(*self.p['coef4'][0:5])
-        for e in [self.p["coef0"], self.p["coef1"], self.p["coef2"], self.p["coef3"], self.p["coef4"]]:
+        rrvs["c0"] = r.RooRealVar(*self.p['c0'][0:5]) 
+        rrvs["c1"] = r.RooRealVar(*self.p['c1'][0:5]) 
+        rrvs["c2"] = r.RooRealVar(*self.p['c2'][0:5])
+        rrvs["c3"] = r.RooRealVar(*self.p['c3'][0:5])
+        rrvs["c4"] = r.RooRealVar(*self.p['c4'][0:5])
+        for e in [self.p["c0"], self.p["c1"], self.p["c2"], self.p["c3"], self.p["c4"]]:
+            if e[5] == True:
+                rrvs[e[0]].setConstant()
+            gc.append(rrvs[e[0]])
+            arglist.add(rrvs[e[0]])
+        model = r.RooBernstein(self.name, self.name, x, arglist)
+        gc.append(model)
+        return model, gc
+class MKBernsteinN:
+    def __init__(self,order=5):
+        self.name = 'MKBernstein'
+        self.p = {}
+        self.p['c0'] = ["c0","c0", 0.7, 0.7-3*1.0, 0.7+3*1.0, False]
+        self.p['c1'] = ["c1", "c1", 0.13, 0.13-3*0.26, 0.13+3*0.26, False]
+        self.p['c2'] = ["c2", "c2", 0.31, 0.31-3*0.49, 0.31+3*0.49, False]
+        self.p['c3'] = ["c3", "c3", 0.12, 0.12-3*0.22, 0.12+3*0.22, False]
+        self.p['c4'] = ["c4", "c4", 0.14, 0.14-3*0.21, 0.14+3*0.21, False]
+    def makeModel(self,x,):
+        gc = []
+        arglist = r.RooArgList()
+        rrvs = {}
+        rrvs["c0"] = r.RooRealVar(*self.p['c0'][0:5]) 
+        rrvs["c1"] = r.RooRealVar(*self.p['c1'][0:5]) 
+        rrvs["c2"] = r.RooRealVar(*self.p['c2'][0:5])
+        rrvs["c3"] = r.RooRealVar(*self.p['c3'][0:5])
+        rrvs["c4"] = r.RooRealVar(*self.p['c4'][0:5])
+        for e in [self.p["c0"], self.p["c1"], self.p["c2"], self.p["c3"], self.p["c4"]]:
             if e[5] == True:
                 rrvs[e[0]].setConstant()
             gc.append(rrvs[e[0]])

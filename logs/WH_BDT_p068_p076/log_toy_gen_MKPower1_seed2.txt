@@ -5,6 +5,7 @@
 >>> random number generator seed is 2000
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
+  [WARNING] Found [c0] at boundary. 
 Generate toy 1/900
 Done in 0.00 min (cpu), 0.00 min (real)
 Generate toy 2/900
@@ -1805,7 +1806,7 @@ Generate toy 899/900
 Done in 0.00 min (cpu), 0.00 min (real)
 Generate toy 900/900
 Done in 0.00 min (cpu), 0.00 min (real)
-mean   expected limit: r < 0 +/- 0 @ 95%CL (900 toyMC)
-median expected limit: r < 0 @ 95%CL (900 toyMC)
-   68% expected band : 0 < r < 0
-   95% expected band : 0 < r < 0
+mean   expected limit: r < 1.86961e+185 +/- inf @ 95%CL (900 toyMC)
+median expected limit: r < 1.86961e+185 @ 95%CL (900 toyMC)
+   68% expected band : 1.86961e+185 < r < 1.86961e+185
+   95% expected band : 1.86961e+185 < r < 1.86961e+185

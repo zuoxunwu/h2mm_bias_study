@@ -82,7 +82,7 @@ class WorkspaceAndDatacardMaker:
         x = RooRealVar("x","x",125,110,160)
         #x.setRange("left", 110, 120)
         #x.setRange("right", 130, 160)
-        x1 = RooFormulaVar("x1","x1","(@0-135)/50",RooArgList(x))
+        x1 = RooFormulaVar("x1","x1","(@0-135)/25",RooArgList(x))
         x2 = RooFormulaVar("x2","x2","(@0-105)/20",RooArgList(x))
         x21 = RooFormulaVar("x21","x21","@0/100",RooArgList(x))
 		# create binned dataset from histogram
@@ -132,94 +132,48 @@ class WorkspaceAndDatacardMaker:
         #
 
         ################
-        # cat0: Inclusive
-        ################
-        if self.title == "WH_inclusive":
-            smodel, sigParamList, sgc = MKTripleGauss(x)
-            if self.model_choice == 'MKBwz':
-                mkbwz = MKBwz()
-                mkbwz.p["a1"] = ["a1", "mass", -0.87, -10.0, 10.0, True]
-                mkbwz.p["a2"] = ["a2", "width", 0.25, -10.0, 10.0, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.69, -10.0, 10.0, True]
-                model1, model1_params = mkbwz.makeModel(x1)
-            elif self.model_choice == 'MKPower':
-                mkpower = MKPower_inc()
-                mkpower.p['pow0'] = ["pow0","pow0",-10.0,-10.0,10.0,True]
-                mkpower.p['c0'] = ["c0","c0",2.4,-10.0,10.0,True]
-                mkpower.p['pow1'] = ["pow1","pow1",0.9,-10.0,10.0,True]
-                mkpower.p['c1'] = ["c1","c1",-0.486,-10.0,10.0, True]
-                model1, model1_params = mkpower.makeModel(x21,order=2)
-            elif self.model_choice == 'MKLegendre':
-                mklegendre = MKLegendre()
-                mklegendre.p['coef1'] = ["coef1","coef1",-1.895,-10.0,10.0,True]
-                mklegendre.p['coef2'] = ["coef2","coef2",0.96, -10.0, 10.0, True]
-                mklegendre.p['coef3'] = ["coef3", "coef3", -0.789, -10.0, 10.0, True]
-                model1, model1_params = mklegendre.makeModel(x1,order=[1,2,3])
-            elif self.model_choice == 'MKExp':
-                mkexp = MKExp2()
-                mkexp.p['a1'] = ["a1", "a1", 0.3, 0.0, 10.0, True]
-                mkexp.p['b1'] = ["b1", "b1", 6.7, 0.0, 10.0, True]
-                mkexp.p['a2'] = ["a2", "a2", 5.6, 0.0, 10.0, True]
-                mkexp.p['b2'] = ["b2", "b2", 1.3, 0.0, 10.0, True]
-                model1, model1_params = mkexp.makeModel(x1)
-            elif self.model_choice == 'MKBernstein':
-                mkbernstein = MKBernstein2_inc()
-                mkbernstein.p['coef0'] = ["coef0","coef0", 0.7, 0.7-3*1.0, 0.7+3*1.0, True]
-                mkbernstein.p['coef1'] = ["coef1", "coef1", 0.14, 0.13-3*0.26, 0.13+3*0.26, True]
-                mkbernstein.p['coef2'] = ["coef2", "coef2", 0.3, 0.31-3*0.49, 0.31+3*0.49, True]
-                mkbernstein.p['coef3'] = ["coef3", "coef3", 0.12, 0.12-3*0.22, 0.12+3*0.22, True]
-                mkbernstein.p['coef4'] = ["coef4", "coef4", 0.14, 0.14-3*0.21, 0.14+3*0.21, True]
-                model1, model1_params = mkbernstein.makeModel(x)
-            elif self.model_choice == 'MKBwzredux':
-                mkbwzredux = MKBwzredux()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", 6, -10.0, 10.0, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", -1.60, -10.0, 10.0, True]
-                mkbwzredux.p['pow'] = ["pow","pow", 1.8, -10.0, 10.0, True]
-                model1, model1_params = mkbwzredux.makeModel(x)
-        ################
         # cat1: WH_BDT_n10_n02
         ################
-        elif self.title == "WH_BDT_n10_n02":
+        if self.title == "WH_BDT_n10_n02":
             smodel, sigParamList, sgc = MKTripleGauss(x)
             if self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
-                mkbwz.p["a1"] = ["a1", "mass", -0.87, -10.0, 10.0, True]
-                mkbwz.p["a2"] = ["a2", "width", 0.16, -10.0, 10.0, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.95, -10.0, 10.0, True]
-                model1, model1_params = mkbwz.makeModel(x1)
+                mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
+                mkbwz.p["a2"] = ["a2", "width", 8, 8, 8, True]
+                mkbwz.p["a3"] = ["a3", "exp", 0.0188, 0.0188, 0.0188, True]
+                model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
                 mkpower = MKPower_inc()
-                mkpower.p['pow0'] = ["pow0","pow0",-10.0,-10.0,10.0,True]
-                mkpower.p['c0'] = ["c0","c0",7.3,-10.0,10.0,True]
-                mkpower.p['pow1'] = ["pow1","pow1",9,-10.0,10.0,True]
-                mkpower.p['c1'] = ["c1","c1",-0.0050,-10.0,10.0, True]
+                mkpower.p['pow0'] = ["pow0","pow0",-10.0,-10.0,-10.0,True]
+                mkpower.p['c0'] = ["c0","c0",7.3,7.3,7.3,True]
+                mkpower.p['pow1'] = ["pow1","pow1",9,9,9,True]
+                mkpower.p['c1'] = ["c1","c1",-0.0050,-0.0050,-0.0050, True]
                 model1, model1_params = mkpower.makeModel(x21,order=2)
             elif self.model_choice == 'MKLegendre':
                 mklegendre = MKLegendre()
-                mklegendre.p['coef1'] = ["coef1","coef1",-1.922,-10.0,10.0,True]
-                mklegendre.p['coef2'] = ["coef2","coef2",0.97, -10.0, 10.0, True]
-                mklegendre.p['coef3'] = ["coef3", "coef3", -0.868, -10.0, 10.0, True]
+                mklegendre.p['c1'] = ["c1","c1",-0.7443,-0.7443, -0.7443,True]
+                mklegendre.p['c2'] = ["c2","c2", 0.38, 0.38, 0.38, True]
+                mklegendre.p['c3'] = ["c3", "c3", -0.171, -0.171, -0.171, True]
                 model1, model1_params = mklegendre.makeModel(x1,order=[1,2,3])
             elif self.model_choice == 'MKExp':
                 mkexp = MKExp2()
-                mkexp.p['a1'] = ["a1", "a1", 0.2, 0.0, 10.0, True]
-                mkexp.p['b1'] = ["b1", "b1", 8.6, 0.0, 10.0, True]
-                mkexp.p['a2'] = ["a2", "a2", 7.7, 0.0, 10.0, True]
-                mkexp.p['b2'] = ["b2", "b2", 1.17, 0.0, 10.0, True]
-                model1, model1_params = mkexp.makeModel(x1)
+                mkexp.p['a1'] = ["a1", "a1", 8, 8, 8, True]
+                mkexp.p['b1'] = ["b1", "b1", 0.159, 0.159, 0.159, True]
+                mkexp.p['a2'] = ["a2", "a2", 0.0000018, 0.0000018, 0.0000018, True]
+                mkexp.p['b2'] = ["b2", "b2", 0.0195, 0.0195, 0.0195, True]
+                model1, model1_params = mkexp.makeModel(x)
             elif self.model_choice == 'MKBernstein':
                 mkbernstein = MKBernstein2_inc()
-                mkbernstein.p['coef0'] = ["coef0","coef0", 0.7, 0.7-3*1.0, 0.7+3*1.0, True]
-                mkbernstein.p['coef1'] = ["coef1", "coef1", 0.04, 0.13-3*0.26, 0.13+3*0.26, True]
-                mkbernstein.p['coef2'] = ["coef2", "coef2", 0.39, 0.31-3*0.49, 0.31+3*0.49, True]
-                mkbernstein.p['coef3'] = ["coef3", "coef3", 0.08, 0.12-3*0.22, 0.12+3*0.22, True]
-                mkbernstein.p['coef4'] = ["coef4", "coef4", 0.15, 0.14-3*0.21, 0.14+3*0.21, True]
+                mkbernstein.p['c0'] = ["c0","c0", 0.8, 0.8 , 0.8, True]
+                mkbernstein.p['c1'] = ["c1", "c1", 0.1, 0.1, 0.1, True]
+                mkbernstein.p['c2'] = ["c2", "c2", 0.3, 0.3, 0.3, True]
+                mkbernstein.p['c3'] = ["c3", "c3", 0.2, 0.2, 0.2, True]
                 model1, model1_params = mkbernstein.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
                 mkbwzredux = MKBwzredux2()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", -17.1, -20.0, 20.0, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", 5.3, -10.0, 10.0, True]
-                mkbwzredux.p['pow'] = ["pow","pow", 0, -10.0, 10.0, True]
+                mkbwzredux.p['ex1'] = ["ex1", "ex1", 5.7, 5.7, 5.7, True]
+                mkbwzredux.p['ex2'] = ["ex2", "ex2", -1.34, -1.34, -1.34, True]
+                mkbwzredux.p['pow'] = ["pow","pow", 2, 2, 2, True]
                 model1, model1_params = mkbwzredux.makeModel(x)
         ################
         # cat2: WH_BDT_n02_p02
@@ -228,43 +182,43 @@ class WorkspaceAndDatacardMaker:
             smodel, sigParamList, sgc = MKTripleGauss(x)
             if self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
-                mkbwz.p["a1"] = ["a1", "mass", -0.87, -10.0, 10.0, True]
-                mkbwz.p["a2"] = ["a2", "width", 0.26, -10.0, 10.0, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.63, -10.0, 10.0, True]
-                model1, model1_params = mkbwz.makeModel(x1)
+                mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
+                mkbwz.p["a2"] = ["a2", "width", 5, 5, 5, True]
+                mkbwz.p["a3"] = ["a3", "exp", 0.018, 0.018, 0.018, True]
+                model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
                 mkpower = MKPower_inc()
-                mkpower.p['pow0'] = ["pow0","pow0",-7.5,-10.0,10.0,True]
-                mkpower.p['c0'] = ["c0","c0",4,-10.0,10.0,True]
-                mkpower.p['pow1'] = ["pow1","pow1",0.2,-10.0,10.0,True]
-                mkpower.p['c1'] = ["c1","c1",-0.53,-10.0,10.0, True]
+                mkpower.p['pow0'] = ["pow0","pow0", -7.5, -7.5, -7.5, True]
+                mkpower.p['c0'] = ["c0","c0", 4, 4, 4,True]
+                mkpower.p['pow1'] = ["pow1","pow1", 0.2, 0.2, 0.2, True]
+                mkpower.p['c1'] = ["c1","c1", -0.53, -0.53, -0.53, True]
                 model1, model1_params = mkpower.makeModel(x21,order=2)
             elif self.model_choice == 'MKLegendre':
                 mklegendre = MKLegendre()
-                mklegendre.p['coef1'] = ["coef1","coef1",-1.721,-10.0,10.0,True]
-                mklegendre.p['coef2'] = ["coef2","coef2",0.99, -10.0, 10.0, True]
-                mklegendre.p['coef3'] = ["coef3", "coef3", -0.634, -10.0, 10.0, True]
+                mklegendre.p['c1'] = ["c1", "c1", -0.800, -0.800, -0.800,True]
+                mklegendre.p['c2'] = ["c2", "c2", 0.39, 0.39, 0.39, True]
+                mklegendre.p['c3'] = ["c3", "c3", -0.126, -0.126, -0.126, True]
                 model1, model1_params = mklegendre.makeModel(x1,order=[1,2,3])
             elif self.model_choice == 'MKExp':
                 mkexp = MKExp2()
-                mkexp.p['a1'] = ["a1", "a1", 1.0, 0.0, 10.0, True]
-                mkexp.p['b1'] = ["b1", "b1", 3.4, 0.0, 10.0, True]
-                mkexp.p['a2'] = ["a2", "a2", 0.6, 0.0, 10.0, True]
-                mkexp.p['b2'] = ["b2", "b2", 0.7, 0.0, 10.0, True]
-                model1, model1_params = mkexp.makeModel(x1)
+                mkexp.p['a1'] = ["a1", "a1", 0.4, 0.4, 0.4, True]
+                mkexp.p['b1'] = ["b1", "b1", 0.08, 0.08, 0.08, True]
+                mkexp.p['a2'] = ["a2", "a2", 0.00010, 0.00010, 0.00010, True]
+                mkexp.p['b2'] = ["b2", "b2", 0.009, 0.009, 0.009, True]
+                model1, model1_params = mkexp.makeModel(x)
             elif self.model_choice == 'MKBernstein':
                 mkbernstein = MKBernstein2_inc()
-                mkbernstein.p['coef0'] = ["coef0","coef0", 0.7, 0.7-3*1.0, 0.7+3*1.0, True]
-                mkbernstein.p['coef1'] = ["coef1", "coef1", 0.22, 0.13-3*0.26, 0.13+3*0.26, True]
-                mkbernstein.p['coef2'] = ["coef2", "coef2", 0.25, 0.31-3*0.49, 0.31+3*0.49, True]
-                mkbernstein.p['coef3'] = ["coef3", "coef3", 0.15, 0.12-3*0.22, 0.12+3*0.22, True]
-                mkbernstein.p['coef4'] = ["coef4", "coef4", 0.15, 0.14-3*0.21, 0.14+3*0.21, True]
+                mkbernstein.p['c0'] = ["c0", "c0", 0.5, 0.5, 0.5, True]
+                mkbernstein.p['c1'] = ["c1", "c1", 0.16, 0.16,0.16, True]
+                mkbernstein.p['c2'] = ["c2", "c2", 0.18, 0.18, 0.18, True]
+                mkbernstein.p['c3'] = ["c3", "c3", 0.11, 0.11, 0.11, True]
+                mkbernstein.p['c4'] = ["c4", "c4", 0.11, 0.11, 0.11,  True]
                 model1, model1_params = mkbernstein.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
                 mkbwzredux = MKBwzredux2()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", -15.62, -20.0, 20.0, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", 4.6, -10.0, 10.0, True]
-                mkbwzredux.p['pow'] = ["pow","pow", 0, -10.0, 10.0, True]
+                mkbwzredux.p['ex1'] = ["ex1", "ex1", 7, 7, 7, True]
+                mkbwzredux.p['ex2'] = ["ex2", "ex2", -1.94, -1.94, -1.94, True]
+                mkbwzredux.p['pow'] = ["pow","pow", 2, 2, 2, True]
                 model1, model1_params = mkbwzredux.makeModel(x)
         ################
         # cat3: WH_BDT_p02_p06
@@ -273,43 +227,42 @@ class WorkspaceAndDatacardMaker:
             smodel, sigParamList, sgc = MKTripleGauss(x)
             if self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
-                mkbwz.p["a1"] = ["a1", "mass", -0.87, -10.0, 10.0, True]
-                mkbwz.p["a2"] = ["a2", "width", 0.21, -10.0, 10.0, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.53, -10.0, 10.0, True]
-                model1, model1_params = mkbwz.makeModel(x1)
+                mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
+                mkbwz.p["a2"] = ["a2", "width", 6, 6, 6, True]
+                mkbwz.p["a3"] = ["a3", "exp", 0.014, 0.014, 0.014, True]
+                model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
                 mkpower = MKPower_inc()
-                mkpower.p['pow0'] = ["pow0","pow0",-9.9,-10.0,10.0,True]
-                mkpower.p['c0'] = ["c0","c0",6,-10.0,10.0,True]
-                mkpower.p['pow1'] = ["pow1","pow1",3,-10.0,10.0,True]
-                mkpower.p['c1'] = ["c1","c1",-0.13,-10.0,10.0, True]
+                mkpower.p['pow0'] = ["pow0","pow0",-9.9, -9.9, -9.9,True]
+                mkpower.p['c0'] = ["c0","c0",6,6, 6,True]
+                mkpower.p['pow1'] = ["pow1","pow1",3, 3, 3, True]
+                mkpower.p['c1'] = ["c1","c1",-0.13, -0.13, -0.13, True]
                 model1, model1_params = mkpower.makeModel(x21,order=2)
             elif self.model_choice == 'MKLegendre':
                 mklegendre = MKLegendre()
-                mklegendre.p['coef1'] = ["coef1","coef1",-1.93,-10.0,10.0,True]
-                mklegendre.p['coef2'] = ["coef2","coef2",1.06, -10.0, 10.0, True]
-                mklegendre.p['coef3'] = ["coef3", "coef3", -0.761, -10.0, 10.0, True]
+                mklegendre.p['c1'] = ["c1","c1", -0.892, -0.892, -0.892,True]
+                mklegendre.p['c2'] = ["c2","c2", 0.44, 0.44, 0.44, True]
+                mklegendre.p['c3'] = ["c3", "c3", -0.158, -0.158, -0.158, True]
                 model1, model1_params = mklegendre.makeModel(x1,order=[1,2,3])
             elif self.model_choice == 'MKExp':
                 mkexp = MKExp2()
-                mkexp.p['a1'] = ["a1", "a1", 0.2, 0.0, 10.0, True]
-                mkexp.p['b1'] = ["b1", "b1", 8.7, 0.0, 10.0, True]
-                mkexp.p['a2'] = ["a2", "a2", 8.7, 0.0, 10.0, True]
-                mkexp.p['b2'] = ["b2", "b2", 1.6, 0.0, 10.0, True]
-                model1, model1_params = mkexp.makeModel(x1)
+                mkexp.p['a1'] = ["a1", "a1", 1.3, 1.3, 1.3, True]
+                mkexp.p['b1'] = ["b1", "b1", 0.142, 0.142, 0.142, True]
+                mkexp.p['a2'] = ["a2", "a2", 0.000004, 0.000004, 0.000004, True]
+                mkexp.p['b2'] = ["b2", "b2", 0.026, 0.026, 0.026, True]
+                model1, model1_params = mkexp.makeModel(x)
             elif self.model_choice == 'MKBernstein':
-                mkbernstein = MKBernstein2_inc()
-                mkbernstein.p['coef0'] = ["coef0","coef0", 0.7, 0.7-3*1.0, 0.7+3*1.0, True]
-                mkbernstein.p['coef1'] = ["coef1", "coef1", 0.08, 0.13-3*0.26, 0.13+3*0.26, True]
-                mkbernstein.p['coef2'] = ["coef2", "coef2", 0.4, 0.31-3*0.49, 0.31+3*0.49, True]
-                mkbernstein.p['coef3'] = ["coef3", "coef3", 0.06, 0.12-3*0.22, 0.12+3*0.22, True]
-                mkbernstein.p['coef4'] = ["coef4", "coef4", 0.13, 0.14-3*0.21, 0.14+3*0.21, True]
+                mkbernstein = MKBernstein3()
+                mkbernstein.p['c0'] = ["c0", "c0", 1.0, 1.0, 1.0, True]
+                mkbernstein.p['c1'] = ["c1", "c1", 0.15, 0.15, 0.15, True]
+                mkbernstein.p['c2'] = ["c2", "c2", 0.30, 0.30, 0.30, True]
+                mkbernstein.p['c3'] = ["c3", "c3", 0.16, 0.16, 0.16, True]
                 model1, model1_params = mkbernstein.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
                 mkbwzredux = MKBwzredux2()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", 6, -20.0, 20.0, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", -1.9, -10.0, 10.0, True]
-                mkbwzredux.p['pow'] = ["pow","pow", 2.0, -10.0, 10.0, True]
+                mkbwzredux.p['ex1'] = ["ex1", "ex1", 6, 6, 6, True]
+                mkbwzredux.p['ex2'] = ["ex2", "ex2", -1.9, -1.9, -1.9, True]
+                mkbwzredux.p['pow'] = ["pow","pow", 2.0, 2.0, 2.0, True]
                 model1, model1_params = mkbwzredux.makeModel(x)
         ################
         # cat4: WH_BDT_p060_p068
@@ -318,76 +271,81 @@ class WorkspaceAndDatacardMaker:
             smodel, sigParamList, sgc = MKTripleGauss(x)
             if self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
-                mkbwz.p["a1"] = ["a1", "mass", -0.87, -10.0, 10.0, True]
-                mkbwz.p["a2"] = ["a2", "width", 0.32, -10.0, 10.0, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.6, -10.0, 10.0, True]
-                model1, model1_params = mkbwz.makeModel(x1)
+                mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
+                mkbwz.p["a2"] = ["a2", "width", 16, 16, 16, True]
+                mkbwz.p["a3"] = ["a3", "exp", 0.012, 0.012, 0.012, True]
+                model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
                 mkpower = MKPower()
-                mkpower.p['pow0'] = ["pow0","pow0",-4.19,-10.0,10.0,True]
-                mkpower.p['c0'] = ["c0","c0",4.3,-10.0,10.0,True]
+                mkpower.p['pow0'] = ["pow0","pow0", -4.19, -4.19 , -4.19, True]
+                mkpower.p['c0'] = ["c0","c0", 4, 4, 4,True]
                 model1, model1_params = mkpower.makeModel(x21,order=1)
             elif self.model_choice == 'MKLegendre':
                 mklegendre = MKLegendre()
-                mklegendre.p['coef1'] = ["coef1","coef1",-0.92,-10.0,10.0,True]
-                mklegendre.p['coef2'] = ["coef2","coef2",0.97, -10.0, 10.0, True]
-                mklegendre.p['coef3'] = ["coef3", "coef3", 0.0, -10.0, 10.0, True]
+                mklegendre.p['c1'] = ["c1","c1", -0.760, -0.760, -0.760,True]
+                mklegendre.p['c2'] = ["c2","c2", 0.38, 0.38, 0.38, True]
+                mklegendre.p['c3'] = ["c3", "c3", 0.01, 0.01, 0.01, True]
                 model1, model1_params = mklegendre.makeModel(x1,order=[1,2,3])
             elif self.model_choice == 'MKExp':
                 mkexp = MKExp()
-                mkexp.p['a1'] = ["a1", "a1", 0.1, 0.0, 10.0, True]
-                mkexp.p['b1'] = ["b1", "b1", 3.2, 0.0, 10.0, True]
-                model1, model1_params = mkexp.makeModel(x21)
+                mkexp.p['a1'] = ["a1", "a1", 5.7, 5.7, 5.7, True]
+                mkexp.p['b1'] = ["b1", "b1", 0.032, 0.032, 0.032, True]
+                model1, model1_params = mkexp.makeModel(x)
             elif self.model_choice == 'MKBernstein':
                 mkbernstein = MKBernstein3()
-                mkbernstein.p['coef0'] = ["coef0","coef0", 1.0/2**0, -1.0, 1.0, True]
-                mkbernstein.p['coef1'] = ["coef1", "coef1", 0.11, -1.0, 1.0, True]
-                mkbernstein.p['coef2'] = ["coef2", "coef2", 0.29, -1.0, 1.0, True]
+                mkbernstein.p['c0'] = ["c0", "c0", 0.7, 0.7, 0.7, True]
+                mkbernstein.p['c1'] = ["c1", "c1", 0.3, 0.3, 0.3, True]
+                mkbernstein.p['c2'] = ["c2", "c2", 0.1, 0.1, 0.1, True]
+                mkbernstein.p['c3'] = ["c3", "c3", 0.2, 0.2, 0.2, True]
                 model1, model1_params = mkbernstein.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
                 mkbwzredux = MKBwzredux2()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", -15.9, -20.0, 20.0, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", 5, -10.0, 10.0, True]
-                mkbwzredux.p['pow'] = ["pow","pow", 0, -10.0, 10.0, True]
+                mkbwzredux.p['ex1'] = ["ex1", "ex1", 7, 7, 7, True]
+                mkbwzredux.p['ex2'] = ["ex2", "ex2", -1.8, -1.8, -1.8, True]
+                mkbwzredux.p['pow'] = ["pow","pow", 2, 2, 2, True]
                 model1, model1_params = mkbwzredux.makeModel(x)
         ################
         # cat5: WH_BDT_p068_p076
         ################
         elif self.title == "WH_BDT_p068_p076":
+        elif self.title == "WH_BDT_p076_p10":
             smodel, sigParamList, sgc = MKTripleGauss(x)
             if self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
-                mkbwz.p["a1"] = ["a1", "mass", -0.87, -10.0, 10.0, True]
-                mkbwz.p["a2"] = ["a2", "width", 0.01, -10.0, 10.0, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.46, -10.0, 10.0, True]
-                model1, model1_params = mkbwz.makeModel(x1)
+                mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
+                mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
+                mkbwz.p["a3"] = ["a3", "exp", 0.009, 0.009, 0.009, True]
+                model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
-                mkpower = MKPower()
-                mkpower.p['pow0'] = ["pow0","pow0",-5.99,-10.0,10.0,True]
-                mkpower.p['c0'] = ["c0","c0",4.6,-10.0,10.0,True]
+                mkpower = MKPower_inc()
+                mkpower.p['pow0'] = ["pow0","pow0",-9.99, -9.99, -9.99,True]
+                mkpower.p['c0'] = ["c0","c0",10.0,10.0,10.0,True]
                 model1, model1_params = mkpower.makeModel(x21,order=1)
             elif self.model_choice == 'MKLegendre':
                 mklegendre = MKLegendre()
-                mklegendre.p['coef1'] = ["coef1","coef1",-1.12,-10.0,10.0,True]
-                mklegendre.p['coef2'] = ["coef2","coef2",1.40, -10.0, 10.0, True]
-                mklegendre.p['coef3'] = ["coef3", "coef3", -0.12, -10.0, 10.0, True]
+                mklegendre.p['c1'] = ["c1","c1", -1.040, -10, 10, True]
+                mklegendre.p['c2'] = ["c2","c2", 0.73, -10, 10, True]
+                mklegendre.p['c3'] = ["c3", "c3", -0.025, -10, 10, True]
                 model1, model1_params = mklegendre.makeModel(x1,order=[1,2,3])
             elif self.model_choice == 'MKExp':
-                mkexp = MKExp()
-                mkexp.p['a1'] = ["a1", "a1", 1.0, 0.0, 10.0, True]
-                mkexp.p['b1'] = ["b1", "b1", 4.5, 0.0, 10.0, True]
-                model1, model1_params = mkexp.makeModel(x21)
+                mkexp = MKExp2()
+                mkexp.p['a1'] = ["a1", "a1", 70, 0, 100, True]
+                mkexp.p['b1'] = ["b1", "b1", 0.266, 0.266, 0.266, True]
+                mkexp.p['a2'] = ["a2", "a2", 0.00000000011, 0.00000000011, 0.00000000011, True]
+                mkexp.p['b2'] = ["b2", "b2", 0.026, 0.026, 0.026, True]
+                model1, model1_params = mkexp.makeModel(x)
             elif self.model_choice == 'MKBernstein':
                 mkbernstein = MKBernstein3()
-                mkbernstein.p['coef0'] = ["coef0","coef0", 1.0/2**0, -1.0, 1.0, True]
-                mkbernstein.p['coef1'] = ["coef1", "coef1", -0.161, -1.0, 1.0, True]
-                mkbernstein.p['coef2'] = ["coef2", "coef2", 0.25, -1.0, 1.0, True]
+                mkbernstein.p['c0'] = ["c0", "c0", 1.0, 1.0, 1.0, True]
+                mkbernstein.p['c1'] = ["c1", "c1", 0.18, 0.18, 0.18, True]
+                mkbernstein.p['c2'] = ["c2", "c2", 0.0, 0.0, 0.0, True]
+                mkbernstein.p['c3'] = ["c3", "c3", 0.2, 0.2, 0.2, True]
                 model1, model1_params = mkbernstein.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
                 mkbwzredux = MKBwzredux2()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", -15.0, -20.0, 20.0, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", 6, -10.0, 10.0, True]
-                mkbwzredux.p['pow'] = ["pow","pow", 2.1, -10.0, 10.0, True]
+                mkbwzredux.p['ex1'] = ["ex1", "ex1", -14.5, -14.5, -14.5, True]
+                mkbwzredux.p['ex2'] = ["ex2", "ex2", 6, 6, 6, True]
+                mkbwzredux.p['pow'] = ["pow","pow", 2, 2, 2, True]
                 model1, model1_params = mkbwzredux.makeModel(x)
         ################
         # cat6: WH_BDT_p076_p10
@@ -396,37 +354,40 @@ class WorkspaceAndDatacardMaker:
             smodel, sigParamList, sgc = MKTripleGauss(x)
             if self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
-                mkbwz.p["a1"] = ["a1", "mass", -0.87, -10.0, 10.0, True]
-                mkbwz.p["a2"] = ["a2", "width", 0.1, -10.0, 10.0, True]
-                mkbwz.p["a3"] = ["a3", "exp", 1.4, -10.0, 10.0, True]
-                model1, model1_params = mkbwz.makeModel(x1)
+                mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
+                mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
+                mkbwz.p["a3"] = ["a3", "exp", 0.029, 0.029, 0.029, True]
+                model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
-                mkpower = MKPower()
-                mkpower.p['pow0'] = ["pow0","pow0",-3.02,-10.0,10.0,True]
-                mkpower.p['c0'] = ["c0","c0",2.0,-10.0,10.0,True]
+                mkpower = MKPower_inc()
+                mkpower.p['pow0'] = ["pow0","pow0",-9.8, -9.8, -9.8,True]
+                mkpower.p['c0'] = ["c0","c0",6,6,6,True]
                 model1, model1_params = mkpower.makeModel(x21,order=1)
             elif self.model_choice == 'MKLegendre':
                 mklegendre = MKLegendre()
-                mklegendre.p['coef1'] = ["coef1","coef1",-1.94,-10.0,10.0,True]
-                mklegendre.p['coef2'] = ["coef2","coef2",1.0, -10.0, 10.0, True]
-                mklegendre.p['coef3'] = ["coef3", "coef3", -1.10, -10.0, 10.0, True]
+                mklegendre.p['c1'] = ["c1","c1", -0.555, -0.555, -0.555, True]
+                mklegendre.p['c2'] = ["c2","c2", 0.39, 0.39, 0.39, True]
+                mklegendre.p['c3'] = ["c3", "c3", -0.211, -0.211, -0.211, True]
                 model1, model1_params = mklegendre.makeModel(x1,order=[1,2,3])
             elif self.model_choice == 'MKExp':
-                mkexp = MKExp()
-                mkexp.p['a1'] = ["a1", "a1", 0.1, 0.0, 10.0, True]
-                mkexp.p['b1'] = ["b1", "b1", 2.2, 0.0, 10.0, True]
-                model1, model1_params = mkexp.makeModel(x21)
+                mkexp = MKExp2()
+                mkexp.p['a1'] = ["a1", "a1", 5, 5, 5, True]
+                mkexp.p['b1'] = ["b1", "b1", 0.08, 0.08, 0.08, True]
+                mkexp.p['a2'] = ["a2", "a2", 0.0002, 0.0002, 0.0002, True]
+                mkexp.p['b2'] = ["b2", "b2", -0.0050, -0.0050, -0.0050, True]
+                model1, model1_params = mkexp.makeModel(x)
             elif self.model_choice == 'MKBernstein':
                 mkbernstein = MKBernstein3()
-                mkbernstein.p['coef0'] = ["coef0","coef0", 1.0/2**0, -1.0, 1.0, True]
-                mkbernstein.p['coef1'] = ["coef1", "coef1", 0.19, -1.0, 1.0, True]
-                mkbernstein.p['coef2'] = ["coef2", "coef2", 0.43, -1.0, 1.0, True]
+                mkbernstein.p['c0'] = ["c0", "c0", 0.5, 0.5, 0.5, True]
+                mkbernstein.p['c1'] = ["c1", "c1", 0.0, 0.0, 0.0, True]
+                mkbernstein.p['c2'] = ["c2", "c2", 0.3, 0.3, 0.3, True]
+                mkbernstein.p['c3'] = ["c3", "c3", 0.1, 0.1, 0.1, True]
                 model1, model1_params = mkbernstein.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
-                mkbwzredux = MKBwzredux()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", -16.1, -100.0, 100.0, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", 5.2, -100.0, 100.0, True]
-                mkbwzredux.p['pow'] = ["pow","pow", 0.0, -10.0, 10.0, True]
+                mkbwzredux = MKBwzredux2()
+                mkbwzredux.p['ex1'] = ["ex1", "ex1", 3, 3, 3, True]
+                mkbwzredux.p['ex2'] = ["ex2", "ex2", -0.2, -0.2, -0.2, True]
+                mkbwzredux.p['pow'] = ["pow","pow", 2, 2, 2, True]
                 model1, model1_params = mkbwzredux.makeModel(x)
         #
         # end; function parameter configs
