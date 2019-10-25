@@ -139,7 +139,8 @@ class WorkspaceAndDatacardMaker:
             if self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
                 mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
-                mkbwz.p["a2"] = ["a2", "width", 8, 8, 8, True]
+                #mkbwz.p["a2"] = ["a2", "width", 8, 8, 8, True]
+                mkbwz.p["a2"] = ["a2", "width", 2.5, 2.5, 2.5, True]
                 mkbwz.p["a3"] = ["a3", "exp", 0.0188, 0.0188, 0.0188, True]
                 model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
@@ -163,7 +164,7 @@ class WorkspaceAndDatacardMaker:
                 mkexp.p['b2'] = ["b2", "b2", 0.0195, 0.0195, 0.0195, True]
                 model1, model1_params = mkexp.makeModel(x)
             elif self.model_choice == 'MKBernstein':
-                mkbernstein = MKBernstein2_inc()
+                mkbernstein = MKBernstein3()
                 mkbernstein.p['c0'] = ["c0","c0", 0.8, 0.8 , 0.8, True]
                 mkbernstein.p['c1'] = ["c1", "c1", 0.1, 0.1, 0.1, True]
                 mkbernstein.p['c2'] = ["c2", "c2", 0.3, 0.3, 0.3, True]
@@ -183,7 +184,8 @@ class WorkspaceAndDatacardMaker:
             if self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
                 mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
-                mkbwz.p["a2"] = ["a2", "width", 5, 5, 5, True]
+                #mkbwz.p["a2"] = ["a2", "width", 5, 5, 5, True]
+                mkbwz.p["a2"] = ["a2", "width", 2.5, 2.5, 2.5, True]
                 mkbwz.p["a3"] = ["a3", "exp", 0.018, 0.018, 0.018, True]
                 model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
@@ -228,7 +230,8 @@ class WorkspaceAndDatacardMaker:
             if self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
                 mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
-                mkbwz.p["a2"] = ["a2", "width", 6, 6, 6, True]
+                #mkbwz.p["a2"] = ["a2", "width", 6, 6, 6, True]
+                mkbwz.p["a2"] = ["a2", "width", 2.5, 2.5, 2.5, True]
                 mkbwz.p["a3"] = ["a3", "exp", 0.014, 0.014, 0.014, True]
                 model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
@@ -272,7 +275,8 @@ class WorkspaceAndDatacardMaker:
             if self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
                 mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
-                mkbwz.p["a2"] = ["a2", "width", 16, 16, 16, True]
+                #mkbwz.p["a2"] = ["a2", "width", 16, 16, 16, True]
+                mkbwz.p["a2"] = ["a2", "width", 2.5, 2.5, 2.5, True]
                 mkbwz.p["a3"] = ["a3", "exp", 0.012, 0.012, 0.012, True]
                 model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
@@ -313,14 +317,17 @@ class WorkspaceAndDatacardMaker:
             if self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
                 mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
-                mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
+                #mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
+                mkbwz.p["a2"] = ["a2", "width", 2.5, 2.5, 2.5, True]
                 mkbwz.p["a3"] = ["a3", "exp", 0.009, 0.009, 0.009, True]
                 model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
                 mkpower = MKPower_inc()
-                mkpower.p['pow0'] = ["pow0","pow0",-9.99, -9.99, -9.99,True]
-                mkpower.p['c0'] = ["c0","c0",10.0,10.0,10.0,True]
-                model1, model1_params = mkpower.makeModel(x21,order=1)
+                mkpower.p['c0'] = ["c0","c0", 2, 2 ,2,True]
+                mkpower.p['c1'] = ["c0","c0", -1.68, -1.68, -1.68,True]
+                mkpower.p['pow0'] = ["pow0","pow0", -5.7, -5.7, -5.7, True]
+                mkpower.p['pow1'] = ["pow0","pow0", -1.03, -1.03, -1.03,True]
+                model1, model1_params = mkpower.makeModel(x21,order=2)
             elif self.model_choice == 'MKLegendre':
                 mklegendre = MKLegendre()
                 mklegendre.p['c1'] = ["c1","c1", -1.040, -10, 10, True]
@@ -328,11 +335,11 @@ class WorkspaceAndDatacardMaker:
                 mklegendre.p['c3'] = ["c3", "c3", -0.025, -10, 10, True]
                 model1, model1_params = mklegendre.makeModel(x1,order=[1,2,3])
             elif self.model_choice == 'MKExp':
-                mkexp = MKExp2()
-                mkexp.p['a1'] = ["a1", "a1", 70, 0, 100, True]
-                mkexp.p['b1'] = ["b1", "b1", 0.266, 0.266, 0.266, True]
-                mkexp.p['a2'] = ["a2", "a2", 0.00000000011, 0.00000000011, 0.00000000011, True]
-                mkexp.p['b2'] = ["b2", "b2", 0.026, 0.026, 0.026, True]
+                mkexp = MKExp()
+                mkexp.p['a1'] = ["a1", "a1", 5.7, 0, 100, True]
+                mkexp.p['b1'] = ["b1", "b1", 0.045, 0.0, 100, True]
+                #mkexp.p['a2'] = ["a2", "a2", 0.00000000011, 0.00000000011, 0.00000000011, True]
+                #mkexp.p['b2'] = ["b2", "b2", 0.026, 0.026, 0.026, True]
                 model1, model1_params = mkexp.makeModel(x)
             elif self.model_choice == 'MKBernstein':
                 mkbernstein = MKBernstein3()
@@ -355,7 +362,8 @@ class WorkspaceAndDatacardMaker:
             if self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
                 mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
-                mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
+                #mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
+                mkbwz.p["a2"] = ["a2", "width", 2.5, 2.5, 2.5, True]
                 mkbwz.p["a3"] = ["a3", "exp", 0.029, 0.029, 0.029, True]
                 model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
@@ -370,11 +378,11 @@ class WorkspaceAndDatacardMaker:
                 mklegendre.p['c3'] = ["c3", "c3", -0.211, -0.211, -0.211, True]
                 model1, model1_params = mklegendre.makeModel(x1,order=[1,2,3])
             elif self.model_choice == 'MKExp':
-                mkexp = MKExp2()
-                mkexp.p['a1'] = ["a1", "a1", 5, 5, 5, True]
-                mkexp.p['b1'] = ["b1", "b1", 0.08, 0.08, 0.08, True]
-                mkexp.p['a2'] = ["a2", "a2", 0.0002, 0.0002, 0.0002, True]
-                mkexp.p['b2'] = ["b2", "b2", -0.0050, -0.0050, -0.0050, True]
+                mkexp = MKExp()
+                mkexp.p['a1'] = ["a1", "a1", 5.7, 0, 100, True]
+                mkexp.p['b1'] = ["b1", "b1", 0.022, 0.0, 10.0, True]
+                #mkexp.p['a2'] = ["a2", "a2", 0.0002, 0.0002, 0.0002, True]
+                #mkexp.p['b2'] = ["b2", "b2", -0.0050, -0.0050, -0.0050, True]
                 model1, model1_params = mkexp.makeModel(x)
             elif self.model_choice == 'MKBernstein':
                 mkbernstein = MKBernstein3()

@@ -318,7 +318,7 @@ class MKBernstein3:
         self.p['c1'] = ["c1", "c1", 1.0/2**1, -1.0, 1.0, False]
         self.p['c2'] = ["c2", "c2", 1.0/2**2, -1.0, 1.0, False]
         self.p['c3'] = ["c3", "c3", 1.0/2**3, -1.0, 1.0, False]
-    def makeModel(self,x2):
+    def makeModel(self,x):
         gc = []
         arglist = r.RooArgList()
         rrvs = {}
@@ -331,7 +331,7 @@ class MKBernstein3:
                 rrvs[e[0]].setConstant()
             gc.append(rrvs[e[0]])
             arglist.add(rrvs[e[0]])
-        model = r.RooBernstein(self.name, self.name, x2, arglist)
+        model = r.RooBernstein(self.name, self.name, x, arglist)
         gc.append(model)
         return model, gc
 # fold
