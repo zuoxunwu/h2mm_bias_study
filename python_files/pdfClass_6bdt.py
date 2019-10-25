@@ -334,6 +334,30 @@ class MKBernstein3:
         model = r.RooBernstein(self.name, self.name, x, arglist)
         gc.append(model)
         return model, gc
+class MKBernstein3_mod:
+    def __init__(self):
+        self.name = 'MKBernstein'
+        self.p = {}
+        self.p['c0'] = ["c0", "c0", 1.0/2**0, -1.0, 1.0, True]
+        self.p['c1'] = ["c1", "c1", 1.0/2**1, -1.0, 1.0, False]
+        self.p['c2'] = ["c2", "c2", 1.0/2**2, -1.0, 1.0, False]
+        self.p['c3'] = ["c3", "c3", 1.0/2**3, -1.0, 1.0, False]
+    def makeModel(self,x):
+        gc = []
+        arglist = r.RooArgList()
+        rrvs = {}
+        rrvs["c0"] = r.RooRealVar(*self.p["c0"][0:5]) 
+        rrvs["c1"] = r.RooRealVar(*self.p["c1"][0:5]) 
+        rrvs["c2"] = r.RooRealVar(*self.p["c2"][0:5])
+        rrvs["c3"] = r.RooRealVar(*self.p["c3"][0:5])
+        for e in [self.p["c0"], self.p["c1"], self.p["c2"], self.p["c3"]]:
+            if e[5] == True:
+                rrvs[e[0]].setConstant()
+            gc.append(rrvs[e[0]])
+            arglist.add(rrvs[e[0]])
+        model = r.RooBernstein(self.name, self.name, x, arglist)
+        gc.append(model)
+        return model, gc
 # fold
 class MKBernstein2_inc:
     def __init__(self):

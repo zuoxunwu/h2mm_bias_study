@@ -164,11 +164,10 @@ class WorkspaceAndDatacardMaker:
                 mkexp.p['b2'] = ["b2", "b2", 0.0195, 0.0195, 0.0195, True]
                 model1, model1_params = mkexp.makeModel(x)
             elif self.model_choice == 'MKBernstein':
-                mkbernstein = MKBernstein3()
-                mkbernstein.p['c0'] = ["c0","c0", 0.8, 0.8 , 0.8, True]
-                mkbernstein.p['c1'] = ["c1", "c1", 0.1, 0.1, 0.1, True]
-                mkbernstein.p['c2'] = ["c2", "c2", 0.3, 0.3, 0.3, True]
-                mkbernstein.p['c3'] = ["c3", "c3", 0.2, 0.2, 0.2, True]
+                mkbernstein = MKBernstein3_mod()
+                mkbernstein.p['c1'] = ["c1", "c1", 0.15, -1, 1, True]
+                mkbernstein.p['c2'] = ["c2", "c2", 0.38, -1, 1, True]
+                mkbernstein.p['c3'] = ["c3", "c3", 0.203, -1, 1, True]
                 model1, model1_params = mkbernstein.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
                 mkbwzredux = MKBwzredux2()
