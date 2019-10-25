@@ -9,7 +9,7 @@
 >>> random number generator seed is 123456
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
-Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-678tcE.root
+Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-mHctyM.root
 Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
   [WARNING] Found [c0] at boundary. 
   [WARNING] Found [pow0] at boundary. 
@@ -2395,7 +2395,7 @@ FASTEXIT from pdf_binc_01_test_obsOnly
 Best fit r: -5.78092  -4.36468/+6.54672  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: 1.68998  -8.03188/+10.4171  (68% CL)
+Best fit r: 1.68998  -8.03188/+10.415  (68% CL)
 Error: closed range without finding crossing.
 WARNING: underflow to -0.108514 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
@@ -3005,16 +3005,16 @@ Error: minimization failed at r = 12.5702
 
  --- FitDiagnostics ---
 Best fit r: 4.64036  -8.08074/+55.3596  (68% CL)
-Error: minimization failed at r = 4.84929
-WARNING: underflow to -0.0402426 in pdf_binc_01_test_obsOnly for bin 6, weight 1
+Error: closed range without finding crossing.
+WARNING: underflow to -0.040241 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,c0,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow0,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.909 +/- 4.32886,MeanG2 = 124.128 +/- 18.0072,MeanG3 = 3.81064 +/- 65.1316,WidthG1 = 1.54356 +/- 7.72278,WidthG2 = 3.60063 +/- 61.8902,WidthG3 = 49.372 +/- 714.35,c0 = 2.58214 +/- 4.63151,coefG1 = 0.584385 +/- 0.264209,coefG2 = 0.343791 +/- 0.321466,lumi_13TeV = 1.1601e-05 +/- 0.999966,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow0 = -4.90619 +/- 2.51301,r = -7.53638 +/- 5.29258,shapeBkg_bmodel_c_01_test_c_01_test__norm = 14.5207 +/- 3.72793)
+ server values: params=(MeanG1 = 124.909 +/- 4.32886,MeanG2 = 124.128 +/- 18.0072,MeanG3 = 3.81064 +/- 65.1316,WidthG1 = 1.54356 +/- 7.72278,WidthG2 = 3.60063 +/- 61.8902,WidthG3 = 49.372 +/- 714.35,c0 = 4.892 +/- 4.18127,coefG1 = 0.584385 +/- 0.264209,coefG2 = 0.343791 +/- 0.321466,lumi_13TeV = 7.62505e-06 +/- 0.999966,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow0 = -4.9062 +/- 2.51301,r = -7.53638 +/- 5.29258,shapeBkg_bmodel_c_01_test_c_01_test__norm = 14.5208 +/- 3.72793)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -1.70708  -4.36006/+61.7071  (68% CL)
+Best fit r: -1.70708  -4.36766/+61.7071  (68% CL)
 Error: minimization failed at r = 20.8315
 Error: minimization failed at r = 10.5541
 
@@ -3766,7 +3766,7 @@ WARNING: underflow to -0.11348 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -0.980075  -6.54228/+9.68773  (68% CL)
+Best fit r: -0.980075  -6.54228/+9.688  (68% CL)
 Error: minimization failed at r = -2.8999
 
  --- FitDiagnostics ---
@@ -5469,15 +5469,16 @@ Best fit r: -17.6418  -42.3582/+10.6621  (68% CL)
 
  --- FitDiagnostics ---
 Best fit r: 4.26149  -8.13307/+10.9108  (68% CL)
-WARNING: underflow to -0.0499538 in pdf_binc_01_test_obsOnly for bin 12, weight 1
+Error: minimization failed at r = 8.05522
+WARNING: underflow to -0.0503789 in pdf_binc_01_test_obsOnly for bin 12, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,c0,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow0,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.909 +/- 4.32886,MeanG2 = 124.128 +/- 18.0072,MeanG3 = 3.81064 +/- 65.1316,WidthG1 = 1.54356 +/- 7.72278,WidthG2 = 3.60063 +/- 61.8902,WidthG3 = 49.372 +/- 714.35,c0 = 4.31099 +/- 3.98815,coefG1 = 0.584385 +/- 0.264209,coefG2 = 0.343791 +/- 0.321466,lumi_13TeV = -0.024083 +/- 0.999147,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow0 = -9.08229 +/- 2.03425,r = -12.7955 +/- 8.07628,shapeBkg_bmodel_c_01_test_c_01_test__norm = 28.0416 +/- 4.83302)
+ server values: params=(MeanG1 = 124.909 +/- 4.32886,MeanG2 = 124.128 +/- 18.0072,MeanG3 = 3.81064 +/- 65.1316,WidthG1 = 1.54356 +/- 7.72278,WidthG2 = 3.60063 +/- 61.8902,WidthG3 = 49.372 +/- 714.35,c0 = 4.94699 +/- 3.84775,coefG1 = 0.584385 +/- 0.264209,coefG2 = 0.343791 +/- 0.321466,lumi_13TeV = -0.0242045 +/- 0.999142,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow0 = -9.08163 +/- 2.03221,r = -12.8067 +/- 8.07528,shapeBkg_bmodel_c_01_test_c_01_test__norm = 28.0502 +/- 4.83147)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -0.994328  -6.87241/+9.47036  (68% CL)
+Best fit r: -1.00833  -6.85984/+61.0083  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
@@ -5617,7 +5618,7 @@ FASTEXIT from pdf_binc_01_test_obsOnly
  --- FitDiagnostics ---
 Best fit r: -4.54216  -4.93208/+7.3337  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-mean   expected limit: r < -1.56482 +/- 0.486928 @ 95%CL (848 toyMC)
+mean   expected limit: r < -1.56483 +/- 0.486928 @ 95%CL (848 toyMC)
 median expected limit: r < 0.362242 @ 95%CL (848 toyMC)
    68% expected band : -7.81226 < r < 8.85624
    95% expected band : -59.9999 < r < 18.4389

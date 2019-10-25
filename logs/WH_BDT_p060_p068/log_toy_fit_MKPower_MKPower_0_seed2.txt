@@ -9,7 +9,7 @@
 >>> random number generator seed is 123456
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
-Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-gst7iA.root
+Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-IykHHD.root
 Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
 Error: minimization failed at r = 5.93434
 Error: minimization failed at r = 5.93434
@@ -2521,7 +2521,7 @@ Best fit r: 2.91584  -6.82973/+9.37987  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
-Best fit r: -29.1397  -8.38638/+89.1397  (68% CL)
+Best fit r: -29.1397  -8.38567/+89.1397  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
@@ -3241,7 +3241,7 @@ WARNING: underflow to -0.0136966 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -13.0668  -7.98636/+9.39058  (68% CL)
+Best fit r: -13.0668  -7.98665/+9.39058  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
@@ -3363,7 +3363,7 @@ WARNING: underflow to -0.0596206 in pdf_binc_01_test_obsOnly for bin 8, weight 1
  message      : Number of events is negative or error
  server values: params=(MeanG1 = 124.909 +/- 4.32886,MeanG2 = 124.128 +/- 18.0072,MeanG3 = 3.81064 +/- 65.1316,WidthG1 = 1.54356 +/- 7.72278,WidthG2 = 3.60063 +/- 61.8902,WidthG3 = 49.372 +/- 714.35,c0 = 4.96441 +/- 13.4832,coefG1 = 0.584385 +/- 0.264209,coefG2 = 0.343791 +/- 0.321466,lumi_13TeV = -0.025105 +/- 0.998975,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow0 = -6.54099 +/- 2.16716,r = -13.4162 +/- 6.6178,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.3814 +/- 3.99476)
 FASTEXIT from pdf_binc_01_test_obsOnly
-Error: closed range without finding crossing.
+Error: minimization failed at r = -7.97914
 [WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-hcomb.gitbooks.io/combine/content/part3/nonstandard.html#fit-parameter-uncertainties for more information.
 
  --- FitDiagnostics ---

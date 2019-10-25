@@ -9,7 +9,7 @@
 >>> random number generator seed is 123456
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
-Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-XYOlxm.root
+Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-w2ZMJD.root
 Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
 Error: minimization failed at r = 8.43746
 Error: minimization failed at r = -0.812569
@@ -1589,11 +1589,10 @@ WARNING: underflow to -0.101068 in pdf_binc_01_test_obsOnly for bin 7, weight 1
  message      : Number of events is negative or error
  server values: params=(MeanG1 = 124.909 +/- 4.32886,MeanG2 = 124.128 +/- 18.0072,MeanG3 = 3.81064 +/- 65.1316,WidthG1 = 1.54356 +/- 7.72278,WidthG2 = 3.60063 +/- 61.8902,WidthG3 = 49.372 +/- 714.35,c0 = 5.01684 +/- 16.5448,coefG1 = 0.584385 +/- 0.264209,coefG2 = 0.343791 +/- 0.321466,lumi_13TeV = -0.0518361 +/- 0.997073,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow0 = -4.80616 +/- 1.75956,r = -18.1499 +/- 5.76766,shapeBkg_bmodel_c_01_test_c_01_test__norm = 29.0086 +/- 4.03322)
 FASTEXIT from pdf_binc_01_test_obsOnly
-Error: closed range without finding crossing.
 [WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-hcomb.gitbooks.io/combine/content/part3/nonstandard.html#fit-parameter-uncertainties for more information.
 
  --- FitDiagnostics ---
-Best fit r: -7.6874  -52.3126/+8.63558  (68% CL)
+Best fit r: -7.6874  -5.98467/+8.63558  (68% CL)
 
  --- FitDiagnostics ---
 Fit failed.
@@ -2980,7 +2979,7 @@ WARNING: underflow to -0.121034 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -0.384438  -6.43041/+60.3844  (68% CL)
+Best fit r: -0.384438  -6.43042/+60.3844  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
@@ -4806,7 +4805,7 @@ Best fit r: -15.586  -5.53143/+7.15887  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
-Best fit r: 1.53783  -7.73158/+58.4622  (68% CL)
+Best fit r: 1.53783  -7.73557/+58.4622  (68% CL)
 
  --- FitDiagnostics ---
 Fit failed.

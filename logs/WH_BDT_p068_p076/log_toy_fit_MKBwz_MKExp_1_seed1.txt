@@ -9,7 +9,7 @@
 >>> random number generator seed is 123456
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
-Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-0CZtqn.root
+Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-7zUl5M.root
 Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
 
  --- FitDiagnostics ---
@@ -703,27 +703,33 @@ Done in 0.00 min (cpu), 0.00 min (real)
  --- FitDiagnostics ---
 Best fit r: 3.86956  -5.66046/+8.15909  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 5.40905  -7.92047/+10.8279  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 1.62684  -6.32603/+8.60516  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.052053 in pdf_binc_01_test_obsOnly for bin 5, weight 1
+WARNING: underflow to -0.0355908 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.00654799 +/- 0.999867,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -8.32266 +/- 8.38273,shapeBkg_bmodel_c_01_test_c_01_test__norm = 14.8136 +/- 3.72406)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0346782 +/- 0.998138,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -18.3247 +/- 8.19307,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.1347 +/- 3.56974)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: 4.59668  -7.00322/+10.0006  (68% CL)
+Best fit r: -7.90585  -7.1665/+9.66516  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0518635 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0224611 +/- 0.999275,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.1944 +/- 7.94945,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.6585 +/- 4.32022)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -0.243004  -6.83844/+9.26482  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 3.17888  -8.24869/+10.7312  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
-Best fit r: -59.9769  -0.0230557/+14.137  (68% CL)
+Best fit r: -59.9999  -5.58962e-05/+9.35968  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -874,7 +880,7 @@ Best fit r: -7.54371  -5.06321/+7.37265  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.35903  -7.39428/+9.84707  (68% CL)
+Best fit r: -1.32982  -7.40635/+9.86248  (68% CL)
 WARNING: underflow to -0.00614293 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
@@ -891,41 +897,34 @@ Best fit r: 9.53418  -8.58031/+11.1906  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -6.79187  -9.32229/+11.5976  (68% CL)
-WARNING: underflow to -0.0355022 in pdf_binc_01_test_obsOnly for bin 10, weight 1
+Best fit r: 2.76998  -9.3709/+11.5105  (68% CL)
+WARNING: underflow to -0.0537146 in pdf_binc_01_test_obsOnly for bin 10, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000166934 +/- 0.998612,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -16.2196 +/- 5.49785,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.2786 +/- 3.71672)
-FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.00663633 in pdf_binc_01_test_obsOnly for bin 10, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0763738 +/- 0.995659,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -18.6519 +/- 5.49785,shapeBkg_bmodel_c_01_test_c_01_test__norm = 25.6525 +/- 2.82216)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000140661 +/- 0.999193,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.1659 +/- 5.05601,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.2987 +/- 3.94454)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -11.3551  -5.18172/+6.35149  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
+Best fit r: -7.96215  -4.51564/+6.12156  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: 2.12273  -5.15785/+7.47665  (68% CL)
-WARNING: underflow to -0.0888573 in pdf_binc_01_test_obsOnly for bin 2, weight 1
+Best fit r: 0.782745  -5.48979/+7.6982  (68% CL)
+WARNING: underflow to -0.0934899 in pdf_binc_01_test_obsOnly for bin 3, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -8.00241e-08 +/- 0.999952,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -4.34445 +/- 4.76612,shapeBkg_bmodel_c_01_test_c_01_test__norm = 5.46846 +/- 2.41932)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -7.71234e-06 +/- 0.999982,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -5.02703 +/- 4.63608,shapeBkg_bmodel_c_01_test_c_01_test__norm = 6.68779 +/- 2.63559)
 FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.0888573 in pdf_binc_01_test_obsOnly for bin 2, weight 1
+WARNING: underflow to -0.0934899 in pdf_binc_01_test_obsOnly for bin 3, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -8.00241e-08 +/- 8.16457e-18,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -4.34445 +/- 4.76612,shapeBkg_bmodel_c_01_test_c_01_test__norm = 5.46846 +/- 1.97537e-19)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -7.71234e-06 +/- 8.16482e-18,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -5.02703 +/- 4.63608,shapeBkg_bmodel_c_01_test_c_01_test__norm = 6.68779 +/- 2.15195e-19)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: 1.8395  -3.63528/+6.2525  (68% CL)
+Best fit r: 1.08107  -3.58923/+6.05545  (68% CL)
 WARNING: underflow to -0.00985342 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
@@ -1217,44 +1216,38 @@ FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
 Best fit r: -12.6743  -6.54297/+7.71275  (68% CL)
-WARNING: underflow to -0.0774182 in pdf_binc_01_test_obsOnly for bin 5, weight 1
+WARNING: underflow to -0.0519508 in pdf_binc_01_test_obsOnly for bin 4, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 3.38507e-07 +/- 0.999995,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -6.52381 +/- 4.85116,shapeBkg_bmodel_c_01_test_c_01_test__norm = 10.1682 +/- 3.16004)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -3.15065e-07 +/- 1,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -5.92759 +/- 5.33673,shapeBkg_bmodel_c_01_test_c_01_test__norm = 8.97677 +/- 2.99996)
 FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.0368811 in pdf_binc_01_test_obsOnly for bin 5, weight 1
+WARNING: underflow to -0.0181469 in pdf_binc_01_test_obsOnly for bin 4, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0172919 +/- 0.999305,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -6.52381 +/- 4.85116,shapeBkg_bmodel_c_01_test_c_01_test__norm = 11.763 +/- 2.93671)
-FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -0.582013  -3.85339/+6.29436  (68% CL)
-WARNING: underflow to -0.0480332 in pdf_binc_01_test_obsOnly for bin 8, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 2.27343e-05 +/- 0.999866,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.05659 +/- 5.28172,shapeBkg_bmodel_c_01_test_c_01_test__norm = 14.9811 +/- 3.68686)
-FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.0054099 in pdf_binc_01_test_obsOnly for bin 8, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0219422 +/- 0.998811,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.05659 +/- 5.28172,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.6929 +/- 3.36032)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0128843 +/- 0.999591,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -5.92759 +/- 5.33673,shapeBkg_bmodel_c_01_test_c_01_test__norm = 10.3383 +/- 2.87254)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -3.39621  -4.36699/+6.70654  (68% CL)
+Best fit r: 0.0804598  -4.21706/+6.87818  (68% CL)
+WARNING: underflow to -0.013022 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 7.26788e-05 +/- 0.999903,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.03587 +/- 6.14848,shapeBkg_bmodel_c_01_test_c_01_test__norm = 13.9717 +/- 3.56435)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -3.37319  -5.1234/+7.65874  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -1.20117  -8.54229/+11.0426  (68% CL)
+Best fit r: -5.90268  -9.31495/+11.4011  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.69418  -7.54834/+10.2796  (68% CL)
+Best fit r: 6.36816  -7.37346/+10.0553  (68% CL)
 
  --- FitDiagnostics ---
 Best fit r: -39.2133  -14.1832/+12.1844  (68% CL)
@@ -1562,7 +1555,7 @@ Best fit r: -21.1319  -8.65191/+8.7765  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.31527  -8.39576/+10.9262  (68% CL)
+Best fit r: 5.31569  -8.3958/+10.9262  (68% CL)
 
  --- FitDiagnostics ---
 Best fit r: -0.0742602  -5.25686/+7.23485  (68% CL)
@@ -1663,26 +1656,27 @@ FASTEXIT from pdf_binc_01_test_obsOnly
  --- FitDiagnostics ---
 Best fit r: 1.54035  -6.55553/+9.31525  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.100609 in pdf_binc_01_test_obsOnly for bin 10, weight 1
+WARNING: underflow to -0.0884787 in pdf_binc_01_test_obsOnly for bin 10, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0324137 +/- 0.998524,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.19 +/- 7.57776,shapeBkg_bmodel_c_01_test_c_01_test__norm = 24.7695 +/- 4.22513)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0315345 +/- 0.998749,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.8202 +/- 7.81722,shapeBkg_bmodel_c_01_test_c_01_test__norm = 24.5001 +/- 4.28769)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -2.73746  -6.3632/+8.99153  (68% CL)
+Best fit r: -2.27528  -6.58223/+9.21703  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
 Best fit r: 17.8282  -11.0126/+13.5248  (68% CL)
+Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
-Fit failed.
+Best fit r: -60  -3.48092e-07/+3.20788  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.6599  -8.19124/+10.5707  (68% CL)
+Best fit r: 7.8036  -8.27649/+10.5496  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -1921,15 +1915,15 @@ Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
 Best fit r: 6.72463  -7.06985/+9.5261  (68% CL)
-WARNING: underflow to -0.0348019 in pdf_binc_01_test_obsOnly for bin 5, weight 1
+WARNING: underflow to -0.025172 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -4.25705e-06 +/- 0.999936,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -8.28307 +/- 5.70141,shapeBkg_bmodel_c_01_test_c_01_test__norm = 12.7332 +/- 3.43591)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -1.39241e-06 +/- 0.999953,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -8.02379 +/- 5.92728,shapeBkg_bmodel_c_01_test_c_01_test__norm = 12.6499 +/- 3.44363)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -2.53675  -4.68364/+7.24451  (68% CL)
+Best fit r: -2.24865  -4.8389/+7.51369  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -2050,521 +2044,586 @@ Best fit r: -0.681267  -4.05782/+6.15612  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 14.5264  -9.80281/+12.3171  (68% CL)
+Best fit r: 16.7592  -10.133/+12.5399  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0100482 in pdf_binc_01_test_obsOnly for bin 12, weight 1
+
+ --- FitDiagnostics ---
+Best fit r: 0.116719  -7.46692/+9.86342  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: -3.61995  -7.23307/+9.6748  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0100802 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0279182 +/- 0.998974,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.5261 +/- 7.81189,shapeBkg_bmodel_c_01_test_c_01_test__norm = 27.2989 +/- 4.68676)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -1.38334e-05 +/- 0.999799,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -10.1102 +/- 5.81369,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.3204 +/- 4.28882)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -1.90768  -6.71146/+9.19286  (68% CL)
+Best fit r: -4.56691  -4.82406/+7.20404  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.39463  -7.54692/+9.82753  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0641949 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+Best fit r: 12.071  -8.70898/+11.1247  (68% CL)
+WARNING: underflow to -0.0281997 in pdf_binc_01_test_obsOnly for bin 4, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0475741 +/- 0.998006,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.4199 +/- 6.48661,shapeBkg_bmodel_c_01_test_c_01_test__norm = 23.6945 +/- 3.85168)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -1.30028e-06 +/- 0.999942,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -8.10526 +/- 5.55088,shapeBkg_bmodel_c_01_test_c_01_test__norm = 12.676 +/- 3.43881)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -4.2749  -5.69246/+7.6676  (68% CL)
+Best fit r: -2.33918  -4.68309/+6.78899  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 8.16494  -8.14186/+10.5912  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 6.40003  -7.0469/+9.50523  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 2.60881  -6.08295/+8.76958  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 5.1283  -7.2299/+9.93272  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 8.46603  -9.59878/+12.3838  (68% CL)
-WARNING: underflow to -0.0214777 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+WARNING: underflow to -0.0407187 in pdf_binc_01_test_obsOnly for bin 11, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000180029 +/- 0.998438,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -18.297 +/- 6.23611,shapeBkg_bmodel_c_01_test_c_01_test__norm = 18.948 +/- 3.20969)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0140986 +/- 0.99964,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -10.3846 +/- 8.40177,shapeBkg_bmodel_c_01_test_c_01_test__norm = 17.7507 +/- 3.93026)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -13.6634  -6.14846/+6.86486  (68% CL)
+Best fit r: 2.01921  -7.15717/+9.90643  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.66175  -8.42039/+10.9888  (68% CL)
-WARNING: underflow to -0.0260748 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+Best fit r: 0.599605  -5.18995/+7.67769  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 10.2951  -10.5121/+12.935  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0822691 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 1.16669e-05 +/- 0.999094,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.6117 +/- 5.72886,shapeBkg_bmodel_c_01_test_c_01_test__norm = 17.7638 +/- 3.50232)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0091218 +/- 0.999789,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -8.94213 +/- 8.08161,shapeBkg_bmodel_c_01_test_c_01_test__norm = 14.1281 +/- 3.56994)
 FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.0055399 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+
+ --- FitDiagnostics ---
+Best fit r: 3.82233  -6.86988/+9.48418  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -1.03694  -9.1884/+11.8652  (68% CL)
+WARNING: underflow to -0.00570643 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0681342 +/- 0.99652,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -17.1333 +/- 5.72886,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.8483 +/- 2.68172)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0311242 +/- 0.997189,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -28.2689 +/- 8.80525,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.2303 +/- 2.61581)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -9.56855  -5.33783/+6.72726  (68% CL)
-WARNING: underflow to -0.0242431 in pdf_binc_01_test_obsOnly for bin 3, weight 1
+Best fit r: -20.3361  -8.95468/+9.32083  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: 0.328346  -5.29861/+8.06794  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: -3.00051  -6.8267/+8.82806  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0374269 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0249781 +/- 0.99837,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -20.8857 +/- 8.45177,shapeBkg_bmodel_c_01_test_c_01_test__norm = 15.7359 +/- 2.49863)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0220541 +/- 0.999281,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.267 +/- 8.0678,shapeBkg_bmodel_c_01_test_c_01_test__norm = 23.6683 +/- 4.43514)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -11.1072  -8.28764/+9.26655  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 10.0292  -7.54532/+9.77641  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0201384 in pdf_binc_01_test_obsOnly for bin 11, weight 1
+Best fit r: -0.333781  -6.92469/+9.41779  (68% CL)
+WARNING: underflow to -0.0686187 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0239676 +/- 0.999138,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.4326 +/- 8.16707,shapeBkg_bmodel_c_01_test_c_01_test__norm = 25.1177 +/- 4.50678)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -2.35352e-05 +/- 0.999953,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -7.65576 +/- 4.8558,shapeBkg_bmodel_c_01_test_c_01_test__norm = 11.5325 +/- 3.29531)
 FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -1.79069  -7.1135/+9.39205  (68% CL)
-WARNING: underflow to -0.0388668 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+WARNING: underflow to -0.0260562 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -1.24152e-05 +/- 0.999789,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.86929 +/- 5.32917,shapeBkg_bmodel_c_01_test_c_01_test__norm = 14.2424 +/- 3.51579)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.019684 +/- 0.999031,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -7.65576 +/- 4.8558,shapeBkg_bmodel_c_01_test_c_01_test__norm = 13.2441 +/- 2.98831)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -4.29921  -4.58962/+6.55452  (68% CL)
+Best fit r: -1.83973  -3.97497/+6.23392  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.91063  -8.08509/+10.5301  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 9.87252  -7.878/+10.2999  (68% CL)
-WARNING: underflow to -0.0112947 in pdf_binc_01_test_obsOnly for bin 9, weight 1
+Best fit r: 6.65376  -8.71876/+11.219  (68% CL)
+WARNING: underflow to -0.0623825 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0386521 +/- 0.997625,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -22.6433 +/- 7.81124,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.6101 +/- 3.0508)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -2.46568e-05 +/- 0.999506,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -11.3703 +/- 4.83716,shapeBkg_bmodel_c_01_test_c_01_test__norm = 18.7244 +/- 3.93769)
 FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -13.3041  -7.57511/+8.52284  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 2.69963  -7.50926/+10.1661  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.00173243 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+WARNING: underflow to -0.0109188 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 1.99788e-06 +/- 0.999989,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -7.02863 +/- 6.33261,shapeBkg_bmodel_c_01_test_c_01_test__norm = 14.3304 +/- 3.73737)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0315 +/- 0.997824,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -11.3703 +/- 4.83716,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.7856 +/- 3.42161)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -1.14293  -4.99/+8.06712  (68% CL)
+Best fit r: -5.96702  -4.18914/+6.01153  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: 3.37627  -10.0014/+12.093  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.000151059 in pdf_binc_01_test_obsOnly for bin 11, weight 1
+WARNING: underflow to -0.0337658 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 6.35815e-05 +/- 0.999455,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.2941 +/- 6.25495,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.341 +/- 4.16574)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -5.3951e-06 +/- 0.999831,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.55309 +/- 5.47104,shapeBkg_bmodel_c_01_test_c_01_test__norm = 17.1408 +/- 3.9355)
 FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.00235075 in pdf_binc_01_test_obsOnly for bin 11, weight 1
+
+ --- FitDiagnostics ---
+Best fit r: -3.94788  -4.56874/+6.78683  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 0.386174  -5.38055/+8.2761  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0975073 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0660073 +/- 0.996474,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.8888 +/- 6.25495,shapeBkg_bmodel_c_01_test_c_01_test__norm = 25.3735 +/- 3.30707)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.041322 +/- 0.998308,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.6744 +/- 6.88197,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.2088 +/- 3.67456)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -8.10451  -5.42615/+7.61235  (68% CL)
+Best fit r: -3.34301  -5.94551/+8.16733  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0802287 in pdf_binc_01_test_obsOnly for bin 10, weight 1
+WARNING: underflow to -0.0151782 in pdf_binc_01_test_obsOnly for bin 12, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0490895 +/- 0.99753,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -17.3588 +/- 6.82338,shapeBkg_bmodel_c_01_test_c_01_test__norm = 26.3787 +/- 3.93241)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0131439 +/- 0.999575,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -11.223 +/- 8.90793,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.0542 +/- 4.27595)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -6.69849  -5.99723/+7.99963  (68% CL)
+Best fit r: 0.97129  -7.5601/+10.4378  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 10.6745  -8.60994/+11.1767  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0543266 in pdf_binc_01_test_obsOnly for bin 11, weight 1
+WARNING: underflow to -0.0558332 in pdf_binc_01_test_obsOnly for bin 12, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0302678 +/- 0.998861,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.5981 +/- 7.72539,shapeBkg_bmodel_c_01_test_c_01_test__norm = 25.3997 +/- 4.43828)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0312619 +/- 0.998814,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.8127 +/- 7.62593,shapeBkg_bmodel_c_01_test_c_01_test__norm = 24.4977 +/- 4.31082)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -1.99767  -6.54922/+9.19537  (68% CL)
+Best fit r: -2.2659  -6.54073/+8.97446  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.58764  -7.42131/+9.80307  (68% CL)
+Best fit r: 11.4088  -10.0007/+12.5114  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -0.941171  -5.39655/+7.69913  (68% CL)
-WARNING: underflow to -0.0653389 in pdf_binc_01_test_obsOnly for bin 5, weight 1
+WARNING: underflow to -0.0603928 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.037173 +/- 0.998628,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.5194 +/- 6.84332,shapeBkg_bmodel_c_01_test_c_01_test__norm = 15.9682 +/- 3.04577)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0352159 +/- 0.998469,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.3957 +/- 7.5085,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.2051 +/- 3.84069)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -3.14931  -6.14922/+7.88365  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 17.0137  -9.68452/+12.1821  (68% CL)
-WARNING: underflow to -0.0554097 in pdf_binc_01_test_obsOnly for bin 10, weight 1
+Best fit r: -4.24461  -6.53021/+8.79136  (68% CL)
+WARNING: underflow to -0.0624195 in pdf_binc_01_test_obsOnly for bin 3, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 7.54444e-05 +/- 0.999667,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -10.6812 +/- 5.12034,shapeBkg_bmodel_c_01_test_c_01_test__norm = 18.4985 +/- 3.99841)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 1.38997e-06 +/- 0.999972,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -7.34888 +/- 5.09297,shapeBkg_bmodel_c_01_test_c_01_test__norm = 12.433 +/- 3.45178)
 FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.00460002 in pdf_binc_01_test_obsOnly for bin 10, weight 1
+WARNING: underflow to -0.0212854 in pdf_binc_01_test_obsOnly for bin 3, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0266909 +/- 0.998211,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -10.6812 +/- 5.12034,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.4024 +/- 3.56338)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0204444 +/- 0.999172,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -7.34888 +/- 5.09297,shapeBkg_bmodel_c_01_test_c_01_test__norm = 14.0494 +/- 3.20284)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -5.20136  -4.33946/+6.41696  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -18.2471  -10.4327/+11.3872  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 8.22474  -9.5814/+12.4453  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -41.3827  -17.1689/+14.2138  (68% CL)
-WARNING: underflow to -0.0155684 in pdf_binc_01_test_obsOnly for bin 6, weight 1
+Best fit r: -1.49875  -4.09678/+6.52683  (68% CL)
+WARNING: underflow to -0.0630707 in pdf_binc_01_test_obsOnly for bin 9, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000362681 +/- 0.999253,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.8592 +/- 6.50673,shapeBkg_bmodel_c_01_test_c_01_test__norm = 13.8434 +/- 2.95787)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0501875 +/- 0.997328,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -19.0792 +/- 7.02205,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.9373 +/- 3.1428)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -9.84359  -6.2995/+7.33053  (68% CL)
+Best fit r: -8.84901  -6.23526/+8.42147  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 2.11768  -5.96544/+8.66022  (68% CL)
-WARNING: underflow to -0.0568185 in pdf_binc_01_test_obsOnly for bin 4, weight 1
+WARNING: underflow to -0.0715477 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0268455 +/- 0.99922,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.5906 +/- 7.48329,shapeBkg_bmodel_c_01_test_c_01_test__norm = 13.8444 +/- 3.08954)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0303047 +/- 0.998951,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.9108 +/- 7.39089,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.1679 +/- 4.11781)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -0.738242  -6.68186/+8.51561  (68% CL)
+Best fit r: -1.13854  -6.32395/+8.7276  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.51865  -6.0656/+8.79178  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.090517 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+Best fit r: 19.7722  -10.031/+12.166  (68% CL)
+WARNING: underflow to -0.0707298 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0116263 +/- 0.999711,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.7371 +/- 8.92896,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.4446 +/- 3.8168)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -4.41009e-05 +/- 0.999467,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -11.4392 +/- 4.7227,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.7483 +/- 3.65918)
 FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: 2.82863  -7.31016/+10.6285  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 8.97721  -10.1801/+13.0241  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -10.0265  -7.47667/+8.75436  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.105364 in pdf_binc_01_test_obsOnly for bin 11, weight 1
+WARNING: underflow to -0.013142 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0292642 +/- 0.999002,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.3999 +/- 7.47206,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.9579 +/- 4.00803)
-FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.105364 in pdf_binc_01_test_obsOnly for bin 11, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0292642 +/- 8.15682e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.3999 +/- 7.47206,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.9579 +/- 3.27254e-19)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0343074 +/- 0.99789,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -11.4392 +/- 4.7227,shapeBkg_bmodel_c_01_test_c_01_test__norm = 18.8568 +/- 3.15685)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -0.49988  -6.29012/+8.87837  (68% CL)
+Best fit r: -6.04353  -4.18541/+5.78765  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0965257 in pdf_binc_01_test_obsOnly for bin 9, weight 1
+WARNING: underflow to -0.0554123 in pdf_binc_01_test_obsOnly for bin 9, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0534782 +/- 0.997151,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -17.8942 +/- 6.87478,shapeBkg_bmodel_c_01_test_c_01_test__norm = 26.6788 +/- 3.80175)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0341207 +/- 0.998446,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.7755 +/- 8.10907,shapeBkg_bmodel_c_01_test_c_01_test__norm = 27.2105 +/- 4.42171)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -7.36774  -5.92165/+8.22879  (68% CL)
-WARNING: underflow to -0.00873547 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+Best fit r: -4.71937  -6.85662/+9.59448  (68% CL)
+WARNING: underflow to -0.0705957 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 5.09559e-05 +/- 0.999612,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.01 +/- 6.08543,shapeBkg_bmodel_c_01_test_c_01_test__norm = 18.9244 +/- 3.97767)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -5.53341e-06 +/- 0.999713,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.92817 +/- 4.64553,shapeBkg_bmodel_c_01_test_c_01_test__norm = 11.2614 +/- 3.02187)
+FASTEXIT from pdf_binc_01_test_obsOnly
+WARNING: underflow to -0.0171064 in pdf_binc_01_test_obsOnly for bin 6, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0290362 +/- 0.998564,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.92817 +/- 4.64553,shapeBkg_bmodel_c_01_test_c_01_test__norm = 13.1814 +/- 2.60421)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -6.67776  -5.25952/+7.44583  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -3.85708  -5.15753/+7.27685  (68% CL)
+Best fit r: -4.36464  -4.2105/+5.62928  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.114852 in pdf_binc_01_test_obsOnly for bin 9, weight 1
+WARNING: underflow to -0.0562797 in pdf_binc_01_test_obsOnly for bin 9, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.029831 +/- 0.99871,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.2947 +/- 7.64316,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.3954 +/- 4.0405)
-FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.114852 in pdf_binc_01_test_obsOnly for bin 9, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.029831 +/- 8.15443e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.2947 +/- 7.64316,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.3954 +/- 3.29905e-19)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0359151 +/- 0.998333,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -16.0662 +/- 7.66925,shapeBkg_bmodel_c_01_test_c_01_test__norm = 23.4501 +/- 3.92048)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -1.61837  -6.29495/+9.29058  (68% CL)
+Best fit r: -5.08269  -6.62894/+9.00377  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 1.06974  -8.4339/+10.5376  (68% CL)
-WARNING: underflow to -0.0188255 in pdf_binc_01_test_obsOnly for bin 4, weight 1
+WARNING: underflow to -0.128308 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0343619 +/- 0.998519,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -17.0812 +/- 7.33428,shapeBkg_bmodel_c_01_test_c_01_test__norm = 17.7158 +/- 3.14193)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0387587 +/- 0.998475,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.5323 +/- 7.02926,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.738 +/- 3.98755)
 FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -6.35147  -6.89411/+8.24179  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 2.87671  -8.97603/+11.3163  (68% CL)
-WARNING: underflow to -0.0518494 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+WARNING: underflow to -0.128308 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000142795 +/- 0.999434,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.0988 +/- 5.14378,shapeBkg_bmodel_c_01_test_c_01_test__norm = 14.957 +/- 3.35996)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0387587 +/- 8.15251e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.5323 +/- 7.02926,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.738 +/- 3.25582e-19)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -6.77642  -4.69908/+6.13397  (68% CL)
+Best fit r: -1.91539  -5.90245/+8.42246  (68% CL)
+WARNING: underflow to -0.00730452 in pdf_binc_01_test_obsOnly for bin 5, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.022874 +/- 0.998259,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -24.2107 +/- 9.38674,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.6734 +/- 2.40572)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -15.2633  -9.50665/+9.98779  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.94837  -5.60133/+7.73998  (68% CL)
+Best fit r: 9.17073  -6.77706/+9.23834  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0185965 in pdf_binc_01_test_obsOnly for bin 9, weight 1
+
+ --- FitDiagnostics ---
+Best fit r: 13.541  -9.24071/+12.0377  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -6.76273  -10.9202/+13.1155  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 7.32172  -8.49388/+11.0948  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 3.55526  -8.27623/+10.8157  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.132783 in pdf_binc_01_test_obsOnly for bin 10, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0166608 +/- 0.999594,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.98223 +/- 7.52342,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.7207 +/- 4.17236)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0522483 +/- 0.997388,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.9436 +/- 6.95737,shapeBkg_bmodel_c_01_test_c_01_test__norm = 27.0346 +/- 4.01825)
+FASTEXIT from pdf_binc_01_test_obsOnly
+WARNING: underflow to -0.132783 in pdf_binc_01_test_obsOnly for bin 10, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0522483 +/- 8.14364e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.9436 +/- 6.95737,shapeBkg_bmodel_c_01_test_c_01_test__norm = 27.0346 +/- 3.28089e-19)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: 2.52221  -6.4285/+8.86803  (68% CL)
+Best fit r: -4.92952  -5.74509/+8.5032  (68% CL)
+WARNING: underflow to -0.00110716 in pdf_binc_01_test_obsOnly for bin 5, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.000144834 +/- 0.999173,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.0645 +/- 6.30774,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.913 +/- 3.93824)
+FASTEXIT from pdf_binc_01_test_obsOnly
+WARNING: underflow to -0.00110716 in pdf_binc_01_test_obsOnly for bin 5, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.000144834 +/- 0.00815821,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.0645 +/- 6.30774,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.913 +/- 0.0321556)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -10.0716  -5.71412/+7.45287  (68% CL)
+[WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-hcomb.gitbooks.io/combine/content/part3/nonstandard.html#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: -42.7028  -14.6679/+12.7716  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 14.9835  -9.8452/+12.3148  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 8.5331  -9.56412/+12.3423  (68% CL)
+WARNING: underflow to -0.0337444 in pdf_binc_01_test_obsOnly for bin 3, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 1.62653e-06 +/- 0.999369,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.0082 +/- 5.58538,shapeBkg_bmodel_c_01_test_c_01_test__norm = 11.2497 +/- 2.66373)
+FASTEXIT from pdf_binc_01_test_obsOnly
+WARNING: underflow to -0.00761129 in pdf_binc_01_test_obsOnly for bin 3, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0539418 +/- 0.997683,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.6189 +/- 5.58538,shapeBkg_bmodel_c_01_test_c_01_test__norm = 14.908 +/- 2.05487)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -7.78691  -5.52976/+6.23725  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -10.9723  -8.36513/+10.6532  (68% CL)
+WARNING: underflow to -0.0250913 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -9.16222e-06 +/- 0.999989,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -6.97171 +/- 5.73863,shapeBkg_bmodel_c_01_test_c_01_test__norm = 13.312 +/- 3.60073)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -1.07968  -4.60792/+7.22237  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -13.2387  -9.59537/+11.2944  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -2.11015  -10.5353/+12.5899  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -2.60441  -5.29471/+7.19709  (68% CL)
+WARNING: underflow to -0.0490396 in pdf_binc_01_test_obsOnly for bin 5, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0244729 +/- 0.999137,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.9929 +/- 7.99004,shapeBkg_bmodel_c_01_test_c_01_test__norm = 13.3304 +/- 2.88894)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -2.49109  -7.16843/+9.23204  (68% CL)
+WARNING: underflow to -0.016734 in pdf_binc_01_test_obsOnly for bin 5, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000495682 +/- 0.99887,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -16.7289 +/- 6.38043,shapeBkg_bmodel_c_01_test_c_01_test__norm = 17.4266 +/- 3.25279)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -11.921  -6.22316/+7.1077  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
-Best fit r: -60  -6.57303e-07/+3.61733  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0288448 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+Best fit r: -59.9999  -7.00389e-05/+3.73782  (68% CL)
+WARNING: underflow to -0.0348401 in pdf_binc_01_test_obsOnly for bin 4, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0101204 +/- 0.999782,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -8.94704 +/- 7.76246,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.1538 +/- 3.8403)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 1.69667e-05 +/- 0.99983,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.65547 +/- 5.60472,shapeBkg_bmodel_c_01_test_c_01_test__norm = 12.1724 +/- 3.23799)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: 3.81619  -6.66905/+9.12591  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 3.47717  -5.12384/+7.60555  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0238652 in pdf_binc_01_test_obsOnly for bin 5, weight 2
+Best fit r: -4.06163  -4.90042/+6.8289  (68% CL)
+WARNING: underflow to -0.0584463 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.017118 +/- 0.999516,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -10.5714 +/- 7.5782,shapeBkg_bmodel_c_01_test_c_01_test__norm = 15.9819 +/- 3.63879)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 3.35196e-06 +/- 0.999652,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -10.621 +/- 4.95972,shapeBkg_bmodel_c_01_test_c_01_test__norm = 17.4834 +/- 3.86607)
 FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: 1.7858  -6.489/+8.96271  (68% CL)
-WARNING: underflow to -0.0139978 in pdf_binc_01_test_obsOnly for bin 6, weight 1
+WARNING: underflow to -0.00898636 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 2.60148e-07 +/- 1,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -6.14482 +/- 5.98258,shapeBkg_bmodel_c_01_test_c_01_test__norm = 12.0465 +/- 3.464)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0305979 +/- 0.998181,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -10.621 +/- 4.95972,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.4653 +/- 3.41993)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -0.160911  -4.75528/+7.52148  (68% CL)
-
- --- FitDiagnostics ---
-Fit failed.
-Error: closed range without finding crossing.
-
- --- FitDiagnostics ---
-Best fit r: -60  -1.42871e-05/+2.88667  (68% CL)
+Best fit r: -5.13444  -4.23256/+6.2118  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -12.3397  -8.28693/+10.1954  (68% CL)
+Best fit r: -0.827751  -4.74879/+6.83322  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0793862 in pdf_binc_01_test_obsOnly for bin 9, weight 1
+
+ --- FitDiagnostics ---
+Best fit r: 6.35138  -8.48498/+10.7992  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0463594 in pdf_binc_01_test_obsOnly for bin 9, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0161561 +/- 0.999591,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -10.1706 +/- 7.86534,shapeBkg_bmodel_c_01_test_c_01_test__norm = 17.7596 +/- 3.92142)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0206099 +/- 0.99939,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -11.4718 +/- 7.89117,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.3524 +/- 4.11596)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: 2.28675  -6.64385/+9.35542  (68% CL)
+Best fit r: 0.660287  -6.73754/+9.28185  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 2.82565  -6.72339/+9.06417  (68% CL)
+Best fit r: -3.31791  -9.35543/+10.8549  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0344463 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+
+ --- FitDiagnostics ---
+Best fit r: -2.9573  -5.13348/+7.18555  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 6.17417  -7.93162/+10.6179  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0228866 in pdf_binc_01_test_obsOnly for bin 10, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000153926 +/- 0.999845,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.49278 +/- 5.57179,shapeBkg_bmodel_c_01_test_c_01_test__norm = 18.115 +/- 4.06489)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.000108885 +/- 0.999123,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.2186 +/- 5.55643,shapeBkg_bmodel_c_01_test_c_01_test__norm = 25.6411 +/- 4.51166)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -3.88087  -4.57599/+6.98343  (68% CL)
+Best fit r: -9.13182  -4.8342/+6.83213  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.9383  -9.00717/+11.5909  (68% CL)
+Best fit r: 1.87794  -4.78578/+7.00385  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: -22.1434  -10.1495/+10.6906  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0245226 in pdf_binc_01_test_obsOnly for bin 8, weight 2
+WARNING: underflow to -0.0102458 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0296107 +/- 0.99898,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.7251 +/- 7.38968,shapeBkg_bmodel_c_01_test_c_01_test__norm = 25.0991 +/- 4.47662)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.00790441 +/- 0.999927,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -7.76707 +/- 8.34063,shapeBkg_bmodel_c_01_test_c_01_test__norm = 15.5111 +/- 3.86152)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -0.906321  -6.31432/+8.69446  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -12.2486  -9.15028/+9.85165  (68% CL)
-Error: closed range without finding crossing.
-
- --- FitDiagnostics ---
-Best fit r: -60  -7.89105e-06/+2.38354  (68% CL)
-WARNING: underflow to -0.0487928 in pdf_binc_01_test_obsOnly for bin 6, weight 1
+Best fit r: 5.29116  -7.1718/+9.73287  (68% CL)
+WARNING: underflow to -0.0544794 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0445382 +/- 0.997172,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -21.7645 +/- 7.1516,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.6917 +/- 2.88409)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0461206 +/- 0.997387,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -20.7286 +/- 7.04632,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.3758 +/- 2.8232)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -12.2056  -6.73913/+8.21035  (68% CL)
+Best fit r: -10.9108  -6.60036/+8.14667  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -1.35736  -5.34406/+7.80707  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -5.47072  -5.13296/+7.59079  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: 0.246222  -4.97843/+7.83092  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: 14.7681  -7.59812/+9.61231  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 16.7211  -11.2966/+13.9358  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -7.67009  -8.23237/+9.97064  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -5.59151  -4.95908/+7.27149  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0111312 in pdf_binc_01_test_obsOnly for bin 6, weight 2
+WARNING: underflow to -0.13677 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.00986942 +/- 0.999788,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -8.87022 +/- 7.78673,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.119 +/- 3.8415)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0369465 +/- 0.998594,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.0994 +/- 7.02048,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.5266 +/- 3.89726)
 FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: 3.91222  -6.65994/+9.14335  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0209319 in pdf_binc_01_test_obsOnly for bin 5, weight 1
+WARNING: underflow to -0.13677 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0358925 +/- 0.998258,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -17.735 +/- 7.60198,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.9925 +/- 3.62648)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0369465 +/- 8.15349e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.0994 +/- 7.02048,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.5266 +/- 3.1821e-19)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -7.16873  -6.91745/+8.69394  (68% CL)
+Best fit r: -1.37424  -5.91437/+8.31901  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.58591  -6.80128/+9.36775  (68% CL)
+Best fit r: 1.41646  -5.69292/+8.21901  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.04531  -5.65103/+8.14607  (68% CL)
+Best fit r: 11.7841  -7.08185/+9.5229  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 12.0074  -11.1973/+13.8629  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0419646 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0230668 +/- 0.998828,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.3619 +/- 8.38691,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.8397 +/- 3.66899)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -4.20241  -7.32901/+9.66271  (68% CL)
+WARNING: underflow to -0.0375986 in pdf_binc_01_test_obsOnly for bin 10, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.000329403 +/- 0.999066,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.1936 +/- 5.35298,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.6324 +/- 4.14537)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -9.10398  -4.78102/+6.53489  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -3.85753  -6.97376/+9.00445  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0668165 in pdf_binc_01_test_obsOnly for bin 5, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0496124 +/- 0.997383,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -18.8662 +/- 6.94722,shapeBkg_bmodel_c_01_test_c_01_test__norm = 23.7962 +/- 3.45874)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -8.58276  -6.24253/+8.06466  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 7.04657  -6.64258/+9.32126  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -3.05982  -5.55991/+8.04841  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -2660,22 +2719,22 @@ Fit failed.
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 15.5067  -8.74674/+11.2376  (68% CL)
-WARNING: underflow to -0.0677037 in pdf_binc_01_test_obsOnly for bin 4, weight 1
+Best fit r: 16.5576  -8.75655/+11.4228  (68% CL)
+WARNING: underflow to -0.0676878 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000108927 +/- 0.999306,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.1544 +/- 4.68541,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.9746 +/- 3.98768)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000108678 +/- 0.999306,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.154 +/- 4.68579,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.9745 +/- 3.98776)
 FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.0118938 in pdf_binc_01_test_obsOnly for bin 4, weight 1
+WARNING: underflow to -0.0118837 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0376716 +/- 0.997456,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.1544 +/- 4.68541,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.2065 +/- 3.43395)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0376656 +/- 0.997456,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.154 +/- 4.68579,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.2061 +/- 3.43411)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -6.83826  -4.13183/+5.72953  (68% CL)
+Best fit r: -6.8378  -4.13181/+5.73095  (68% CL)
 WARNING: underflow to -0.0854917 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
@@ -2905,15 +2964,15 @@ Done in 0.00 min (cpu), 0.00 min (real)
  --- FitDiagnostics ---
 Best fit r: -3.08008  -8.09718/+10.2304  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0214826 in pdf_binc_01_test_obsOnly for bin 11, weight 1
+WARNING: underflow to -0.0214697 in pdf_binc_01_test_obsOnly for bin 12, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -6.88434e-07 +/- 0.998775,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.5752 +/- 5.477,shapeBkg_bmodel_c_01_test_c_01_test__norm = 31.0744 +/- 4.93)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -1.5977e-05 +/- 0.998775,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.5751 +/- 5.47718,shapeBkg_bmodel_c_01_test_c_01_test__norm = 31.0749 +/- 4.93005)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -10.6391  -4.77144/+6.70789  (68% CL)
+Best fit r: -10.639  -4.7695/+6.71406  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3032,44 +3091,32 @@ FASTEXIT from pdf_binc_01_test_obsOnly
  --- FitDiagnostics ---
 Best fit r: 4.65126  -6.69186/+9.21704  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0424836 in pdf_binc_01_test_obsOnly for bin 9, weight 1
+WARNING: underflow to -0.0425258 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -7.93799e-05 +/- 0.999581,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -11.4159 +/- 5.31623,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.7438 +/- 4.32889)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 4.66711e-06 +/- 0.999646,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -10.9913 +/- 5.31367,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.6026 +/- 4.23434)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -6.01764  -4.44833/+6.71348  (68% CL)
+Best fit r: -5.54592  -4.4499/+6.68165  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.48938  -5.75099/+8.12337  (68% CL)
+Best fit r: 0.297861  -5.90361/+8.43304  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.135288 in pdf_binc_01_test_obsOnly for bin 6, weight 1
+
+ --- FitDiagnostics ---
+Best fit r: -4.71166  -5.46857/+8.23411  (68% CL)
+WARNING: underflow to -0.0247029 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.055566 +/- 0.997232,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -16.2775 +/- 6.80436,shapeBkg_bmodel_c_01_test_c_01_test__norm = 26.2263 +/- 3.84156)
-FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.135288 in pdf_binc_01_test_obsOnly for bin 6, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.055566 +/- 8.14236e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -16.2775 +/- 6.80436,shapeBkg_bmodel_c_01_test_c_01_test__norm = 26.2263 +/- 3.13662e-19)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.045662 +/- 0.996385,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -25.8514 +/- 7.56832,shapeBkg_bmodel_c_01_test_c_01_test__norm = 26.9375 +/- 3.1487)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -5.34689  -5.66221/+8.30871  (68% CL)
-WARNING: underflow to -0.028805 in pdf_binc_01_test_obsOnly for bin 6, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0440203 +/- 0.996671,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -24.7254 +/- 7.54487,shapeBkg_bmodel_c_01_test_c_01_test__norm = 25.5826 +/- 3.12373)
-FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -15.9068  -7.18977/+8.54597  (68% CL)
+Best fit r: -17.3142  -7.26296/+8.50872  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3130,45 +3177,51 @@ Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
 Best fit r: -0.117748  -8.25337/+10.3366  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -23.9885  -9.96627/+10.0468  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -0.127536  -8.66429/+11.1899  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.00255228 in pdf_binc_01_test_obsOnly for bin 9, weight 1
+WARNING: underflow to -0.00131601 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.018162 +/- 0.999438,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.0822 +/- 8.50841,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.4601 +/- 4.35878)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 5.85519e-05 +/- 0.998904,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -17.3538 +/- 6.86438,shapeBkg_bmodel_c_01_test_c_01_test__norm = 18.6435 +/- 3.42058)
 FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -0.1027  -7.37729/+9.85696  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0505271 in pdf_binc_01_test_obsOnly for bin 10, weight 1
+WARNING: underflow to -0.00131601 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000425672 +/- 0.998953,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.1006 +/- 5.01786,shapeBkg_bmodel_c_01_test_c_01_test__norm = 26.59 +/- 4.56376)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 5.85519e-05 +/- 0.00815602,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -17.3538 +/- 6.86438,shapeBkg_bmodel_c_01_test_c_01_test__norm = 18.6435 +/- 0.0279289)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -9.00062  -4.4054/+6.10245  (68% CL)
+Best fit r: -12.6153  -6.56227/+7.78188  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 7.03038  -9.65582/+12.5981  (68% CL)
+Best fit r: 8.70605  -9.38513/+11.9524  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 12.339  -8.05461/+10.4671  (68% CL)
+Best fit r: 2.94817  -7.78762/+10.1499  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0185508 in pdf_binc_01_test_obsOnly for bin 11, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0456687 +/- 0.996514,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -24.2191 +/- 7.69399,shapeBkg_bmodel_c_01_test_c_01_test__norm = 30.4494 +/- 3.78148)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -15.2739  -7.04199/+8.87534  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 13.8704  -9.99299/+12.3029  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 11.6434  -8.18649/+10.6956  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
-Best fit r: -59.9999  -8.79212e-05/+2.6039  (68% CL)
+Best fit r: -60  -2.27359e-07/+2.44466  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 WARNING: underflow to -0.0122178 in pdf_binc_01_test_obsOnly for bin 10, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
@@ -3184,9 +3237,15 @@ Done in 0.00 min (cpu), 0.00 min (real)
  --- FitDiagnostics ---
 Best fit r: -3.71834  -5.39539/+8.22624  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0282539 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0149581 +/- 0.999498,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -11.5173 +/- 8.67138,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.2234 +/- 4.37321)
+FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: 1.60404  -7.36392/+10.1498  (68% CL)
+Best fit r: 0.603405  -7.35565/+10.1911  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 WARNING: underflow to -0.0455532 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
@@ -3245,51 +3304,68 @@ Best fit r: 2.23921  -6.90483/+9.34924  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.73772  -5.541/+7.79229  (68% CL)
-WARNING: underflow to -0.0138068 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+Best fit r: -3.41862  -5.5589/+7.72603  (68% CL)
+WARNING: underflow to -0.0500425 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 2.29365e-05 +/- 0.99989,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.06251 +/- 5.84429,shapeBkg_bmodel_c_01_test_c_01_test__norm = 13.982 +/- 3.5591)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 1.94603e-05 +/- 0.99991,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -8.46211 +/- 5.17927,shapeBkg_bmodel_c_01_test_c_01_test__norm = 13.7892 +/- 3.56734)
 FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -3.40279  -4.99507/+7.08665  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 3.93767  -7.35497/+9.82304  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0432698 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+WARNING: underflow to -0.00840562 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 6.42522e-06 +/- 0.999792,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.83596 +/- 5.31717,shapeBkg_bmodel_c_01_test_c_01_test__norm = 18.231 +/- 4.04581)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0227537 +/- 0.99896,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -8.46211 +/- 5.17927,shapeBkg_bmodel_c_01_test_c_01_test__norm = 15.4615 +/- 3.26967)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -4.26218  -4.41148/+6.67211  (68% CL)
+Best fit r: -2.73567  -4.2981/+6.48886  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 11.3572  -9.74689/+12.6325  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 2.20592  -6.18254/+8.898  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 5.75556  -8.929/+11.4969  (68% CL)
-WARNING: underflow to -0.040084 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+WARNING: underflow to -0.0166453 in pdf_binc_01_test_obsOnly for bin 9, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000185807 +/- 0.999872,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.14924 +/- 5.52266,shapeBkg_bmodel_c_01_test_c_01_test__norm = 14.0042 +/- 3.55036)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0140576 +/- 0.999664,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.87972 +/- 7.96046,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.5874 +/- 4.1859)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -3.49915  -4.64929/+6.84716  (68% CL)
+Best fit r: 2.65035  -6.80856/+9.33927  (68% CL)
+WARNING: underflow to -0.062535 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 6.61183e-05 +/- 0.999507,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -11.471 +/- 4.92462,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.7521 +/- 4.06262)
+FASTEXIT from pdf_binc_01_test_obsOnly
+WARNING: underflow to -0.00717018 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0331449 +/- 0.997839,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -11.471 +/- 4.92462,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.8232 +/- 3.57294)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -6.07894  -4.24922/+6.10738  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 10.7156  -9.60251/+12.5684  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 3.10565  -6.25247/+9.09957  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 4.58539  -8.82853/+11.3802  (68% CL)
+WARNING: underflow to -0.0401607 in pdf_binc_01_test_obsOnly for bin 6, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -8.0548e-06 +/- 0.999923,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -8.4274 +/- 5.5586,shapeBkg_bmodel_c_01_test_c_01_test__norm = 12.7797 +/- 3.43054)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -2.69711  -4.59333/+7.049  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 WARNING: underflow to -0.0374368 in pdf_binc_01_test_obsOnly for bin 11, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
@@ -3409,15 +3485,9 @@ Done in 0.00 min (cpu), 0.00 min (real)
  --- FitDiagnostics ---
 Best fit r: 14.3245  -7.86978/+10.4647  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.000131427 in pdf_binc_01_test_obsOnly for bin 10, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0335298 +/- 0.997475,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -22.9433 +/- 9.02329,shapeBkg_bmodel_c_01_test_c_01_test__norm = 29.5913 +/- 4.08983)
-FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -13.6791  -7.91378/+10.7345  (68% CL)
+Best fit r: -13.1031  -8.16599/+11.1939  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 WARNING: underflow to -0.0495331 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
@@ -3545,47 +3615,63 @@ FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
 Best fit r: -12.0334  -6.20222/+6.74618  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.00289662 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+
+ --- FitDiagnostics ---
+Best fit r: 3.08417  -7.12803/+9.94004  (68% CL)
+WARNING: underflow to -0.0266114 in pdf_binc_01_test_obsOnly for bin 4, weight 2
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.00978896 +/- 0.999751,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.61967 +/- 8.59974,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.3819 +/- 4.203)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0305272 +/- 0.998866,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.6692 +/- 6.95813,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.5105 +/- 3.28538)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: 2.97541  -7.32087/+10.1129  (68% CL)
+Best fit r: -2.08648  -6.1913/+8.15144  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0657643 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0296427 +/- 0.998852,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.8483 +/- 7.79836,shapeBkg_bmodel_c_01_test_c_01_test__norm = 25.4552 +/- 4.43254)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -2.31035  -6.68795/+9.06346  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 0.93613  -5.80696/+8.09263  (68% CL)
+Best fit r: 3.6406  -7.62793/+10.23  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -2.45174  -6.91601/+9.04847  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 10.6278  -8.26899/+10.6776  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 11.3102  -8.13826/+10.4511  (68% CL)
+Best fit r: 7.82023  -8.40165/+10.7217  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
-Best fit r: -60  -1.15551e-06/+3.19313  (68% CL)
+Best fit r: -46.1677  -13.8323/+13.0537  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: 9.21606  -5.76547/+8.41157  (68% CL)
+Best fit r: 5.22005  -5.06945/+7.7205  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.127708 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0385515 +/- 0.998518,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.2921 +/- 6.98155,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.6521 +/- 3.60852)
+FASTEXIT from pdf_binc_01_test_obsOnly
+WARNING: underflow to -0.127708 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0385515 +/- 8.15286e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.2921 +/- 6.98155,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.6521 +/- 2.94635e-19)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -1.61508  -5.8567/+8.3108  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -0.0945263  -5.55334/+8.04242  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 4.85385  -9.15096/+11.701  (68% CL)
+Best fit r: 3.67406  -9.13484/+11.5545  (68% CL)
 WARNING: underflow to -0.0256869 in pdf_binc_01_test_obsOnly for bin 3, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
@@ -3662,25 +3748,19 @@ Best fit r: 12.0521  -9.03073/+11.5097  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 9.40339  -7.80292/+10.0726  (68% CL)
+Best fit r: 8.82107  -7.94409/+10.3475  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
-Best fit r: -59.9999  -6.79582e-05/+6.66917  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.045711 in pdf_binc_01_test_obsOnly for bin 9, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0199329 +/- 0.999408,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -11.4403 +/- 8.07366,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.3165 +/- 4.11928)
-FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: 0.699645  -6.82927/+9.5984  (68% CL)
+Best fit r: -60  -4.29652e-06/+3.61763  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.10984  -7.69208/+10.2775  (68% CL)
+Best fit r: 2.92114  -7.25358/+9.93919  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 6.2717  -7.89956/+10.2386  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 WARNING: underflow to -0.126653 in pdf_binc_01_test_obsOnly for bin 10, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
@@ -3703,67 +3783,71 @@ Done in 0.00 min (cpu), 0.00 min (real)
 Best fit r: 7.67079  -8.85217/+11.476  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -23.5992  -10.9291/+11.592  (68% CL)
+Best fit r: -28.1628  -11.2168/+11.6755  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 11.7479  -9.40782/+11.9784  (68% CL)
-WARNING: underflow to -0.0208911 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+Best fit r: 9.01233  -9.12709/+11.7273  (68% CL)
+WARNING: underflow to -0.0279478 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 2.32995e-05 +/- 0.999869,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.3668 +/- 5.88442,shapeBkg_bmodel_c_01_test_c_01_test__norm = 15.0807 +/- 3.68816)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -3.90983e-05 +/- 0.999533,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.2296 +/- 5.77802,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.0015 +/- 3.54853)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -3.74089  -4.91968/+7.30742  (68% CL)
+Best fit r: -6.92183  -5.1523/+6.99735  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0564297 in pdf_binc_01_test_obsOnly for bin 12, weight 1
+WARNING: underflow to -0.00362128 in pdf_binc_01_test_obsOnly for bin 12, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -1.57685e-05 +/- 0.998929,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.0408 +/- 4.92333,shapeBkg_bmodel_c_01_test_c_01_test__norm = 26.5823 +/- 4.55719)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.000152323 +/- 0.999158,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.4483 +/- 5.82557,shapeBkg_bmodel_c_01_test_c_01_test__norm = 27.715 +/- 4.73958)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -8.93427  -4.31501/+6.053  (68% CL)
+Best fit r: -9.38696  -5.04581/+7.1072  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.10977  -6.99336/+9.3793  (68% CL)
+Best fit r: 4.98747  -7.03414/+9.26079  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0385312 in pdf_binc_01_test_obsOnly for bin 6, weight 1
+
+ --- FitDiagnostics ---
+Best fit r: 1.17875  -5.72056/+8.06409  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: -31.2364  -10.5474/+11.019  (68% CL)
+WARNING: underflow to -0.0871411 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0263378 +/- 0.999049,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.9115 +/- 7.12598,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.1273 +/- 3.7696)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0359105 +/- 0.998771,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.4949 +/- 6.67073,shapeBkg_bmodel_c_01_test_c_01_test__norm = 15.6079 +/- 3.11096)
 FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -1.13936  -6.32395/+8.26168  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -17.7334  -8.24428/+9.78708  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 1.12774  -5.63589/+7.76272  (68% CL)
-WARNING: underflow to -0.0366136 in pdf_binc_01_test_obsOnly for bin 4, weight 1
+WARNING: underflow to -0.0871411 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000214965 +/- 0.999268,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.7115 +/- 5.71821,shapeBkg_bmodel_c_01_test_c_01_test__norm = 13.4753 +/- 2.96511)
-FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.0071221 in pdf_binc_01_test_obsOnly for bin 4, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0586369 +/- 0.997312,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -16.2831 +/- 5.71821,shapeBkg_bmodel_c_01_test_c_01_test__norm = 17.2591 +/- 2.28889)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0359105 +/- 8.15493e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.4949 +/- 6.67073,shapeBkg_bmodel_c_01_test_c_01_test__norm = 15.6079 +/- 2.54009e-19)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -8.56833  -5.51421/+6.50564  (68% CL)
+Best fit r: -1.86859  -5.9256/+7.7546  (68% CL)
+WARNING: underflow to -0.039471 in pdf_binc_01_test_obsOnly for bin 3, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 9.09802e-05 +/- 0.999457,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.5233 +/- 5.61017,shapeBkg_bmodel_c_01_test_c_01_test__norm = 12.0948 +/- 2.89138)
+FASTEXIT from pdf_binc_01_test_obsOnly
+WARNING: underflow to -0.0114543 in pdf_binc_01_test_obsOnly for bin 3, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.057625 +/- 0.997536,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.1609 +/- 5.61017,shapeBkg_bmodel_c_01_test_c_01_test__norm = 15.8999 +/- 2.21281)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -7.2481  -5.35702/+6.47487  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -3819,104 +3903,111 @@ Fit failed.
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 3.85018  -5.99112/+8.35103  (68% CL)
+Best fit r: 6.59808  -7.18162/+9.50528  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -0.807623  -6.91505/+9.47048  (68% CL)
-WARNING: underflow to -0.0475683 in pdf_binc_01_test_obsOnly for bin 9, weight 1
+WARNING: underflow to -0.0552221 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -1.42806e-05 +/- 0.998912,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.4614 +/- 5.1415,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.7178 +/- 4.08883)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0252316 +/- 0.999174,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.334 +/- 7.66351,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.8068 +/- 4.29661)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -9.40152  -4.63985/+6.18903  (68% CL)
-WARNING: underflow to -0.0133819 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+Best fit r: -0.417439  -6.57481/+9.00502  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -17.0174  -8.01263/+8.96003  (68% CL)
+
+ --- FitDiagnostics ---
+Fit failed.
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 10.1495  -8.42383/+10.7404  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -5.22051  -7.07617/+9.55514  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 2.89219  -7.127/+9.77585  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0153606 in pdf_binc_01_test_obsOnly for bin 4, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 5.0916e-05 +/- 0.999681,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -11.3494 +/- 5.97428,shapeBkg_bmodel_c_01_test_c_01_test__norm = 18.7131 +/- 4.00384)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000128321 +/- 0.999448,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.8631 +/- 5.85734,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.2019 +/- 4.16329)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -5.94375  -5.1019/+7.34789  (68% CL)
+Best fit r: -7.62569  -5.07991/+7.1277  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 3.17051  -8.18072/+10.2968  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 3.26694  -9.88053/+12.5009  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 9.7773  -8.18633/+10.5902  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-Error: closed range without finding crossing.
-
- --- FitDiagnostics ---
-Best fit r: -60  -2.61963e-07/+2.44224  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -2.00542  -5.00858/+7.02644  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: -3.78113  -5.37575/+7.35756  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 6.0612  -8.10594/+11.0379  (68% CL)
-WARNING: underflow to -0.0020351 in pdf_binc_01_test_obsOnly for bin 11, weight 1
+WARNING: underflow to -0.0898189 in pdf_binc_01_test_obsOnly for bin 4, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0462156 +/- 0.995576,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -29.9685 +/- 7.93172,shapeBkg_bmodel_c_01_test_c_01_test__norm = 32.1658 +/- 3.37926)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0225201 +/- 0.999295,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -11.7067 +/- 7.8078,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.4981 +/- 4.08908)
 FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.0020351 in pdf_binc_01_test_obsOnly for bin 11, weight 1
+
+ --- FitDiagnostics ---
+Best fit r: 0.366653  -6.63613/+9.15229  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0855102 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0462156 +/- 0.00812884,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -29.9685 +/- 7.93172,shapeBkg_bmodel_c_01_test_c_01_test__norm = 32.1658 +/- 0.0275916)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.043195 +/- 0.998193,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.1369 +/- 6.77656,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.4323 +/- 3.77209)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -22.4607  -7.73414/+8.79052  (68% CL)
-WARNING: underflow to -0.0398992 in pdf_binc_01_test_obsOnly for bin 8, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 9.5627e-07 +/- 0.999913,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -8.5861 +/- 5.54403,shapeBkg_bmodel_c_01_test_c_01_test__norm = 15.8304 +/- 3.83873)
-FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -2.87344  -4.4678/+7.1403  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -26.6947  -12.9243/+11.8791  (68% CL)
+Best fit r: -3.92117  -5.90552/+8.02227  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -4.43751  -5.38613/+8.25124  (68% CL)
-WARNING: underflow to -0.0544048 in pdf_binc_01_test_obsOnly for bin 9, weight 1
+Best fit r: 8.34926  -8.82401/+11.4787  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: -41.9118  -12.7636/+12.5487  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.125648 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.000128507 +/- 0.999242,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.7099 +/- 4.89487,shapeBkg_bmodel_c_01_test_c_01_test__norm = 18.1619 +/- 3.70359)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.03908 +/- 0.998421,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.8996 +/- 7.23416,shapeBkg_bmodel_c_01_test_c_01_test__norm = 18.8617 +/- 3.42691)
 FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.00345011 in pdf_binc_01_test_obsOnly for bin 9, weight 1
+WARNING: underflow to -0.125648 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0344376 +/- 0.997647,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.7099 +/- 4.89487,shapeBkg_bmodel_c_01_test_c_01_test__norm = 20.2486 +/- 3.20053)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.03908 +/- 8.15207e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.8996 +/- 7.23416,shapeBkg_bmodel_c_01_test_c_01_test__norm = 18.8617 +/- 2.79806e-19)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -7.45544  -4.40555/+5.92834  (68% CL)
+Best fit r: -2.37454  -5.99817/+8.76017  (68% CL)
+
+ --- FitDiagnostics ---
+Fit failed.
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: -2.7257  -5.458/+8.28686  (68% CL)
+WARNING: underflow to -0.0568128 in pdf_binc_01_test_obsOnly for bin 9, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.000211074 +/- 0.99938,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.0092 +/- 4.84631,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.9372 +/- 3.62423)
+FASTEXIT from pdf_binc_01_test_obsOnly
+WARNING: underflow to -0.0064319 in pdf_binc_01_test_obsOnly for bin 9, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0335677 +/- 0.99785,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.0092 +/- 4.84631,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.0016 +/- 3.1338)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: -6.67684  -4.33646/+5.92335  (68% CL)
 WARNING: underflow to -0.0974239 in pdf_binc_01_test_obsOnly for bin 4, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
@@ -4121,25 +4212,24 @@ FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
 Best fit r: -6.65833  -6.32987/+8.56791  (68% CL)
-Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
-Best fit r: -59.5937  -0.406262/+15.0183  (68% CL)
-WARNING: underflow to -0.114799 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+Best fit r: -28.1057  -9.86307/+9.93447  (68% CL)
+WARNING: underflow to -0.111312 in pdf_binc_01_test_obsOnly for bin 9, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0450652 +/- 0.998173,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.7804 +/- 6.79955,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.3913 +/- 2.87247)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0503607 +/- 0.997855,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.7377 +/- 6.66169,shapeBkg_bmodel_c_01_test_c_01_test__norm = 17.8442 +/- 2.90546)
 FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.114799 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+WARNING: underflow to -0.111312 in pdf_binc_01_test_obsOnly for bin 9, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0450652 +/- 8.15005e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.7804 +/- 6.79955,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.3913 +/- 2.34536e-19)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0503607 +/- 8.14745e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.7377 +/- 6.66169,shapeBkg_bmodel_c_01_test_c_01_test__norm = 17.8442 +/- 2.3723e-19)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -3.47551  -5.74783/+8.33438  (68% CL)
+Best fit r: -4.67218  -5.71293/+8.10068  (68% CL)
 WARNING: underflow to -0.0588162 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
@@ -4603,106 +4693,119 @@ FASTEXIT from pdf_binc_01_test_obsOnly
  --- FitDiagnostics ---
 Best fit r: -19.1615  -7.75665/+8.95097  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0840287 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+WARNING: underflow to -0.0610837 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0257936 +/- 0.999131,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.4471 +/- 7.75817,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.8466 +/- 3.91508)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0232132 +/- 0.999023,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -13.5486 +/- 8.07183,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.2199 +/- 3.74417)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -0.558816  -6.59991/+9.09474  (68% CL)
+Best fit r: -1.93575  -6.91447/+9.39903  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.76877  -7.53825/+9.91898  (68% CL)
-WARNING: underflow to -0.0277438 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+Best fit r: 7.64528  -7.41155/+9.94736  (68% CL)
+WARNING: underflow to -0.00233809 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.044222 +/- 0.996937,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -24.1894 +/- 7.26126,shapeBkg_bmodel_c_01_test_c_01_test__norm = 22.4049 +/- 2.75082)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0603964 +/- 0.996782,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -30.5578 +/- 9.02172,shapeBkg_bmodel_c_01_test_c_01_test__norm = 24.1442 +/- 2.63859)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -15.2367  -7.15367/+7.93036  (68% CL)
-WARNING: underflow to -0.0549247 in pdf_binc_01_test_obsOnly for bin 6, weight 1
+Best fit r: -17.9397  -9.19543/+9.36112  (68% CL)
+WARNING: underflow to -0.0679894 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 5.83448e-05 +/- 0.999926,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -8.21673 +/- 5.14358,shapeBkg_bmodel_c_01_test_c_01_test__norm = 14.7104 +/- 3.7113)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -5.61892e-05 +/- 0.999822,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.23836 +/- 4.87954,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.0434 +/- 3.8031)
 FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.0110989 in pdf_binc_01_test_obsOnly for bin 6, weight 1
+WARNING: underflow to -0.0195315 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0225913 +/- 0.998975,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -8.21673 +/- 5.14358,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.3927 +/- 3.42697)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0258506 +/- 0.998503,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.23836 +/- 4.87954,shapeBkg_bmodel_c_01_test_c_01_test__norm = 17.9445 +/- 3.39923)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -2.46303  -4.21737/+6.4302  (68% CL)
+Best fit r: -3.59817  -4.03748/+6.20165  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 11.966  -9.28963/+11.8805  (68% CL)
+Best fit r: 13.7702  -9.57352/+12.1555  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.52205  -7.87539/+10.4797  (68% CL)
-WARNING: underflow to -0.0266067 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+Best fit r: 7.51172  -8.11369/+10.6292  (68% CL)
+WARNING: underflow to -0.0523627 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.000132568 +/- 0.999774,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -10.2505 +/- 5.64709,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.3653 +/- 3.78383)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -3.41893e-05 +/- 0.999832,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.36936 +/- 5.23053,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.0846 +/- 3.80723)
 FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -4.72283  -4.82193/+6.97882  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 8.54894  -7.58307/+10.1242  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0217743 in pdf_binc_01_test_obsOnly for bin 8, weight 2
+WARNING: underflow to -0.00536518 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0188284 +/- 0.999494,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -10.6558 +/- 7.72661,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.0199 +/- 4.02313)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0235066 +/- 0.998686,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -9.36936 +/- 5.23053,shapeBkg_bmodel_c_01_test_c_01_test__norm = 17.8478 +/- 3.46042)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: 1.68021  -6.55588/+9.15644  (68% CL)
+Best fit r: -3.74373  -4.32496/+6.63838  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 9.13174  -8.50676/+11.376  (68% CL)
+Best fit r: 8.84697  -7.86747/+10.3941  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 3.22445  -8.48742/+10.8793  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 5.1455  -8.00521/+10.5834  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-
- --- FitDiagnostics ---
-Best fit r: 2.62492  -6.21505/+8.66873  (68% CL)
-WARNING: underflow to -0.0301533 in pdf_binc_01_test_obsOnly for bin 5, weight 1
+WARNING: underflow to -0.0940514 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -8.41273e-07 +/- 0.999999,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -5.73368 +/- 5.75285,shapeBkg_bmodel_c_01_test_c_01_test__norm = 9.91452 +/- 3.16186)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0395797 +/- 0.998434,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.269 +/- 7.00836,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.0047 +/- 3.43617)
+FASTEXIT from pdf_binc_01_test_obsOnly
+WARNING: underflow to -0.0940514 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0395797 +/- 8.15218e-19,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.269 +/- 7.00836,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.0047 +/- 2.80562e-19)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: 0.295914  -4.56794/+7.26363  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: -46.1547  -12.5792/+11.6571  (68% CL)
+Best fit r: -2.83625  -5.96331/+8.40935  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.22035  -5.42976/+7.97755  (68% CL)
+Best fit r: 10.0218  -8.11136/+10.7312  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 0.972614  -8.45878/+10.8881  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 8.65716  -8.32552/+10.9236  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+WARNING: underflow to -0.0118762 in pdf_binc_01_test_obsOnly for bin 5, weight 2
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
+ origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
+ message      : Number of events is negative or error
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.00119195 +/- 1.00001,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -6.5239 +/- 7.88561,shapeBkg_bmodel_c_01_test_c_01_test__norm = 12.9053 +/- 3.59967)
+FASTEXIT from pdf_binc_01_test_obsOnly
+
+ --- FitDiagnostics ---
+Best fit r: 6.84513  -6.74349/+9.21249  (68% CL)
+
+ --- FitDiagnostics ---
+Best fit r: 3.26427  -5.61232/+8.27993  (68% CL)
+Error: closed range without finding crossing.
+
+ --- FitDiagnostics ---
+Best fit r: -60  -1.22987e-06/+8.10102  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 0.546163  -5.45033/+7.85877  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -4956,68 +5059,51 @@ Done in 0.00 min (cpu), 0.00 min (real)
  --- FitDiagnostics ---
 Best fit r: 7.87608  -6.70123/+9.2734  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0142246 in pdf_binc_01_test_obsOnly for bin 7, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0229338 +/- 0.999156,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.2714 +/- 8.52914,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.3249 +/- 3.78081)
-FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -2.8392  -7.5684/+9.74108  (68% CL)
+Best fit r: 6.50257  -8.17674/+10.4663  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 1.64433  -7.08186/+9.58401  (68% CL)
-WARNING: underflow to -0.0294929 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+Best fit r: 1.70861  -7.48722/+9.68363  (68% CL)
+WARNING: underflow to -0.0294749 in pdf_binc_01_test_obsOnly for bin 8, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = 0.000257439 +/- 0.999022,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -14.7528 +/- 5.60339,shapeBkg_bmodel_c_01_test_c_01_test__norm = 17.8018 +/- 3.47027)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -5.73065e-05 +/- 0.999415,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -12.6811 +/- 5.53024,shapeBkg_bmodel_c_01_test_c_01_test__norm = 19.1455 +/- 3.90314)
 FASTEXIT from pdf_binc_01_test_obsOnly
-WARNING: underflow to -0.00694499 in pdf_binc_01_test_obsOnly for bin 8, weight 1
+
+ --- FitDiagnostics ---
+Best fit r: -7.42349  -4.87193/+6.75211  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 11.1049  -9.00596/+11.297  (68% CL)
+WARNING: underflow to -0.0147939 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0694125 +/- 0.996424,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -17.2665 +/- 5.60339,shapeBkg_bmodel_c_01_test_c_01_test__norm = 21.96 +/- 2.64177)
+ server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0401337 +/- 0.996743,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -26.1704 +/- 7.83326,shapeBkg_bmodel_c_01_test_c_01_test__norm = 24.9001 +/- 2.97254)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -9.72535  -5.28002/+6.48548  (68% CL)
+Best fit r: -17.713  -7.66897/+8.60782  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.54402  -8.37604/+10.6263  (68% CL)
-WARNING: underflow to -0.0306038 in pdf_binc_01_test_obsOnly for bin 7, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0458269 +/- 0.996588,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -24.8371 +/- 7.48355,shapeBkg_bmodel_c_01_test_c_01_test__norm = 25.6381 +/- 3.08813)
-FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -16.0464  -7.1536/+8.41241  (68% CL)
-
- --- FitDiagnostics ---
-Best fit r: 0.681974  -5.12011/+7.60011  (68% CL)
-Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0241446 in pdf_binc_01_test_obsOnly for bin 11, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0279011 +/- 0.998731,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.9334 +/- 8.74193,shapeBkg_bmodel_c_01_test_c_01_test__norm = 26.0542 +/- 4.38288)
-FASTEXIT from pdf_binc_01_test_obsOnly
-
- --- FitDiagnostics ---
-Best fit r: -4.91671  -7.44463/+10.3129  (68% CL)
+Best fit r: 3.74757  -5.87664/+8.31047  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 5.86998  -7.26977/+9.54527  (68% CL)
+Best fit r: -12.5921  -9.47269/+11.679  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.61888  -9.24945/+11.6918  (68% CL)
+Best fit r: 5.03447  -7.08291/+9.45516  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+
+ --- FitDiagnostics ---
+Best fit r: 5.59846  -9.31128/+11.7078  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 WARNING: underflow to -0.0789983 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
@@ -5252,7 +5338,7 @@ Fit failed.
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 17.8706  -9.43704/+11.7325  (68% CL)
+Best fit r: 17.8802  -9.43799/+11.7399  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 WARNING: underflow to -0.0766039 in pdf_binc_01_test_obsOnly for bin 9, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
@@ -5482,19 +5568,19 @@ Best fit r: -0.145555  -5.43947/+8.07383  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 10.2501  -8.51837/+11.1946  (68% CL)
+Best fit r: 12.0751  -8.86188/+11.3551  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 4.03701  -5.98261/+8.61168  (68% CL)
+Best fit r: 5.25779  -6.25118/+8.78949  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.1029  -9.48297/+12.0456  (68% CL)
+Best fit r: 8.0715  -9.09324/+11.8973  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: -3.91206  -5.27204/+7.83815  (68% CL)
+Best fit r: -4.77904  -5.18103/+7.75849  (68% CL)
 WARNING: underflow to -0.022001 in pdf_binc_01_test_obsOnly for bin 12, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
@@ -5684,11 +5770,11 @@ Best fit r: -60  -8.74692e-07/+2.44222  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 12.9001  -9.54676/+11.8497  (68% CL)
+Best fit r: 11.7396  -9.63594/+12.0313  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 8.43648  -8.28691/+10.7593  (68% CL)
+Best fit r: 7.40879  -8.16205/+10.7622  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -6114,19 +6200,13 @@ FASTEXIT from pdf_binc_01_test_obsOnly
  --- FitDiagnostics ---
 Best fit r: -2.77651  -6.62713/+9.79904  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-WARNING: underflow to -0.0571701 in pdf_binc_01_test_obsOnly for bin 11, weight 1
-[#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
- origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,a1,b1,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
- message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.796 +/- 4.30281,MeanG2 = 123.541 +/- 42.8903,MeanG3 = 15.3078 +/- 100.056,WidthG1 = 1.77604 +/- 5.75072,WidthG2 = 4.35616 +/- 83.4024,WidthG3 = 47.2311 +/- 540.664,a1 = 5.7,b1 = 0.045,coefG1 = 0.721409 +/- 0.349605,coefG2 = 0.23015 +/- 0.359106,lumi_13TeV = -0.0339819 +/- 0.998531,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,r = -15.1718 +/- 7.93442,shapeBkg_bmodel_c_01_test_c_01_test__norm = 26.0127 +/- 4.3361)
-FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -3.96471  -6.74157/+9.40907  (68% CL)
+Best fit r: -2.68261  -7.16578/+9.74768  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
-Best fit r: 6.33669  -6.17017/+8.55963  (68% CL)
+Best fit r: 5.55808  -6.10771/+8.5741  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 
  --- FitDiagnostics ---
@@ -6361,7 +6441,7 @@ Done in 0.00 min (cpu), 0.00 min (real)
  --- FitDiagnostics ---
 Best fit r: 2.96626  -7.67091/+10.3703  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-mean   expected limit: r < -4.42279 +/- 0.548326 @ 95%CL (881 toyMC)
-median expected limit: r < -1.10928 @ 95%CL (881 toyMC)
-   68% expected band : -11.1878 < r < 6.73989
-   95% expected band : -60 < r < 15.7155
+mean   expected limit: r < -4.31195 +/- 0.54079 @ 95%CL (881 toyMC)
+median expected limit: r < -1.39766 @ 95%CL (881 toyMC)
+   68% expected band : -10.9108 < r < 6.84923
+   95% expected band : -60 < r < 16.2212

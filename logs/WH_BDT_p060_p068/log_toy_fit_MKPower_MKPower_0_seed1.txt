@@ -9,7 +9,7 @@
 >>> random number generator seed is 123456
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
-Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-0EXe9s.root
+Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-eESaBC.root
 Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
   [WARNING] Found [c0] at boundary. 
 Error: closed range without finding crossing.
@@ -1613,7 +1613,7 @@ WARNING: underflow to -0.00566837 in pdf_binc_01_test_obsOnly for bin 2, weight 
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -11.6198  -9.93314/+9.86669  (68% CL)
+Best fit r: -11.6198  -9.92605/+9.86669  (68% CL)
 
  --- FitDiagnostics ---
 Best fit r: 5.92233  -8.61815/+11.195  (68% CL)
@@ -2043,7 +2043,7 @@ WARNING: underflow to -0.0232153 in pdf_binc_01_test_obsOnly for bin 10, weight 
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: 1.92023  -6.94642/+58.0798  (68% CL)
+Best fit r: 1.92023  -6.97931/+58.0798  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
@@ -2830,7 +2830,7 @@ Fit failed.
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
-Best fit r: -7.10099  -52.899/+10.7821  (68% CL)
+Best fit r: -7.10099  -52.899/+10.7639  (68% CL)
 Error: minimization failed at r = 25.8547
 Error: closed range without finding crossing.
 
@@ -3821,7 +3821,7 @@ Error: minimization failed at r = 8.95894
 
  --- FitDiagnostics ---
 Best fit r: 8.95894  -68.9589/+51.0411  (68% CL)
-Error: closed range without finding crossing.
+Error: minimization failed at r = 22.4507
 
  --- FitDiagnostics ---
 Best fit r: 9.91522  -10.1225/+50.0848  (68% CL)
@@ -4726,16 +4726,17 @@ Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
 Best fit r: -0.565593  -8.03915/+60.5656  (68% CL)
+Error: closed range without finding crossing.
 WARNING: underflow to -0.0428517 in pdf_binc_01_test_obsOnly for bin 11, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,c0,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow0,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.909 +/- 4.32886,MeanG2 = 124.128 +/- 18.0072,MeanG3 = 3.81064 +/- 65.1316,WidthG1 = 1.54356 +/- 7.72278,WidthG2 = 3.60063 +/- 61.8902,WidthG3 = 49.372 +/- 714.35,c0 = 6.4209 +/- 11.5303,coefG1 = 0.584385 +/- 0.264209,coefG2 = 0.343791 +/- 0.321466,lumi_13TeV = -0.0230141 +/- 0.999184,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow0 = -5.76253 +/- 1.89546,r = -12.47 +/- 7.85388,shapeBkg_bmodel_c_01_test_c_01_test__norm = 26.9302 +/- 4.73995)
+ server values: params=(MeanG1 = 124.909 +/- 4.32886,MeanG2 = 124.128 +/- 18.0072,MeanG3 = 3.81064 +/- 65.1316,WidthG1 = 1.54356 +/- 7.72278,WidthG2 = 3.60063 +/- 61.8902,WidthG3 = 49.372 +/- 714.35,c0 = 6.4209 +/- 16.897,coefG1 = 0.584385 +/- 0.264209,coefG2 = 0.343791 +/- 0.321466,lumi_13TeV = -0.0230141 +/- 0.999184,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow0 = -5.76253 +/- 1.89546,r = -12.47 +/- 7.85388,shapeBkg_bmodel_c_01_test_c_01_test__norm = 26.9302 +/- 4.73995)
 FASTEXIT from pdf_binc_01_test_obsOnly
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
-Best fit r: -0.587456  -59.4125/+9.17918  (68% CL)
+Best fit r: -0.587456  -59.4125/+60.5875  (68% CL)
 Error: minimization failed at r = 5.66465
 
  --- FitDiagnostics ---

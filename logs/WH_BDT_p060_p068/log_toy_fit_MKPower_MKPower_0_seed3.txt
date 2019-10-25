@@ -9,7 +9,7 @@
 >>> random number generator seed is 123456
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
-Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-yy4Mgs.root
+Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-yvbNHD.root
 Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
 Error: minimization failed at r = 14.1476
 Error: minimization failed at r = 14.1476
@@ -91,7 +91,7 @@ WARNING: underflow to -0.0977016 in pdf_binc_01_test_obsOnly for bin 12, weight 
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -7.43576  -5.92475/+8.10555  (68% CL)
+Best fit r: -7.43576  -5.92887/+8.10555  (68% CL)
 Error: minimization failed at r = 3.80196
 Error: minimization failed at r = -0.160654
 
@@ -2060,9 +2060,10 @@ WARNING: underflow to -0.0268897 in pdf_binc_01_test_obsOnly for bin 4, weight 1
  message      : Number of events is negative or error
  server values: params=(MeanG1 = 124.909 +/- 4.32886,MeanG2 = 124.128 +/- 18.0072,MeanG3 = 3.81064 +/- 65.1316,WidthG1 = 1.54356 +/- 7.72278,WidthG2 = 3.60063 +/- 61.8902,WidthG3 = 49.372 +/- 714.35,c0 = 3.58984 +/- 3.38472,coefG1 = 0.584385 +/- 0.264209,coefG2 = 0.343791 +/- 0.321466,lumi_13TeV = -0.031056 +/- 0.998479,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow0 = -2.32462 +/- 2.23149,r = -9.26748 +/- 4.49916,shapeBkg_bmodel_c_01_test_c_01_test__norm = 16.1769 +/- 3.0995)
 FASTEXIT from pdf_binc_01_test_obsOnly
+Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
-Best fit r: -3.63054  -3.90484/+5.59168  (68% CL)
+Best fit r: -3.63054  -56.3695/+5.59168  (68% CL)
 
  --- FitDiagnostics ---
 Best fit r: 9.33143  -9.71036/+12.2331  (68% CL)
@@ -3020,7 +3021,7 @@ Error: minimization failed at r = -19.5838
 Best fit r: -19.5838  -40.4162/+79.5838  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: 5.6345  -7.095/+9.49582  (68% CL)
+Best fit r: 5.6345  -7.095/+9.49579  (68% CL)
 Error: minimization failed at r = 14.0806
 
  --- FitDiagnostics ---

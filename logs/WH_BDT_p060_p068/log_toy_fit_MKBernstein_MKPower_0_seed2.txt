@@ -9,7 +9,7 @@
 >>> random number generator seed is 123456
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
-Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-bI7iNK.root
+Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-B3rsdM.root
 Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
 Error: minimization failed at r = -2.2961
 
@@ -2027,11 +2027,9 @@ Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
 Best fit r: -4.3641  -55.6359/+64.3641  (68% CL)
-Error: minimization failed at r = -24.1373
-Error: minimization failed at r = -24.1373
 
  --- FitDiagnostics ---
-Best fit r: -24.1373  -35.8627/+84.1373  (68% CL)
+Best fit r: -24.1373  -9.23527/+10.4561  (68% CL)
 WARNING: underflow to -0.036019 in pdf_binc_01_test_obsOnly for bin 10, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,c0,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow0,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
@@ -2459,7 +2457,7 @@ FASTEXIT from pdf_binc_01_test_obsOnly
 Best fit r: 2.32163  -6.28977/+57.6784  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: 4.45541  -8.39659/+11.3488  (68% CL)
+Best fit r: 4.45541  -8.39658/+11.3488  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
@@ -3980,7 +3978,7 @@ Error: minimization failed at r = 1.54076
 Best fit r: 2.3691  -62.3691/+57.6309  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: 12.7382  -8.38073/+10.7512  (68% CL)
+Best fit r: 12.7382  -8.33947/+10.7512  (68% CL)
 Error: minimization failed at r = -8.51233
 Error: minimization failed at r = -8.51233
 [WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-hcomb.gitbooks.io/combine/content/part3/nonstandard.html#fit-parameter-uncertainties for more information.

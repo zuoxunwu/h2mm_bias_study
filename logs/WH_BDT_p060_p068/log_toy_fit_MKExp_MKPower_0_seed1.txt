@@ -9,7 +9,7 @@
 >>> random number generator seed is 123456
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
-Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-JVmn0R.root
+Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-4SC6Np.root
 Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
   [WARNING] Found [c0] at boundary. 
 Error: closed range without finding crossing.
@@ -2034,7 +2034,7 @@ Error: minimization failed at r = -0.508865
 Best fit r: 6.13571  -66.1357/+53.8643  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: 3.02599  -6.56314/+8.83608  (68% CL)
+Best fit r: 3.02599  -6.56751/+8.83608  (68% CL)
 Error: closed range without finding crossing.
 WARNING: underflow to -0.0100466 in pdf_binc_01_test_obsOnly for bin 6, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
@@ -3529,7 +3529,7 @@ WARNING: underflow to -0.00462488 in pdf_binc_01_test_obsOnly for bin 2, weight 
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -14.1976  -8.77824/+74.1976  (68% CL)
+Best fit r: -14.1976  -8.83412/+74.1976  (68% CL)
 Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
@@ -4944,7 +4944,7 @@ Error: minimization failed at r = 10.928
 Best fit r: 20.2296  -80.2296/+39.7704  (68% CL)
 
  --- FitDiagnostics ---
-Best fit r: -33.9308  -11.1061/+9.87917  (68% CL)
+Best fit r: -33.9308  -11.1089/+9.87917  (68% CL)
 WARNING: underflow to -0.0904559 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,c0,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow0,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
@@ -5551,7 +5551,7 @@ Fit failed.
 
  --- FitDiagnostics ---
 Best fit r: -0.939395  -10.058/+12.706  (68% CL)
-Done in 0.01 min (cpu), 0.01 min (real)
+Done in 0.00 min (cpu), 0.00 min (real)
 mean   expected limit: r < -1.34409 +/- 0.490602 @ 95%CL (862 toyMC)
 median expected limit: r < 0.647486 @ 95%CL (862 toyMC)
    68% expected band : -7.71262 < r < 8.6512

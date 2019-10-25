@@ -9,7 +9,7 @@
 >>> random number generator seed is 123456
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
-Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-94M80c.root
+Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-otCHZl.root
 Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
 
  --- FitDiagnostics ---
@@ -2038,11 +2038,10 @@ Error: closed range without finding crossing.
 
  --- FitDiagnostics ---
 Best fit r: 2.17256  -9.4379/+57.8274  (68% CL)
-Error: closed range without finding crossing.
 Error: minimization failed at r = -3.78678
 
  --- FitDiagnostics ---
-Best fit r: -1.22429  -58.7757/+61.2243  (68% CL)
+Best fit r: -1.22429  -58.7757/+8.13584  (68% CL)
 Error: closed range without finding crossing.
 Error: minimization failed at r = -2.80326
 

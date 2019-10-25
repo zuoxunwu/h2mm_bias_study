@@ -9,7 +9,7 @@
 >>> random number generator seed is 123456
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
-Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-5eZ3Au.root
+Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-deypzq.root
 Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
   [WARNING] Found [c0] at boundary. 
   [WARNING] Found [c0] at boundary. 
@@ -624,7 +624,7 @@ WARNING: underflow to -0.00889375 in pdf_binc_01_test_obsOnly for bin 12, weight
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -0.591893  -7.34025/+9.87901  (68% CL)
+Best fit r: -0.591893  -7.34025/+9.9675  (68% CL)
 
  --- FitDiagnostics ---
 Best fit r: 1.89941  -8.07691/+10.6664  (68% CL)
@@ -2187,7 +2187,7 @@ WARNING: underflow to -0.0513942 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -2.20171  -5.93223/+62.2017  (68% CL)
+Best fit r: -2.20171  -5.93207/+62.2017  (68% CL)
 Error: minimization failed at r = 21.6802
 Error: minimization failed at r = 4.58853
 
@@ -5074,7 +5074,7 @@ Best fit r: 5.19465  -65.1947/+54.8053  (68% CL)
 
  --- FitDiagnostics ---
 Best fit r: -30.13  -11.8979/+11.4721  (68% CL)
-Error: closed range without finding crossing.
+Error: minimization failed at r = 12.4273
 WARNING: underflow to -0.026412 in pdf_binc_01_test_obsOnly for bin 5, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,c0,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow0,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]

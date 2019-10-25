@@ -9,7 +9,7 @@
 >>> random number generator seed is 123456
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
-Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-KlgKAF.root
+Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-IZ4MDD.root
 Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
   [WARNING] Found [c0] at boundary. 
   [WARNING] Found [pow0] at boundary. 
@@ -578,7 +578,7 @@ WARNING: underflow to -0.00889375 in pdf_binc_01_test_obsOnly for bin 12, weight
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -0.591893  -7.34025/+9.87901  (68% CL)
+Best fit r: -0.591893  -7.34025/+9.9675  (68% CL)
 
  --- FitDiagnostics ---
 Best fit r: 1.89941  -8.07691/+10.6664  (68% CL)

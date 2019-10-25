@@ -9,7 +9,7 @@
 >>> random number generator seed is 123456
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
 [#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name CMS_channel is already in this set
-Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-lnpFM9.root
+Missing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-qWJOsv.root
 Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
 Error: minimization failed at r = 14.3712
 
@@ -3664,15 +3664,15 @@ Best fit r: -1.31106  -7.48067/+10.0323  (68% CL)
  --- FitDiagnostics ---
 Best fit r: -5.50328  -7.72299/+10.0068  (68% CL)
   [WARNING] Found [c0] at boundary. 
-WARNING: underflow to -0.00499081 in pdf_binc_01_test_obsOnly for bin 7, weight 1
+WARNING: underflow to -0.00499133 in pdf_binc_01_test_obsOnly for bin 7, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,c0,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow0,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]
  message      : Number of events is negative or error
- server values: params=(MeanG1 = 124.909 +/- 4.32886,MeanG2 = 124.128 +/- 18.0072,MeanG3 = 3.81064 +/- 65.1316,WidthG1 = 1.54356 +/- 7.72278,WidthG2 = 3.60063 +/- 61.8902,WidthG3 = 49.372 +/- 714.35,c0 = 1.65037 +/- 1.07794,coefG1 = 0.584385 +/- 0.264209,coefG2 = 0.343791 +/- 0.321466,lumi_13TeV = -0.0411719 +/- 0.995217,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow0 = -2.61299 +/- 1.56247,r = -32.1287 +/- 7.84185,shapeBkg_bmodel_c_01_test_c_01_test__norm = 33.3385 +/- 3.22308)
+ server values: params=(MeanG1 = 124.909 +/- 4.32886,MeanG2 = 124.128 +/- 18.0072,MeanG3 = 3.81064 +/- 65.1316,WidthG1 = 1.54356 +/- 7.72278,WidthG2 = 3.60063 +/- 61.8902,WidthG3 = 49.372 +/- 714.35,c0 = 4.66834 +/- 3.02447,coefG1 = 0.584385 +/- 0.264209,coefG2 = 0.343791 +/- 0.321466,lumi_13TeV = -0.0411724 +/- 0.995181,n_exp_binc_01_test_proc_bmodel_c_01_test = 1,pow0 = -2.61299 +/- 1.56034,r = -32.1287 +/- 7.84186,shapeBkg_bmodel_c_01_test_c_01_test__norm = 33.3385 +/- 3.20844)
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -25.1608  -7.90588/+8.27265  (68% CL)
+Best fit r: -25.1608  -7.90656/+8.27991  (68% CL)
 
  --- FitDiagnostics ---
 Best fit r: 8.01384  -7.5425/+9.90248  (68% CL)
@@ -4816,7 +4816,7 @@ WARNING: underflow to -0.0224019 in pdf_binc_01_test_obsOnly for bin 9, weight 1
 FASTEXIT from pdf_binc_01_test_obsOnly
 
  --- FitDiagnostics ---
-Best fit r: -2.23385  -4.02153/+6.55811  (68% CL)
+Best fit r: -2.23385  -4.06812/+6.55811  (68% CL)
 WARNING: underflow to -0.0820008 in pdf_binc_01_test_obsOnly for bin 11, weight 1
 [#0] ERROR:Eval -- RooAbsReal::logEvalError(c_01_test) evaluation error, 
  origin       : RooAbsReal::c_01_test[ params=(MeanG1,MeanG2,MeanG3,WidthG1,WidthG2,WidthG3,c0,coefG1,coefG2,lumi_13TeV,n_exp_binc_01_test_proc_bmodel_c_01_test,pow0,r,shapeBkg_bmodel_c_01_test_c_01_test__norm) ]

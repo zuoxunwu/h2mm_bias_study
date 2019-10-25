@@ -312,7 +312,6 @@ class WorkspaceAndDatacardMaker:
         # cat5: WH_BDT_p068_p076
         ################
         elif self.title == "WH_BDT_p068_p076":
-        elif self.title == "WH_BDT_p076_p10":
             smodel, sigParamList, sgc = MKTripleGauss(x)
             if self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
