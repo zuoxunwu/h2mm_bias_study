@@ -141,7 +141,7 @@ class WorkspaceAndDatacardMaker:
                 mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
                 #mkbwz.p["a2"] = ["a2", "width", 8, 8, 8, True]
                 mkbwz.p["a2"] = ["a2", "width", 2.5, 2.5, 2.5, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.0188, 0.0188, 0.0188, True]
+                mkbwz.p["a3"] = ["a3", "exp", 0.0210, 0.0210, 0.0210, True]
                 model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
                 mkpower = MKPower_inc()
@@ -185,7 +185,7 @@ class WorkspaceAndDatacardMaker:
                 mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
                 #mkbwz.p["a2"] = ["a2", "width", 5, 5, 5, True]
                 mkbwz.p["a2"] = ["a2", "width", 2.5, 2.5, 2.5, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.018, 0.018, 0.018, True]
+                mkbwz.p["a3"] = ["a3", "exp", 0.0188, 0.0188, 0.0188, True]
                 model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
                 mkpower = MKPower_inc()
@@ -231,7 +231,7 @@ class WorkspaceAndDatacardMaker:
                 mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
                 #mkbwz.p["a2"] = ["a2", "width", 6, 6, 6, True]
                 mkbwz.p["a2"] = ["a2", "width", 2.5, 2.5, 2.5, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.014, 0.014, 0.014, True]
+                mkbwz.p["a3"] = ["a3", "exp", 0.0149, 0.0149, 0.0149, True]
                 model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
                 mkpower = MKPower_inc()
@@ -276,7 +276,7 @@ class WorkspaceAndDatacardMaker:
                 mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
                 #mkbwz.p["a2"] = ["a2", "width", 16, 16, 16, True]
                 mkbwz.p["a2"] = ["a2", "width", 2.5, 2.5, 2.5, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.012, 0.012, 0.012, True]
+                mkbwz.p["a3"] = ["a3", "exp", 0.020, 0.020, 0.020, True]
                 model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
                 mkpower = MKPower()
@@ -317,7 +317,7 @@ class WorkspaceAndDatacardMaker:
                 mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
                 #mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
                 mkbwz.p["a2"] = ["a2", "width", 2.5, 2.5, 2.5, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.009, 0.009, 0.009, True]
+                mkbwz.p["a3"] = ["a3", "exp", 0.008, 0.008, 0.008, True]
                 model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
                 mkpower = MKPower_inc()
