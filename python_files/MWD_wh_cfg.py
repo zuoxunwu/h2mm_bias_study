@@ -208,12 +208,10 @@ class WorkspaceAndDatacardMaker:
                 mkexp.p['b2'] = ["b2", "b2", 0.009, 0.009, 0.009, True]
                 model1, model1_params = mkexp.makeModel(x)
             elif self.model_choice == 'MKBernstein':
-                mkbernstein = MKBernstein2_inc()
-                mkbernstein.p['c0'] = ["c0", "c0", 0.5, 0.5, 0.5, True]
-                mkbernstein.p['c1'] = ["c1", "c1", 0.16, 0.16,0.16, True]
-                mkbernstein.p['c2'] = ["c2", "c2", 0.18, 0.18, 0.18, True]
-                mkbernstein.p['c3'] = ["c3", "c3", 0.11, 0.11, 0.11, True]
-                mkbernstein.p['c4'] = ["c4", "c4", 0.11, 0.11, 0.11,  True]
+                mkbernstein = MKBernstein3_mod()
+                mkbernstein.p['c1'] = ["c1", "c1", 0.21, 0.21,0.21, True]
+                mkbernstein.p['c2'] = ["c2", "c2", 0.31, 0.31, 0.31, True]
+                mkbernstein.p['c3'] = ["c3", "c3", 0.20, 0.20, 0.20, True]
                 model1, model1_params = mkbernstein.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
                 mkbwzredux = MKBwzredux2()
@@ -340,11 +338,10 @@ class WorkspaceAndDatacardMaker:
                 #mkexp.p['b2'] = ["b2", "b2", 0.026, 0.026, 0.026, True]
                 model1, model1_params = mkexp.makeModel(x)
             elif self.model_choice == 'MKBernstein':
-                mkbernstein = MKBernstein3()
-                mkbernstein.p['c0'] = ["c0", "c0", 1.0, 1.0, 1.0, True]
+                mkbernstein = MKBernstein3_mod()
                 mkbernstein.p['c1'] = ["c1", "c1", 0.18, 0.18, 0.18, True]
-                mkbernstein.p['c2'] = ["c2", "c2", 0.0, 0.0, 0.0, True]
-                mkbernstein.p['c3'] = ["c3", "c3", 0.2, 0.2, 0.2, True]
+                mkbernstein.p['c2'] = ["c2", "c2", 0.01, 0.01, 0.01, True]
+                mkbernstein.p['c3'] = ["c3", "c3", 0.23, 0.23, 0.23, True]
                 model1, model1_params = mkbernstein.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
                 mkbwzredux = MKBwzredux2()
