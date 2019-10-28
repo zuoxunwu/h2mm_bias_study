@@ -41,7 +41,6 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.379897 (observed: 17)
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
@@ -699,69 +698,8 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.84217 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -5.16614 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.43204 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.00065 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.79855 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.65171 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.52615 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.4179 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.3243 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.24316 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.17263 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.11118 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.05754 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.01062 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.969493 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.933393 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.901651 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.8737 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.849053 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.827292 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.808055 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.79103 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.775947 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.76257 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.750696 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.740147 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.730766 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.722418 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.714984 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0244214 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.711672 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0259874 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00145865 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00145654 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.718036 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.714431 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00572504 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.711005 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00732554 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.710678 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0090684 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.710366 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0108068 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.710055 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0125402 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.709746 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0142686 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.709439 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0159919 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.709133 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0177103 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.708829 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0194236 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.708526 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0211321 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.708226 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0228355 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.707927 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0245341 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000193381 (observed: 13)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000191364 (observed: 13)
-INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=-1
-DEBUG: (function: improveOnce) CascadeMinimizer.cc: 186 -- Minimization ended with latest status != 0 or 1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
@@ -1507,44 +1445,8 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -3.14142 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.0889 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.15471 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.22 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.28476 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.34899 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.41269 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0307322 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.41585 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0343543 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.41901 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0379751 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.42217 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0415947 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.42533 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0452131 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.42848 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0488303 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.43164 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0524462 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.43479 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0560608 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00165857 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00165392 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00165392 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0218833 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0218586 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0218205 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0217863 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00134668 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -6.80537e-05 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000675003 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.33902e-06 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0087444 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000807831 (observed: 8)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.41742e-05 (observed: 8)
-INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=-1
-DEBUG: (function: improveOnce) CascadeMinimizer.cc: 186 -- Minimization ended with latest status != 0 or 1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
@@ -2056,7 +1958,6 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.61367 (observed: 17)
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
@@ -2246,37 +2147,8 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.07 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.74564 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.60746 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0904013 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.62066 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0984056 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.63278 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.10633 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.64386 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.114177 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.65394 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.121945 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.66307 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.129638 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.67127 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.137255 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.67859 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.144797 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.68506 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.152266 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.69073 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.159662 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.69561 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.166987 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00581153 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00580145 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00580145 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000803113 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00080311 (observed: 12)
-INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=-1
-DEBUG: (function: improveOnce) CascadeMinimizer.cc: 186 -- Minimization ended with latest status != 0 or 1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
@@ -2581,7 +2453,6 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.594695 (observed: 14)
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
@@ -2627,8 +2498,8 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=-1
-DEBUG: (function: improveOnce) CascadeMinimizer.cc: 186 -- Minimization ended with latest status != 0 or 1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
@@ -3617,6 +3488,7 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.59296 (observed: 16)
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
@@ -3950,88 +3822,8 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -3.2498 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.57007 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.84409 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -5.62902 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.431209 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.73002 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -5.127 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.90307 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0570227 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.81143 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0648928 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.80416 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0767255 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.79619 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0884844 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.78833 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.100197 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.78052 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.111862 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.77277 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.12348 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.76507 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.13505 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.75744 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.146574 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.74986 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.158051 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.74233 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.169482 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.73486 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.180866 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.72744 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.192205 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.72008 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.203498 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.71277 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.214745 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.70552 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.225947 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00829612 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00828583 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.176379 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0450812 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0109519 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.187646 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0153219 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000258573 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000258573 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000568399 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000568364 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.011838 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000172654 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00347666 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.71072 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.23308 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00702338 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.70924 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.233567 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00761317 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00929911 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0092986 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.190259 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00839689 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00989823 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.190904 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00899975 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0105081 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0105081 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.282934 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0213595 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000128971 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000128971 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.29505e-05 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.29505e-05 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0419472 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0113442 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000803222 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000385529 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000385515 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.000717385 (observed: 12)
-INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=-1
-DEBUG: (function: improveOnce) CascadeMinimizer.cc: 186 -- Minimization ended with latest status != 0 or 1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
@@ -4174,8 +3966,8 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=-1
-DEBUG: (function: improveOnce) CascadeMinimizer.cc: 186 -- Minimization ended with latest status != 0 or 1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
@@ -4417,8 +4209,8 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=-1
-DEBUG: (function: improveOnce) CascadeMinimizer.cc: 186 -- Minimization ended with latest status != 0 or 1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
@@ -4624,8 +4416,6 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.3327 (observed: 14)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.467368 (observed: 14)
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
@@ -6174,8 +5964,8 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=-1
-DEBUG: (function: improveOnce) CascadeMinimizer.cc: 186 -- Minimization ended with latest status != 0 or 1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
@@ -6570,6 +6360,7 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -5.06821 (observed: 13)
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
@@ -7488,11 +7279,8 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.74039 (observed: 17)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.952876 (observed: 17)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -9.95939 (observed: 17)
-INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=-1
-DEBUG: (function: improveOnce) CascadeMinimizer.cc: 186 -- Minimization ended with latest status != 0 or 1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
@@ -7932,8 +7720,8 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=-1
-DEBUG: (function: improveOnce) CascadeMinimizer.cc: 186 -- Minimization ended with latest status != 0 or 1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
@@ -8247,52 +8035,8 @@ INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configure
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.413576 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.448416 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.483009 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.517349 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.551429 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.585246 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.618793 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.652066 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.685063 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.717779 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.750212 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00172146 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00168292 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00168292 (observed: 12)
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00183198 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0405693 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00143021 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.49016 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.14509 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.678316 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.337699 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.48127 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.221291 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -8.1774 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.08724 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.04216 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.01962 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.508351 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.252716 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00183198 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.0405693 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.00143021 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.49016 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.14509 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.678316 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.337699 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.48127 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.221291 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -8.1774 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -4.08724 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -2.04216 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -1.01962 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.508351 (observed: 12)
-INFO: (function: evaluate) CachingNLL.cc: 710 -- underflow (expected events <=0) in total event yield for pdf_binc_01_test_obsOnly, expected yield = -0.252716 (observed: 12)
 INFO: (function: improveOnce) CascadeMinimizer.cc: 157 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
 INFO: (function: improveOnce) CascadeMinimizer.cc: 180 -- Minimisation finished with status=0
 INFO: (function: improveOnce) CascadeMinimizer.cc: 185 -- Minimization success! status=0

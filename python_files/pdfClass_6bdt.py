@@ -40,9 +40,13 @@ class MKBwz:
         return model, gc
 # fold
 class MKPower:
-    def __init__(self):
+    def __init__(self, order=2):
+        self.order = order
         self.name = 'MKPower'
         self.p = {}
+        for i in range(order):
+            self.p['pow%d'%i] = ["pow%d"%i,"pow%d"%i,i, -10.0, 10.0, False]
+            self.p['c%d'%i] = ["c%d"%i, "c%d"%i, 1./2**i, -10.0, 10.0, False]
     def makeModel(self,x1,order=1):
         gc = []
         modelStr = "("
@@ -50,9 +54,7 @@ class MKPower:
         arglist.add(x1)
         gc.append(x1)
         argnum = 0
-        for i in range(order):
-            self.p['pow%d'%i] = ["pow%d"%i,"pow%d"%i,i, -10.0, 10.0, False]
-            self.p['c%d'%i] = ["c%d"%i, "c%d"%i, 1./2**i, -10.0, 10.0, False]
+        for i in range(self.order):
             c_power=r.RooRealVar(*self.p["pow%d"%i][0:5])
             if self.p["pow%d"%i][5] == True:
                 c_power.setConstant()
@@ -72,6 +74,37 @@ class MKPower:
         model = r.RooGenericPdf(self.name, self.name,modelStr,arglist)
         gc.append(model)
         return model, gc
+class MKPower_scale:
+    def __init__(self):
+        self.name = 'MKPower'
+        self.p = {}
+        self.p['pow0'] = ["pow0","pow0",0.0,-10.0,10.0,False]
+        self.p['c0'] = ["c0","c0",1.0,-10.0,10.0,False]
+        self.p['pow1'] = ["pow1","pow1",1.0,-10.0,10.0,False]
+        self.p['c1'] = ["c1","c1",1.0/2,-10.0,10.0, False]
+    def makeModel(self,x):
+        gc = []
+        arglist = r.RooArgList()
+        arglist.add(x)
+        gc.append(x)
+        argnum = 0
+        for i in range(2):
+            c_power=r.RooRealVar(*self.p["pow%d"%i][0:5])
+            if self.p["pow%d"%i][5] == True:
+                c_power.setConstant()
+            c=r.RooRealVar(*self.p["c%d"%i][0:5])
+            if self.p["c%d"%i][5] == True:
+                c.setConstant()
+            gc.append(c_power)
+            arglist.add(c_power)
+            gc.append(c)
+            arglist.add(c)
+        modelStr = "pow((@0-105)/20,@1)*@2+pow((@0-105)/20,@3)*@4"
+        print(modelStr)
+        model = r.RooGenericPdf(self.name, self.name,modelStr,arglist)
+        gc.append(model)
+        return model, gc
+
 # fold
 class MKPower_inc:
     def __init__(self):
@@ -124,6 +157,37 @@ class MKLegendre:
         argnum = -1
         # e.g. order = [1,2,3]
         for i in order:
+            leg = r.RooLegendre("leg%d"%i, "leg%d"%i, x ,i)
+            c=r.RooRealVar(*self.p["c%d"%i][0:5])
+            if self.p["c%d"%i][5] == True:
+                c.setConstant()
+            gc.append(leg)
+            arglist.add(leg)
+            argnum += 1
+            gc.append(c)
+            arglist.add(c)
+            argnum += 1
+            modelStr += "@%d*@%d+"%(argnum-1,argnum)
+        modelStr = modelStr[:-1] 
+        modelStr += ")"
+        print(modelStr)
+        model = r.RooGenericPdf(self.name, self.name, modelStr,arglist)
+        gc.append(model)
+        return model, gc
+class MKLegendreN:
+    def __init__(self,order=[1,2]):
+        self.order = order
+        self.name = "MKLegendre"
+        self.p = {}
+        for i in order:
+            self.p['c%d'%i] = ["c%d"%i,"c%d"%i,1/2**i,-10.0,10.0,False]
+    def makeModel(self,x):
+        gc = []
+        modelStr = "(1+"
+        arglist = r.RooArgList()
+        argnum = -1
+        # e.g. order = [1,2,3]
+        for i in self.order:
             leg = r.RooLegendre("leg%d"%i, "leg%d"%i, x ,i)
             c=r.RooRealVar(*self.p["c%d"%i][0:5])
             if self.p["c%d"%i][5] == True:
@@ -196,6 +260,28 @@ class MKExp:
         model = r.RooGenericPdf(self.name, self.name,"@1*exp(-1*@2*@0)",arglist)
         gc.append(model)
         return model, gc
+class MKExp_mod:
+    def __init__(self):
+        self.name = 'MKExp'
+        self.p = {}
+        self.p['b0'] = ["b0", "b0", 8, -10, 10.0, False]
+        self.p['a1'] = ["a1", "a1", 2, -10, 10.0, False]
+        self.p['b1'] = ["b1", "b1", 0.15, -100, 100.0, False]
+    def makeModel(self,x):
+        gc = []
+        arglist = r.RooArgList()
+        arglist.add(x)
+        gc.append(x)
+        for e in [self.p['b0'], self.p['a1'], self.p['b1']]:
+            temp = r.RooRealVar(*self.p[e[0]][0:5])
+            if e[5] == True:
+                temp.setConstant()
+            gc.append(temp)
+            arglist.add(temp)
+        model = r.RooGenericPdf(self.name, self.name,"@1+@2*exp(-1*@3*@0)",arglist)
+        gc.append(model)
+        return model, gc
+
 # fold
 class MKExp2:
     def __init__(self):
@@ -205,11 +291,11 @@ class MKExp2:
         self.p['b1'] = ["b1", "b1", 0.1, -100, 100.0, False]
         self.p['a2'] = ["a2", "a2", 0.8, -100, 100.0, False]
         self.p['b2'] = ["b2", "b2", 0.01, -100, 100.0, False]
-    def makeModel(self,x1):
+    def makeModel(self,x):
         gc = []
         arglist = r.RooArgList()
-        arglist.add(x1)
-        gc.append(x1)
+        arglist.add(x)
+        gc.append(x)
         rrvs = {}
         rrvs["a1"] = r.RooRealVar(*self.p["a1"][0:5]) # term c 
         rrvs["b1"] = r.RooRealVar(*self.p["b1"][0:5]) # exp c
