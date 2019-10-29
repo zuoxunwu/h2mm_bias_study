@@ -543,6 +543,27 @@ class MKBwzredux2:
             arglist.add(rrvs[e[0]])
         model = r.RooGenericPdf(self.name, self.name, "exp(@2*(@0/100)+@3*(@0/100)^2)*(2.5)/(pow(@0-91.2,@1)+pow(2.5/2,@1))", arglist)
         return model, gc
+class MKBwzredux_mod:
+    def __init__(self):
+        self.name = 'MKBwzredux'
+        self.p = {}
+        self.p['pow'] = ["pow","pow", 2, -10.0, 10.0, True] # @1
+        self.p['ex1'] = ["ex1", "ex1", 2.3, 0, 100.0, False] # @2
+        self.p['ex2'] = ["ex2", "ex2", -0.59, -100.0, 100.0, False] # @3
+        self.p['w'] = ["w", "width", 2.5, 1, 20, False] # @4
+    def makeModel(self,x):
+        gc = []
+        arglist = r.RooArgList()
+        arglist.add(x)
+        gc.append(x)
+        for e in [self.p["pow"], self.p["ex1"], self.p["ex2"], self.p["w"]]:
+            temp = r.RooRealVar(*self.p[e[0]][0:5])
+            if e[5] == True:
+                temp.setConstant()
+            gc.append(temp)
+            arglist.add(temp)
+        model = r.RooGenericPdf(self.name, self.name, "exp(@2*(@0/100)+@3*(@0/100)^2)*(@4)/(pow(@0-91.2,@1)+pow(@4/2,@1))", arglist)
+        return model, gc
 
 
 # ----------------

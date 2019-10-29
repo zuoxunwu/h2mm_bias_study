@@ -133,8 +133,8 @@ class WorkspaceAndDatacardMaker:
                 mkbwz = MKBwz()
                 mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
                 #mkbwz.p["a2"] = ["a2", "width", 8, 8, 8, True]
-                mkbwz.p["a2"] = ["a2", "width", 0.807, 0.807, 0.807, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.0234, 0.0234, 0.0234, True]
+                mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
+                mkbwz.p["a3"] = ["a3", "exp", 0.023, 0.023, 0.023, True]
                 model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
                 mkpower = MKPower_inc()
@@ -162,9 +162,10 @@ class WorkspaceAndDatacardMaker:
                 mkbernstein.p['c3'] = ["c3", "c3", 0.25, 0.25, 0.25, True]
                 model1, model1_params = mkbernstein.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
-                mkbwzredux = MKBwzredux2()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", -4.1,-4.1, -4.1, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", 2.0,  2.0, 2.0, True]
+                mkbwzredux = MKBwzredux_mod()
+                mkbwzredux.p['ex1'] = ["ex1", "ex1", 2, 2, 2, True]
+                mkbwzredux.p['ex2'] = ["ex2", "ex2", 0.1, 0.1, 0.1, True]
+                mkbwzredux.p['w'] = ["w","width", 1, 1, 1, True]
                 mkbwzredux.p['pow'] = ["pow","pow", 2, 2, 2, True]
                 model1, model1_params = mkbwzredux.makeModel(x)
         ################
@@ -205,9 +206,10 @@ class WorkspaceAndDatacardMaker:
                 mkbernstein.p['c3'] = ["c3", "c3", 0.23, 0.23, 0.23, True]
                 model1, model1_params = mkbernstein.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
-                mkbwzredux = MKBwzredux2()
+                mkbwzredux = MKBwzredux_mod()
                 mkbwzredux.p['ex1'] = ["ex1", "ex1", 4, 4, 4, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", -1.3, -1.3, -1.3, True]
+                mkbwzredux.p['ex2'] = ["ex2", "ex2", -1.10, -1.10, -1.10, True]
+                mkbwzredux.p['w'] = ["w", "w", 20, 20, 20, True]
                 mkbwzredux.p['pow'] = ["pow","pow", 2, 2, 2, True]
                 model1, model1_params = mkbwzredux.makeModel(x)
         ################
@@ -219,8 +221,8 @@ class WorkspaceAndDatacardMaker:
                 mkbwz = MKBwz()
                 mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
                 #mkbwz.p["a2"] = ["a2", "width", 6, 6, 6, True]
-                mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.018, 0.018, 0.018, True]
+                mkbwz.p["a2"] = ["a2", "width", 2, 2, 2, True]
+                mkbwz.p["a3"] = ["a3", "exp", 0.02, 0.02, 0.02, True]
                 model1, model1_params = mkbwz.makeModel(x)
             elif self.model_choice == 'MKPower':
                 mkpower = MKPower_inc()
@@ -250,9 +252,10 @@ class WorkspaceAndDatacardMaker:
                 mkbernstein.p['c3'] = ["c3", "c3", 0.2, 0.2, 0.2, True]
                 model1, model1_params = mkbernstein.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
-                mkbwzredux = MKBwzredux2()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", -3.9,-3.9,-3.9, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", 1.7, 1.7,1.7, True]
+                mkbwzredux = MKBwzredux_mod()
+                mkbwzredux.p['ex1'] = ["ex1", "ex1", 1,1,1, True]
+                mkbwzredux.p['ex2'] = ["ex2", "ex2", 0.3, 0.3,0.3, True]
+                mkbwzredux.p['w'] = ["w", "w", 11, 11, 11, True]
                 mkbwzredux.p['pow'] = ["pow","pow", 2.0, 2.0, 2.0, True]
                 model1, model1_params = mkbwzredux.makeModel(x)
         ################
@@ -327,11 +330,10 @@ class WorkspaceAndDatacardMaker:
                 mklegendre.p['c3'] = ["c3", "c3", -1.00, -1.00, -1.00, True]
                 model1, model1_params = mklegendre.makeModel(x11)
             elif self.model_choice == 'MKExp':
-                mkexp = MKExp2()
-                mkexp.p['a1'] = ["a1", "a1", -46.5, -46.5, -46.5, True]
-                mkexp.p['a2'] = ["a2", "a2", 2, 2, 2, True]
-                mkexp.p['b1'] = ["b1", "b1", 3, 3, 3, True]
-                mkexp.p['b2'] = ["b2", "b2", 0.061, 0.061, 0.061, True]
+                mkexp = MKExp_mod()
+                mkexp.p['a0'] = ["a0", "a0", 0.0000, 0.0000, 0.0000, True]
+                mkexp.p['a1'] = ["a1", "a1", 2.3, 2.3, 2.3, True]
+                mkexp.p['b1'] = ["b1", "b1", 0.06, 0.06, 0.06, True]
                 model1, model1_params = mkexp.makeModel(x)
             elif self.model_choice == 'MKBernstein':
                 mkbernstein = MKBernstein3_mod()
