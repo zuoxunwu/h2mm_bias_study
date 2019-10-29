@@ -1,11 +1,5 @@
 #!/bin/bash
-#
 # Perform bias study
-
-# imported 
-# toy_things.sh
-
-
 #######################################
 # Perform bias study 
 # Arguments:
@@ -21,13 +15,9 @@ run_study_pull(){
     declare -a arr_models
     declare -a arr_sig_bkg
     declare -a arr_infile
-
     ###################
     # parse config file
-    # 
     ##################
-
-    echo "################"
     let i=0
     while IFS="," read f1 f2; do
         [[ "$f1" = "#".* ]] && continue
@@ -76,7 +66,49 @@ run_study_pull(){
     # create directories
     mkdir -p OutputFiles/${study_title}
     mkdir -p logs/${study_title}
+    . bash_scripts/toy_things.sh # load toy_gen(), toy_fit(), temp_cleanup()
     
+    ##########################################
+    # toy "data" generation sequence
+    ##########################################
+
+    ##########################################
+    # Create workspaces for background models
+    # Arguments:
+    #   $1 infile , $2 model, $3 h_sig, $4 h_bkg, $5 title(category) $6 runmode(whether to use mc or toy as data_obs 
+    ##########################################
+    for i in "${arr_models[@]}"; do
+        python python_files/make_ws_dc.py ${arr_infile[0]} $i ${arr_sig_bkg[0]} ${arr_sig_bkg[1]} ${study_title} mc_to_toys &
+    done 
+    wait
+    echo "workspace creation complete!"
+    sleep 2s
+
+    ###############
+    # Generate toys
+    # Arguments:
+    #   toy_model $1, signal_strength $2, num of toys $3, seed $4, title $5  
+    ###############
+    NUM_SMALL_TOYS=10
+    # toy generation
+    for i in "${arr_models[@]}"; do
+        for j_ss in {0..1}; do
+            for rs in {10..11}; do
+                toy_gen $i $j_ss $NUM_SMALL_TOYS ${rs} ${study_title} &> logs/${study_title}/log_toy_gen_${i}${j_ss}_seed${rs}.txt &
+            done
+        done
+    done
+    wait
+    echo "toy generation complete!"
+    sleep 2s
+
+    rm OutputFiles/${study_title}/c_01_test*.txt 
+    rm OutputFiles/${study_title}/c_01_test*.root 
+
+    ##########################################
+    # typical bias study sequence
+    ##########################################
+
     ##########################################
     # Create workspaces for background models
     # Arguments:
@@ -95,7 +127,7 @@ run_study_pull(){
     #   toy_model, signal_strength, num of toys
     ###############
     NUM_TOYS=900
-    . bash_scripts/toy_things.sh # load toy_gen(), toy_fit(), temp_cleanup()
+    #. bash_scripts/toy_things.sh # load toy_gen(), toy_fit(), temp_cleanup()
     # toy generation
     for i in "${arr_models[@]}"; do
         for j_ss in {0..1}; do

@@ -91,7 +91,7 @@ class BGSpectrumFitter:
     # histo is MC
     # roodata is toy"data"
     ########################################
-    def fit(self, histo, pdfMmumu, x, model_choice, title, xmin=-1, xmax=1, blinded=True, save=True, roodata=None):
+    def fit(self, histo, pdfMmumu, x, model_choice, title, xmin=-1, xmax=1, blinded=True, save=True, roodata=None,runmode=None):
 	gROOT.SetBatch(kTRUE)
     # fit the spectrum and save the fit and the data/MC histogram to .png and .root
 
@@ -140,7 +140,7 @@ class BGSpectrumFitter:
 
         # save the fit to the data/MC via the TCanvas
         if(save):
-            c1.SaveAs(os.path.join("OutputFiles",title,model_choice+'.png'))
+            c1.SaveAs(os.path.join("OutputFiles",title+"_"+runmode+"_"+model_choice+'.png'))
             #c1.SaveAs(histo.GetName()+"_"+pdfMmumu.GetName()+'.root');
 
         return pdfMmumu;
