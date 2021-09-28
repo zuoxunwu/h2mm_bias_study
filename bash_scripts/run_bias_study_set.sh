@@ -13,8 +13,13 @@
 #wait
 #run_study_pull ./Configs/WH6cats_an/toyqdataq/WH_BDT_p068_p076.txt
 #wait
-run_study_pull ./Configs/WH6cats_an/toyqdataq/WH_BDT_p076_p10.txt
-wait
-#run_study_pull ./Configs/WH6cats/toyqdataq/WH_BDT_p068_p076.txt
+#run_study_pull ./Configs/WH6cats_an/toyqdataq/WH_BDT_p076_p10.txt
 #wait
-#run_study_pull ./Configs/WH6cats/toyqdataq/WH_BDT_p076_p10.txt
+
+#run_study_pull ./Configs/WH6cats_an/toyqdataq/WH_BDT_p06_p10.txt
+#wait
+
+#run_study_pull ./Configs/ZH2cats/ZH_BDT_n10_p04.txt
+#wait
+#run_study_pull ./Configs/ZH2cats/ZH_BDT_p04_p10.txt
+#wait
