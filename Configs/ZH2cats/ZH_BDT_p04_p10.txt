@@ -1,0 +1,17 @@
+title,ZH_BDT_p04_p10
+runmode,toyqdataq
+datafile,InputFiles/mass_hists_lepMVAn4.root
+signal,dimu_mass_BDT_p04_p10_Net_Sig
+background,dimu_mass_BDT_p04_p10_Net_Bkg
+model,MKBwz_fix
+model,MKBwz
+model,MKBwzBern1
+model,MKPower1
+model,MKPower1int
+model,MKExp1
+model,MKExp1int
+
+#model,MKBwzredux_fix
+#model,MKBwzredux
+#model,MKBernstein2
+#model,MKBernstein3
