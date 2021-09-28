@@ -10,7 +10,7 @@
 # import
 #============================================
 
-import PDFDatabase as pdfs
+#import PDFDatabase as pdfs
 import prettytable
 import string
 import re
@@ -114,7 +114,7 @@ class BGSpectrumFitter:
 
       
         if blinded == True:
-            pdfMmumu.fitTo(roodata, RooFit.Range("left,right"))
+            pdfMmumu.fitTo(roodata, RooFit.Range("left,right"), RooFit.SumW2Error(kFALSE))
         else: 
             pdfMmumu.fitTo(roodata, RooFit.Range("window"))
 

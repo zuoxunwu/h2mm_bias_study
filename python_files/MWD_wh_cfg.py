@@ -11,6 +11,8 @@ from ROOT import *
 from pdfClass_6bdt import *
 import os
 
+DoBlind = True
+
 class WorkspaceAndDatacardMaker:
     # fold
     infilename = '' # path for bkg, sig histos
@@ -29,7 +31,7 @@ class WorkspaceAndDatacardMaker:
     # parsed from config.txt
     # infilename: histo root file, category: category, model_choice: bkg_model
     # h_sig: signal histogram name, h_bkg: background histogram name, runmode:runmode 
-    def __init__(self, infilename, category, model_choice, h_sig, h_bkg, title, runmode, OutDir='../OutputFiles/', InDir="/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct"):
+    def __init__(self, infilename, category, model_choice, h_sig, h_bkg, title, runmode, OutDir='../OutputFiles/', InDir="/afs/cern.ch/work/x/xzuo/combine/CMSSW_8_1_0/src/bias_study"):
         self.basepath = InDir
         self.infilename = infilename
         self.h_sig = h_sig
@@ -44,7 +46,7 @@ class WorkspaceAndDatacardMaker:
         self.setDataHist()
         self.setNetSignalHist()
         self.model_choice = model_choice # string for choosing model (function)
-        self.outdir = os.path.join('/home/pq8556/WorkingArea/CMSSW_8_1_0/src/novel_bias_variance_oct/OutputFiles/',self.title)
+        self.outdir = os.path.join('/afs/cern.ch/work/x/xzuo/combine/CMSSW_8_1_0/src/bias_study/OutputFiles/',self.title)
 	
     
     # uses the naming convention from categorize.cxx to automatically grab the histograms
@@ -129,273 +131,1194 @@ class WorkspaceAndDatacardMaker:
         ################
         if self.title == "WH_BDT_n10_n02":
             smodel, sigParamList, sgc = MKTripleGauss(x)
-            if self.model_choice == 'MKBwz':
+	    # bwzs
+	    if self.model_choice == 'MKBwz_fix':
+                mkbwz_fix = MKBwz()
+                mkbwz_fix.name = 'MKBwz_fix'
+		mkbwz_fix.p['a2'][2] = 2.5
+                mkbwz_fix.p['a3'][2] = 0.0249
+                mkbwz_fix.p['a2'][5] = True
+                mkbwz_fix.p['a3'][5] = True
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz_fix.makeModel(x)
+            elif self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
-                mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
-                #mkbwz.p["a2"] = ["a2", "width", 8, 8, 8, True]
-                mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.023, 0.023, 0.023, True]
+                #if self.runmode == 'toyqdataq':
                 model1, model1_params = mkbwz.makeModel(x)
-            elif self.model_choice == 'MKPower':
-                mkpower = MKPower_inc()
-                mkpower.p['c0'] = ["c0","c0", 7, 7, 7,True]
-                mkpower.p['c1'] = ["c1","c1", -0.21, -0.21, -0.21, True]
-                mkpower.p['pow0'] = ["pow0","pow0", -9.9, -9.9, -9.9,True]
-                mkpower.p['pow1'] = ["pow1","pow1", -1.0, -1.0, -1.0,True]
-                model1, model1_params = mkpower.makeModel(x21,order=2)
-            elif self.model_choice == 'MKLegendre':
-                mklegendre = MKLegendre()
-                mklegendre.p['c1'] = ["c1","c1", -0.656,-0.656,-0.656 ,True]
-                mklegendre.p['c2'] = ["c2","c2", 0.35, 0.35, 0.35, True]
-                mklegendre.p['c3'] = ["c3", "c3",-0.145 , -0.145, -0.145, True]
-                model1, model1_params = mklegendre.makeModel(x1,order=[1,2,3])
-            elif self.model_choice == 'MKExp':
-                mkexp = MKExp_mod()
-                mkexp.p['a0'] = ["a0", "a0", 0.00004, 0.00004, 0.00004, True]
-                mkexp.p['a1'] = ["a1", "a1", 2, 2, 2, True]
-                mkexp.p['b1'] = ["b1", "b1", 0.090, 0.090, 0.090, True]
-                model1, model1_params = mkexp.makeModel(x)
-            elif self.model_choice == 'MKBernstein':
-                mkbernstein = MKBernstein3_mod()
-                mkbernstein.p['c1'] = ["c1", "c1", 0.20, 0.20, 0.20, True]
-                mkbernstein.p['c2'] = ["c2", "c2", 0.40, 0.40, 0.40, True]
-                mkbernstein.p['c3'] = ["c3", "c3", 0.25, 0.25, 0.25, True]
-                model1, model1_params = mkbernstein.makeModel(x)
-            elif self.model_choice == 'MKBwzredux':
+	    elif self.model_choice == 'MKBwzBern1':
+		mkbwzbern1 = MKBwzBern1()
+		#if self.runmode == 'toyqdataq':
+		model1, model1_params = mkbwzbern1.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern2':
+                mkbwzbern2 = MKBwzBern2()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwzbern2.makeModel(x)
+
+	    elif self.model_choice == 'MKBwzredux_fix':
+                mkbwzredux_fix = MKBwzredux_mod()
+		mkbwzredux_fix.name = 'MKBwzredux_fix'
+		mkbwzredux_fix.p['pow'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux_fix.p['ex1'][2] = 4
+                  mkbwzredux_fix.p['ex2'][2] = -0.62
+                  mkbwzredux_fix.p['w'][2]   = 1
+                  mkbwzredux_fix.p['ex1'][5] = True
+                  mkbwzredux_fix.p['ex2'][5] = True
+                  mkbwzredux_fix.p['w'][5]   = True
+                model1, model1_params = mkbwzredux_fix.makeModel(x)
+	    elif self.model_choice == 'MKBwzredux':
                 mkbwzredux = MKBwzredux_mod()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", 2, 2, 2, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", 0.1, 0.1, 0.1, True]
-                mkbwzredux.p['w'] = ["w","width", 1, 1, 1, True]
-                mkbwzredux.p['pow'] = ["pow","pow", 2, 2, 2, True]
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux.p['ex1'][2] = 3.6
+                  mkbwzredux.p['ex2'][2] = -0.37
+                  mkbwzredux.p['w'][2]   = 1
+                  mkbwzredux.p['pow'][2] = 2
+                  mkbwzredux.p['ex1'][5] = True
+                  mkbwzredux.p['ex2'][5] = True
+                  mkbwzredux.p['w'][5]   = True
+                  mkbwzredux.p['pow'][5] = True
                 model1, model1_params = mkbwzredux.makeModel(x)
+	    # power laws
+	    elif self.model_choice == 'MKPower1':
+                mkpower1 = MKPower1()
+                mkpower1.name = "MKPower1"
+                mkpower1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkpower1.p['pow0'][2]   = -0.807
+                  #mkpower1.p['pow0'][5] = True
+                model1, model1_params = mkpower1.makeModel(x)
+	    elif self.model_choice == 'MKPower1int':
+                mkpower1int = MKPower1()
+                mkpower1int.name = "MKPower1int"
+                if self.runmode == 'toyqdataq':
+                  mkpower1int.p['pow0'][2]   = -1.076
+		  mkpower1int.p['const'][2]  = 0.011
+                  #mkpower1int.p['pow0'][5] = True
+                model1, model1_params = mkpower1int.makeModel(x)
+	    # exps
+	    elif self.model_choice == 'MKExp1':
+                mkexp1 = MKExp1()
+                mkexp1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkexp1.p['exp1'][2] = 0.0316
+                model1, model1_params = mkexp1.makeModel(x)
+	    elif self.model_choice == 'MKExp1int':
+                mkexp1int = MKExp1()
+		mkexp1int.name = "MKExp1int"
+                if self.runmode == 'toyqdataq':
+                  mkexp1int.p['exp1'][2]  = 0.1
+		  mkexp1int.p['const'][2] = 0.2
+                model1, model1_params = mkexp1int.makeModel(x)
+	    # berns
+	    elif self.model_choice == 'MKBernstein2':
+                mkbernstein2 = MKBernstein2()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein2.p['c0'][2] = 1
+                  mkbernstein2.p['c1'][2] = 0.2
+                  mkbernstein2.p['c2'][2] = 0.3
+                  mkbernstein2.p['c0'][5] = True
+                  mkbernstein2.p['c1'][5] = True
+                  mkbernstein2.p['c2'][5] = True
+                model1, model1_params = mkbernstein2.makeModel(x)
+            elif self.model_choice == 'MKBernstein3':
+                mkbernstein3 = MKBernstein3()
+		if self.runmode == 'toyqdataq':
+		  mkbernstein3.p['c0'][2] = 0.6
+		  mkbernstein3.p['c1'][2] = 0.1
+		  mkbernstein3.p['c2'][2] = 0.3
+		  mkbernstein3.p['c3'][2] = 0.1
+		  mkbernstein3.p['c0'][5] = True
+		  mkbernstein3.p['c1'][5] = True
+		  mkbernstein3.p['c2'][5] = True
+		  mkbernstein3.p['c3'][5] = True
+                model1, model1_params = mkbernstein3.makeModel(x)
+	    elif self.model_choice == 'MKBernstein4':
+                mkbernstein4 = MKBernstein4()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein4.p['c0'][2] = 0.4
+                  mkbernstein4.p['c1'][2] = 0.09
+                  mkbernstein4.p['c2'][2] = 0.23
+                  mkbernstein4.p['c3'][2] = 0.12
+		  mkbernstein4.p['c4'][2] = 0.12
+                  mkbernstein4.p['c0'][5] = True
+                  mkbernstein4.p['c1'][5] = True
+                  mkbernstein4.p['c2'][5] = True
+                  mkbernstein4.p['c3'][5] = True
+		  mkbernstein4.p['c4'][5] = True
+                model1, model1_params = mkbernstein4.makeModel(x)
+
         ################
         # cat2: WH_BDT_n02_p02
         ################
         elif self.title == "WH_BDT_n02_p02":
             smodel, sigParamList, sgc = MKTripleGauss(x)
-            if self.model_choice == 'MKBwz':
+	    # bwzs
+	    if self.model_choice == 'MKBwz_fix':
+                mkbwz_fix = MKBwz()
+                mkbwz_fix.name = 'MKBwz_fix'
+		mkbwz_fix.p['a2'][2] = 2.5
+                mkbwz_fix.p['a3'][2] = 0.0196
+                mkbwz_fix.p['a2'][5] = True
+                mkbwz_fix.p['a3'][5] = True
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz_fix.makeModel(x)
+            elif self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
-                mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
-                #mkbwz.p["a2"] = ["a2", "width", 5, 5, 5, True]
-                mkbwz.p["a2"] = ["a2", "width", 14, 14, 14, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.011, 0.011, 0.011, True]
+                #if self.runmode == 'toyqdataq':
                 model1, model1_params = mkbwz.makeModel(x)
-            elif self.model_choice == 'MKPower':
-                mkpower = MKPower_inc()
-                mkpower.p['c0'] = ["c0","c0", 1.0, 1.0, 1.0,True]
-                mkpower.p['c1'] = ["c1","c1", -1.364, -1.364, -1.364, True]
-                mkpower.p['pow0'] = ["pow0","pow0", -4.22, -4.22, -4.22,True]
-                mkpower.p['pow1'] = ["pow1","pow1", -0.56, -0.56, -0.56,True]
-                model1, model1_params = mkpower.makeModel(x21,order=2)
-            elif self.model_choice == 'MKLegendre':
-                mklegendre = MKLegendre()
-                mklegendre.p['c1'] = ["c1", "c1", -0.722, -0.722, -0.722,True]
-                mklegendre.p['c2'] = ["c2", "c2", 0.30, 0.30, 0.30, True]
-                mklegendre.p['c3'] = ["c3", "c3", -0.092, -0.092, -0.092, True]
-                model1, model1_params = mklegendre.makeModel(x1,order=[1,2,3])
-            elif self.model_choice == 'MKExp':
-                mkexp = MKExp_mod()
-                mkexp.p['a1'] = ["a1", "a1", 9, 9, 9, True]
-                mkexp.p['b0'] = ["b0", "b0", 0.002, 0.002, 0.002, True]
-                mkexp.p['b1'] = ["b1", "b1", 0.065, 0.065, 0.065, True]
-                model1, model1_params = mkexp.makeModel(x)
-            elif self.model_choice == 'MKBernstein':
-                mkbernstein = MKBernstein3_mod()
-                mkbernstein.p['c1'] = ["c1", "c1", 0.31, 0.31, 0.31, True]
-                mkbernstein.p['c2'] = ["c2", "c2", 0.35, 0.35, 0.35, True]
-                mkbernstein.p['c3'] = ["c3", "c3", 0.23, 0.23, 0.23, True]
-                model1, model1_params = mkbernstein.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern1':
+		mkbwzbern1 = MKBwzBern1()
+		#if self.runmode == 'toyqdataq':
+		model1, model1_params = mkbwzbern1.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern2':
+                mkbwzbern2 = MKBwzBern2()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwzbern2.makeModel(x)
+
+            elif self.model_choice == 'MKBwzredux_fix':
+                mkbwzredux_fix = MKBwzredux_mod()
+                mkbwzredux_fix.name = 'MKBwzredux_fix'
+                mkbwzredux_fix.p['pow'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux_fix.p['ex1'][2] = 3
+                  mkbwzredux_fix.p['ex2'][2] = -0.46
+                  mkbwzredux_fix.p['w'][2]   = 20
+                  mkbwzredux_fix.p['ex1'][5] = True
+                  mkbwzredux_fix.p['ex2'][5] = True
+                  mkbwzredux_fix.p['w'][5]   = True
+                model1, model1_params = mkbwzredux_fix.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
                 mkbwzredux = MKBwzredux_mod()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", 4, 4, 4, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", -1.10, -1.10, -1.10, True]
-                mkbwzredux.p['w'] = ["w", "w", 20, 20, 20, True]
-                mkbwzredux.p['pow'] = ["pow","pow", 2, 2, 2, True]
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux.p['ex1'][2] = 2.6
+                  mkbwzredux.p['ex2'][2] = -0.50
+                  mkbwzredux.p['w'][2]   = 20
+                  mkbwzredux.p['pow'][2] = 1.9
+                  mkbwzredux.p['ex1'][5] = True
+                  mkbwzredux.p['ex2'][5] = True
+                  mkbwzredux.p['w'][5]   = True
+                  mkbwzredux.p['pow'][5] = True
                 model1, model1_params = mkbwzredux.makeModel(x)
+	    # power laws
+            elif self.model_choice == 'MKPower1':
+                mkpower1 = MKPower1()
+                mkpower1.name = "MKPower1"
+                mkpower1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkpower1.p['pow0'][2]   = -0.925
+                  #mkpower1.p['pow0'][5] = True
+                model1, model1_params = mkpower1.makeModel(x)
+            elif self.model_choice == 'MKPower1int':
+                mkpower1int = MKPower1()
+                mkpower1int.name = "MKPower1int"
+                if self.runmode == 'toyqdataq':
+                  mkpower1int.p['pow0'][2]   = -0.648
+                  mkpower1int.p['const'][2]  = -0.038
+                  #mkpower1int.p['pow0'][5] = True
+                model1, model1_params = mkpower1int.makeModel(x)
+            # exps
+            elif self.model_choice == 'MKExp1':
+                mkexp1 = MKExp1()
+                mkexp1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkexp1.p['exp1'][2] = 0.0375
+                model1, model1_params = mkexp1.makeModel(x)
+            elif self.model_choice == 'MKExp1int':
+                mkexp1int = MKExp1()
+                mkexp1int.name = "MKExp1int"
+                if self.runmode == 'toyqdataq':
+                  mkexp1int.p['exp1'][2]  = 0.068
+                  mkexp1int.p['const'][2] = 0.119
+                model1, model1_params = mkexp1int.makeModel(x)
+	    # berns
+            elif self.model_choice == 'MKBernstein2':
+                mkbernstein2 = MKBernstein2()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein2.p['c0'][2] = 1
+                  mkbernstein2.p['c1'][2] = 0.2
+                  mkbernstein2.p['c2'][2] = 0.3
+                  mkbernstein2.p['c0'][5] = True
+                  mkbernstein2.p['c1'][5] = True
+                  mkbernstein2.p['c2'][5] = True
+                model1, model1_params = mkbernstein2.makeModel(x)
+            elif self.model_choice == 'MKBernstein3':
+                mkbernstein3 = MKBernstein3()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein3.p['c0'][2] = 1
+                  mkbernstein3.p['c1'][2] = 0
+                  mkbernstein3.p['c2'][2] = 0
+                  mkbernstein3.p['c3'][2] = 0.2
+                  mkbernstein3.p['c0'][5] = True
+                  mkbernstein3.p['c1'][5] = True
+                  mkbernstein3.p['c2'][5] = True
+                  mkbernstein3.p['c3'][5] = True
+                model1, model1_params = mkbernstein3.makeModel(x)
+            elif self.model_choice == 'MKBernstein4':
+                mkbernstein4 = MKBernstein4()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein4.p['c0'][2] = 0.4
+                  mkbernstein4.p['c1'][2] = 0.19
+                  mkbernstein4.p['c2'][2] = 0.19
+                  mkbernstein4.p['c3'][2] = 0.09
+                  mkbernstein4.p['c4'][2] = 0.12
+                  mkbernstein4.p['c0'][5] = True
+                  mkbernstein4.p['c1'][5] = True
+                  mkbernstein4.p['c2'][5] = True
+                  mkbernstein4.p['c3'][5] = True
+                  mkbernstein4.p['c4'][5] = True
+                model1, model1_params = mkbernstein4.makeModel(x)
+
         ################
         # cat3: WH_BDT_p02_p06
         ################
         elif self.title == "WH_BDT_p02_p06":
             smodel, sigParamList, sgc = MKTripleGauss(x)
-            if self.model_choice == 'MKBwz':
+	    # bwzs
+	    if self.model_choice == 'MKBwz_fix':
+                mkbwz_fix = MKBwz()
+                mkbwz_fix.name = 'MKBwz_fix'
+		mkbwz_fix.p['a2'][2] = 2.5
+                mkbwz_fix.p['a3'][2] = 0.0209
+                mkbwz_fix.p['a2'][5] = True
+                mkbwz_fix.p['a3'][5] = True
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz_fix.makeModel(x)
+            elif self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
-                mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
-                #mkbwz.p["a2"] = ["a2", "width", 6, 6, 6, True]
-                mkbwz.p["a2"] = ["a2", "width", 2, 2, 2, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.02, 0.02, 0.02, True]
+                #if self.runmode == 'toyqdataq':
                 model1, model1_params = mkbwz.makeModel(x)
-            elif self.model_choice == 'MKPower':
-                mkpower = MKPower_inc()
-                mkpower.p['c0'] = ["c0","c0", 1.1, 1.1, 1.1,True]
-                mkpower.p['c1'] = ["c1","c1", -1.478, -1.478, -1.478, True]
-                mkpower.p['pow0'] = ["pow0","pow0", -4.52, -4.52, -4.52,True]
-                mkpower.p['pow1'] = ["pow1","pow1", -0.743, -0.743, -0.743,True]
-                model1, model1_params = mkpower.makeModel(x21,order=2)
-            elif self.model_choice == 'MKLegendre':
-                mklegendre = MKLegendre()
-                mklegendre.p['c1'] = ["c1","c1", -0.759, -0.759, -0.759,True]
-                mklegendre.p['c2'] = ["c2","c2", 0.38, 0.38, 0.38, True]
-                mklegendre.p['c3'] = ["c3", "c3", -0.086, -0.086, -0.086, True]
-                model1, model1_params = mklegendre.makeModel(x1,order=[1,2,3])
-            elif self.model_choice == 'MKExp':
-                mkexp = MKExp_mod()
-                mkexp.p['a0'] = ["a0", "a0", 0.0000002, 0.0000002, 0.0000002, True]
-                mkexp.p['a1'] = ["a1", "a1", 0.06, 0.06, 0.06, True]
-                mkexp.p['b1'] = ["b1", "b1", 0.083, 0.083, 0.083, True]
-                model1, model1_params = mkexp.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern1':
+		mkbwzbern1 = MKBwzBern1()
+		#if self.runmode == 'toyqdataq':
+		model1, model1_params = mkbwzbern1.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern2':
+                mkbwzbern2 = MKBwzBern2()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwzbern2.makeModel(x)
 
-            elif self.model_choice == 'MKBernstein':
-                mkbernstein = MKBernstein3()
-                mkbernstein.p['c0'] = ["c0", "c0", 0.7, 0.7, 0.7, True]
-                mkbernstein.p['c1'] = ["c1", "c1", 0.2, 0.2, 0.2, True]
-                mkbernstein.p['c2'] = ["c2", "c2", 0.2, 0.2, 0.2 , True]
-                mkbernstein.p['c3'] = ["c3", "c3", 0.2, 0.2, 0.2, True]
-                model1, model1_params = mkbernstein.makeModel(x)
+            elif self.model_choice == 'MKBwzredux_fix':
+                mkbwzredux_fix = MKBwzredux_mod()
+                mkbwzredux_fix.name = 'MKBwzredux_fix'
+                mkbwzredux_fix.p['pow'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux_fix.p['ex1'][2] = 0
+                  mkbwzredux_fix.p['ex2'][2] = 0.7
+                  mkbwzredux_fix.p['w'][2]   = 18
+                  mkbwzredux_fix.p['ex1'][5] = True
+                  mkbwzredux_fix.p['ex2'][5] = True
+                  mkbwzredux_fix.p['w'][5]   = True
+                model1, model1_params = mkbwzredux_fix.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
                 mkbwzredux = MKBwzredux_mod()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", 1,1,1, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", 0.3, 0.3,0.3, True]
-                mkbwzredux.p['w'] = ["w", "w", 11, 11, 11, True]
-                mkbwzredux.p['pow'] = ["pow","pow", 2.0, 2.0, 2.0, True]
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux.p['ex1'][2] = 3.0
+                  mkbwzredux.p['ex2'][2] = -0.22
+                  mkbwzredux.p['w'][2]   = 19
+                  mkbwzredux.p['pow'][2] = 2.2
+                  mkbwzredux.p['ex1'][5] = True
+                  mkbwzredux.p['ex2'][5] = True
+                  mkbwzredux.p['w'][5]   = True
+                  mkbwzredux.p['pow'][5] = True
                 model1, model1_params = mkbwzredux.makeModel(x)
+	    # power laws
+            elif self.model_choice == 'MKPower1':
+                mkpower1 = MKPower1()
+                mkpower1.name = "MKPower1"
+                mkpower1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkpower1.p['pow0'][2]   = -0.90
+                  #mkpower1.p['pow0'][5] = True
+                model1, model1_params = mkpower1.makeModel(x)
+            elif self.model_choice == 'MKPower1int':
+                mkpower1int = MKPower1()
+                mkpower1int.name = "MKPower1int"
+                if self.runmode == 'toyqdataq':
+                  mkpower1int.p['pow0'][2]   = -0.888
+                  mkpower1int.p['const'][2]  = -0.0009
+                  #mkpower1int.p['pow0'][5] = True
+                model1, model1_params = mkpower1int.makeModel(x)
+            # exps
+            elif self.model_choice == 'MKExp1':
+                mkexp1 = MKExp1()
+                mkexp1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkexp1.p['exp1'][2] = 0.036
+                model1, model1_params = mkexp1.makeModel(x)
+            elif self.model_choice == 'MKExp1int':
+                mkexp1int = MKExp1()
+                mkexp1int.name = "MKExp1int"
+                if self.runmode == 'toyqdataq':
+                  mkexp1int.p['exp1'][2]  = 0.079
+                  mkexp1int.p['const'][2] = 0.133
+                model1, model1_params = mkexp1int.makeModel(x)
+	    # berns
+            elif self.model_choice == 'MKBernstein2':
+                mkbernstein2 = MKBernstein2()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein2.p['c0'][2] = 1
+                  mkbernstein2.p['c1'][2] = 0.2
+                  mkbernstein2.p['c2'][2] = 0.3
+                  mkbernstein2.p['c0'][5] = True
+                  mkbernstein2.p['c1'][5] = True
+                  mkbernstein2.p['c2'][5] = True
+                model1, model1_params = mkbernstein2.makeModel(x)
+            elif self.model_choice == 'MKBernstein3':
+                mkbernstein3 = MKBernstein3()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein3.p['c0'][2] = 1
+                  mkbernstein3.p['c1'][2] = 0.2
+                  mkbernstein3.p['c2'][2] = 0.2
+                  mkbernstein3.p['c3'][2] = 0.2
+                  mkbernstein3.p['c0'][5] = True
+                  mkbernstein3.p['c1'][5] = True
+                  mkbernstein3.p['c2'][5] = True
+                  mkbernstein3.p['c3'][5] = True
+                model1, model1_params = mkbernstein3.makeModel(x)
+            elif self.model_choice == 'MKBernstein4':
+                mkbernstein4 = MKBernstein4()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein4.p['c0'][2] = 0.5
+                  mkbernstein4.p['c1'][2] = 0.14
+                  mkbernstein4.p['c2'][2] = 0.24
+                  mkbernstein4.p['c3'][2] = 0.09
+                  mkbernstein4.p['c4'][2] = 0.13
+                  mkbernstein4.p['c0'][5] = True
+                  mkbernstein4.p['c1'][5] = True
+                  mkbernstein4.p['c2'][5] = True
+                  mkbernstein4.p['c3'][5] = True
+                  mkbernstein4.p['c4'][5] = True
+                model1, model1_params = mkbernstein4.makeModel(x)
+
         ################
         # cat4: WH_BDT_p060_p068
         ################
         elif self.title == "WH_BDT_p060_p068":
             smodel, sigParamList, sgc = MKTripleGauss(x)
-            if self.model_choice == 'MKBwz':
+	    # bwzs
+	    if self.model_choice == 'MKBwz_fix':
+                mkbwz_fix = MKBwz()
+                mkbwz_fix.name = 'MKBwz_fix'
+		mkbwz_fix.p['a2'][2] = 2.5
+                mkbwz_fix.p['a3'][2] = 0.017
+                mkbwz_fix.p['a2'][5] = True
+                mkbwz_fix.p['a3'][5] = True
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz_fix.makeModel(x)
+            elif self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
-                mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
-                #mkbwz.p["a2"] = ["a2", "width", 16, 16, 16, True]
-                mkbwz.p["a2"] = ["a2", "width", 34, 34, 34, True]
-                mkbwz.p["a3"] = ["a3", "exp", -0.010, -0.010, -0.010, True]
+                #if self.runmode == 'toyqdataq':
                 model1, model1_params = mkbwz.makeModel(x)
-            elif self.model_choice == 'MKPower':
-                mkpower = MKPower_scale()
-                mkpower.p['c0'] = ["c0","c0", 0.6, 0.6, 0.6 ,True]
-                mkpower.p['c1'] = ["c1","c1",-0.54, -0.54, -0.54 , True]
-                mkpower.p['pow0'] = ["pow0","pow0",0.1, 0.1, 0.1 ,True]
-                mkpower.p['pow1'] = ["pow1","pow1",0.2, 0.2, 0.2,True]
-                model1, model1_params = mkpower.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern1':
+		mkbwzbern1 = MKBwzBern1()
+		#if self.runmode == 'toyqdataq':
+		model1, model1_params = mkbwzbern1.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern2':
+                mkbwzbern2 = MKBwzBern2()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwzbern2.makeModel(x)
 
-            elif self.model_choice == 'MKLegendre':
-                mklegendre = MKLegendre()
-                mklegendre.p['c1'] = ["c1","c1", -0.749, -0.749, -0.749,True]
-                mklegendre.p['c2'] = ["c2","c2", 0.20, 0.20, 0.20, True]
-                mklegendre.p['c3'] = ["c3", "c3", -0.160, -0.160, -0.160, True]
-                model1, model1_params = mklegendre.makeModel(x1,order=[1,2,3])
-            elif self.model_choice == 'MKExp':
-                mkexp = MKExp_mod()
-                mkexp.p['a1'] = ["a1", "a1", 2, 2, 2, True]
-                mkexp.p['b0'] = ["b0", "b0", -0.0001, -0.0001, -0.0001, True]
-                mkexp.p['b1'] = ["b1", "b1", 0.038, 0.038, 0.038, True]
-                model1, model1_params = mkexp.makeModel(x)
-
-            elif self.model_choice == 'MKBernstein':
-                mkbernstein = MKBernstein3()
-                mkbernstein.p['c0'] = ["c0", "c0", 0.7, 0.7, 0.7, True]
-                mkbernstein.p['c1'] = ["c1", "c1", 0.2, 0.2, 0.2, True]
-                mkbernstein.p['c2'] = ["c2", "c2", 0.4, 0.4, 0.4, True]
-                mkbernstein.p['c3'] = ["c3", "c3", 0.1, 0.1, 0.1, True]
-                model1, model1_params = mkbernstein.makeModel(x)
+            elif self.model_choice == 'MKBwzredux_fix':
+                mkbwzredux_fix = MKBwzredux_mod()
+                mkbwzredux_fix.name = 'MKBwzredux_fix'
+                mkbwzredux_fix.p['pow'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux_fix.p['ex1'][2] = 3
+                  mkbwzredux_fix.p['ex2'][2] = -0.5
+                  mkbwzredux_fix.p['w'][2]   = 20
+                  mkbwzredux_fix.p['ex1'][5] = True
+                  mkbwzredux_fix.p['ex2'][5] = True
+                  mkbwzredux_fix.p['w'][5]   = True
+                model1, model1_params = mkbwzredux_fix.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
-                mkbwzredux = MKBwzredux2()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", 18, 18, 18, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", -6.7, -6.7, -6.7, True]
-                mkbwzredux.p['pow'] = ["pow","pow", 2, 2, 2, True]
+                mkbwzredux = MKBwzredux_mod()
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux.p['ex1'][2] = 4
+                  mkbwzredux.p['ex2'][2] = -1
+                  mkbwzredux.p['w'][2]   = 5
+                  mkbwzredux.p['pow'][2] = 2.0
+                  mkbwzredux.p['ex1'][5] = True
+                  mkbwzredux.p['ex2'][5] = True
+                  mkbwzredux.p['w'][5]   = True
+                  mkbwzredux.p['pow'][5] = True
                 model1, model1_params = mkbwzredux.makeModel(x)
+	    # power laws
+            elif self.model_choice == 'MKPower1':
+                mkpower1 = MKPower1()
+                mkpower1.name = "MKPower1"
+                mkpower1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkpower1.p['pow0'][2]   = -0.995
+                  #mkpower1.p['pow0'][5] = True
+                model1, model1_params = mkpower1.makeModel(x)
+            elif self.model_choice == 'MKPower1int':
+                mkpower1int = MKPower1()
+                mkpower1int.name = "MKPower1int"
+                if self.runmode == 'toyqdataq':
+                  mkpower1int.p['pow0'][2]   = -0.89
+                  mkpower1int.p['const'][2]  = 0
+                  #mkpower1int.p['pow0'][5] = True
+                model1, model1_params = mkpower1int.makeModel(x)
+            # exps
+            elif self.model_choice == 'MKExp1':
+                mkexp1 = MKExp1()
+                mkexp1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkexp1.p['exp1'][2] = 0.0402
+                model1, model1_params = mkexp1.makeModel(x)
+            elif self.model_choice == 'MKExp1int':
+                mkexp1int = MKExp1()
+                mkexp1int.name = "MKExp1int"
+                if self.runmode == 'toyqdataq':
+                  mkexp1int.p['exp1'][2]  = 0.082
+                  mkexp1int.p['const'][2] = 0.108
+                model1, model1_params = mkexp1int.makeModel(x)
+	    # berns
+	    elif self.model_choice == 'MKBernstein1':
+                mkbernstein1 = MKBernstein1()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein1.p['c0'][2] = 1
+                  mkbernstein1.p['c1'][2] = 0.2
+                  mkbernstein1.p['c0'][5] = True
+                  mkbernstein1.p['c1'][5] = True
+                model1, model1_params = mkbernstein1.makeModel(x)
+            elif self.model_choice == 'MKBernstein2':
+                mkbernstein2 = MKBernstein2()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein2.p['c0'][2] = 1
+                  mkbernstein2.p['c1'][2] = 0.3
+                  mkbernstein2.p['c2'][2] = 0.3
+                  mkbernstein2.p['c0'][5] = True
+                  mkbernstein2.p['c1'][5] = True
+                  mkbernstein2.p['c2'][5] = True
+                model1, model1_params = mkbernstein2.makeModel(x)
+            elif self.model_choice == 'MKBernstein3':
+                mkbernstein3 = MKBernstein3()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein3.p['c0'][2] = 1
+                  mkbernstein3.p['c1'][2] = -0.06
+                  mkbernstein3.p['c2'][2] = 0.5
+                  mkbernstein3.p['c3'][2] = 0.1
+                  mkbernstein3.p['c0'][5] = True
+                  mkbernstein3.p['c1'][5] = True
+                  mkbernstein3.p['c2'][5] = True
+                  mkbernstein3.p['c3'][5] = True
+                model1, model1_params = mkbernstein3.makeModel(x)
+
         ################
         # cat5: WH_BDT_p068_p076
         ################
         elif self.title == "WH_BDT_p068_p076":
             smodel, sigParamList, sgc = MKTripleGauss(x)
-            if self.model_choice == 'MKBwz':
+	    # bwzs
+	    if self.model_choice == 'MKBwz_fix':
+                mkbwz_fix = MKBwz()
+                mkbwz_fix.name = 'MKBwz_fix'
+		mkbwz_fix.p['a2'][2] = 2.5
+                mkbwz_fix.p['a3'][2] = 0.0011
+                mkbwz_fix.p['a2'][5] = True
+                mkbwz_fix.p['a3'][5] = True
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz_fix.makeModel(x)
+            elif self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
-                mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
-                #mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
-                mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
-                mkbwz.p["a3"] = ["a3", "exp", -0.0008, -0.0008, -0.0008, True]
+                #if self.runmode == 'toyqdataq':
                 model1, model1_params = mkbwz.makeModel(x)
-            elif self.model_choice == 'MKPower':
-                mkpower = MKPower_scale()
-                mkpower.p['c0'] = ["c0","c0", 0.58, 0.58, 0.58,True]
-                mkpower.p['c1'] = ["c1","c1",-0.567, -0.567, -0.567, True]
-                mkpower.p['pow0'] = ["pow0","pow0", -0.374, -0.374, -0.374,True]
-                mkpower.p['pow1'] = ["pow1","pow1", -0.351, -0.351, -0.351,True]
-                model1, model1_params = mkpower.makeModel(x)
-            elif self.model_choice == 'MKLegendre':
-                mklegendre = MKLegendre()
-                mklegendre.p['c1'] = ["c1","c1", -2.2, -2.2, -2.2, True]
-                mklegendre.p['c2'] = ["c2","c2", -0.08, -0.08, -0.08, True]
-                mklegendre.p['c3'] = ["c3", "c3", -1.00, -1.00, -1.00, True]
-                model1, model1_params = mklegendre.makeModel(x11)
-            elif self.model_choice == 'MKExp':
-                mkexp = MKExp_mod()
-                mkexp.p['a0'] = ["a0", "a0", 0.0000, 0.0000, 0.0000, True]
-                mkexp.p['a1'] = ["a1", "a1", 2.3, 2.3, 2.3, True]
-                mkexp.p['b1'] = ["b1", "b1", 0.06, 0.06, 0.06, True]
-                model1, model1_params = mkexp.makeModel(x)
-            elif self.model_choice == 'MKBernstein':
-                mkbernstein = MKBernstein3_mod()
-                mkbernstein.p['c1'] = ["c1", "c1", -0.01099,-0.01099,-0.01099, True]
-                mkbernstein.p['c2'] = ["c2", "c2", 0.459, 0.459, 0.459, True]
-                mkbernstein.p['c3'] = ["c3", "c3", -0.0, -0.0, -0.0, True]
-                model1, model1_params = mkbernstein.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern1':
+		mkbwzbern1 = MKBwzBern1()
+		#if self.runmode == 'toyqdataq':
+		model1, model1_params = mkbwzbern1.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern2':
+                mkbwzbern2 = MKBwzBern2()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwzbern2.makeModel(x)
+
+            elif self.model_choice == 'MKBwzredux_fix':
+                mkbwzredux_fix = MKBwzredux_mod()
+                mkbwzredux_fix.name = 'MKBwzredux_fix'
+                mkbwzredux_fix.p['pow'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux_fix.p['ex1'][2] = 20
+                  mkbwzredux_fix.p['ex2'][2] = -7.8
+                  mkbwzredux_fix.p['w'][2]   = 2
+                  mkbwzredux_fix.p['ex1'][5] = True
+                  mkbwzredux_fix.p['ex2'][5] = True
+                  mkbwzredux_fix.p['w'][5]   = True
+                model1, model1_params = mkbwzredux_fix.makeModel(x)
             elif self.model_choice == 'MKBwzredux':
-                mkbwzredux = MKBwzredux2()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", 1, 1, 1, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", -1.0, -1.0, -1.0, True]
-                mkbwzredux.p['pow'] = ["pow","pow", 2, 2, 2, True]
+                mkbwzredux = MKBwzredux_mod()
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux.p['ex1'][2] = 81
+                  mkbwzredux.p['ex2'][2] = -26.6
+                  mkbwzredux.p['w'][2]   = 11
+                  mkbwzredux.p['pow'][2] = 6.5
+                  mkbwzredux.p['ex1'][5] = True
+                  mkbwzredux.p['ex2'][5] = True
+                  mkbwzredux.p['w'][5]   = True
+                  mkbwzredux.p['pow'][5] = True
                 model1, model1_params = mkbwzredux.makeModel(x)
+	    # power laws
+            elif self.model_choice == 'MKPower1':
+                mkpower1 = MKPower1()
+                mkpower1.name = "MKPower1"
+                mkpower1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkpower1.p['pow0'][2]   = -1.339
+                  #mkpower1.p['pow0'][5] = True
+                model1, model1_params = mkpower1.makeModel(x)
+            elif self.model_choice == 'MKPower1int':
+                mkpower1int = MKPower1()
+                mkpower1int.name = "MKPower1int"
+                if self.runmode == 'toyqdataq':
+                  mkpower1int.p['pow0'][2]   = -0.581
+                  mkpower1int.p['const'][2]  = -0.088
+                  #mkpower1int.p['pow0'][5] = True
+                model1, model1_params = mkpower1int.makeModel(x)
+            # exps
+            elif self.model_choice == 'MKExp1':
+                mkexp1 = MKExp1()
+                mkexp1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkexp1.p['exp1'][2] = 0.0576
+                model1, model1_params = mkexp1.makeModel(x)
+            elif self.model_choice == 'MKExp1int':
+                mkexp1int = MKExp1()
+                mkexp1int.name = "MKExp1int"
+                if self.runmode == 'toyqdataq':
+                  mkexp1int.p['exp1'][2]  = 0.058
+                  mkexp1int.p['const'][2] = 0.001
+                model1, model1_params = mkexp1int.makeModel(x)
+	    # berns
+            elif self.model_choice == 'MKBernstein1':
+                mkbernstein1 = MKBernstein1()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein1.p['c0'][2] = 1
+                  mkbernstein1.p['c1'][2] = 0.1
+                  mkbernstein1.p['c0'][5] = True
+                  mkbernstein1.p['c1'][5] = True
+                model1, model1_params = mkbernstein1.makeModel(x)
+            elif self.model_choice == 'MKBernstein2':
+                mkbernstein2 = MKBernstein2()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein2.p['c0'][2] = 1
+                  mkbernstein2.p['c1'][2] = 0.2
+                  mkbernstein2.p['c2'][2] = 0.1
+                  mkbernstein2.p['c0'][5] = True
+                  mkbernstein2.p['c1'][5] = True
+                  mkbernstein2.p['c2'][5] = True
+                model1, model1_params = mkbernstein2.makeModel(x)
+            elif self.model_choice == 'MKBernstein3':
+                mkbernstein3 = MKBernstein3()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein3.p['c0'][2] = 1
+                  mkbernstein3.p['c1'][2] = 0
+                  mkbernstein3.p['c2'][2] = 0.2
+                  mkbernstein3.p['c3'][2] = 0.1
+                  mkbernstein3.p['c0'][5] = True
+                  mkbernstein3.p['c1'][5] = True
+                  mkbernstein3.p['c2'][5] = True
+                  mkbernstein3.p['c3'][5] = True
+                model1, model1_params = mkbernstein3.makeModel(x)
+
         ################
         # cat6: WH_BDT_p076_p10
         ################
         elif self.title == "WH_BDT_p076_p10":
             smodel, sigParamList, sgc = MKTripleGauss(x)
-            if self.model_choice == 'MKBwz':
+	    # bwzs
+	    if self.model_choice == 'MKBwz_fix':
+                mkbwz_fix = MKBwz()
+                mkbwz_fix.name = 'MKBwz_fix'
+		mkbwz_fix.p['a2'][2] = 2.5
+                mkbwz_fix.p['a3'][2] = 0.035
+                mkbwz_fix.p['a2'][5] = True
+                mkbwz_fix.p['a3'][5] = True
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz_fix.makeModel(x)
+            elif self.model_choice == 'MKBwz':
                 mkbwz = MKBwz()
-                mkbwz.p["a1"] = ["a1", "mass", 91.2, 91.2, 91.2, True]
-                #mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
-                mkbwz.p["a2"] = ["a2", "width", 1, 1, 1, True]
-                mkbwz.p["a3"] = ["a3", "exp", 0.034, 0.034, 0.034, True]
+                #if self.runmode == 'toyqdataq':
                 model1, model1_params = mkbwz.makeModel(x)
-            elif self.model_choice == 'MKPower':
-                mkpower = MKPower_inc()
-                mkpower.p['c0'] = ["c0","c0",4.7, 4.7, 4.7,True]
-                mkpower.p['pow0'] = ["pow0","pow0",-10.0, -10.0, -10.0,True]
-                model1, model1_params = mkpower.makeModel(x21,order=1)
-            elif self.model_choice == 'MKLegendre':
-                mklegendre = MKLegendre()
-                mklegendre.p['c1'] = ["c1","c1", -0.462, -0.462, -0.462, True]
-                mklegendre.p['c2'] = ["c2","c2", 0.52, 0.52, 0.52, True]
-                model1, model1_params = mklegendre.makeModel(x1,order=[1,2])
-            elif self.model_choice == 'MKExp':
-                mkexp = MKExp_mod()
-                mkexp.p['a0'] = ["a0", "a0", 0.00000, 0.00000, 0.00000, True]
-                mkexp.p['a1'] = ["a1", "a1", 1, 1, 1, True]
-                mkexp.p['b1'] = ["b1", "b1", 0.11, 0.11, 0.11, True]
-                model1, model1_params = mkexp.makeModel(x)
-            elif self.model_choice == 'MKBernstein':
-                mkbernstein = MKBernstein2()
-                mkbernstein.p['c0'] = ["c0", "c0", 0.6,0.6,0.6, True]
-                mkbernstein.p['c1'] = ["c1", "c1", -0.014,-0.014 ,-0.014 , True]
-                mkbernstein.p['c2'] = ["c2", "c2",  0.3,0.3 ,0.3 , True]
-                model1, model1_params = mkbernstein.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern1':
+		mkbwzbern1 = MKBwzBern1()
+		#if self.runmode == 'toyqdataq':
+		model1, model1_params = mkbwzbern1.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern2':
+                mkbwzbern2 = MKBwzBern2()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwzbern2.makeModel(x)
+	    elif self.model_choice == 'MKBwzredux_p2':
+                mkbwzredux_p2 = MKBwzredux_mod()
+                mkbwzredux_p2.name = 'MKBwzredux_p2'
+                mkbwzredux_p2.p['pow'][5] = True
+		mkbwzredux_p2.p['w'][5] = True
+                #if self.runmode == 'toyqdataq':
+                #  mkbwzredux_p2.p['ex1'][2] = 0
+		#  mkbwzredux_p2.p['ex2'][2] = 0
+                #  mkbwzredux_p2.p['ex1'][5] = True
+		#  mkbwzredux_p2.p['ex2'][5] = True
+                model1, model1_params = mkbwzredux_p2.makeModel(x)
+	    elif self.model_choice == 'MKBwzredux_p3':
+                mkbwzredux_p3 = MKBwzredux_mod()
+                mkbwzredux_p3.name = 'MKBwzredux_p3'
+                mkbwzredux_p3.p['pow'][5] = True
+                #if self.runmode == 'toyqdataq':
+                #  mkbwzredux_p2.p['ex1'][2] = 0
+                #  mkbwzredux_p2.p['ex2'][2] = 0
+                #  mkbwzredux_p2.p['ex1'][5] = True
+                #  mkbwzredux_p2.p['ex2'][5] = True
+                model1, model1_params = mkbwzredux_p3.makeModel(x)
+
             elif self.model_choice == 'MKBwzredux':
-                mkbwzredux = MKBwzredux2()
-                mkbwzredux.p['ex1'] = ["ex1", "ex1", 0,0,0, True]
-                mkbwzredux.p['ex2'] = ["ex2", "ex2", 0.8,0.8,0.8, True]
-                mkbwzredux.p['pow'] = ["pow","pow", 2, 2, 2, True]
+                mkbwzredux = MKBwzredux_mod()
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux.p['ex1'][2] = 1
+                  mkbwzredux.p['ex2'][2] = 1.4
+                  mkbwzredux.p['w'][2]   = 20
+                  mkbwzredux.p['pow'][2] = 2.4
+                  mkbwzredux.p['ex1'][5] = True
+                  mkbwzredux.p['ex2'][5] = True
+                  mkbwzredux.p['w'][5]   = True
+                  mkbwzredux.p['pow'][5] = True
                 model1, model1_params = mkbwzredux.makeModel(x)
+	    # power laws
+            elif self.model_choice == 'MKPower1':
+                mkpower1 = MKPower1()
+                mkpower1.name = "MKPower1"
+                mkpower1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkpower1.p['pow0'][2]   = -0.552
+                  #mkpower1.p['pow0'][5] = True
+                model1, model1_params = mkpower1.makeModel(x)
+            elif self.model_choice == 'MKPower1int':
+                mkpower1int = MKPower1()
+                mkpower1int.name = "MKPower1int"
+                if self.runmode == 'toyqdataq':
+                  mkpower1int.p['pow0'][2]   = -0.7
+                  mkpower1int.p['const'][2]  = 0
+                  #mkpower1int.p['pow0'][5] = True
+                model1, model1_params = mkpower1int.makeModel(x)
+            # exps
+            elif self.model_choice == 'MKExp1':
+                mkexp1 = MKExp1()
+                mkexp1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkexp1.p['exp1'][2] = 0.021
+                model1, model1_params = mkexp1.makeModel(x)
+            elif self.model_choice == 'MKExp1int':
+                mkexp1int = MKExp1()
+                mkexp1int.name = "MKExp1int"
+                if self.runmode == 'toyqdataq':
+                  mkexp1int.p['exp1'][2]  = 0.28
+                  mkexp1int.p['const'][2] = 0.083
+                model1, model1_params = mkexp1int.makeModel(x)
+	    # berns
+            elif self.model_choice == 'MKBernstein1':
+                mkbernstein1 = MKBernstein1()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein1.p['c0'][2] = 1
+                  mkbernstein1.p['c1'][2] = 0
+                  mkbernstein1.p['c0'][5] = True
+                  mkbernstein1.p['c1'][5] = True
+                model1, model1_params = mkbernstein1.makeModel(x)
+            elif self.model_choice == 'MKBernstein2':
+                mkbernstein2 = MKBernstein2()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein2.p['c0'][2] = 1
+                  mkbernstein2.p['c1'][2] = 0
+                  mkbernstein2.p['c2'][2] = 0.3
+                  mkbernstein2.p['c0'][5] = True
+                  mkbernstein2.p['c1'][5] = True
+                  mkbernstein2.p['c2'][5] = True
+                model1, model1_params = mkbernstein2.makeModel(x)
+            elif self.model_choice == 'MKBernstein3':
+                mkbernstein3 = MKBernstein3()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein3.p['c0'][2] = 0.3
+                  mkbernstein3.p['c1'][2] = 0.4
+                  mkbernstein3.p['c2'][2] = -0.12
+                  mkbernstein3.p['c3'][2] = 0.3
+                  mkbernstein3.p['c0'][5] = True
+                  mkbernstein3.p['c1'][5] = True
+                  mkbernstein3.p['c2'][5] = True
+                  mkbernstein3.p['c3'][5] = True
+                model1, model1_params = mkbernstein3.makeModel(x)
+
+
+        ################
+        # WH new cat1: WH_BDT_n10_n01
+        ################
+        elif self.title == "WH_BDT_n10_n01":
+            smodel, sigParamList, sgc = MKTripleGauss(x)
+	    # bwzs
+	    if self.model_choice == 'MKBwz_fix':
+                mkbwz_fix = MKBwz()
+                mkbwz_fix.name = 'MKBwz_fix'
+		mkbwz_fix.p['a2'][2] = 2.5
+                mkbwz_fix.p['a3'][2] = 0.0286
+                mkbwz_fix.p['a2'][5] = True
+                mkbwz_fix.p['a3'][5] = True
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz_fix.makeModel(x)
+            elif self.model_choice == 'MKBwz':
+                mkbwz = MKBwz()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern1':
+		mkbwzbern1 = MKBwzBern1()
+		#if self.runmode == 'toyqdataq':
+		model1, model1_params = mkbwzbern1.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern2':
+                mkbwzbern2 = MKBwzBern2()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwzbern2.makeModel(x)
+
+            elif self.model_choice == 'MKBwzredux_fix':
+                mkbwzredux_fix = MKBwzredux_mod()
+                mkbwzredux_fix.name = 'MKBwzredux_fix'
+                mkbwzredux_fix.p['pow'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux_fix.p['ex1'][2] = 3
+                  mkbwzredux_fix.p['ex2'][2] = -0.5
+                  mkbwzredux_fix.p['w'][2]   = 20
+                  mkbwzredux_fix.p['ex1'][5] = True
+                  mkbwzredux_fix.p['ex2'][5] = True
+                  mkbwzredux_fix.p['w'][5]   = True
+                model1, model1_params = mkbwzredux_fix.makeModel(x)
+            elif self.model_choice == 'MKBwzredux':
+                mkbwzredux = MKBwzredux_mod()
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux.p['ex1'][2] = 0.8
+                  mkbwzredux.p['ex2'][2] = -0.3
+                  mkbwzredux.p['w'][2]   = 2.5
+                  mkbwzredux.p['pow'][2] = 1.3
+                  mkbwzredux_fix.p['w'][5]   = True
+                model1, model1_params = mkbwzredux.makeModel(x)
+            elif self.model_choice == 'MKBwzGamma':
+                mkbwzgamma = MKBwzGamma()
+                if self.runmode == 'toyqdataq':
+                  mkbwzgamma.p['pow0'][2] = 0.003
+                  mkbwzgamma.p['f0'][2]  = 0.25
+                model1, model1_params = mkbwzgamma.makeModel(x)
+	    # power laws
+            elif self.model_choice == 'MKPower1':
+                mkpower1 = MKPower1()
+                mkpower1.name = "MKPower1"
+                mkpower1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkpower1.p['pow0'][2]   = -0.704
+                  #mkpower1.p['pow0'][5] = True
+                model1, model1_params = mkpower1.makeModel(x)
+            elif self.model_choice == 'MKPower1int':
+                mkpower1int = MKPower1()
+                mkpower1int.name = "MKPower1int"
+                if self.runmode == 'toyqdataq':
+                  mkpower1int.p['pow0'][2]   = -0.663
+                  mkpower1int.p['const'][2]  = -0.007
+                  #mkpower1int.p['pow0'][5] = True
+                model1, model1_params = mkpower1int.makeModel(x)
+            # exps
+            elif self.model_choice == 'MKExp1':
+                mkexp1 = MKExp1()
+                mkexp1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkexp1.p['exp1'][2] = 0.0277
+                model1, model1_params = mkexp1.makeModel(x)
+            elif self.model_choice == 'MKExp1int':
+                mkexp1int = MKExp1()
+                mkexp1int.name = "MKExp1int"
+                if self.runmode == 'toyqdataq':
+                  mkexp1int.p['exp1'][2]  = 0.069
+                  mkexp1int.p['const'][2] = 0.218
+                model1, model1_params = mkexp1int.makeModel(x)
+	    # berns
+	    elif self.model_choice == 'MKBernstein1':
+                mkbernstein1 = MKBernstein1()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein1.p['c0'][2] = 1
+                  mkbernstein1.p['c1'][2] = 0.2
+                  mkbernstein1.p['c0'][5] = True
+                  mkbernstein1.p['c1'][5] = True
+                model1, model1_params = mkbernstein1.makeModel(x)
+            elif self.model_choice == 'MKBernstein2':
+                mkbernstein2 = MKBernstein2()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein2.p['c0'][2] = 1
+                  mkbernstein2.p['c1'][2] = 0.3
+                  mkbernstein2.p['c2'][2] = 0.3
+                  mkbernstein2.p['c0'][5] = True
+                  mkbernstein2.p['c1'][5] = True
+                  mkbernstein2.p['c2'][5] = True
+                model1, model1_params = mkbernstein2.makeModel(x)
+            elif self.model_choice == 'MKBernstein3':
+                mkbernstein3 = MKBernstein3()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein3.p['c0'][2] = 1
+                  mkbernstein3.p['c1'][2] = -0.06
+                  mkbernstein3.p['c2'][2] = 0.5
+                  mkbernstein3.p['c3'][2] = 0.1
+                  mkbernstein3.p['c0'][5] = True
+                  mkbernstein3.p['c1'][5] = True
+                  mkbernstein3.p['c2'][5] = True
+                  mkbernstein3.p['c3'][5] = True
+                model1, model1_params = mkbernstein3.makeModel(x)
+
+
+        ################
+        # WH new cat2: WH_BDT_n01_p03
+        ################
+        elif self.title == "WH_BDT_n01_p03":
+            smodel, sigParamList, sgc = MKTripleGauss(x)
+	    # bwzs
+	    if self.model_choice == 'MKBwz_fix':
+                mkbwz_fix = MKBwz()
+                mkbwz_fix.name = 'MKBwz_fix'
+		mkbwz_fix.p['a2'][2] = 2.5
+                mkbwz_fix.p['a3'][2] = 0.0163
+                mkbwz_fix.p['a2'][5] = True
+                mkbwz_fix.p['a3'][5] = True
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz_fix.makeModel(x)
+            elif self.model_choice == 'MKBwz':
+                mkbwz = MKBwz()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern1':
+		mkbwzbern1 = MKBwzBern1()
+		#if self.runmode == 'toyqdataq':
+		model1, model1_params = mkbwzbern1.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern2':
+                mkbwzbern2 = MKBwzBern2()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwzbern2.makeModel(x)
+
+            elif self.model_choice == 'MKBwzredux_fix':
+                mkbwzredux_fix = MKBwzredux_mod()
+                mkbwzredux_fix.name = 'MKBwzredux_fix'
+                mkbwzredux_fix.p['pow'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux_fix.p['ex1'][2] = 3
+                  mkbwzredux_fix.p['ex2'][2] = -0.5
+                  mkbwzredux_fix.p['w'][2]   = 20
+                  mkbwzredux_fix.p['ex1'][5] = True
+                  mkbwzredux_fix.p['ex2'][5] = True
+                  mkbwzredux_fix.p['w'][5]   = True
+                model1, model1_params = mkbwzredux_fix.makeModel(x)
+            elif self.model_choice == 'MKBwzredux':
+                mkbwzredux = MKBwzredux_mod()
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux.p['ex1'][2] = 4
+                  mkbwzredux.p['ex2'][2] = -1
+                  mkbwzredux.p['w'][2]   = 5
+                  mkbwzredux.p['pow'][2] = 2.0
+                  mkbwzredux.p['ex1'][5] = True
+                  mkbwzredux.p['ex2'][5] = True
+                  mkbwzredux.p['w'][5]   = True
+                  mkbwzredux.p['pow'][5] = True
+                model1, model1_params = mkbwzredux.makeModel(x)
+	    # power laws
+            elif self.model_choice == 'MKPower1':
+                mkpower1 = MKPower1()
+                mkpower1.name = "MKPower1"
+                mkpower1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkpower1.p['pow0'][2]   = -1.009
+                  #mkpower1.p['pow0'][5] = True
+                model1, model1_params = mkpower1.makeModel(x)
+            elif self.model_choice == 'MKPower1int':
+                mkpower1int = MKPower1()
+                mkpower1int.name = "MKPower1int"
+                if self.runmode == 'toyqdataq':
+                  mkpower1int.p['pow0'][2]   = -0.812
+                  mkpower1int.p['const'][2]  = -0.0147
+                  #mkpower1int.p['pow0'][5] = True
+                model1, model1_params = mkpower1int.makeModel(x)
+            # exps
+            elif self.model_choice == 'MKExp1':
+                mkexp1 = MKExp1()
+                mkexp1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkexp1.p['exp1'][2] = 0.0411
+                model1, model1_params = mkexp1.makeModel(x)
+            elif self.model_choice == 'MKExp1int':
+                mkexp1int = MKExp1()
+                mkexp1int.name = "MKExp1int"
+                if self.runmode == 'toyqdataq':
+                  mkexp1int.p['exp1'][2]  = 0.076
+                  mkexp1int.p['const'][2] = 0.101
+                model1, model1_params = mkexp1int.makeModel(x)
+	    # berns
+	    elif self.model_choice == 'MKBernstein1':
+                mkbernstein1 = MKBernstein1()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein1.p['c0'][2] = 1
+                  mkbernstein1.p['c1'][2] = 0.2
+                  mkbernstein1.p['c0'][5] = True
+                  mkbernstein1.p['c1'][5] = True
+                model1, model1_params = mkbernstein1.makeModel(x)
+            elif self.model_choice == 'MKBernstein2':
+                mkbernstein2 = MKBernstein2()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein2.p['c0'][2] = 1
+                  mkbernstein2.p['c1'][2] = 0.3
+                  mkbernstein2.p['c2'][2] = 0.3
+                  mkbernstein2.p['c0'][5] = True
+                  mkbernstein2.p['c1'][5] = True
+                  mkbernstein2.p['c2'][5] = True
+                model1, model1_params = mkbernstein2.makeModel(x)
+            elif self.model_choice == 'MKBernstein3':
+                mkbernstein3 = MKBernstein3()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein3.p['c0'][2] = 1
+                  mkbernstein3.p['c1'][2] = -0.06
+                  mkbernstein3.p['c2'][2] = 0.5
+                  mkbernstein3.p['c3'][2] = 0.1
+                  mkbernstein3.p['c0'][5] = True
+                  mkbernstein3.p['c1'][5] = True
+                  mkbernstein3.p['c2'][5] = True
+                  mkbernstein3.p['c3'][5] = True
+                model1, model1_params = mkbernstein3.makeModel(x)
+
+
+
+        ################
+        # WH new cat3: WH_BDT_p03_p10
+        ################
+        elif self.title == "WH_BDT_p03_p10":
+            smodel, sigParamList, sgc = MKTripleGauss(x)
+	    # bwzs
+	    if self.model_choice == 'MKBwz_fix':
+                mkbwz_fix = MKBwz()
+                mkbwz_fix.name = 'MKBwz_fix'
+		mkbwz_fix.p['a2'][2] = 2.5
+                mkbwz_fix.p['a3'][2] = 0.012
+                mkbwz_fix.p['a2'][5] = True
+                mkbwz_fix.p['a3'][5] = True
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz_fix.makeModel(x)
+            elif self.model_choice == 'MKBwz':
+                mkbwz = MKBwz()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern1':
+		mkbwzbern1 = MKBwzBern1()
+		#if self.runmode == 'toyqdataq':
+		model1, model1_params = mkbwzbern1.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern2':
+                mkbwzbern2 = MKBwzBern2()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwzbern2.makeModel(x)
+
+            elif self.model_choice == 'MKBwzredux_fix':
+                mkbwzredux_fix = MKBwzredux_mod()
+                mkbwzredux_fix.name = 'MKBwzredux_fix'
+                mkbwzredux_fix.p['pow'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux_fix.p['ex1'][2] = 3
+                  mkbwzredux_fix.p['ex2'][2] = -0.5
+                  mkbwzredux_fix.p['w'][2]   = 20
+                  mkbwzredux_fix.p['ex1'][5] = True
+                  mkbwzredux_fix.p['ex2'][5] = True
+                  mkbwzredux_fix.p['w'][5]   = True
+                model1, model1_params = mkbwzredux_fix.makeModel(x)
+            elif self.model_choice == 'MKBwzredux':
+                mkbwzredux = MKBwzredux_mod()
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux.p['ex1'][2] = 4
+                  mkbwzredux.p['ex2'][2] = -1
+                  mkbwzredux.p['w'][2]   = 5
+                  mkbwzredux.p['pow'][2] = 2.0
+                  mkbwzredux.p['ex1'][5] = True
+                  mkbwzredux.p['ex2'][5] = True
+                  mkbwzredux.p['w'][5]   = True
+                  mkbwzredux.p['pow'][5] = True
+                model1, model1_params = mkbwzredux.makeModel(x)
+	    # power laws
+            elif self.model_choice == 'MKPower1':
+                mkpower1 = MKPower1()
+                mkpower1.name = "MKPower1"
+                mkpower1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkpower1.p['pow0'][2]   = -1.11
+                  #mkpower1.p['pow0'][5] = True
+                model1, model1_params = mkpower1.makeModel(x)
+            elif self.model_choice == 'MKPower1int':
+                mkpower1int = MKPower1()
+                mkpower1int.name = "MKPower1int"
+                if self.runmode == 'toyqdataq':
+                  mkpower1int.p['pow0'][2]   = -0.736
+                  mkpower1int.p['const'][2]  = -0.0319
+                  #mkpower1int.p['pow0'][5] = True
+                model1, model1_params = mkpower1int.makeModel(x)
+            # exps
+            elif self.model_choice == 'MKExp1':
+                mkexp1 = MKExp1()
+                mkexp1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkexp1.p['exp1'][2] = 0.046
+                model1, model1_params = mkexp1.makeModel(x)
+            elif self.model_choice == 'MKExp1int':
+                mkexp1int = MKExp1()
+                mkexp1int.name = "MKExp1int"
+                if self.runmode == 'toyqdataq':
+                  mkexp1int.p['exp1'][2]  = 0.074
+                  mkexp1int.p['const'][2] = 0.078
+                model1, model1_params = mkexp1int.makeModel(x)
+	    # berns
+	    elif self.model_choice == 'MKBernstein1':
+                mkbernstein1 = MKBernstein1()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein1.p['c0'][2] = 1
+                  mkbernstein1.p['c1'][2] = 0.2
+                  mkbernstein1.p['c0'][5] = True
+                  mkbernstein1.p['c1'][5] = True
+                model1, model1_params = mkbernstein1.makeModel(x)
+            elif self.model_choice == 'MKBernstein2':
+                mkbernstein2 = MKBernstein2()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein2.p['c0'][2] = 1
+                  mkbernstein2.p['c1'][2] = 0.3
+                  mkbernstein2.p['c2'][2] = 0.3
+                  mkbernstein2.p['c0'][5] = True
+                  mkbernstein2.p['c1'][5] = True
+                  mkbernstein2.p['c2'][5] = True
+                model1, model1_params = mkbernstein2.makeModel(x)
+            elif self.model_choice == 'MKBernstein3':
+                mkbernstein3 = MKBernstein3()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein3.p['c0'][2] = 1
+                  mkbernstein3.p['c1'][2] = -0.06
+                  mkbernstein3.p['c2'][2] = 0.5
+                  mkbernstein3.p['c3'][2] = 0.1
+                  mkbernstein3.p['c0'][5] = True
+                  mkbernstein3.p['c1'][5] = True
+                  mkbernstein3.p['c2'][5] = True
+                  mkbernstein3.p['c3'][5] = True
+                model1, model1_params = mkbernstein3.makeModel(x)
+
+
+        ################
+        # cat456: WH_BDT_p06_p10 , and ZH
+        ################
+        elif self.title == "WH_BDT_p06_p10" or self.title == "WH_BDT_n10_n01" or self.title == "ZH_BDT_n10_p04" or self.title == "ZH_BDT_p04_p10" or self.title == "ZH_BDT_n10_n01" or self.title == "ZH_BDT_n01_p10" or self.title == "ZH_BDT_n10_p10":
+            smodel, sigParamList, sgc = MKTripleGauss(x)
+	    # bwzs
+	    if self.model_choice == 'MKBwz_fix':
+                mkbwz_fix = MKBwz()
+                mkbwz_fix.name = 'MKBwz_fix'
+		mkbwz_fix.p['a2'][2] = 2.5
+                mkbwz_fix.p['a3'][2] = 1.5
+                mkbwz_fix.p['a2'][5] = True
+                mkbwz_fix.p['a3'][5] = True
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz_fix.makeModel(x)
+            elif self.model_choice == 'MKBwz':
+                mkbwz = MKBwz()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwz.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern1':
+		mkbwzbern1 = MKBwzBern1()
+		#if self.runmode == 'toyqdataq':
+		model1, model1_params = mkbwzbern1.makeModel(x)
+	    elif self.model_choice == 'MKBwzBern2':
+                mkbwzbern2 = MKBwzBern2()
+                #if self.runmode == 'toyqdataq':
+                model1, model1_params = mkbwzbern2.makeModel(x)
+
+            elif self.model_choice == 'MKBwzredux_fix':
+                mkbwzredux_fix = MKBwzredux_mod()
+                mkbwzredux_fix.name = 'MKBwzredux_fix'
+                mkbwzredux_fix.p['pow'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux_fix.p['ex1'][2] = 3
+                  mkbwzredux_fix.p['ex2'][2] = -0.5
+                  mkbwzredux_fix.p['w'][2]   = 20
+                  mkbwzredux_fix.p['ex1'][5] = True
+                  mkbwzredux_fix.p['ex2'][5] = True
+                  mkbwzredux_fix.p['w'][5]   = True
+                model1, model1_params = mkbwzredux_fix.makeModel(x)
+            elif self.model_choice == 'MKBwzredux':
+                mkbwzredux = MKBwzredux_mod()
+                if self.runmode == 'toyqdataq':
+                  mkbwzredux.p['ex1'][2] = 4
+                  mkbwzredux.p['ex2'][2] = -1
+                  mkbwzredux.p['w'][2]   = 5
+                  mkbwzredux.p['pow'][2] = 2.0
+                  mkbwzredux.p['ex1'][5] = True
+                  mkbwzredux.p['ex2'][5] = True
+                  mkbwzredux.p['w'][5]   = True
+                  mkbwzredux.p['pow'][5] = True
+                model1, model1_params = mkbwzredux.makeModel(x)
+	    # power laws
+            elif self.model_choice == 'MKPower1':
+                mkpower1 = MKPower1()
+                mkpower1.name = "MKPower1"
+                mkpower1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkpower1.p['pow0'][2]   = -1.016
+                  #mkpower1.p['pow0'][5] = True
+                model1, model1_params = mkpower1.makeModel(x)
+            elif self.model_choice == 'MKPower1int':
+                mkpower1int = MKPower1()
+                mkpower1int.name = "MKPower1int"
+                if self.runmode == 'toyqdataq':
+                  mkpower1int.p['pow0'][2]   = -0.81
+                  mkpower1int.p['const'][2]  = -0.016
+                  #mkpower1int.p['pow0'][5] = True
+                model1, model1_params = mkpower1int.makeModel(x)
+            # exps
+            elif self.model_choice == 'MKExp1':
+                mkexp1 = MKExp1()
+                mkexp1.p['const'][5] = True
+                if self.runmode == 'toyqdataq':
+                  mkexp1.p['exp1'][2] = 0.041
+                model1, model1_params = mkexp1.makeModel(x)
+            elif self.model_choice == 'MKExp1int':
+                mkexp1int = MKExp1()
+                mkexp1int.name = "MKExp1int"
+                if self.runmode == 'toyqdataq':
+                  mkexp1int.p['exp1'][2]  = 0.075
+                  mkexp1int.p['const'][2] = 0.099
+                model1, model1_params = mkexp1int.makeModel(x)
+	    # berns
+	    elif self.model_choice == 'MKBernstein1':
+                mkbernstein1 = MKBernstein1()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein1.p['c0'][2] = 1
+                  mkbernstein1.p['c1'][2] = 0.2
+                  mkbernstein1.p['c0'][5] = True
+                  mkbernstein1.p['c1'][5] = True
+                model1, model1_params = mkbernstein1.makeModel(x)
+            elif self.model_choice == 'MKBernstein2':
+                mkbernstein2 = MKBernstein2()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein2.p['c0'][2] = 1
+                  mkbernstein2.p['c1'][2] = 0.3
+                  mkbernstein2.p['c2'][2] = 0.3
+                  mkbernstein2.p['c0'][5] = True
+                  mkbernstein2.p['c1'][5] = True
+                  mkbernstein2.p['c2'][5] = True
+                model1, model1_params = mkbernstein2.makeModel(x)
+            elif self.model_choice == 'MKBernstein3':
+                mkbernstein3 = MKBernstein3()
+                if self.runmode == 'toyqdataq':
+                  mkbernstein3.p['c0'][2] = 1
+                  mkbernstein3.p['c1'][2] = -0.06
+                  mkbernstein3.p['c2'][2] = 0.5
+                  mkbernstein3.p['c3'][2] = 0.1
+                  mkbernstein3.p['c0'][5] = True
+                  mkbernstein3.p['c1'][5] = True
+                  mkbernstein3.p['c2'][5] = True
+                  mkbernstein3.p['c3'][5] = True
+                model1, model1_params = mkbernstein3.makeModel(x)
         #
         # end; function parameter configs
         ###################################################################################
 
         model1name = 'bmodel_'+self.category
         model1.SetNameTitle(model1name, model1name)
-        bmodel1 = bgsf.fit(hist_data,model1,x, self.model_choice, self.title, xmin=xmin, xmax=xmax, blinded=False, roodata=data, runmode=self.runmode)
+        bmodel1 = bgsf.fit(hist_data,model1,x, self.model_choice, self.title, xmin=xmin, xmax=xmax, blinded=DoBlind, roodata=data, runmode=self.runmode)
         getattr(wspace, 'import')(bmodel1, RooCmdArg())
-        norm = RooRealVar(model1name+"_norm","Number of background events",data.sumEntries())
+        norm = RooRealVar(model1name+"_norm","Number of background events",data.sumEntries(), 0, 2*data.sumEntries() )
         norm.setConstant(False)
         getattr(wspace,'import')(norm)
 

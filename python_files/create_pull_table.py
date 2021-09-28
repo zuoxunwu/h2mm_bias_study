@@ -13,15 +13,18 @@ def create_pull_table(infile):
     c1.SetRightMargin(0.13)
     c1.SetBottomMargin(0.07)
     h_name = filefront[:-1]+"_signal_strength_"+filefront[-1]
-    h = r.TH2F("h",h_name,3,0,3,2,0,2)
+    h = r.TH2F("h",'',3,0,3,2,0,2)
     h.SetStats(0)
     r.gRandom.SetSeed()
     # read txt/csv file
     csv_file = open(infile)
     csv_reader = list(csv.reader(csv_file, delimiter=','))
     for row in csv_reader:
-        h.Fill(row[1], row[2], round(100*float(row[3]),2))
+        if row[1] == 'MKExp1': continue
+        if row[2] == 'MKExp1': continue
+        h.Fill(row[1].replace('MK',''), row[2].replace('MK',''), round(100*float(row[3]),2))
     h.GetYaxis().SetTitle("Fit Model")
+    h.GetYaxis().SetTitleOffset(2.2)
     h.GetXaxis().SetTitle("Toy Model")
     h.LabelsDeflate("X")
     h.LabelsDeflate("Y")
@@ -32,19 +35,26 @@ def create_pull_table(infile):
     hc = h.Clone()
     hc.Reset()
     for row in csv_reader:
+        if row[1] == 'MKExp1': continue
+        if row[2] == 'MKExp1': continue
         pull_val = round(100*float(row[3]),2)
         if abs(pull_val) <= 40.0:
-            hc.Fill(row[1], row[2], pull_val)
+            hc.Fill(row[1].replace('MK',''), row[2].replace('MK',''), pull_val)
         elif pull_val >= 40:
-            hc.Fill(row[1], row[2], 40.0)
+            hc.Fill(row[1].replace('MK',''), row[2].replace('MK',''), 40.0)
         elif pull_val <= -40:
-            hc.Fill(row[1], row[2], -40.0)
+            hc.Fill(row[1].replace('MK',''), row[2].replace('MK',''), -40.0)
     hc.SetMaximum(40)
     hc.SetMinimum(-40)
-    hc.Draw("colz")
-    h.Draw("textsame")
+    hc.Draw("colztext")
+    #h.Draw("text")
+    cms_latex = r.TLatex()
+    cms_latex.SetTextAlign(11)
+    cms_latex.SetTextSize(0.03)
+    cms_latex.DrawLatexNDC(0.18, 0.92, '#scale[1.5]{CMS #bf{#it{Preliminary Simulation}}}')
+
     c1.Update()
-    c1.SaveAs(h_name+"_table.png")
+    c1.SaveAs(h_name+"_table.pdf")
 # list files from current directory
 print(os.curdir)
 #files = os.listdir(os.path.join(os.curdir,'OutputFiles'))
